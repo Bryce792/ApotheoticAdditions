@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+  "weight": 4,
+  "quality": 10.0,
+  "stack": {
+    "item": "divinerpg:inferno_sword",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "SWORD",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "rare",
+  "max_rarity": "mythic"
+}

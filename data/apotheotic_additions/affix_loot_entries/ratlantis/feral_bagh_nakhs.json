@@ -1,0 +1,15 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+	"weight": 35,
+	"quality": 2.5,
+	"stack": {
+		"item": "rats:feral_bagh_nakhs"
+	},
+	"type": "ARMOR",
+	"min_rarity": "rare",
+	"max_rarity": "epic",
+	"dimensions": ["rats:ratlantis"]
+}

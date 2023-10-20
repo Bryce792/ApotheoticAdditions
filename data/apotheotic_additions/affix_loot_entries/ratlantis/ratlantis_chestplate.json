@@ -1,0 +1,15 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+	"weight": 5,
+	"quality": 2.5,
+	"stack": {
+		"item": "rats:ratlantis_chestplate"
+	},
+	"type": "ARMOR",
+	"min_rarity": "uncommon",
+	"max_rarity": "epic",
+	"dimensions": ["rats:ratlantis"]
+}

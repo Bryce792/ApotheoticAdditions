@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+  "weight": 85,
+  "quality": 4.0,
+  "stack": {
+    "item": "blue_skies:pyrope_axe",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "HEAVY_WEAPON",
+  "dimensions": [
+    "blue_skies:everbright"
+  ],
+  "max_rarity": "rare"
+}

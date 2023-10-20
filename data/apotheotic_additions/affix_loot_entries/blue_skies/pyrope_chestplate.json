@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+  "weight": 70,
+  "quality": 5.0,
+  "stack": {
+    "item": "blue_skies:pyrope_chestplate",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "blue_skies:everbright",
+    "blue_skies:everdawn"
+  ],
+  "max_rarity": "rare"
+}

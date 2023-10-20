@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+  "weight": 15,
+  "quality": 10.0,
+  "stack": {
+    "item": "divinerpg:inferno_boots",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "common",
+  "max_rarity": "epic"
+}

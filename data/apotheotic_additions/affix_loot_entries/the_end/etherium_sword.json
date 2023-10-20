@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "enigmaticlegacy"
+	}],
+  "weight": 5,
+  "quality": 10.0,
+  "stack": {
+    "item": "enigmaticlegacy:etherium_sword",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "SWORD",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "min_rarity": "epic",
+  "max_rarity": "mythic"
+}

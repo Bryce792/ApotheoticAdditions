@@ -1,0 +1,20 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+  "weight": 1,
+  "quality": 4.0,
+  "stack": {
+    "item": "blue_skies:different_sword",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "SWORD",
+  "dimensions": [
+    "blue_skies:everbright",
+    "blue_skies:everdawn"
+  ],
+  "min_rarity": "epic",
+  "max_rarity": "mythic"
+}

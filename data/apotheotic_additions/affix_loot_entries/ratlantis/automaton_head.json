@@ -1,0 +1,15 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+	"weight": 25,
+	"quality": 2.5,
+	"stack": {
+		"item": "rats:marbled_cheese_rat_head"
+	},
+	"type": "ARMOR",
+	"min_rarity": "rare",
+	"max_rarity": "epic",
+	"dimensions": ["rats:ratlantis"]
+}

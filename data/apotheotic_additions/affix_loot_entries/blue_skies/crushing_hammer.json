@@ -1,0 +1,18 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+	"weight": 10,
+	"quality": 2.5,
+	"stack": {
+		"item": "blue_skies:crushing_hammer"
+	},
+	"type": "TRIDENT",
+	"min_rarity": "common",
+	"max_rarity": "epic",
+	"dimensions": [
+		"blue_skies:everbright",
+		"blue_skies:everdawn"
+	]
+}

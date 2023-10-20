@@ -1,0 +1,18 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+	"weight": 5,
+	"quality": 2.5,
+	"stack": {
+		"item": "blue_skies:spike_shield"
+	},
+	"type": "sword",
+	"min_rarity": "common",
+	"max_rarity": "rare",
+	"dimensions": [
+		"blue_skies:everdawn",
+		"blue_skies:everbright"
+	]
+}
