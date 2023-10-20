@@ -1,7 +1,7 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "twilightforest"
+		"modid": "ars_nouveau"
 	}],
 	"weight": 5,
 	"quality": 1.5,
