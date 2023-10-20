@@ -18,8 +18,37 @@ Apotheosis Addon, adding content and cross mod compatibility.
 
 ### __Additional Mods__
 - Gem of the Archmage - Ars Mana Regen/Ars Spell Damage/Ars Max Mana/Shocked Arrows.
-- Empowered Source Gem - Ars Max Mana/Spell Damage/Max Mana
-- Gem of the Witherstorm - +All Enchants/+Armor  -Armor Toughness/+Health -Damage/Wither Sickness Attack
-- Hearty Gem - Max Health
-- Gem of the Engineer - +Withering Enchant/Entity Reach/Block Reach
-- Gem of the Vampire Lord - +Icy Thorns/-Blood Loss and -Movement Speed/+Luck +Attack Damage/Sunscreen Attack
+- Empowered Source Gem - Ars Max Mana/Spell Damage/Max Mana.
+- Gem of the Witherstorm - +All Enchants/+Armor  -Armor Toughness/+Health -Damage/Wither Sickness Attack.
+- Hearty Gem - Max Health.
+- Gem of the Engineer - +Withering Enchant/Entity Reach/Block Reach.
+- Gem of the Vampire Lord - +Icy Thorns/-Blood Loss and -Movement Speed/+Luck +Attack Damage/Sunscreen Attack.
+## Affixes
+### __Alex's Caves__
+- Forsaken (Shield) - Grants Darkness Incarnate on blocking (Massive speed increase in darkness).
+- Irradiated (Sword + Shield) - Inflicts Irradiated on hit/block (Stops health regen).
+- Stun (Sword) - Inflicts Stun on hit (Disorient + Movement Speed Debuff)
+### __Alex's Mobs__
+- Tiger (Sword) - Grants Eye of the Tiger on hit (Stat buff).
+### __Cataclysm__
+- Abyssal Curse (Sword) - Inflicts Abyssal Curse on hit (Damage DoT).
+- Blazing Brand (Sword) - Inficts Blazing Brand on hit (Disables some Armor)
+### __Rats__.
+- Black Death (Sword) - Inflicts Plague on hit (Rapidly spreading Damage DoT).
+- Rat Chef (Sword) -  Inflicts Synesthesia on hit (Massive stats buff).
+### __Mahou Tsukai__
+- Black Flame (Sword) - Inflicts Black Flame on hit (Damage DoT).
+- Rage (Sword) - Grants Rage on hit (Increased Attack Speed).
+### __Aether__
+- Inebriation (Sword) - Inflicts Inebriation on hit.
+- Sliding (Breaker) - Grants minor attack damage
+### __Additional Mods__
+- [Twilight Forest] Frosted (Sword) - Inflicts Frosted on hit (Damage DoT + Slow).
+- [Vanilla] Curse of Omen (Shield) - Inflicts Bad Omen on blocking.
+- [Blue Skies] Venomous (Shield) - Inflicts Deadly Venom on blocking.
+- [Botania] Gaia (Sword) - Grants a chance to spawn a Pixie on hit.
+- [Apotheotic Additions] Voodoo (Sword) - Inflicts Bad Voodoo (Damage DoT)
+- [Reliquary] Flight (Sword) - Grants Flight on hit
+- [Biomancy] Corrosive (Sword) - Inflicts Corrosive on hit (Armor Reduction)
+- [Ars Nouveau] Sourcetouched (Armor) - Grants additional Ars Nouveau Mana
+- [Witherstorm] Witherstorm (Shield) - Inflicts Wither Sickness on Blocking (Max HP Loss)
