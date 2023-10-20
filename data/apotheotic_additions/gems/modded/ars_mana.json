@@ -1,0 +1,63 @@
+{
+	"variant": "ars_mana",
+	"weight": 10,
+	"quality": 0,
+	"dimensions": [
+	],
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": ["helmet"]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+			"operation": "ADDITION",
+			"values": {
+				"common": 25,
+				"uncommon": 50,
+				"rare": 75,
+				"epic": 100,
+				"mythic": 125,
+				"ancient": 150
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"boots", "leggings"
+				]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.5,
+				"uncommon": 1.0,
+				"rare": 1.5,
+				"epic": 2.0,
+				"mythic": 2.5,
+				"ancient": 3.0
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.warding",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.10,
+				"rare": 0.15,
+				"epic": 0.20,
+				"mythic": 0.25,
+				"ancient": 0.30
+			}
+		}
+	]
+}

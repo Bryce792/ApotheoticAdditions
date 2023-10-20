@@ -1,0 +1,72 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": ["undergarden:undergarden"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "minecraft:generic.max_health",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 4.0,
+				"epic": 6.0,
+				"mythic": 8.0,
+				"ancient": 10.0
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "attributeslib:life_steal",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"rare": 0.50,
+				"epic": 0.625,
+				"mythic": 0.75,
+				"ancient": 0.90
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "ranged_weapon",
+				"types": [
+					"bow",
+					"crossbow",
+					"trident"
+				]
+			},
+			"mob_effect": "undergarden:virulence",
+			"target": "arrow_target",
+			"values": {
+				"mythic": {
+					"duration": 180,
+					"amplifier": 1,
+					"cooldown": 500
+				},
+				"ancient": {
+					"duration": 240,
+					"amplifier": 2,
+					"cooldown": 500
+				}
+			}
+		}
+]
+}

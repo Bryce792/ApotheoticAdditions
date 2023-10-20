@@ -1,0 +1,88 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": [],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+		"type": "apotheosis:enchantment",
+		"gem_class": {
+			"key": "helmet",
+			"types": [
+				"helmet"
+			]
+		},
+		"enchantment": "ars_nouveau:mana_regen",
+		"values": {
+			"rare": 1,
+			"epic": 1,
+			"mythic": 2,
+			"ancient": 3
+		}
+	},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"rare": 0.50,
+				"epic": 0.625,
+				"mythic": 0.75,
+				"ancient": 0.90
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"boots", "leggings"
+				]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"rare": 1,
+				"epic": 2,
+				"mythic": 3.5,
+				"ancient": 5
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "ranged_weapon",
+				"types": [
+					"bow",
+					"crossbow",
+					"trident"
+				]
+			},
+			"mob_effect": "ars_nouveau:shocked",
+			"target": "arrow_target",
+			"values": {
+				"mythic": {
+					"duration": 180,
+					"amplifier": 1,
+					"cooldown": 500
+				},
+				"ancient": {
+					"duration": 240,
+					"amplifier": 2,
+					"cooldown": 500
+				}
+			}
+		}
+	]
+}

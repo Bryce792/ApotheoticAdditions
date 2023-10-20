@@ -1,0 +1,130 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "vampirism"
+	}],
+	"weight": 2,
+	"quality": 1.5,
+	"dimensions": [
+	],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"enchantment": "apotheosis:icy_thorns",
+			"values": {
+				"rare": 1,
+				"epic": 1,
+				"mythic": 2,
+				"ancient": 2
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"modifiers": [{
+					"attribute": "vampirism:blood_exhaustion",
+					"operation": "ADDITION",
+					"values": {
+						"uncommon": -0.15,
+						"rare": -0.25,
+						"epic": -0.35,
+						"mythic": -0.45,
+						"ancient": -0.5
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.05,
+						"rare": -0.1,
+						"epic": -0.15,
+						"mythic": -0.2,
+						"ancient": -0.25
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings", "boots"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.luck",
+					"operation": "ADDITION",
+					"values": {
+						"uncommon": 0.25,
+						"rare": 0.50,
+						"epic": 0.75,
+						"mythic": 1.0,
+						"ancient": 1.25
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.15,
+						"rare": 0.25,
+						"epic": 0.35,
+						"mythic": 0.45,
+						"ancient": 0.5
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "vampirism:sunscreen",
+			"target": "ATTACK_SELF",
+			"values": {
+				"rare": {
+					"duration": 300,
+					"amplifier": 0,
+					"cooldown": 450
+				},
+				"epic": {
+					"duration": 360,
+					"amplifier": 1,
+					"cooldown": 450
+				},
+				"mythic": {
+					"duration": 420,
+					"amplifier": 1,
+					"cooldown": 450
+				},
+				"ancient": {
+					"duration": 480,
+					"amplifier": 2,
+					"cooldown": 450
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "rats:plague",
+	"target": "ATTACK_TARGET",
+	"values": {
+		"uncommon": {
+			"duration": {
+				"min": 200,
+				"steps": 5,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"rare": {
+			"duration": {
+				"min": 250,
+				"steps": 10,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 1100
+		},
+		"epic": {
+			"duration": {
+				"min": 300,
+				"steps": 15,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"mythic": {
+			"duration": {
+				"min": 350,
+				"steps": 20,
+				"step": 20
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 8,
+				"step": 0.26
+			},
+			"cooldown": 900
+		},
+		"ancient": {
+			"duration": {
+				"min": 400,
+				"steps": 25,
+				"step": 20
+			},
+			"amplifier": 3,
+			"cooldown": 800
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}

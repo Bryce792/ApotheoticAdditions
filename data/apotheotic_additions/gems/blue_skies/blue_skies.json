@@ -1,0 +1,64 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": ["blue_skies:everdawn", "blue_skies:everbright"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"boots", "leggings"
+				]
+			},
+			"attribute": "forge:block_reach",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 1.0,
+				"epic": 2.0,
+				"mythic": 3.5,
+				"ancient": 4.0
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.1,
+				"epic": 0.15,
+				"mythic": 0.2,
+				"ancient": 0.25
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "attributeslib:dodge_chance",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.1,
+				"epic": 0.15,
+				"mythic": 0.2,
+				"ancient": 0.25
+			}
+		}
+]
+}

@@ -1,0 +1,40 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "botania"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "botania:pixie_spawn_chance",
+	"operation": "ADDITION",
+	"values": {
+		"uncommon": {
+			"min": 2,
+			"steps": 4,
+			"step": 0.01
+		},
+		"rare": {
+			"min": 2,
+			"steps": 4,
+			"step": 0.02
+		},
+		"epic": {
+			"min": 2.5,
+			"steps": 8,
+			"step": 0.03
+		},
+		"mythic": {
+			"min": 3,
+			"steps": 8,
+			"step": 0.4
+		},
+		"ancient": {
+			"min": 4,
+			"steps": 12,
+			"step": 0.05
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}

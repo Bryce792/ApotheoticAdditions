@@ -1,0 +1,131 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "witherstormmod"
+	}],
+	"weight": 2,
+	"quality": 1.5,
+	"dimensions": [
+	],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"enchantment": "sharpness",
+			"_comment": "The enchantment field is unused when global=true, but still must be a valid name",
+			"global": true,
+			"values": {
+				"epic": 1,
+				"mythic": 2,
+				"ancient": 3
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.armor",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.15,
+						"rare": 0.25,
+						"epic": 0.35,
+						"mythic": 0.45,
+						"ancient": 0.5
+					}
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.15,
+						"rare": -0.25,
+						"epic": -0.35,
+						"mythic": -0.45,
+						"ancient": -0.5
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings", "boots"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.15,
+						"rare": 0.25,
+						"epic": 0.35,
+						"mythic": 0.45,
+						"ancient": 0.5
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.15,
+						"rare": -0.25,
+						"epic": -0.35,
+						"mythic": -0.45,
+						"ancient": -0.5
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "witherstormmod:wither_sickness",
+			"target": "attack_target",
+			"values": {
+				"rare": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 500
+				},
+				"epic": {
+					"duration": 120,
+					"amplifier": 1,
+					"cooldown": 500
+				},
+				"mythic": {
+					"duration": 180,
+					"amplifier": 1,
+					"cooldown": 500
+				},
+				"ancient": {
+					"duration": 240,
+					"amplifier": 2,
+					"cooldown": 500
+				}
+			}
+		}
+	]
+}

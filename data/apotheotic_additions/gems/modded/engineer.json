@@ -1,0 +1,63 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "enderio"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": [],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "weapon",
+				"types": [
+					"heavy_weapon", "sword", "trident", "bow", "crossbow"
+				]
+			},
+			"enchantment": "enderio:withering",
+			"values": {
+				"rare": 1,
+				"epic": 1,
+				"mythic": 2,
+				"ancient": 3
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "forge:entity_reach",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 1.0,
+				"epic": 2.0,
+				"mythic": 3.5,
+				"ancient": 4.0
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"boots", "leggings"
+				]
+			},
+			"attribute": "forge:block_reach",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 1.0,
+				"epic": 2.0,
+				"mythic": 3.5,
+				"ancient": 4.0
+			}
+		}
+	]
+}

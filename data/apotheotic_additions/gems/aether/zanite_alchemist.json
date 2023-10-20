@@ -1,0 +1,36 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": ["aether:the_aether"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+		"type": "apotheosis:drop_transform",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"blocks": "forge:ores/iron",
+		"inputs": {
+			"tag": "forge:raw_materials/gold"
+		},
+		"output": {
+			"item": "aether:zanite_gemstone"
+		},
+		"values": {
+			"rare": 0.20,
+			"epic": 0.30,
+			"mythic": 0.40,
+			"ancient": 0.50
+		},
+		"desc": "gem.apotheotic_additions:alchemy/zanite.bonus.pickaxe"
+	}
+]
+}

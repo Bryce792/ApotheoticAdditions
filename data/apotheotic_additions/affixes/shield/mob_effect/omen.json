@@ -1,0 +1,54 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:bad_omen",
+	"target": "BLOCK_SELF",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 10000,
+				"steps": 3,
+				"step": 100
+			},
+			"amplifier": 0,
+			"cooldown": 12000
+		},
+		"epic": {
+			"duration": {
+				"min": 8000,
+				"steps": 4,
+				"step": 100
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 4,
+				"step": 0.26
+			},
+			"cooldown": 12000
+		},
+		"mythic": {
+			"duration": {
+				"min": 6000,
+				"steps": 5,
+				"step": 100
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 2,
+				"step": 0.51
+			},
+			"cooldown": 12000
+		},
+		"ancient": {
+			"duration": {
+				"min": 4000,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 12000
+		}
+	},
+	"types": [
+		"shield"
+	]
+}
