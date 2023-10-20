@@ -1,0 +1,54 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aquamirae"
+	}],
+	"weight": 35,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "aquamirae:terrible_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "aquamirae:poisoned_blade"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "aquamirae:remnants_saber"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "aquamirae:terrible_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "aquamirae:terrible_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "aquamirae:terrible_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "aquamirae:terrible_helmet"
+		}
+	}],
+	"tags": [
+		"terrible"
+	]
+}

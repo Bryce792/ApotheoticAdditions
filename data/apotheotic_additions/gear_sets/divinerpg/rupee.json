@@ -1,0 +1,65 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+	"weight": 50,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "divinerpg:rupee_rapier"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "divinerpg:rupee_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "divinerpg:rupee_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "divinerpg:rupee_shovel"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 2,
+		"stack": {
+			"item": "divinerpg:rupee_shield"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:rupee_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:rupee_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:rupee_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:rupee_helmet"
+		}
+	}],
+	"tags": [
+		"divinerpgoverworld"
+	]
+}

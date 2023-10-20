@@ -1,0 +1,84 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+	"weight": 85,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "rats:pirat_cutlass"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "rats:ghost_pirat_cutlass"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "rats:feral_bagh_nakhs"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "rats:plague_scythe"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 5,
+		"stack": {
+			"item": "minecraft:golden_boots"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "rats:ratlantis_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 5,
+		"stack": {
+			"item": "minecraft:golden_leggings"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "rats:ratlantis_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 5,
+		"stack": {
+			"item": "minecraft:golden_chestplate"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "rats:ratlantis_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 5,
+		"stack": {
+			"item": "rats:pirat_hat"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "rats:ratlantis_helmet"
+		}
+	}],
+	"tags": [
+		"rats"
+	]
+}

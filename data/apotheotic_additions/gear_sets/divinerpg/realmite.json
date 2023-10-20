@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+	"weight": 85,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "divinerpg:realmite_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "divinerpg:realmite_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "divinerpg:realmite_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "divinerpg:realmite_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:realmite_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:realmite_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:realmite_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:realmite_helmet"
+		}
+	}],
+	"tags": [
+		"divinerpgoverworld"
+	]
+}

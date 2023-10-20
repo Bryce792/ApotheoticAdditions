@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "deep_aether"
+	}],
+	"weight": 5,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "deep_aether:stratus_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "deep_aether:stratus_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "deep_aether:stratus_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "deep_aether:stratus_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "deep_aether:stratus_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "deep_aether:stratus_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "deep_aether:stratus_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "deep_aether:stratus_helmet"
+		}
+	}],
+	"tags": [
+		"aether"
+	]
+}

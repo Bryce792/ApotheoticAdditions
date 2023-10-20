@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+	"weight": 30,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "blue_skies:charoite_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "blue_skies:charoite_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:charoite_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:charoite_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "blue_skies:charoite_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "blue_skies:charoite_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "blue_skies:charoite_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "blue_skies:charoite_helmet"
+		}
+	}],
+	"tags": [
+		"blue_skies"
+	]
+}

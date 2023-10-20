@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "create_sa"
+	}],
+	"weight": 85,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "create_sa:copper_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "create_sa:copper_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "create_sa:copper_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "create_sa:copper_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "create_sa:copper_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "create_sa:copper_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "create_sa:copper_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "create_sa:copper_helmet"
+		}
+	}],
+	"tags": [
+		"overworld"
+	]
+}

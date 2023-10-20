@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+	"weight": 55,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "blue_skies:horizonite_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "blue_skies:horizonite_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:horizonite_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "blue_skies:horizonite_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "blue_skies:horizonite_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "blue_skies:horizonite_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "blue_skies:horizonite_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "blue_skies:horizonite_helmet"
+		}
+	}],
+	"tags": [
+		"blue_skies"
+	]
+}

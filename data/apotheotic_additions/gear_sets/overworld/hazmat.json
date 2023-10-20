@@ -1,0 +1,48 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"weight": 75,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "alexscaves:raygun"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "alexscaves:hazmat_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "alexscaves:hazmat_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "alexscaves:hazmat_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "alexscaves:hazmat_mask"
+		}
+	}],
+	"tags": [
+		"overworld"
+	]
+}

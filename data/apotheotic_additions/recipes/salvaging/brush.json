@@ -1,0 +1,24 @@
+{
+	"type": "apotheosis:salvaging",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	}],
+	"input": {
+		"item": "minecraft:brush"
+	},
+	"outputs": [{
+		"min_count": 1,
+		"max_count": 1,
+		"stack": {
+			"item": "minecraft:feather"
+		}
+	},
+	{
+		"min_count": 0,
+		"max_count": 1,
+		"stack": {
+			"item": "minecraft:copper_ingot"
+		}
+	}]
+}

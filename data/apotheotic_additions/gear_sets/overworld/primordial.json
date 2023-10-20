@@ -1,0 +1,48 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"weight": 95,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "alexscaves:limestone_spear"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "alexscaves:primitive_club"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:leather_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "alexscaves:primordial_pants"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "alexscaves:primordial_tunic"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "alexscaves:primordial_helmet"
+		}
+	}],
+	"tags": [
+		"overworld"
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "enderio"
+	}],
+  "type": "enderio:sag_milling",
+  "energy": 4800,
+	"input": {
+		"type": "apotheosis:gem",
+		"rarity": "apotheosis:rare"
+	},
+  "outputs": [
+    {
+      "count": 3,
+      "item": "apotheosis:gem_dust"
+    },
+    {
+      "chance": 0.35,
+      "item": "apotheosis:gem_dust"
+    }
+  ]
+}

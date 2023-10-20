@@ -1,0 +1,48 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+	"weight": 15,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "divinerpg:jungle_knife"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "divinerpg:jungle_rapier"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:jungle_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:jungle_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:jungle_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:jungle_helmet"
+		}
+	}],
+	"tags": [
+		"divinerpgoverworld"
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"weight": 50,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "aether:zanite_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "aether:zanite_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "aether:zanite_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "aether:zanite_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "aether:zanite_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "aether:zanite_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "aether:zanite_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "aether:zanite_helmet"
+		}
+	}],
+	"tags": [
+		"aether"
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"weight": 5,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "aether:gravitite_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "aether:gravitite_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "aether:gravitite_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "aether:gravitite_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "aether:gravitite_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "aether:gravitite_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "aether:gravitite_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "aether:gravitite_helmet"
+		}
+	}],
+	"tags": [
+		"aether"
+	]
+}
