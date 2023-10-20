@@ -1,0 +1,17 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "deep_aether"
+	}],
+	"weight": 10,
+	"quality": 2.5,
+	"stack": {
+		"item": "deep_aether:stratus_axe"
+	},
+	"type": "HEAVY_WEAPON",
+	"min_rarity": "uncommon",
+	"max_rarity": "epic",
+	"dimensions": [
+		"aether:the_aether"
+	]
+}

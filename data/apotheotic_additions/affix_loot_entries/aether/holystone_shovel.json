@@ -1,0 +1,17 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"weight": 75,
+	"quality": 2.5,
+	"stack": {
+		"item": "aether:holystone_shovel"
+	},
+	"type": "BREAKER",
+	"min_rarity": "common",
+	"max_rarity": "uncommon",
+	"dimensions": [
+		"aether:the_aether"
+	]
+}

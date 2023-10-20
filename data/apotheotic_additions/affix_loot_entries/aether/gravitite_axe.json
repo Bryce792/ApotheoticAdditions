@@ -1,0 +1,19 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"weight": 10,
+	"quality": 2.5,
+	"stack": {
+		"item": "aether:gravitite_axe",
+		"count": 1,
+		"nbt": "{Damage:0}"
+	},
+	"type": "HEAVY_WEAPON",
+	"min_rarity": "uncommon",
+	"max_rarity": "epic",
+	"dimensions": [
+		"aether:the_aether"
+	]
+}
