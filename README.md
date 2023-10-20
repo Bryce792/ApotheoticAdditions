@@ -1,2 +1,2 @@
 # ApotheoticAdditions
-Apotheosis Addon
+Apotheosis Addon, adding content and cross mod compatibility.
