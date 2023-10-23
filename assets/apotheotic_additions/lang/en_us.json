@@ -1,5 +1,68 @@
 {
+    "item_group.apotheotic_additions.apotheotic_additions": "Apotheotic Additions",
+    
+    "comment_id": "/Blocks",
+
+    "block.apotheotic_additions.terra_shelf": "Terra Rune",
+    "block.apotheotic_additions.sacrificial_shelf": "Sacrificial Rune",
+    "block.apotheotic_additions.void_shelf": "Void Rune",
+    "block.apotheotic_additions.wavebinders_shelf": "Wavebinder\u0027s Rune",
+
+	"comment_id": "/Items",
+
+    "item.apotheotic_additions.heirloom_material": "Core of the Family",
+    "item.apotheotic_additions.artifact_material": "Artifact Shards",
+    "item.apotheosis.gem.apotheotic_additions:artifact": "Time-Lost %s",
+    "item.apotheosis.gem.apotheosis:artifact": "Time Lost %s",
+    "rarity.apotheotic_additions:artifact": "Artifact",
+
+    "comment_id": "/Advancments",
+
+    "advancements.apotheotic_additions:artifact": "Dawn of Creation",
+    "advancements.apotheotic_additions:artifact.desc": "Find an Artifact item",
+    "advancements.apotheotic_additions:artifact_gem": "Becoming a God",
+    "advancements.apotheotic_additions:artifact_gem.desc": "Obtain an Artifact Quality gem; this can only be an Apotheotic Additions gem.",
+
+    "comment_id": "/Effects",
+
     "effect.apotheotic_additions.bad_voodoo": "Bad Voodoo",
+
+    "comment_id": "/Artifact Affixes",
+
+    "affix.apotheotic_additions:sword/attribute/artifact_knockback": "Dovah-kiin",
+    "affix.apotheotic_additions:sword/attribute/artifact_knockback.suffix": "of Fus Ro Dah",
+
+    "affix.apotheotic_additions:sword/attribute/artifact_damage": "Hale's Own",
+    "affix.apotheotic_additions:sword/attribute/artifact_damage.suffix": "of the Time-Lost Australium Dynasty",
+
+    "affix.apotheotic_additions:sword/attribute/artifact_cold": "Absolute Zero",
+    "affix.apotheotic_additions:sword/attribute/artifact_cold.suffix": "of the Time-Lost Glacier",
+
+    "affix.apotheotic_additions:sword/attribute/artifact_hp_damage": "Sculk-Infested",
+    "affix.apotheotic_additions:sword/attribute/artifact_hp_damage.suffix": "of the Time-Lost Monolith",
+
+    "affix.apotheotic_additions:shield/mob_effect/artifact_regen": "Cleric's",
+    "affix.apotheotic_additions:shield/mob_effect/artifact_regen.suffix": "of Time-Lost Rejuvenation",
+
+    "affix.apotheotic_additions:shield/mob_effect/artifact_bleed_immune": "Reinforced",
+    "affix.apotheotic_additions:shield/mob_effect/artifact_bleed_immune.suffix": "of Time-Lost Blood Loss",
+
+    "affix.apotheotic_additions:armor/attribute/artifact_source": "Wizard's",
+    "affix.apotheotic_additions:armor/attribute/artifact_source.suffix": "of Time-Lost Magics",
+
+    "affix.apotheotic_additions:armor/attribute/artifact_luck": "Lottery Winning",
+    "affix.apotheotic_additions:armor/attribute/artifact_luck.suffix": "of many Slain Time-Lost Rabbits",
+
+    "affix.apotheotic_additions:armor/attribute/artifact_toughness": "Herculean",
+    "affix.apotheotic_additions:armor/attribute/artifact_toughness.suffix": "of Time-Lost Toughness",
+
+    "affix.apotheotic_additions:armor/attribute/artifact_hp": "Well-Conditioned",
+    "affix.apotheotic_additions:armor/attribute/artifact_hp.suffix": "of Time-Lost Robustness",
+
+    "affix.apotheotic_additions:armor/attribute/artifact_armor": "Netherite-Reinforced",
+    "affix.apotheotic_additions:armor/attribute/artifact_armor.suffix": "of Time-Lost Protection",
+
+    "comment_id": "/Affixes",
 
     "affix.apotheotic_additions:sword/attribute/pixie": "Gaia",
     "affix.apotheotic_additions:sword/attribute/pixie.suffix": "of Pixies",
@@ -7,8 +70,14 @@
     "affix.apotheotic_additions:breaker/attribute/sliding": "Carved",
     "affix.apotheotic_additions:breaker/attribute/sliding.suffix": "of Sliding",
 
+    "affix.apotheotic_additions:armor/mob_effect/bad_luck": "Luck Cursed",
+    "affix.apotheotic_additions:armor/mob_effect/bad_luck.suffix": "of Bad Luck",
+
     "affix.apotheotic_additions:shield/mob_effect/witherstorm": "Witherstorm",
     "affix.apotheotic_additions:shield/mob_effect/witherstorm.suffix": "of Encroaching Death",
+
+    "affix.apotheotic_additions:shield/mob_effect/tears": "Sorrowful",
+    "affix.apotheotic_additions:shield/mob_effect/tears.suffix": "of the Ur-Ghast",
 
     "affix.apotheotic_additions:shield/mob_effect/forsaken": "Forsaken",
     "affix.apotheotic_additions:shield/mob_effect/forsaken.suffix": "of the Underzealot",
@@ -74,11 +143,15 @@
     "affix.apotheotic_additions:armor/attribute/sourcetouched": "Source-touched",
     "affix.apotheotic_additions:armor/attribute/sourcetouched.suffix": "of Magic",
 
+    "comment_id": "/Gem Desc",
+
     "gem.apotheotic_additions:alchemy/ventium.bonus.pickaxe": "Breaking Iron Ore has a %s%% chance to drop Raw Ventium instead.",
     "gem.apotheotic_additions:alchemy/horizonite.bonus.pickaxe": "Breaking Iron Ore has a %s%% chance to drop Raw Horizonite instead.",
     "gem.apotheotic_additions:alchemy/zanite.bonus.pickaxe": "Breaking Iron Ore has a %s%% chance to drop Zanite Gemstones instead.",
     "gem.apotheotic_additions:alchemy/purity.pickaxe": "Breaking Stone/Cobblestone has a %s%% chance to drop Holystone instead.",
     "gem.apotheotic_additions:alchemy/decay.pickaxe": "Breaking Stone/Cobblestone has a %s%% chance to drop Depthrock instead.",
+
+    "comment_id": "/Gems",
 
     "item.apotheosis.gem.apotheotic_additions:modded/sus": "Suspicious Gem",
     "item.apotheosis.gem.apotheotic_additions:aether/zanite_alchemist": "Gem of the Zanite Alchemist",
@@ -86,6 +159,9 @@
     "item.apotheosis.gem.apotheotic_additions:aether/aether": "Gem of the Aether",
     "item.apotheosis.gem.apotheotic_additions:aether/purity": "Gem of Purity",
     "item.apotheosis.gem.apotheotic_additions:undergarden/decay": "Gem of Decay",
+    "item.apotheosis.gem.apotheotic_additions:modded/enchanter": "Gem of the Enchanter",
+    "item.apotheosis.gem.apotheotic_additions:modded/master_crafter": "Gem of the Master Crafter",
+    "item.apotheosis.gem.apotheotic_additions:modded/uranium": "Gem of Uranium Fever",
     "item.apotheosis.gem.apotheotic_additions:modded/engineer": "Gem of the Engineer",
     "item.apotheosis.gem.apotheotic_additions:blue_skies/blue_skies": "Gem of the Blue Skies",
     "item.apotheosis.gem.apotheotic_additions:blue_skies/horizonite_alchemist": "Gem of the Horizonite Alchemist",
@@ -94,5 +170,10 @@
     "item.apotheosis.gem.apotheotic_additions:modded/witherstorm": "Gem of the Wither Storm",
     "item.apotheosis.gem.apotheotic_additions:modded/hearty": "Hearty Gem",
     "item.apotheosis.gem.apotheotic_additions:modded/dracula": "Gem of the Vampire Lord",
-    "item.apotheosis.gem.apotheotic_additions:modded/ars_mana": "Empowered Source Gem"
+    "item.apotheosis.gem.apotheotic_additions:modded/ars_mana": "Empowered Source Gem",
+
+    "comment_id": "/Compat",
+
+    "attribute.name.skilltree.armor_per_chestplate_enchantment": "Armor per Chestplate Enchantment",
+    "attribute.name.skilltree.maximum_life_per_enchantment": "Max Health per Enchantment"
 }

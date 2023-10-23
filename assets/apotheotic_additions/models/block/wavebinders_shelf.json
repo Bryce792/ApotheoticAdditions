@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "apotheotic_additions:block/shelf_top",
+    "up": "apotheotic_additions:block/shelf_top",
+    "north": "apotheotic_additions:block/wavebinders_shelf",
+    "east": "apotheotic_additions:block/wavebinders_shelf",
+    "south": "apotheotic_additions:block/wavebinders_shelf",
+    "west": "apotheotic_additions:block/wavebinders_shelf",
+    "particle": "apotheotic_additions:block/shelf_top"
+  },
+  "render_type": "solid"
+}
