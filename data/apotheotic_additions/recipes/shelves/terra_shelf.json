@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{
+	"type": "apotheosis:module",
+    "module": "enchantment"
+  }],
+  "pattern": [
+    "EPE",
+    "ARA",
+    "EPE"
+  ],
+  "key": {
+    "A": {
+      "item": "apotheosis:ancient_material"
+    },
+	  "R": {
+      "item": "apotheosis:beeshelf"
+    },
+    "P": {
+        "item": "apotheosis:mythic_material"
+    },
+    "E": {
+        "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "apotheotic_additions:terra_shelf",
+    "count": 1
+  }
+}
