@@ -3,16 +3,7 @@
 	"mob_effect": "minecraft:unluck",
 	"target": "HURT_SELF",
 	"values": {
-		"heirloom": {
-			"duration": {
-				"min": 100,
-				"steps": 25,
-				"step": 10
-			},
-			"amplifier": 0,
-			"cooldown": 400
-		},
-		"rare": {
+		"common": {
 			"duration": {
 				"min": 600,
 				"steps": 25,
@@ -21,7 +12,7 @@
 			"amplifier": 0,
 			"cooldown": 800
 		},
-		"epic": {
+		"uncommon": {
 			"duration": {
 				"min": 550,
 				"steps": 25,
@@ -34,37 +25,11 @@
 			},
 			"cooldown": 700
 		},
-		"artifact": {
-			"duration": {
-				"min": 200,
-				"steps": 25,
-				"step": 20
-			},
-			"amplifier": {
-				"min": 0,
-				"steps": 8,
-				"step": 0.25
-			},
-			"cooldown": 2000
-		},
-		"mythic": {
+		"rare": {
 			"duration": {
 				"min": 500,
 				"steps": 20,
 				"step": 15
-			},
-			"amplifier": {
-				"min": 0,
-				"steps": 4,
-				"step": 0.5
-			},
-			"cooldown": 600
-		},
-		"ancient": {
-			"duration": {
-				"min": 400,
-				"steps": 20,
-				"step": 10
 			},
 			"amplifier": {
 				"min": 0,
