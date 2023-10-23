@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "majruszdifficulty"
+	}],
+	"weight": 25,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "majruszdifficulty:enderium_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "majruszdifficulty:enderium_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "majruszdifficulty:enderium_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "majruszdifficulty:enderium_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "majruszdifficulty:enderium_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "majruszdifficulty:enderium_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "majruszdifficulty:enderium_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "majruszdifficulty:enderium_helmet"
+		}
+	}],
+	"tags": [
+		"the_end"
+	]
+}
