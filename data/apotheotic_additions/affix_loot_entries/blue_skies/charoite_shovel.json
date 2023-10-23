@@ -15,5 +15,6 @@
     "blue_skies:everbright",
     "blue_skies:everdawn"
   ],
+  "min_rarity": "uncommon",
   "max_rarity": "rare"
 }

@@ -14,5 +14,6 @@
   "dimensions": [
     "blue_skies:everbright"
   ],
+  "min_rarity": "common",
   "max_rarity": "rare"
 }
