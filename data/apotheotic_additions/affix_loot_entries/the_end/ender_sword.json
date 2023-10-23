@@ -14,5 +14,6 @@
   "dimensions": [
     "minecraft:the_end"
   ],
-  "min_rarity": "mythic"
+  "min_rarity": "mythic",
+  "max_rarity": "artifact"
 }
