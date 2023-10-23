@@ -1,0 +1,10 @@
+{
+	"block": "apotheotic_additions:sacrificial_shelf",
+	"stats": {
+		"maxEterna": 50,
+		"eterna": 7.5,
+		"quanta": 7.5,
+		"arcana": -10,
+		"clues": -2
+	}
+}

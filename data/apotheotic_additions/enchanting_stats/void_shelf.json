@@ -1,0 +1,10 @@
+{
+	"block": "apotheotic_additions:void_shelf",
+	"stats": {
+		"maxEterna": 50,
+		"eterna": 6,
+		"quanta": 6,
+		"arcana": 20,
+		"clues": 2
+	}
+}
