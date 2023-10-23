@@ -1,6 +1,23 @@
 # Apotheotic Additions
 Apotheosis Addon, adding content and cross mod compatibility.
 
+## Artifacts
+Artifacts are incredibly rare drops on par with Ancient items.
+They can be found within chests, or from very difficult bosses.
+Artifacts are unique, in that they come with their own affix table.
+Apotheotic Additions gems can be upgraded past Perfect in order to get Time-Lost.
+### __Artifact Affixes__
+- Dovah-kiin (Weapon) - 5+ Knockback.
+- Hale's Own (Weapon) - 10+ Attack Damage.
+- Absolute Zero (Weapon) - 10+ Cold Damage.
+- Sculk-Infested (Weapon) - 15% or higher Current HP Damage.
+- Cleric's (Shield) - Regeneration on Block.
+- [Majruszs Progressive Difficulty] Reinforced (Shield) - Bleeding Immunity
+- Wizard's (Armor)- 200+ Ars Nouveau Mana
+- Lottery Winning (Armor) - 2+ Luck
+- Herculean (Armor) - 10+ Armor Toughness
+- Well-Conditioned (Armor) - 10+ Max Health
+- Netherite-Reinforced (Armor) - 10+ Armor
 ## Gems List
 ### __Aether__
 - Gem of the Aether - Elytra Flight/Creative Flight.
@@ -20,6 +37,7 @@ Apotheosis Addon, adding content and cross mod compatibility.
 - Gem of the Archmage - Ars Mana Regen/Ars Spell Damage/Ars Max Mana/Shocked Arrows.
 - Empowered Source Gem - Ars Max Mana/Spell Damage/Max Mana.
 - Gem of the Witherstorm - +All Enchants/+Armor  -Armor Toughness/+Health -Damage/Wither Sickness Attack.
+- Gem of Uranium Fever - +All Enchants/+Armor  +Armor Toughness/-Health +Damage/Irradiated Attack.
 - Hearty Gem - Max Health.
 - Gem of the Engineer - +Withering Enchant/Entity Reach/Block Reach.
 - Gem of the Vampire Lord - +Icy Thorns/-Blood Loss and -Movement Speed/+Luck +Attack Damage/Sunscreen Attack.
