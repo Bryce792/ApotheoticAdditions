@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+  "weight": 10,
+  "quality": 3.0,
+  "stack": {
+    "item": "divinerpg:eden_boots",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "divinerpg:eden"
+  ],
+  "min_rarity": "uncommon",
+  "max_rarity": "epic"
+}
