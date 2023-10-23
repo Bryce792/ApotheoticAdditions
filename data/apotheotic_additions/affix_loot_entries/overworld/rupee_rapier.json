@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+  "weight": 25,
+  "quality": 4.0,
+  "stack": {
+    "item": "divinerpg:rupee_rapier",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "SWORD",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "common",
+  "max_rarity": "rare"
+}

@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+  "weight": 25,
+  "quality": 2.0,
+  "stack": {
+    "item": "rats:plague_doctor_mask",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "minecraft:overworld", "rats:ratlantis"
+  ],
+  "min_rarity": "uncommon",
+  "max_rarity": "rare"
+}

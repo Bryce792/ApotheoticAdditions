@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rootsclassic"
+	}],
+  "weight": 75,
+  "quality": 2.5,
+  "stack": {
+    "item": "rootsclassic:wildwood_leggings",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "common",
+  "max_rarity": "uncommon"
+}

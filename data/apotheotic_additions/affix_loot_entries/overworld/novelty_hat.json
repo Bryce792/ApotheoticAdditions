@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "weight": 1,
+  "quality": 6.0,
+  "stack": {
+    "item": "alexsmobs:novelty_hat",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "rare",
+  "max_rarity": "mythic"
+}

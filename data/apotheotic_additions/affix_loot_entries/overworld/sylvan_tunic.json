@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rootsclassic"
+	}],
+  "weight": 100,
+  "quality": 1.5,
+  "stack": {
+    "item": "rootsclassic:sylvan_tunic",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "common",
+  "max_rarity": "uncommon"
+}

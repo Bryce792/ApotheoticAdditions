@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+  "weight": 100,
+  "quality": 0.5,
+  "stack": {
+    "item": "rats:rat_fez",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "common",
+  "max_rarity": "uncommon"
+}

@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "majruszsdifficulty"
+	}],
+  "weight": 85,
+  "quality": 1.0,
+  "stack": {
+    "item": "majruszsdifficulty:tattered_chestplate",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "common",
+  "max_rarity": "uncommon"
+}

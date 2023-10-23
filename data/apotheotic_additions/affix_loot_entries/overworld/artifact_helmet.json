@@ -1,0 +1,15 @@
+{
+  "weight": 1,
+  "quality": 10.0,
+  "stack": {
+    "item": "minecraft:golden_helmet",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "ARMOR",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheotic_additions:artifact",
+  "max_rarity": "apotheotic_additions:artifact"
+}

@@ -1,0 +1,17 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+	"weight": 25,
+	"quality": 2.5,
+	"stack": {
+		"item": "divinerpg:rupee_shield"
+	},
+	"type": "SHIELD",
+	"min_rarity": "uncommon",
+	"max_rarity": "rare",
+	"dimensions": [
+		"minecraft:overworld"
+	]
+}
