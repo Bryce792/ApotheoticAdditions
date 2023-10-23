@@ -21,7 +21,8 @@
 			"operation": "ADDITION",
 			"values": {
 				"mythic": 1,
-				"ancient": 0
+				"ancient": 1,
+				"apotheotic_additions:artifact": 1
 			}
 		},
 		{
@@ -36,7 +37,8 @@
 			"operation": "ADDITION",
 			"values": {
 				"mythic": 0,
-				"ancient": 1
+				"ancient": 1,
+				"apotheotic_additions:artifact": 1
 			}
 		}
 ]

@@ -1,4 +1,8 @@
 {
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "ars_nouveau"
+	}],
 	"variant": "ars_mana",
 	"weight": 10,
 	"quality": 0,
@@ -18,7 +22,8 @@
 				"rare": 75,
 				"epic": 100,
 				"mythic": 125,
-				"ancient": 150
+				"ancient": 150,
+				"apotheotic_additions:artifact": 200
 			}
 		},
 		{
@@ -37,7 +42,8 @@
 				"rare": 1.5,
 				"epic": 2.0,
 				"mythic": 2.5,
-				"ancient": 3.0
+				"ancient": 3.0,
+				"apotheotic_additions:artifact": 3.5
 			}
 		},
 		{
@@ -56,7 +62,8 @@
 				"rare": 0.15,
 				"epic": 0.20,
 				"mythic": 0.25,
-				"ancient": 0.30
+				"ancient": 0.30,
+				"apotheotic_additions:artifact": 0.35
 			}
 		}
 	]

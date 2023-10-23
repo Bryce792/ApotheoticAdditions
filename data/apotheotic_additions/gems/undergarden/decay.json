@@ -28,7 +28,8 @@
 			"rare": 0.20,
 			"epic": 0.40,
 			"mythic": 0.60,
-			"ancient": 0.80
+			"ancient": 0.80,
+			"apotheotic_additions:artifact": 1
 		},
 		"desc": "gem.apotheotic_additions:alchemy/decay.pickaxe"
 	},
@@ -47,7 +48,8 @@
 			"rare": 0.015,
 			"epic": 0.03,
 			"mythic": 0.045,
-			"ancient": 0.06
+			"ancient": 0.06,
+			"apotheotic_additions:artifact": 0.075
 		}
 	},
 	{
@@ -64,7 +66,8 @@
 			"rare": 0.05,
 			"epic": 0.1,
 			"mythic": 0.15,
-			"ancient": 0.2
+			"ancient": 0.2,
+			"apotheotic_additions:artifact": 0.3
 		}
 	}
 ]

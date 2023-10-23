@@ -23,7 +23,8 @@
 				"rare": 4.0,
 				"epic": 6.0,
 				"mythic": 8.0,
-				"ancient": 10.0
+				"ancient": 10.0,
+				"apotheotic_additions:artifact": 12
 			}
 		},
 		{
@@ -40,7 +41,8 @@
 				"rare": 0.50,
 				"epic": 0.625,
 				"mythic": 0.75,
-				"ancient": 0.90
+				"ancient": 0.90,
+				"apotheotic_additions:artifact": 1.05
 			}
 		},
 		{
@@ -65,6 +67,11 @@
 					"duration": 240,
 					"amplifier": 2,
 					"cooldown": 500
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 300,
+					"amplifier": 2,
+					"cooldown": 400
 				}
 			}
 		}

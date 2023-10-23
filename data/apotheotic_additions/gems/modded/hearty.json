@@ -23,7 +23,8 @@
 				"rare": 3.0,
 				"epic": 4.0,
 				"mythic": 5.0,
-				"ancient": 6.0
+				"ancient": 6.0,
+				"apotheotic_additions:artifact": 7
 			}
 		}
 	]

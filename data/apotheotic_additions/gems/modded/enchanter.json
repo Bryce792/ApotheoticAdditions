@@ -1,0 +1,125 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "skilltree"
+	}],
+	"variant": "enchanter",
+	"weight": 2,
+	"quality": 0,
+	"dimensions": [
+	],
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": ["helmet"]
+			},
+			"attribute": "skilltree:chance_to_apply_better_armor_enchantment",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.01,
+				"rare": 0.025,
+				"epic": 0.04,
+				"mythic": 0.055,
+				"ancient": 0.7,
+				"apotheotic_additions:artifact": 0.8
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "skilltree:armor_per_chestplate_enchantment",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 1.0,
+				"rare": 1.5,
+				"epic": 2.0,
+				"mythic": 2.5,
+				"ancient": 3.0,
+				"apotheotic_additions:artifact": 3.5
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "breaker",
+				"types": [
+					"shovel","pickaxe"
+				]
+			},
+			"attribute": "skilltree:chance_to_apply_better_enchantment",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.01,
+				"rare": 0.02,
+				"epic": 0.03,
+				"mythic": 0.04,
+				"ancient": 0.5,
+				"apotheotic_additions:artifact": 0.6
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"attribute": "skilltree:chance_to_apply_better_weapon_enchantment",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.01,
+				"rare": 0.025,
+				"epic": 0.04,
+				"mythic": 0.055,
+				"ancient": 0.7,
+				"apotheotic_additions:artifact": 0.8
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"boots", "leggings"
+				]
+			},
+			"attribute": "skilltree:experience_from_mobs",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.025,
+				"rare": 0.05,
+				"epic": 0.1,
+				"mythic": 0.15,
+				"ancient": 0.2,
+				"apotheotic_additions:artifact": 0.3
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "skilltree:maximum_life_per_enchantment",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.05,
+				"rare": 0.1,
+				"epic": 0.15,
+				"mythic": 0.2,
+				"ancient": 0.25,
+				"apotheotic_additions:artifact": 0.3
+			}
+		}
+	]
+}

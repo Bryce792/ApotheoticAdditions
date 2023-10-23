@@ -1,0 +1,90 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "skilltree"
+	}],
+	"variant": "master_crafter",
+	"weight": 2,
+	"quality": 0,
+	"dimensions": [
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "skilltree:crafted_armor_maximum_life",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 1.0,
+				"rare": 1.5,
+				"epic": 2.0,
+				"mythic": 2.5,
+				"ancient": 3.0,
+				"apotheotic_additions:artifact": 3.5
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"attribute": "skilltree:crafted_weapon_life_per_hit",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.5,
+				"rare": 1.0,
+				"epic": 1.5,
+				"mythic": 2.0,
+				"ancient": 2.5,
+				"apotheotic_additions:artifact": 3
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"boots", "leggings"
+				]
+			},
+			"attribute": "skilltree:crafted_boots_movement_speed",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.025,
+				"rare": 0.05,
+				"epic": 0.1,
+				"mythic": 0.15,
+				"ancient": 0.2,
+				"apotheotic_additions:artifact": 0.25
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "skilltree:crafted_shields_maximum_life",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 1.0,
+				"rare": 2.0,
+				"epic": 3.0,
+				"mythic": 4.0,
+				"ancient": 5.0,
+				"apotheotic_additions:artifact": 6
+			}
+		}
+	]
+}

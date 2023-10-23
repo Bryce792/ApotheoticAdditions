@@ -1,9 +1,9 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "witherstormmod"
+		"modid": "alexscaves"
 	}],
-	"weight": 2,
+	"weight": 3,
 	"quality": 1.5,
 	"dimensions": [
 	],
@@ -22,6 +22,7 @@
 			"_comment": "The enchantment field is unused when global=true, but still must be a valid name",
 			"global": true,
 			"values": {
+				"rare": 1,
 				"epic": 1,
 				"mythic": 2,
 				"ancient": 3,
@@ -41,24 +42,24 @@
 					"attribute": "minecraft:generic.armor",
 					"operation": "MULTIPLY_TOTAL",
 					"values": {
-						"uncommon": 0.15,
-						"rare": 0.25,
-						"epic": 0.35,
-						"mythic": 0.45,
-						"ancient": 0.5,
-						"apotheotic_additions:artifact": 0.6
-					}
-				},
-				{
-					"attribute": "minecraft:generic.armor_toughness",
-					"operation": "MULTIPLY_TOTAL",
-					"values": {
 						"uncommon": -0.15,
 						"rare": -0.25,
 						"epic": -0.35,
 						"mythic": -0.45,
 						"ancient": -0.5,
 						"apotheotic_additions:artifact": -0.6
+					}
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.15,
+						"rare": 0.25,
+						"epic": 0.35,
+						"mythic": 0.45,
+						"ancient": 0.5,
+						"apotheotic_additions:artifact": 0.6
 					}
 				}
 			]
@@ -76,24 +77,24 @@
 					"attribute": "minecraft:generic.max_health",
 					"operation": "MULTIPLY_TOTAL",
 					"values": {
-						"uncommon": 0.15,
-						"rare": 0.25,
-						"epic": 0.35,
-						"mythic": 0.45,
-						"ancient": 0.5,
-						"apotheotic_additions:artifact": 0.6
-					}
-				},
-				{
-					"attribute": "minecraft:generic.attack_damage",
-					"operation": "MULTIPLY_TOTAL",
-					"values": {
 						"uncommon": -0.15,
 						"rare": -0.25,
 						"epic": -0.35,
 						"mythic": -0.45,
 						"ancient": -0.5,
 						"apotheotic_additions:artifact": -0.6
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.15,
+						"rare": 0.25,
+						"epic": 0.35,
+						"mythic": 0.45,
+						"ancient": 0.5,
+						"apotheotic_additions:artifact": 0.6
 					}
 				}
 			]
@@ -107,33 +108,33 @@
 					"trident"
 				]
 			},
-			"mob_effect": "witherstormmod:wither_sickness",
+			"mob_effect": "alexscaves:irradiated",
 			"target": "attack_target",
 			"values": {
 				"rare": {
-					"duration": 60,
-					"amplifier": 0,
+					"duration": 1200,
+					"amplifier": 1,
 					"cooldown": 500
 				},
 				"epic": {
-					"duration": 120,
+					"duration": 1800,
 					"amplifier": 1,
-					"cooldown": 500
+					"cooldown": 450
 				},
 				"mythic": {
-					"duration": 180,
-					"amplifier": 1,
-					"cooldown": 400
+					"duration": 2400,
+					"amplifier": 2,
+					"cooldown": 425
 				},
 				"ancient": {
-					"duration": 240,
+					"duration": 3000,
 					"amplifier": 2,
-					"cooldown": 300
+					"cooldown": 400
 				},
 				"apotheotic_additions:artifact": {
-					"duration": 300,
-					"amplifier": 2,
-					"cooldown": 200
+					"duration": 3600,
+					"amplifier": 3,
+					"cooldown": 400
 				}
 			}
 		}
