@@ -1,0 +1,17 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "minecraft:generic.attack_knockback",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 5,
+			"steps": 5,
+			"step": 1
+		}
+	},
+	"types": [
+		"sword",
+		"trident",
+		"heavy_weapon"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "attributeslib:cold_damage",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 10,
+			"steps": 10,
+			"step": 1
+		}
+	},
+	"types": [
+		"sword",
+		"trident",
+		"heavy_weapon"
+	]
+}

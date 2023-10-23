@@ -1,0 +1,23 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "majruszsdifficulty"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "majruszsdifficulty:bleeding_immunity",
+	"target": "BLOCK_SELF",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 800,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": 3,
+			"cooldown": 400
+		}
+	},
+	"types": [
+		"shield"
+	]
+}

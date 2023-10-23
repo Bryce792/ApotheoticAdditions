@@ -1,0 +1,50 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightdelight"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "twilightdelight:temporal_sadness",
+	"target": "BLOCK_ATTACKER",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 20,
+				"steps": 2,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 1500
+		},
+		"epic": {
+			"duration": {
+				"min": 40,
+				"steps": 3,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		},
+		"mythic": {
+			"duration": {
+				"min": 60,
+				"steps": 4,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		},
+		"ancient": {
+			"duration": {
+				"min": 80,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		}
+	},
+	"types": [
+		"shield"
+	]
+}

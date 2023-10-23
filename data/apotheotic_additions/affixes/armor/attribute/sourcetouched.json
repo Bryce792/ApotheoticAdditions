@@ -17,6 +17,11 @@
 			"steps": 25,
 			"step": 1
 		},
+		"heirloom": {
+			"min": 45,
+			"steps": 75,
+			"step": 1
+		},
 		"rare": {
 			"min": 30,
 			"steps": 50,
@@ -24,6 +29,11 @@
 		},
 		"epic": {
 			"min": 35,
+			"steps": 75,
+			"step": 1
+		},
+		"artifact": {
+			"min": 75,
 			"steps": 75,
 			"step": 1
 		},

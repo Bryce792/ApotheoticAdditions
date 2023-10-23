@@ -1,0 +1,19 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:regeneration",
+	"target": "BLOCK_SELF",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 600,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": 3,
+			"cooldown": 300
+		}
+	},
+	"types": [
+		"shield"
+	]
+}
