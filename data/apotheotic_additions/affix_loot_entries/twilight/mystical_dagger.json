@@ -1,0 +1,23 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "forbidden_arcanus"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+  "weight": 25,
+  "quality": 4.0,
+  "stack": {
+    "item": "forbidden_arcanus:mystical_dagger",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "SWORD",
+  "dimensions": [
+    "twilightforest:twilight_forest"
+  ],
+  "min_rarity": "rare",
+  "max_rarity": "epic"
+}

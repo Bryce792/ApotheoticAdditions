@@ -1,0 +1,15 @@
+{
+  "weight": 1,
+  "quality": 1.0,
+  "stack": {
+    "item": "minecraft:diamond_sword",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "type": "SWORD",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "apotheotic_additions:artifact",
+  "max_rarity": "apotheotic_additions:artifact"
+}
