@@ -1,0 +1,184 @@
+{
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "aquamirae"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "gateways"
+	}],
+	"size": "large",
+	"color": "rainbow",
+	"waves": [{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheotic_additions:overworld/captain_cornelia"
+			}],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+                    {
+                        "item": "apotheosis:ancient_material",
+                        "count": 1
+                    },
+                    {
+                        "item": "apotheotic_additions:apotheotic_coin",
+                        "count": 12
+                    },
+                    {
+                        "item": "apotheosis:gem_dust",
+                        "count": 8
+                    }
+                ]
+			}],
+			"max_wave_time": 5000,
+			"setup_time": 150
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheotic_additions:rats/black_death"
+			}],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.5
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 5.0
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.5
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.05
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.1
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+                    {
+                        "item": "apotheotic_additions:artifact_material",
+                        "count": 1
+                    },
+                    {
+                        "item": "apotheotic_additions:apotheotic_coin",
+                        "count": 16
+                    },
+                    {
+                        "item": "apotheosis:gem_dust",
+                        "count": 12
+                    }
+                ]
+			}],
+			"max_wave_time": 5000,
+			"setup_time": 400
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheotic_additions:twilight/hydra"
+			}],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.75
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 8
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.75
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.2
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+                    {
+                        "item": "apotheotic_additions:artifact_material",
+                        "count": 1
+                    },
+                    {
+                        "item": "apotheotic_additions:infused_coin",
+                        "count": 8
+                    },
+                    {
+                        "item": "apotheosis:gem_dust",
+                        "count": 16
+                    }
+                ]
+			}],
+			"max_wave_time": 7500,
+			"setup_time": 400
+		}
+	],
+    "rewards": [
+        {
+            "type": "gateways:loot_table",
+            "loot_table": "apotheotic_additions:chests/aa_spawner",
+            "rolls": 10,
+            "desc": "rewards.apotheotic_additions.loot_table.aa_spawner"
+        },
+        {
+            "type": "gateways:summon",
+            "entity": {
+                "entity": "minecraft:chicken",
+                "count": 1
+            }
+        }
+    ],
+    "failures": [
+        {
+            "type": "gateways:explosion",
+            "strength": 7,
+            "fire": true,
+            "block_damage": true
+        },
+        {
+            "type": "gateways:summon",
+            "entity": {
+                "entity": "minecraft:wither",
+                "count": 2
+            }
+        }
+    ],
+	"completion_xp": 10000,
+	"spawn_range": 5
+}

@@ -1,37 +1,37 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "enchantwithmob"
 	}],
-	"entity": "alexscaves:nucleeper",
-	"weight": 35,
+	"entity": "enchantwithmob:enchanter",
+	"weight": 80,
 	"quality": 0,
 	"size": {
-		"width": 2,
-		"height": 4
+		"width": 1,
+		"height": 2
 	},
 	"valid_gear_sets": [
-		"#alexscaves"
+		"#enchanter"
 	],
 	"dimensions": [
 		"minecraft:overworld"
 	],
-	"min_rarity": "common",
-	"max_rarity": "uncommon",
+	"min_rarity": "uncommon",
+	"max_rarity": "rare",
 	"stats": {
-		"common": {
+		"uncommon": {
 			"enchant_chance": 0.25,
 			"enchantment_levels": [12, 8, 20, 14],
 			"effects": [{
-				"effect": "minecraft:fire_resistance",
+				"effect": "minecraft:regeneration",
 				"chance": 1.0
 			}],
 			"attribute_modifiers": [{
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 10,
-						"steps": 5,
+						"min": 30,
+						"steps": 20,
 						"step": 2
 					}
 				},
@@ -60,19 +60,19 @@
 				}
 			]
 		},
-		"uncommon": {
+		"rare": {
 			"enchant_chance": 0.3,
 			"enchantment_levels": [15, 10, 23, 17],
 			"effects": [{
-				"effect": "minecraft:fire_resistance",
+				"effect": "minecraft:regeneration",
 				"chance": 1.0
 			}],
 			"attribute_modifiers": [{
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 15,
-						"steps": 10,
+						"min": 40,
+						"steps": 30,
 						"step": 2
 					}
 				},

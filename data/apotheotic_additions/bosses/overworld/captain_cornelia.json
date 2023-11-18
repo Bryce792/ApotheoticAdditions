@@ -57,7 +57,7 @@
 					"attribute": "minecraft:generic.attack_damage",
 					"operation": "ADDITION",
 					"value": {
-						"min": 40,
+						"min": 10,
 						"steps": 40,
 						"step": 1
 					}

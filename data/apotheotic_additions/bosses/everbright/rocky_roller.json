@@ -2,6 +2,10 @@
 	"conditions": [{
 		"type": "forge:mod_loaded",
 		"modid": "blue_skies"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
 	}],
 	"entity": "alexsmobs:rocky_roller",
 	"weight": 60,

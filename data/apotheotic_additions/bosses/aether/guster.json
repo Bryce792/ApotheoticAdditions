@@ -2,6 +2,10 @@
 	"conditions": [{
 		"type": "forge:mod_loaded",
 		"modid": "alexsmobs"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
 	}],
 	"entity": "alexsmobs:guster",
 	"weight": 60,

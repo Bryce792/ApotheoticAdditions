@@ -1,0 +1,256 @@
+{
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "gateways"
+	}],
+	"size": "large",
+	"color": "#b60c65",
+	"waves": [{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheotic_additions:undergarden/rotwalker"
+			},
+			{
+				"entity": "undergarden:rotling",
+				"count": 6
+			}],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+                    {
+                        "item": "undergarden:cloggrum_ingot",
+                        "count": 32
+                    },
+                    {
+                        "item": "apotheotic_additions:apotheotic_coin",
+                        "count": 8
+                    },
+                    {
+                        "item": "apotheosis:gem_dust",
+                        "count": 3
+                    }
+                ]
+			}],
+			"max_wave_time": 1250,
+			"setup_time": 150
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheotic_additions:undergarden/nargoyle"
+			},
+			{
+				"type": "apotheosis:boss",
+				"boss": "apotheotic_additions:undergarden/nargoyle"
+			},
+			{
+				"entity": "alexscaves:vesper",
+				"count": 3
+			}],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.4
+				},
+				{
+					"attribute": "attributeslib:life_steal",
+					"operation": "ADDITION",
+					"value": 2.0
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.4
+				},
+				{
+					"attribute": "attributeslib:current_hp_damage",
+					"operation": "ADDITION",
+					"value": 0.1
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.05
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+                    {
+                        "item": "alexscaves:dark_tatters",
+                        "count": 4
+                    },
+					{
+                        "item": "alexscaves:vesper_wing",
+                        "count": 12
+                    },
+                    {
+                        "item": "apotheotic_additions:apotheotic_coin",
+                        "count": 6
+                    },
+                    {
+                        "item": "apotheosis:gem_dust",
+                        "count": 4
+                    }
+                ]
+			}],
+			"max_wave_time": 1750,
+			"setup_time": 400
+		},
+		{
+			"entities": [{
+				"entity": "alexscaves:watcher",
+				"count": 2
+			},
+			{
+				"entity": "alexscaves:underzealot",
+				"count": 8
+			}],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.6
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 3
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.6
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.10
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+                    {
+                        "item": "undergarden:froststeel_ingot",
+                        "count": 12
+                    },
+					{
+                        "item": "alexscaves:corrodent_teeth",
+                        "count": 30
+                    },
+                    {
+                        "item": "apotheotic_additions:infused_coin",
+                        "count": 2
+                    },
+                    {
+                        "item": "apotheosis:gem_dust",
+                        "count": 6
+                    }
+                ]
+			}],
+			"max_wave_time": 2500,
+			"setup_time": 400
+		},
+		{
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "apotheotic_additions:undergarden/rotbeast"
+			},
+			{
+				"entity": "alexscaves:underzealot",
+				"count": 8
+			}],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.8
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 6
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 1.0
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.2
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack_list",
+				"stacks": [
+                    {
+                        "item": "undergarden:utherium_crystal",
+                        "count": 9
+                    },
+					{
+                        "item": "alexscaves:pure_darkness",
+                        "count": 2
+                    },
+                    {
+                        "item": "apotheotic_additions:infused_coin",
+                        "count": 4
+                    },
+                    {
+                        "item": "apotheosis:gem_dust",
+                        "count": 8
+                    }
+                ]
+			}],
+			"max_wave_time": 2500,
+			"setup_time": 400
+		}
+	],
+    "rewards": [
+        {
+            "type": "gateways:loot_table",
+            "loot_table": "undergarden:chests/catacombs",
+            "rolls": 5,
+            "desc": "rewards.apotheotic_additions.loot_table.catacombs"
+        },
+		{
+            "type": "gateways:loot_table",
+            "loot_table": "alexscaves:chests/forlorn_ruins",
+            "rolls": 5,
+            "desc": "rewards.apotheotic_additions.loot_table.forlorn"
+        }
+    ],
+	"failures": [
+        {
+            "type": "gateways:summon",
+            "entity": {
+                "entity": "alexscaves:forsaken",
+                "count": 1
+            }
+        }
+    ],
+	"completion_xp": 3500,
+	"spawn_range": 5
+}

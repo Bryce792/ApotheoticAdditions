@@ -1,20 +1,20 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "tropicraft"
 	}],
-	"entity": "alexscaves:nucleeper",
-	"weight": 35,
-	"quality": 0,
+	"entity": "tropicraft:tropi_spider",
+	"weight": 70,
+	"quality": 1,
 	"size": {
 		"width": 2,
-		"height": 4
+		"height": 1
 	},
 	"valid_gear_sets": [
-		"#alexscaves"
+		"#tropics"
 	],
 	"dimensions": [
-		"minecraft:overworld"
+		"tropicraft:tropics"
 	],
 	"min_rarity": "common",
 	"max_rarity": "uncommon",
@@ -31,8 +31,8 @@
 					"operation": "ADDITION",
 					"value": {
 						"min": 10,
-						"steps": 5,
-						"step": 2
+						"steps": 20,
+						"step": 1
 					}
 				},
 				{
@@ -71,8 +71,8 @@
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 15,
-						"steps": 10,
+						"min": 40,
+						"steps": 30,
 						"step": 2
 					}
 				},

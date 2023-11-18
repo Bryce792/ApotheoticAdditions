@@ -1,25 +1,29 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "undergarden"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
 	}],
-	"entity": "alexscaves:nucleeper",
-	"weight": 35,
+	"entity": "alexsmobs:murmur",
+	"weight": 30,
 	"quality": 0,
 	"size": {
-		"width": 2,
-		"height": 4
+		"width": 1,
+		"height": 3
 	},
 	"valid_gear_sets": [
-		"#alexscaves"
+		"#undergarden"
 	],
 	"dimensions": [
-		"minecraft:overworld"
+		"undergarden:undergarden"
 	],
-	"min_rarity": "common",
-	"max_rarity": "uncommon",
+	"min_rarity": "uncommon",
+	"max_rarity": "rare",
 	"stats": {
-		"common": {
+		"uncommon": {
 			"enchant_chance": 0.25,
 			"enchantment_levels": [12, 8, 20, 14],
 			"effects": [{
@@ -30,9 +34,9 @@
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 10,
-						"steps": 5,
-						"step": 2
+						"min": 30,
+						"steps": 20,
+						"step": 3
 					}
 				},
 				{
@@ -48,7 +52,7 @@
 					"attribute": "minecraft:generic.attack_damage",
 					"operation": "MULTIPLY_BASE",
 					"value": {
-						"min": 0.2,
+						"min": 0.1,
 						"steps": 20,
 						"step": 0.01
 					}
@@ -60,7 +64,7 @@
 				}
 			]
 		},
-		"uncommon": {
+		"rare": {
 			"enchant_chance": 0.3,
 			"enchantment_levels": [15, 10, 23, 17],
 			"effects": [{
@@ -71,9 +75,9 @@
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 15,
-						"steps": 10,
-						"step": 2
+						"min": 40,
+						"steps": 30,
+						"step": 4
 					}
 				},
 				{

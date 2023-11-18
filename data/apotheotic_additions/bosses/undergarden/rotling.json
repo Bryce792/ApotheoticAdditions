@@ -1,20 +1,20 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "undergarden"
 	}],
-	"entity": "alexscaves:nucleeper",
-	"weight": 35,
+	"entity": "undergarden:rotling",
+	"weight": 95,
 	"quality": 0,
 	"size": {
-		"width": 2,
-		"height": 4
+		"width": 1,
+		"height": 2
 	},
 	"valid_gear_sets": [
-		"#alexscaves"
+		"#undergarden"
 	],
 	"dimensions": [
-		"minecraft:overworld"
+		"undergarden:undergarden"
 	],
 	"min_rarity": "common",
 	"max_rarity": "uncommon",
@@ -31,7 +31,7 @@
 					"operation": "ADDITION",
 					"value": {
 						"min": 10,
-						"steps": 5,
+						"steps": 20,
 						"step": 2
 					}
 				},
@@ -48,7 +48,7 @@
 					"attribute": "minecraft:generic.attack_damage",
 					"operation": "MULTIPLY_BASE",
 					"value": {
-						"min": 0.2,
+						"min": 0.1,
 						"steps": 20,
 						"step": 0.01
 					}
@@ -71,8 +71,8 @@
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 15,
-						"steps": 10,
+						"min": 20,
+						"steps": 30,
 						"step": 2
 					}
 				},

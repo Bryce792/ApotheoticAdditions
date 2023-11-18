@@ -1,21 +1,25 @@
 {
-	"entity": "minecraft:enderman",
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+	"entity": "twilightforest:hydra",
 	"weight": 1,
 	"quality": 6,
 	"size": {
-		"width": 1,
-		"height": 4
+		"width": 15,
+		"height": 15
 	},
 	"valid_gear_sets": [
-		"#the_end"
+		"#twilight"
 	],
 	"dimensions": [
-		"minecraft:the_end"
+		"twilightforest:twilight_forest"
 	],
-	"min_rarity": "apotheotic_additions:artifact",
-	"max_rarity": "apotheotic_additions:artifact",
+	"min_rarity": "ancient",
+	"max_rarity": "ancient",
 	"stats": {
-		"apotheotic_additions:artifact": {
+		"ancient": {
 			"enchant_chance": 0.75,
 			"enchantment_levels": [25, 20, 50, 40],
 			"effects": [{
@@ -26,7 +30,7 @@
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 800,
+						"min": 700,
 						"steps": 30,
 						"step": 5
 					}
@@ -35,7 +39,7 @@
 					"attribute": "minecraft:generic.movement_speed",
 					"operation": "MULTIPLY_BASE",
 					"value": {
-						"min": 0.4,
+						"min": 0.25,
 						"steps": 10,
 						"step": 0.01
 					}
@@ -44,7 +48,7 @@
 					"attribute": "minecraft:generic.attack_knockback",
 					"operation": "ADDITION",
 					"value": {
-						"min": 3,
+						"min": 2,
 						"steps": 6,
 						"step": 0.5
 					}
@@ -53,7 +57,7 @@
 					"attribute": "minecraft:generic.attack_damage",
 					"operation": "ADDITION",
 					"value": {
-						"min": 50,
+						"min": 40,
 						"steps": 40,
 						"step": 1
 					}
@@ -62,11 +66,6 @@
 					"attribute": "minecraft:generic.knockback_resistance",
 					"operation": "ADDITION",
 					"value": 1
-				},
-				{
-					"attribute": "minecraft:generic.armor",
-					"operation": "ADDITION",
-					"value": 18
 				}
 			]
 		}
