@@ -1,0 +1,72 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "magistuarmory"
+	}],
+	"weight": 65,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "magistuarmory:iron_bastardsword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "magistuarmory:silver_bastardsword"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "magistuarmory:bronze_bastardsword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "magistuarmory:iron_zweihander"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "magistuarmory:silver_zweihander"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "magistuarmory:bronze_zweihander"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "magistuarmory:crusader_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "magistuarmory:crusader_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "magistuarmory:crusader_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "magistuarmory:greathelm"
+		}
+	}],
+	"tags": [
+		"overworld"
+	]
+}

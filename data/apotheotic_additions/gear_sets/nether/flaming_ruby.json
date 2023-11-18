@@ -1,0 +1,61 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "betternether"
+	}],
+	"weight": 10,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "betternether:flaming_ruby_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "betternether:flaming_ruby_axe"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "betternether:flaming_ruby_pickaxe"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		}
+	],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "betternether:flaming_ruby_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "betternether:flaming_ruby_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "betternether:flaming_ruby_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "betternether:flaming_ruby_helmet"
+		}
+	}],
+	"tags": [
+		"the_nether"
+	]
+}

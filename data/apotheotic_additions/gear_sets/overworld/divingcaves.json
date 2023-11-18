@@ -5,41 +5,46 @@
 	}],
 	"weight": 75,
 	"mainhands": [{
+			"weight": 1,
+			"stack": {
+				"item": "alexscaves:desolate_dagger"
+			}
+		},
+		{
 			"weight": 3,
 			"stack": {
 				"item": "minecraft:iron_sword"
 			}
-		},
-		{
-			"weight": 1,
-			"stack": {
-				"item": "alexscaves:raygun"
-			}
 		}
 	],
-	"offhands": [],
+	"offhands": [		{
+		"weight": 1,
+		"stack": {
+			"item": "alexscaves:resistor_shield"
+		}
+	}],
 	"boots": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_boots"
+			"item": "alexscaves:diving_boots"
 		}
 	}],
 	"leggings": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_leggings"
+			"item": "alexscaves:diving_leggings"
 		}
 	}],
 	"chestplates": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_chestplate"
+			"item": "alexscaves:diving_chestplate"
 		}
 	}],
 	"helmets": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_mask"
+			"item": "alexscaves:diving_helmet"
 		}
 	}],
 	"tags": [

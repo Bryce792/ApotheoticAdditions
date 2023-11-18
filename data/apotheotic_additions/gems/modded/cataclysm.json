@@ -1,0 +1,129 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"weight": 3,
+	"quality": 1.5,
+	"dimensions": [],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"mob_effect": "cataclysm:monstrous",
+			"target": "attack_self",
+			"values": {
+				"rare": {
+					"duration": 80,
+					"amplifier": 0,
+					"cooldown": 500
+				},
+				"epic": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 450
+				},
+				"mythic": {
+					"duration": 140,
+					"amplifier": 1,
+					"cooldown": 425
+				},
+				"ancient": {
+					"duration": 200,
+					"amplifier": 2,
+					"cooldown": 400
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 300,
+					"amplifier": 3,
+					"cooldown": 400
+				}
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"mob_effect": "cataclysm:blazing_brand",
+			"target": "attack_target",
+			"values": {
+				"rare": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 500
+				},
+				"epic": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 450
+				},
+				"mythic": {
+					"duration": 150,
+					"amplifier": 1,
+					"cooldown": 425
+				},
+				"ancient": {
+					"duration": 200,
+					"amplifier": 2,
+					"cooldown": 400
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 300,
+					"amplifier": 3,
+					"cooldown": 400
+				}
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "cataclysm:abyssal_curse",
+			"target": "attack_target",
+			"stack_on_reapply": true,
+			"values": {
+				"rare": {
+					"duration": 140,
+					"amplifier": 0,
+					"cooldown": 120
+				},
+				"epic": {
+					"duration": 180,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"mythic": {
+					"duration": 220,
+					"amplifier": 1,
+					"cooldown": 80
+				},
+				"ancient": {
+					"duration": 500,
+					"amplifier": 2,
+					"cooldown": 60
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 750,
+					"amplifier": 3,
+					"cooldown": 40
+				}
+			}
+		}
+	]
+}

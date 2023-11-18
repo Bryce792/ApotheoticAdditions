@@ -1,0 +1,270 @@
+{
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "immersiveengineering"
+	}],
+  "pools": [
+    {
+      "name": "placebo_code_pool_19",
+      "rolls": {
+        "min": 5.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:gem_dust",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:vial_of_expulsion",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:vial_of_extraction",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:vial_of_unnaming",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 2,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "apotheosis:sigil_of_socketing",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "quality": 3,
+          "min": 1,
+          "max": 5,
+          "stack": {
+            "item": "immersiveengineering:wirecoil_copper",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "quality": 3,
+          "min": 1,
+          "max": 5,
+          "stack": {
+            "item": "immersiveengineering:wirecoil_redstone",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "quality": 3,
+          "min": 1,
+          "max": 5,
+          "stack": {
+            "item": "immersiveengineering:balloon",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 15,
+          "quality": 1,
+          "min": 2,
+          "max": 10,
+          "stack": {
+            "item": "immersiveengineering:stick_treated",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 5,
+          "quality": 1,
+          "min": 6,
+          "max": 16,
+          "stack": {
+            "item": "immersiveengineering:treated_wood_horizontal",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 2,
+          "quality": 1,
+          "min": 3,
+          "max": 16,
+          "stack": {
+            "item": "immersiveengineering:treated_scaffold",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 5,
+          "quality": 1,
+          "min": 1,
+          "max": 4,
+          "stack": {
+            "item": "immersiveengineering:treated_post",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 2,
+          "quality": 1,
+          "min": 4,
+          "max": 12,
+          "stack": {
+            "item": "immersiveengineering:treated_fence",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 5,
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "immersiveengineering:connector_lv",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 5,
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "immersiveengineering:connector_lv_relay",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 5,
+          "min": 4,
+          "max": 16,
+          "stack": {
+            "item": "immersiveengineering:coil_lv",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "min": 4,
+          "max": 16,
+          "stack": {
+            "item": "immersiveengineering:fertilizer",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "immersiveengineering:craftingtable",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "immersiveengineering:hammer",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "minecraft:book",
+            "count": 1
+          }
+        }
+      ],
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 7.0
+      }
+    },
+    {
+      "name": "aa_coins",
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 2,
+          "max": 4,
+          "stack": {
+            "item": "apotheotic_additions:apotheotic_coin",
+            "count": 1
+          }
+        }
+      ],
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 4.0
+      }
+    }
+  ]
+}

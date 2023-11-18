@@ -1,19 +1,17 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "twilightforest"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "ars_nouveau"
 	}],
-	"weight": 75,
+	"weight": 15,
 	"mainhands": [{
 			"weight": 3,
 			"stack": {
-				"item": "minecraft:iron_sword"
-			}
-		},
-		{
-			"weight": 1,
-			"stack": {
-				"item": "alexscaves:raygun"
+				"item": "ars_nouveau:enchanters_sword"
 			}
 		}
 	],
@@ -21,28 +19,28 @@
 	"boots": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_boots"
+			"item": "ars_nouveau:arcanist_boots"
 		}
 	}],
 	"leggings": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_leggings"
+			"item": "ars_nouveau:arcanist_leggings"
 		}
 	}],
 	"chestplates": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_chestplate"
+			"item": "ars_nouveau:arcanist_robes"
 		}
 	}],
 	"helmets": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_mask"
+			"item": "ars_nouveau:arcanist_hood"
 		}
 	}],
 	"tags": [
-		"alexscaves"
+		"twilight"
 	]
 }

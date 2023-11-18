@@ -1,0 +1,31 @@
+{
+	"variant": "armor",
+	"weight": 7,
+	"quality": 0,
+	"dimensions": [
+	],
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "anything",
+				"types": [
+					"bow", "crossbow", "pickaxe", "shovel",
+					"heavy_weapon", "helmet", "chestplate",
+					"leggings", "boots", "shield",
+					"trident", "sword"
+				]
+			},
+			"attribute": "minecraft:generic.armor",
+			"operation": "ADDITION",
+			"values": {
+				"common": 1.0,
+				"uncommon": 2.0,
+				"rare": 3.0,
+				"epic": 4.0,
+				"mythic": 5.0,
+				"ancient": 6.0,
+				"apotheotic_additions:artifact": 7
+			}
+		}
+	]
+}

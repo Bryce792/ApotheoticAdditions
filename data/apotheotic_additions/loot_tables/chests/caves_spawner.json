@@ -1,0 +1,294 @@
+{
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+  "pools": [
+    {
+      "name": "placebo_code_pool_19",
+      "rolls": {
+        "min": 5.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "alexscaves:spawn_egg_vallumraptor",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "alexscaves:spawn_egg_subterranodon",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "alexscaves:spawn_egg_underzealot",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "alexscaves:spawn_egg_gloomoth",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "alexscaves:spawn_egg_corrodent",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "alexscaves:spawn_egg_vesper",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "alexscaves:spawn_egg_teletor",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "alexscaves:spawn_egg_magnetron",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:gem_dust",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 5,
+          "quality": 4,
+          "min": 1,
+          "max": 5,
+          "stack": {
+            "item": "alexscaves:uranium",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:vial_of_extraction",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "quality": 3,
+          "min": 1,
+          "max": 5,
+          "stack": {
+            "item": "alexscaves:azure_neodymium_ingot",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 2,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "apotheosis:sigil_of_socketing",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "quality": 3,
+          "min": 1,
+          "max": 5,
+          "stack": {
+            "item": "alexscaves:scarlet_neodymium_ingot",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 5,
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "alexscaves:holocoder",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 5,
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "alexscaves:hologram_projector",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "alexscaves:scarlet_magnet",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 3,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "alexscaves:lanternfish_bucket",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "alexscaves:metal_barrel",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "alexscaves:galena_gauntlet",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "alexscaves:spelunkery_table",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "min": 3,
+          "max": 8,
+          "stack": {
+            "item": "alexscaves:bioluminesscence",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "minecraft:book",
+            "count": 1
+          }
+        }
+      ],
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 6.0
+      }
+    },
+    {
+      "name": "aa_coins",
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 2,
+          "max": 4,
+          "stack": {
+            "item": "apotheotic_additions:apotheotic_coin",
+            "count": 1
+          }
+        }
+      ],
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 4.0
+      }
+    }
+  ]
+}

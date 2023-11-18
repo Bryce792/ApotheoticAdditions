@@ -1,0 +1,89 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "magistuarmory"
+	}],
+	"weight": 35,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "magistuarmory:iron_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "magistuarmory:silver_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "magistuarmory:bronze_chainmorgenstern"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "magistuarmory:iron_morgenstern"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "magistuarmory:silver_morgenstern"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "magistuarmory:bronze_morgenstern"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 3,
+		"stack": {
+			"item": "magistuarmory:iron_rondache"
+		}
+	},
+	{
+		"weight": 2,
+		"stack": {
+			"item": "magistuarmory:silver_rondache"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "magistuarmory:bronze_rondache"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "magistuarmory:knight_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "magistuarmory:knight_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "magistuarmory:knight_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "magistuarmory:armet"
+		}
+	}],
+	"tags": [
+		"overworld"
+	]
+}

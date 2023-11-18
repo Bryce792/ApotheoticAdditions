@@ -1,0 +1,127 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cyclic"
+	}],
+	"weight": 2,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "cyclic:copper_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "cyclic:amethyst_sword"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "cyclic:sandstone_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "cyclic:copper_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "cyclic:amethyst_axe"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "cyclic:sandstone_axe"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "cyclic:shield_bone"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "cyclic:shield_flint"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "cyclic:shield_leather"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cyclic:shield_obsidian"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "cyclic:shield_wood"
+			}
+		}
+	],
+	"boots": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:leather_boots"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:iron_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:leather_leggings"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:iron_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:leather_chestplate"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:iron_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:leather_helmet"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:iron_helmet"
+		}
+	}],
+	"tags": [
+		"overworld"
+	]
+}

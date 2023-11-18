@@ -1,0 +1,65 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+	"weight": 20,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "undergarden:utherium_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "undergarden:utherium_axe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "undergarden:utherium_shovel"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "undergarden:utherium_pickaxe"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:cloggrum_shield"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:utherium_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:utherium_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:utherium_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:utherium_helmet"
+		}
+	}],
+	"tags": [
+		"undergarden"
+	]
+}

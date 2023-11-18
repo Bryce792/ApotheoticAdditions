@@ -1,19 +1,19 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "tropicraft"
 	}],
-	"weight": 75,
+	"weight": 5,
 	"mainhands": [{
 			"weight": 3,
 			"stack": {
-				"item": "minecraft:iron_sword"
+				"item": "tropicraft:zirconium_sword"
 			}
 		},
 		{
-			"weight": 1,
+			"weight": 2,
 			"stack": {
-				"item": "alexscaves:raygun"
+				"item": "tropicraft:zirconium_axe"
 			}
 		}
 	],
@@ -21,28 +21,28 @@
 	"boots": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_boots"
+			"item": "tropicraft:scale_boots"
 		}
 	}],
 	"leggings": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_leggings"
+			"item": "tropicraft:scale_leggings"
 		}
 	}],
 	"chestplates": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_chestplate"
+			"item": "tropicraft:scale_chestplate"
 		}
 	}],
 	"helmets": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_mask"
+			"item": "tropicraft:scale_helmet"
 		}
 	}],
 	"tags": [
-		"alexscaves"
+		"tropics"
 	]
 }

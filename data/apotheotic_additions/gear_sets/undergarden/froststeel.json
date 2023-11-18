@@ -1,0 +1,65 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+	"weight": 50,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "undergarden:froststeel_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "undergarden:froststeel_axe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "undergarden:froststeel_shovel"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "undergarden:froststeel_pickaxe"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:cloggrum_shield"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:froststeel_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:froststeel_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:froststeel_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:froststeel_helmet"
+		}
+	}],
+	"tags": [
+		"undergarden"
+	]
+}

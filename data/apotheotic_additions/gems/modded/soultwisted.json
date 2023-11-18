@@ -1,0 +1,193 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+	"weight": 7,
+	"quality": 1.5,
+	"dimensions": [],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"mob_effect": "eidolon:reinforced",
+			"target": "attack_self",
+			"values": {
+				"epic": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"mythic": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"ancient": {
+					"duration": 200,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 300,
+					"amplifier": 0,
+					"cooldown": 400
+				}
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "boots",
+				"types": [
+					"boots"
+				]
+			},
+			"mob_effect": "eidolon:anchored",
+			"target": "attack_self",
+			"values": {
+				"epic": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"mythic": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"ancient": {
+					"duration": 200,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 300,
+					"amplifier": 0,
+					"cooldown": 400
+				}
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"mob_effect": "eidolon:vulnerable",
+			"target": "attack_target",
+			"values": {
+				"rare": {
+					"duration": 140,
+					"amplifier": 0,
+					"cooldown": 120
+				},
+				"epic": {
+					"duration": 180,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"mythic": {
+					"duration": 220,
+					"amplifier": 1,
+					"cooldown": 80
+				},
+				"ancient": {
+					"duration": 500,
+					"amplifier": 2,
+					"cooldown": 60
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 750,
+					"amplifier": 3,
+					"cooldown": 40
+				}
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "eidolon:chilled",
+			"target": "attack_target",
+			"stack_on_reapply": true,
+			"values": {
+				"rare": {
+					"duration": 140,
+					"amplifier": 0,
+					"cooldown": 120
+				},
+				"epic": {
+					"duration": 180,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"mythic": {
+					"duration": 220,
+					"amplifier": 1,
+					"cooldown": 80
+				},
+				"ancient": {
+					"duration": 500,
+					"amplifier": 2,
+					"cooldown": 60
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 750,
+					"amplifier": 3,
+					"cooldown": 40
+				}
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "attributeslib:healing_received",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.03,
+				"epic": 0.06,
+				"mythic": 0.09,
+				"ancient": 0.12,
+				"apotheotic_additions:artifact": 0.15
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "leggings",
+				"types": [
+					"leggings"
+				]
+			},
+			"attribute": "eidolon:chanting_speed",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.1,
+				"epic": 0.2,
+				"mythic": 0.3,
+				"ancient": 0.4,
+				"apotheotic_additions:artifact": 0.5
+			}
+		}
+	]
+}

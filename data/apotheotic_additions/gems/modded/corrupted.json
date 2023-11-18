@@ -1,0 +1,80 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eldritch_end"
+	}],
+	"variant": "corrupted",
+	"weight": 7,
+	"quality": 0,
+	"min_rarity": "epic",
+	"dimensions": ["minecraft:the_end"],
+	"bonuses": [{
+		"type": "apotheosis:enchantment",
+		"gem_class": {
+			"key": "helmet",
+			"types": [
+				"helmet"
+			]
+		},
+		"enchantment": "protection",
+		"global": false,
+		"values": {
+			"epic": 1,
+			"mythic": 2,
+			"ancient": 3,
+			"apotheotic_additions:artifact": 4
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "chestplate",
+			"types": [
+				"chestplate"
+			]
+		},
+		"attribute": "forge:entity_reach",
+		"operation": "ADDITION",
+		"values": {
+			"epic": 2.0,
+			"mythic": 3.5,
+			"ancient": 4.0,
+			"apotheotic_additions:artifact": 4.5
+		}
+	},
+	{
+		"type": "apotheosis:mob_effect",
+		"gem_class": {
+			"key": "light_weapon",
+			"types": [
+				"sword",
+				"trident"
+			]
+		},
+		"mob_effect": "eldritch_end:corruption",
+		"target": "attack_target",
+		"values": {
+			"epic": {
+				"duration": 1800,
+				"amplifier": 1,
+				"cooldown": 450
+			},
+			"mythic": {
+				"duration": 2400,
+				"amplifier": 2,
+				"cooldown": 425
+			},
+			"ancient": {
+				"duration": 3000,
+				"amplifier": 2,
+				"cooldown": 400
+			},
+			"apotheotic_additions:artifact": {
+				"duration": 3600,
+				"amplifier": 3,
+				"cooldown": 400
+			}
+		}
+	}
+	]
+}

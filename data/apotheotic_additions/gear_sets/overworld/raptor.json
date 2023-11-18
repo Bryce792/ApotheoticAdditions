@@ -4,19 +4,7 @@
 		"modid": "alexscaves"
 	}],
 	"weight": 95,
-	"mainhands": [{
-			"weight": 3,
-			"stack": {
-				"item": "alexscaves:limestone_spear"
-			}
-		},
-		{
-			"weight": 1,
-			"stack": {
-				"item": "alexscaves:primitive_club"
-			}
-		}
-	],
+	"mainhands": [],
 	"offhands": [],
 	"boots": [{
 		"weight": 1,
@@ -43,6 +31,6 @@
 		}
 	}],
 	"tags": [
-		"alexscaves"
+		"raptor"
 	]
 }

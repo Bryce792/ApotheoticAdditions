@@ -1,0 +1,53 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+	"weight": 35,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "eidolon:silver_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "eidolon:silver_axe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "eidolon:silver_pickaxe"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "eidolon:warlock_boots"
+		}
+	}],
+	"leggings": [],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "eidolon:warlock_cloak"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "eidolon:warlock_hat"
+		}
+	}],
+	"tags": [
+		"twilight"
+	]
+}

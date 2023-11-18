@@ -1,19 +1,19 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "tropicraft"
 	}],
-	"weight": 75,
+	"weight": 45,
 	"mainhands": [{
 			"weight": 3,
 			"stack": {
-				"item": "minecraft:iron_sword"
+				"item": "tropicraft:eudialyte_sword"
 			}
 		},
 		{
-			"weight": 1,
+			"weight": 2,
 			"stack": {
-				"item": "alexscaves:raygun"
+				"item": "tropicraft:zircon_axe"
 			}
 		}
 	],
@@ -21,28 +21,23 @@
 	"boots": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_boots"
+			"item": "tropicraft:yellow_scuba_flippers"
 		}
 	}],
-	"leggings": [{
-		"weight": 1,
-		"stack": {
-			"item": "alexscaves:hazmat_leggings"
-		}
-	}],
+	"leggings": [],
 	"chestplates": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_chestplate"
+			"item": "tropicraft:yellow_scuba_harness"
 		}
 	}],
 	"helmets": [{
 		"weight": 1,
 		"stack": {
-			"item": "alexscaves:hazmat_mask"
+			"item": "tropicraft:yellow_scuba_goggles"
 		}
 	}],
 	"tags": [
-		"alexscaves"
+		"overworld", "tropics"
 	]
 }

@@ -1,0 +1,115 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cyclic"
+	}],
+	"weight": 80,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "cyclic:netherbrick_sword"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cyclic:emerald_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "cyclic:netherbrick_axe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cyclic:emerald_axe"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "cyclic:netherbrick_pickaxe"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cyclic:emerald_pickaxe"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "cyclic:shield_bone"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cyclic:shield_flint"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cyclic:shield_obsidian"
+			}
+		}
+	],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "cyclic:emerald_boots"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:golden_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "cyclic:emerald_leggings"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:golden_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "cyclic:emerald_chestplate"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:golden_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "cyclic:emerald_helmet"
+		}
+	},
+	{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:golden_helmet"
+		}
+	}],
+	"tags": [
+		"the_nether"
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "betterend"
+	}],
+	"weight": 60,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "betterend:terminite_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "betterend:terminite_axe"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "betterend:terminite_pickaxe"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		}
+	],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "betterend:terminite_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "betterend:terminite_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "betterend:terminite_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "betterend:terminite_helmet"
+		}
+	}],
+	"tags": [
+		"the_end"
+	]
+}

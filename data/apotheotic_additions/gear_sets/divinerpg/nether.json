@@ -15,12 +15,6 @@
 			"stack": {
 				"item": "divinerpg:molten_sword"
 			}
-		},
-		{
-			"weight": 1,
-			"stack": {
-				"item": "divinerpg:infernal_sword"
-			}
 		}
 	],
 	"offhands": [{
