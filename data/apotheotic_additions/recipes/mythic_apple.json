@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "LLL",
+    "LWL",
+    "LLL"
+  ],
+  "key": {
+	"W": {
+      "item": "minecraft:apple"
+    },
+	"L": {
+      "item": "apotheosis:mythic_material"
+    }
+  },
+  "result": {
+    "item": "apotheotic_additions:mythicapple",
+    "count": 1
+  }
+}

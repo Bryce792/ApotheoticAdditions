@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "apotheotic_additions:apotheotic_coin"
+	},
+	"requirements": {
+		"eterna": 20,
+		"quanta": 10,
+		"arcana": 0
+	},
+	"max_requirements": {
+		"eterna": -1,
+		"quanta": -1,
+		"arcana": -1
+	},
+	"display_level": 1,
+	"result": {
+		"item": "apotheotic_additions:infused_coin",
+		"count": 1
+	}
+}
