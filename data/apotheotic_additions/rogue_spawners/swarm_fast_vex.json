@@ -1,0 +1,33 @@
+{
+	"stats": {
+		"spawn_delay": 20,
+		"min_delay": 40,
+		"max_delay": 125,
+		"spawn_count": 4,
+		"max_nearby_entities": 10,
+		"spawn_range": 7,
+		"player_activation_range": 14
+	},
+	"spawn_potentials": [{
+		"data": {
+			"entity": {
+				"id": "vex",
+				"ActiveEffects": [{
+					"Ambient": 0,
+					"CurativeItems": [{
+						"id": "minecraft:milk_bucket",
+						"Count": 1
+					}],
+					"ShowIcon": 1,
+					"ShowParticles": 1,
+					"Duration": 10000000,
+					"Id": 1,
+					"Amplifier": 2
+				}]
+			}
+		},
+		"weight": 1
+	}],
+	"loot_table": "apotheotic_additions:chests/aa_spawner",
+	"weight": 1
+}
