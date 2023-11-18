@@ -1,0 +1,59 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "farmersdelight"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "farmersdelight:nourishment",
+	"target": "BREAK_SELF",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 200,
+				"steps": 3,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"epic": {
+			"duration": {
+				"min": 300,
+				"steps": 6,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"mythic": {
+			"duration": {
+				"min": 400,
+				"steps": 6,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"ancient": {
+			"duration": {
+				"min": 500,
+				"steps": 6,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 1000,
+				"steps": 8,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		}
+	},
+	"types": [
+		"pickaxe", "shovel"
+	]
+}
