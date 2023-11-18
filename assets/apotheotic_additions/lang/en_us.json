@@ -1,5 +1,18 @@
 {
     "item_group.apotheotic_additions.apotheotic_additions": "Apotheotic Additions",
+
+    "comment_id": "/Gateways",
+    "apotheotic_additions.time_lost_gate": "Time-Lost Gateway",
+    "apotheotic_additions.caves_gate": "Apothic Cave Gateway",
+    "apotheotic_additions.aether_gate": "Apothic Aetheric Gateway",
+    "apotheotic_additions.dark_garden": "Gateway of the Forlorn Garden",
+
+
+    "rewards.apotheotic_additions.loot_table.aa_spawner": "Apotheotic Additions Rogue Spawner Loot",
+    "rewards.apotheotic_additions.loot_table.caves_spawner": "Alex's Caves Rogue Spawner Loot",
+    "rewards.apotheotic_additions.loot_table.silver_dungeon": "Silver Dungeon Boss Loot",
+    "rewards.apotheotic_additions.loot_table.catacombs": "Undergarden Catacombs Loot",
+    "rewards.apotheotic_additions.loot_table.forlorn": "Forlorn Hollows Loot",
     
     "comment_id": "/Blocks",
 
@@ -15,8 +28,31 @@
     "item.apotheosis.gem.apotheotic_additions:artifact": "Time-Lost %s",
     "item.apotheosis.gem.apotheosis:artifact": "Time Lost %s",
     "rarity.apotheotic_additions:artifact": "Artifact",
+    "item.apotheotic_additions.commonapple": "Scrap Apple",
+    "item.apotheotic_additions.rareapple": "Rare Apple",
+    "item.apotheotic_additions.mythicapple": "Mythic Apple",
+    "item.apotheotic_additions.epicapple": "Epic Apple",
+    "item.apotheotic_additions.uncommonapple": "Uncommon Apple",
+    "item.apotheotic_additions.apotheotic_coin": "Apotheotic Coin",
+    "item.apotheotic_additions.infused_coin": "Infused Coin",
+    "item.apotheotic_additions.ascended_coin": "Ascended Coin",
 
-    "comment_id": "/Advancments",
+    "comment_id": "/Wanderer Unique Trades",
+
+    "name.apotheotic_additions.caves_dagger": "Mole King's Dagger",
+    "name.apotheotic_additions.forsaken_hood": "Forsaken Hood",
+    "name.apotheotic_additions.forlorn_cloak": "Forlorn Cloak",
+    "name.apotheotic_additions.skybreaker": "Skybreaker",
+    "name.apotheotic_additions.skyfall": "Skyfall",
+    "name.apotheotic_additions.davy_jones_curse": "Davy Jones Curse",
+    "name.apotheotic_additions.hellforged_dagger": "Hellforged Dagger",
+    "name.apotheotic_additions.hyperion": "Hyperion",
+    "name.apotheotic_additions.divine_justice": "Divine Justice",
+    "name.apotheotic_additions.bloodletter": "Bloodletter",
+    "name.apotheotic_additions.rotbane": "Rotbane",
+
+
+    "comment_id": "/Advancements",
 
     "advancements.apotheotic_additions:artifact": "Dawn of Creation",
     "advancements.apotheotic_additions:artifact.desc": "Find an Artifact item",
@@ -28,6 +64,11 @@
     "effect.apotheotic_additions.bad_voodoo": "Bad Voodoo",
 
     "comment_id": "/Artifact Affixes",
+    "affix.apotheotic_additions:ranged/attribute/artifact_damage": "Hale's Own",
+    "affix.apotheotic_additions:ranged/attribute/artifact_damage.suffix": "of the Time-Lost Australium Dynasty",
+
+    "affix.apotheotic_additions:ranged/attribute/artifact_velocity": "High-Speed",
+    "affix.apotheotic_additions:ranged/attribute/artifact_velocity.suffix": "of the Time-Lost Artillery",
 
     "affix.apotheotic_additions:sword/attribute/artifact_knockback": "Dovah-kiin",
     "affix.apotheotic_additions:sword/attribute/artifact_knockback.suffix": "of Fus Ro Dah",
@@ -64,14 +105,41 @@
 
     "comment_id": "/Affixes",
 
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/chemical_x": "Mutated",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/chemical_x.suffix": "of Sugar, Spice, and Everything Nice",
+
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/monstrous": "Monstrous",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/monstrous.suffix": "of the Quaking Hellscape",
+
+    "affix.apotheotic_additions:ranged/attribute/crit_damage": "Shattering",
+    "affix.apotheotic_additions:ranged/attribute/crit_damage.suffix": "of Overpowering",
+
+    "affix.apotheotic_additions:ranged/mob_effect/inebriation": "Drunkard's",
+    "affix.apotheotic_additions:ranged/mob_effect/inebriation.suffix": "of Inebriation",
+
+    "affix.apotheotic_additions:ranged/mob_effect/sunbird": "Sunbird's",
+    "affix.apotheotic_additions:ranged/mob_effect/sunbird.suffix": "of the Dark Sun",
+
     "affix.apotheotic_additions:sword/attribute/pixie": "Gaia",
     "affix.apotheotic_additions:sword/attribute/pixie.suffix": "of Pixies",
+
+    "affix.apotheotic_additions:breaker/mob_effect/aurora": "Chromatic",
+    "affix.apotheotic_additions:breaker/mob_effect/aurora.suffix": "of Glowing Rainbows",
+
+    "affix.apotheotic_additions:breaker/mob_effect/nourishment": "Chef's",
+    "affix.apotheotic_additions:breaker/mob_effect/nourishment.suffix": "of the Full Belly",
+
+    "affix.apotheotic_additions:breaker/mob_effect/comfort": "Homebound",
+    "affix.apotheotic_additions:breaker/mob_effect/comfort.suffix": "of Relaxation",
 
     "affix.apotheotic_additions:breaker/attribute/sliding": "Carved",
     "affix.apotheotic_additions:breaker/attribute/sliding.suffix": "of Sliding",
 
     "affix.apotheotic_additions:armor/mob_effect/bad_luck": "Luck Cursed",
     "affix.apotheotic_additions:armor/mob_effect/bad_luck.suffix": "of Bad Luck",
+
+    "affix.apotheotic_additions:shield/mob_effect/corruption": "R'leyhian",
+    "affix.apotheotic_additions:shield/mob_effect/corruption.suffix": "of Eldritch Defense",
 
     "affix.apotheotic_additions:shield/mob_effect/witherstorm": "Witherstorm",
     "affix.apotheotic_additions:shield/mob_effect/witherstorm.suffix": "of Encroaching Death",
@@ -88,8 +156,11 @@
     "affix.apotheotic_additions:shield/mob_effect/omen": "Evoker Cursed",
     "affix.apotheotic_additions:shield/mob_effect/omen.suffix": "of Cursed Omens",
 
-    "affix.apotheotic_additions:shield/mob_effect/venomous": "Arachnarchs",
+    "affix.apotheotic_additions:shield/mob_effect/venomous": "Arachnarch's",
     "affix.apotheotic_additions:shield/mob_effect/venomous.suffix": "of Deadly Venom",
+
+    "affix.apotheotic_additions:sword/mob_effect/corruption": "Corrupted",
+    "affix.apotheotic_additions:sword/mob_effect/corruption.suffix": "of the Black Empire",
 
     "affix.apotheotic_additions:sword/mob_effect/irradiated": "Nuclear",
     "affix.apotheotic_additions:sword/mob_effect/irradiated.suffix": "of the Gammaroach",
@@ -106,10 +177,10 @@
     "affix.apotheotic_additions:sword/mob_effect/abyssal_curse": "Abyssal",
     "affix.apotheotic_additions:sword/mob_effect/abyssal_curse.suffix": "of the Void",
 
-    "affix.apotheotic_additions:sword/mob_effect/inebriation": "Drunkards",
+    "affix.apotheotic_additions:sword/mob_effect/inebriation": "Drunkard's",
     "affix.apotheotic_additions:sword/mob_effect/inebriation.suffix": "of Inebriation",
 
-    "affix.apotheotic_additions:sword/mob_effect/rage": "Barbarians",
+    "affix.apotheotic_additions:sword/mob_effect/rage": "Barbarian's",
     "affix.apotheotic_additions:sword/mob_effect/rage.suffix": "of Rage",
     
 
@@ -153,24 +224,29 @@
 
     "comment_id": "/Gems",
 
-    "item.apotheosis.gem.apotheotic_additions:modded/sus": "Suspicious Gem",
-    "item.apotheosis.gem.apotheotic_additions:aether/zanite_alchemist": "Gem of the Zanite Alchemist",
-    "item.apotheosis.gem.apotheotic_additions:modded/archmage": "Gem of the Archmage",
-    "item.apotheosis.gem.apotheotic_additions:aether/aether": "Gem of the Aether",
-    "item.apotheosis.gem.apotheotic_additions:aether/purity": "Gem of Purity",
-    "item.apotheosis.gem.apotheotic_additions:undergarden/decay": "Gem of Decay",
-    "item.apotheosis.gem.apotheotic_additions:modded/enchanter": "Gem of the Enchanter",
-    "item.apotheosis.gem.apotheotic_additions:modded/master_crafter": "Gem of the Master Crafter",
-    "item.apotheosis.gem.apotheotic_additions:modded/uranium": "Gem of Uranium Fever",
-    "item.apotheosis.gem.apotheotic_additions:modded/engineer": "Gem of the Engineer",
-    "item.apotheosis.gem.apotheotic_additions:blue_skies/blue_skies": "Gem of the Blue Skies",
-    "item.apotheosis.gem.apotheotic_additions:blue_skies/horizonite_alchemist": "Gem of the Horizonite Alchemist",
-    "item.apotheosis.gem.apotheotic_additions:blue_skies/ventium_alchemist": "Gem of the Ventium Alchemist",    
-    "item.apotheosis.gem.apotheotic_additions:undergarden/undergarden": "Gem of the Undergarden",    
-    "item.apotheosis.gem.apotheotic_additions:modded/witherstorm": "Gem of the Wither Storm",
-    "item.apotheosis.gem.apotheotic_additions:modded/hearty": "Hearty Gem",
-    "item.apotheosis.gem.apotheotic_additions:modded/dracula": "Gem of the Vampire Lord",
-    "item.apotheosis.gem.apotheotic_additions:modded/ars_mana": "Empowered Source Gem",
+    "item.apotheosis.gem.apotheotic_additions:modded/sus": "Suspicious Jewel",
+    "item.apotheosis.gem.apotheotic_additions:aether/zanite_alchemist": "Jewel of the Zanite Alchemist",
+    "item.apotheosis.gem.apotheotic_additions:modded/archmage": "Jewel of the Archmage",
+    "item.apotheosis.gem.apotheotic_additions:aether/aether": "Jewel of the Aether",
+    "item.apotheosis.gem.apotheotic_additions:aether/purity": "Jewel of Purity",
+    "item.apotheosis.gem.apotheotic_additions:undergarden/decay": "Jewel of Decay",
+    "item.apotheosis.gem.apotheotic_additions:modded/enchanter": "Jewel of the Enchanter",
+    "item.apotheosis.gem.apotheotic_additions:modded/master_crafter": "Jewel of the Master Crafter",
+    "item.apotheosis.gem.apotheotic_additions:modded/uranium": "Jewel of Uranium Fever",
+    "item.apotheosis.gem.apotheotic_additions:modded/engineer": "Jewel of the Engineer",
+    "item.apotheosis.gem.apotheotic_additions:blue_skies/blue_skies": "Jewel of the Blue Skies",
+    "item.apotheosis.gem.apotheotic_additions:blue_skies/horizonite_alchemist": "Jewel of the Horizonite Alchemist",
+    "item.apotheosis.gem.apotheotic_additions:blue_skies/ventium_alchemist": "Jewel of the Ventium Alchemist",    
+    "item.apotheosis.gem.apotheotic_additions:undergarden/undergarden": "Jewel of the Undergarden",    
+    "item.apotheosis.gem.apotheotic_additions:modded/witherstorm": "Jewel of the Wither Storm",
+    "item.apotheosis.gem.apotheotic_additions:modded/hearty": "Hearty Jewel",
+    "item.apotheosis.gem.apotheotic_additions:modded/corrupted": "Jewel of the Black Empire",
+    "item.apotheosis.gem.apotheotic_additions:modded/dracula": "Jewel of the Vampire Lord",
+    "item.apotheosis.gem.apotheotic_additions:modded/ars_mana": "Source Jewel",
+    "item.apotheosis.gem.apotheotic_additions:modded/cataclysm": "Jewel of the Cataclysm",
+    "item.apotheosis.gem.apotheotic_additions:modded/safari": "Jewel of the Safari",
+    "item.apotheosis.gem.apotheotic_additions:modded/armor": "Armored Jewel",
+    "item.apotheosis.gem.apotheotic_additions:modded/soultwisted": "Soultwisted Jewel",
 
     "comment_id": "/Compat",
 
