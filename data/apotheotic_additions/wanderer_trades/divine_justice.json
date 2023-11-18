@@ -1,0 +1,55 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "reliquary"
+  }],
+  "type": "apotheosis:basic_trade",
+  "rare": true,
+  "input_1": {
+    "item": "minecraft:gold_ingot",
+    "count": 24
+  },
+  "input_2": {
+    "item": "apotheotic_additions:apotheotic_coin",
+    "count": 32
+  },
+  "output": {
+    "item": "reliquary:mercy_cross",
+    "count": 1,
+    "nbt": {
+        "Enchantments": [
+            {
+                "lvl": 5,
+                "id": "minecraft:sharpness"
+            },
+            {
+                "lvl": 1,
+                "id": "minecraft:mending"
+            },
+            {
+                "lvl": 2,
+                "id": "minecraft:looting"
+            },
+            {
+               "lvl": 1,
+                "id": "reliquary:severing"
+            },
+            {
+                "lvl": 4,
+                "id": "minecraft:unbreaking"
+            }
+        ],
+        "display": {
+            "Name": "{\"translate\":\"name.apotheotic_additions.divine_justice\", \"italic\": false, \"color\": \"#ffd042\"}"
+        },
+        "Damage": 0
+    }
+  },
+  "max_trades": 1,
+  "xp": 500,
+  "price_mult": 1.0
+}

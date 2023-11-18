@@ -1,0 +1,51 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+  }],
+  "type": "apotheosis:basic_trade",
+  "rare": true,
+  "input_1": {
+    "item": "minecraft:bone",
+    "count": 16
+  },
+  "input_2": {
+    "item": "apotheotic_additions:apotheotic_coin",
+    "count": 14
+  },
+  "output": {
+    "item": "alexsmobs:skelewag_sword",
+    "count": 1,
+    "nbt": {
+        "Enchantments": [
+            {
+                "lvl": 4,
+                "id": "minecraft:sharpness"
+            },
+            {
+                "lvl": 1,
+                "id": "minecraft:mending"
+            },
+            {
+                "lvl": 3,
+                "id": "minecraft:looting"
+            },
+            {
+                "lvl": 2,
+                "id": "minecraft:unbreaking"
+            }
+        ],
+        "display": {
+            "Name": "{\"translate\":\"name.apotheotic_additions.davy_jones_curse\", \"italic\": false, \"color\": \"#aa0f5c\"}"
+        },
+        "Damage": 0
+    }
+  },
+  "max_trades": 1,
+  "xp": 500,
+  "price_mult": 1.0
+}

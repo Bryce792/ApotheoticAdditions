@@ -1,0 +1,67 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+  }],
+  "type": "apotheosis:basic_trade",
+  "rare": true,
+  "input_1": {
+    "item": "minecraft:gold_block",
+    "count": 32
+  },
+  "input_2": {
+    "item": "apotheotic_additions:ascended_coin",
+    "count": 32
+  },
+  "output": {
+    "item": "aether:holy_sword",
+    "count": 1,
+    "nbt": {
+        "Enchantments": [
+            {
+                "lvl": 10,
+                "id": "minecraft:sharpness"
+            },
+            {
+               "lvl": 10,
+               "id": "minecraft:smite"
+            },
+            {
+               "lvl": 10,
+               "id": "minecraft:bane_of_arthropods"
+            },
+            {
+                "lvl": 10,
+                "id": "apotheosis:bane_of_illagers"
+            },
+            {
+               "lvl": 10,
+                "id": "minecraft:unbreaking"
+            },
+            {
+                "lvl": 3,
+                "id": "minecraft:sweeping"
+            },
+            {
+                "lvl": 5,
+               "id": "minecraft:looting"
+            },
+            {
+                "lvl": 1,
+                "id": "minecraft:mending"
+            }
+        ],
+        "display": {
+            "Name": "{\"translate\":\"name.apotheotic_additions.hyperion\", \"italic\": false, \"color\": \"#ffc000\"}"
+        },
+        "Damage": 0
+    }
+  },
+  "max_trades": 1,
+  "xp": 1500,
+  "price_mult": 1.0
+}

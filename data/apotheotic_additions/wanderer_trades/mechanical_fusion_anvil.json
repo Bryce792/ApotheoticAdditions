@@ -1,0 +1,26 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+  }],
+  "type": "apotheosis:basic_trade",
+  "input_1": {
+    "item": "apotheotic_additions:infused_coin",
+    "count": 10
+  },
+  "input_2": {
+    "item": "minecraft:redstone_block",
+    "count": 16
+  },
+  "output": {
+    "item": "cataclysm:mechanical_fusion_anvil",
+    "count": 1
+  },
+  "max_trades": 1,
+  "xp": 50,
+  "price_mult": 1.0
+}

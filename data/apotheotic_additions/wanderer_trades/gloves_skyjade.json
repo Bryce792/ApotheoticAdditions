@@ -1,0 +1,26 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "deep_aether"
+  }],
+  "type": "apotheosis:basic_trade",
+  "input_1": {
+    "item": "apotheotic_additions:apotheotic_coin",
+    "count": 10
+  },
+  "input_2": {
+    "item": "minecraft:air",
+    "count": 0
+  },
+  "output": {
+    "item": "deep_aether:skyjade_gloves",
+    "count": 1
+  },
+  "max_trades": 1,
+  "xp": 20,
+  "price_mult": 1.0
+}

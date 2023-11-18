@@ -1,0 +1,26 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "create"
+  }],
+  "type": "apotheosis:basic_trade",
+  "input_1": {
+    "item": "apotheotic_additions:apotheotic_coin",
+    "count": 4
+  },
+  "input_2": {
+    "item": "minecraft:air",
+    "count": 0
+  },
+  "output": {
+    "item": "create:water_wheel",
+    "count": 1
+  },
+  "max_trades": 4,
+  "xp": 25,
+  "price_mult": 1.0
+}

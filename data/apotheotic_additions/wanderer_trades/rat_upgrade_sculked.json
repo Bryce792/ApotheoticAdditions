@@ -1,0 +1,26 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+  }],
+  "type": "apotheosis:basic_trade",
+  "input_1": {
+    "item": "apotheotic_additions:apotheotic_coin",
+    "count": 8
+  },
+  "input_2": {
+    "item": "minecraft:sculk",
+    "count": 4
+  },
+  "output": {
+    "item": "rats:rat_upgrade_sculked",
+    "count": 1
+  },
+  "max_trades": 3,
+  "xp": 35,
+  "price_mult": 1.0
+}

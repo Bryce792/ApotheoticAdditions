@@ -1,0 +1,56 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+  }],
+  "type": "apotheosis:basic_trade",
+  "rare": true,
+  "input_1": {
+    "item": "minecraft:netherite_ingot",
+    "count": 5,
+    "nbt": "{Damage:0}"
+  },
+  "input_2": {
+    "item": "apotheotic_additions:infused_coin",
+    "count": 8
+  },
+  "output": {
+    "item": "alexscaves:cloak_of_darkness",
+    "count": 1,
+    "nbt": {
+        "Enchantments": [
+            {
+                "lvl": 8,
+                "id": "minecraft:blast_protection"
+            },
+            {
+                "lvl": 1,
+                "id": "minecraft:mending"
+            },
+            {
+                "lvl": 3,
+                "id": "apotheosis:berserkers_fury"
+            },
+            {
+                "lvl": 5,
+                "id": "minecraft:unbreaking"
+            },
+            {
+                "lvl": 3,
+                "id": "minecraft:thorns"
+            }
+        ],
+        "display": {
+            "Name": "{\"translate\":\"name.apotheotic_additions.forlorn_cloak\", \"italic\": false, \"color\": \"#f81616\"}"
+        },
+        "Damage": 0
+    }
+  },
+  "max_trades": 1,
+  "xp": 750,
+  "price_mult": 1.0
+}

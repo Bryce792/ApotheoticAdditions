@@ -1,0 +1,26 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "create"
+  }],
+  "type": "apotheosis:basic_trade",
+  "input_1": {
+    "item": "apotheotic_additions:apotheotic_coin",
+    "count": 1
+  },
+  "input_2": {
+    "item": "minecraft:air",
+    "count": 0
+  },
+  "output": {
+    "item": "create:andesite_alloy",
+    "count": 2
+  },
+  "max_trades": 5,
+  "xp": 5,
+  "price_mult": 1.0
+}

@@ -1,0 +1,26 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+  }],
+  "type": "apotheosis:basic_trade",
+  "input_1": {
+    "item": "apotheotic_additions:apotheotic_coin",
+    "count": 40
+  },
+  "input_2": {
+    "item": "minecraft:air",
+    "count": 0
+  },
+  "output": {
+    "item": "twilightforest:hollow_oak_sapling",
+    "count": 1
+  },
+  "max_trades": 2,
+  "xp": 35,
+  "price_mult": 1.0
+}

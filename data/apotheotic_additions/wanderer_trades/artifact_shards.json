@@ -1,0 +1,22 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  }],
+  "type": "apotheosis:basic_trade",
+  "input_1": {
+    "item": "apotheotic_additions:ascended_coin",
+    "count": 5
+  },
+  "input_2": {
+    "item": "minecraft:air",
+    "count": 0
+  },
+  "output": {
+    "item": "apotheotic_additions:artifact_material",
+    "count": 1
+  },
+  "max_trades": 5,
+  "xp": 5,
+  "price_mult": 1.0
+}

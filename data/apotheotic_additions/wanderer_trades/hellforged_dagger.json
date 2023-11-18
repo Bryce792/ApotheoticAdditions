@@ -1,0 +1,51 @@
+{
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  },
+  {
+		"type": "forge:mod_loaded",
+		"modid": "farmersdelight"
+  }],
+  "type": "apotheosis:basic_trade",
+  "rare": true,
+  "input_1": {
+    "item": "minecraft:diamond",
+    "count": 16
+  },
+  "input_2": {
+    "item": "apotheotic_additions:apotheotic_coin",
+    "count": 48
+  },
+  "output": {
+    "item": "farmersdelight:netherite_knife",
+    "count": 1,
+    "nbt": {
+        "Enchantments": [
+            {
+                "lvl": 6,
+                "id": "minecraft:sharpness"
+            },
+            {
+                "lvl": 1,
+                "id": "minecraft:mending"
+            },
+            {
+                "lvl": 2,
+                "id": "apotheosis:miners_fervor"
+            },
+            {
+                "lvl": 2,
+                "id": "farmersdelight:backstabbing"
+            }
+        ],
+        "display": {
+            "Name": "{\"translate\":\"name.apotheotic_additions.hellforged_dagger\", \"italic\": false, \"color\": \"#fa3333\"}"
+        },
+        "Damage": 0
+    }
+  },
+  "max_trades": 1,
+  "xp": 500,
+  "price_mult": 1.0
+}
