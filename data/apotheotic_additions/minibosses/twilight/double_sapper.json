@@ -1,23 +1,21 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "mutantmonsters"
+		"modid": "twilightforest"
 	}],
-	"weight": 5,
+	"weight": 25,
 	"quality": 0,
-	"name": "Grand Mutant",
-	"chance": 0.1,
+	"name": "Double Trouble",
+	"chance": 0.008,
 	"entities": [
-		"mutantmonsters:mutant_zombie",
-		"mutantmonsters:mutant_creeper",
-		"mutantmonsters:mutant_enderman",
-		"mutantmonsters:mutant_skeleton"
+		"twilightforest:redcap_sapper",
+		"twilightforest:redcap"
 	],
 	"valid_gear_sets": [
-		"#overworld"
+		"#twilight"
 	],
 	"dimensions": [
-		"minecraft:overworld"
+		"twilightforest:twilight_forest"
 	],
 	"affixed": false,
 	"nbt": {
@@ -30,9 +28,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 100,
-					"steps": 50,
-					"step": 5
+					"min": 10,
+					"steps": 10,
+					"step": 2
 				}
 			},
 			{
@@ -59,6 +57,22 @@
 				"value": 0.5
 			}
 		]
+	},
+	"mount": {
+		"entity": "twilightforest:redcap_sapper",
+		"nbt": {
+			"Tame": true,
+			"Attributes": [
+				{
+					"Name": "generic.flying_speed",
+					"Base": 0.85
+				},
+				{
+					"Name": "generic.knockback_resistance",
+					"Base": 0.5
+				}
+			]
+		}
 	},
 	"exclusions": [{
 			"type": "apotheosis:spawn_type",

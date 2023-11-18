@@ -5,7 +5,7 @@
 	}],
 	"weight": 50,
 	"quality": 0,
-	"name": "Sickened Beast",
+	"name": "Sickened Creature",
 	"chance": 0.04,
 	"entities": [
 		"witherstormmod:sickened_zombie",

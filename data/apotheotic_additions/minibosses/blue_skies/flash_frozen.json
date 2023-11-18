@@ -1,23 +1,20 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "mutantmonsters"
+		"modid": "blue_skies"
 	}],
-	"weight": 5,
+	"weight": 45,
 	"quality": 0,
-	"name": "Grand Mutant",
-	"chance": 0.1,
+	"name": "Flash-Frozen Spirit",
+	"chance": 0.008,
 	"entities": [
-		"mutantmonsters:mutant_zombie",
-		"mutantmonsters:mutant_creeper",
-		"mutantmonsters:mutant_enderman",
-		"mutantmonsters:mutant_skeleton"
+		"blue_skies:armored_frost_spirit"
 	],
 	"valid_gear_sets": [
-		"#overworld"
+		"#blue_skies"
 	],
 	"dimensions": [
-		"minecraft:overworld"
+		"blue_skies:everbright"
 	],
 	"affixed": false,
 	"nbt": {
@@ -30,9 +27,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 100,
-					"steps": 50,
-					"step": 5
+					"min": 30,
+					"steps": 10,
+					"step": 3
 				}
 			},
 			{
@@ -48,9 +45,9 @@
 				"attribute": "minecraft:generic.attack_damage",
 				"operation": "MULTIPLY_BASE",
 				"value": {
-					"min": 0.30,
+					"min": 0.50,
 					"steps": 4,
-					"step": 0.05
+					"step": 0.10
 				}
 			},
 			{

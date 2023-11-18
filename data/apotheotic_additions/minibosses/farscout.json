@@ -1,20 +1,17 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "mutantmonsters"
+		"modid": "alexsmobs"
 	}],
-	"weight": 5,
+	"weight": 15,
 	"quality": 0,
-	"name": "Grand Mutant",
-	"chance": 0.1,
+	"name": "Farscout",
+	"chance": 0.01,
 	"entities": [
-		"mutantmonsters:mutant_zombie",
-		"mutantmonsters:mutant_creeper",
-		"mutantmonsters:mutant_enderman",
-		"mutantmonsters:mutant_skeleton"
+		"alexsmobs:farseer"
 	],
 	"valid_gear_sets": [
-		"#overworld"
+		"#the_nether"
 	],
 	"dimensions": [
 		"minecraft:overworld"
@@ -30,9 +27,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 100,
-					"steps": 50,
-					"step": 5
+					"min": 10,
+					"steps": 10,
+					"step": 2
 				}
 			},
 			{

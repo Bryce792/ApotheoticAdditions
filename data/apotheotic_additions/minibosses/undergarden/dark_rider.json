@@ -1,23 +1,25 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "mutantmonsters"
+		"modid": "alexscaves"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
 	}],
-	"weight": 5,
+	"weight": 90,
 	"quality": 0,
-	"name": "Grand Mutant",
-	"chance": 0.1,
+	"name": "Dark Rider",
+	"chance": 0.008,
 	"entities": [
-		"mutantmonsters:mutant_zombie",
-		"mutantmonsters:mutant_creeper",
-		"mutantmonsters:mutant_enderman",
-		"mutantmonsters:mutant_skeleton"
+		"undergarden:rotling",
+		"undergarden:rotwalker"
 	],
 	"valid_gear_sets": [
-		"#overworld"
+		"#undergarden"
 	],
 	"dimensions": [
-		"minecraft:overworld"
+		"undergarden:undergarden"
 	],
 	"affixed": false,
 	"nbt": {
@@ -30,9 +32,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 100,
-					"steps": 50,
-					"step": 5
+					"min": 10,
+					"steps": 10,
+					"step": 2
 				}
 			},
 			{
@@ -59,6 +61,22 @@
 				"value": 0.5
 			}
 		]
+	},
+	"mount": {
+		"entity": "alexscaves:vesper",
+		"nbt": {
+			"Tame": true,
+			"Attributes": [
+				{
+					"Name": "generic.flying_speed",
+					"Base": 0.85
+				},
+				{
+					"Name": "generic.knockback_resistance",
+					"Base": 0.5
+				}
+			]
+		}
 	},
 	"exclusions": [{
 			"type": "apotheosis:spawn_type",
