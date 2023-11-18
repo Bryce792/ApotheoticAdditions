@@ -1,12 +1,12 @@
 {
   "conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "eidolon"
 	}],
-  "weight": 50,
-  "quality": 2.0,
+  "weight": 75,
+  "quality": 4.0,
   "stack": {
-    "item": "alexscaves:diving_chestplate",
+    "item": "eidolon:silver_leggings",
     "count": 1,
     "nbt": "{Damage:0}"
   },

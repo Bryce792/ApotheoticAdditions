@@ -1,12 +1,12 @@
 {
   "conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "create_sa"
 	}],
-  "weight": 50,
-  "quality": 2.0,
+  "weight": 85,
+  "quality": 3.0,
   "stack": {
-    "item": "alexscaves:diving_chestplate",
+    "item": "create_sa:slime_boots",
     "count": 1,
     "nbt": "{Damage:0}"
   },
@@ -15,5 +15,5 @@
     "minecraft:overworld"
   ],
   "min_rarity": "common",
-  "max_rarity": "uncommon"
+  "max_rarity": "rare"
 }

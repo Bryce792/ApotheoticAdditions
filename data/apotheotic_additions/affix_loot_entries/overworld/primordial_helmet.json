@@ -3,7 +3,7 @@
 		"type": "forge:mod_loaded",
 		"modid": "alexscaves"
 	}],
-  "weight": 95,
+  "weight": 65,
   "quality": 2.0,
   "stack": {
     "item": "alexscaves:primordial_helmet",

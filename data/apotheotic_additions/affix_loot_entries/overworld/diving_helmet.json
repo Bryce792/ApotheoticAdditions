@@ -3,7 +3,7 @@
 		"type": "forge:mod_loaded",
 		"modid": "alexscaves"
 	}],
-  "weight": 70,
+  "weight": 50,
   "quality": 2.0,
   "stack": {
     "item": "alexscaves:diving_helmet",
