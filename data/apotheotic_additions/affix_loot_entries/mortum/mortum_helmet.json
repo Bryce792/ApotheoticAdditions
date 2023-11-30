@@ -10,10 +10,9 @@
     "count": 1,
     "nbt": "{Damage:0}"
   },
-  "type": "ARMOR",
   "dimensions": [
     "divinerpg:mortum"
   ],
-  "min_rarity": "epic",
-  "max_rarity": "mythic"
+  "min_rarity": "apotheosis:epic",
+  "max_rarity": "apotheosis:mythic"
 }
