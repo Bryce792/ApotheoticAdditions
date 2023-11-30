@@ -8,9 +8,8 @@
 	"stack": {
 		"item": "blue_skies:spike_shield"
 	},
-	"type": "sword",
-	"min_rarity": "common",
-	"max_rarity": "rare",
+	"min_rarity": "apotheosis:common",
+	"max_rarity": "apotheosis:rare",
 	"dimensions": [
 		"blue_skies:everdawn",
 		"blue_skies:everbright"

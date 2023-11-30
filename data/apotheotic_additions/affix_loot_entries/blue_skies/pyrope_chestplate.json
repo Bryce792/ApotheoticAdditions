@@ -10,11 +10,10 @@
     "count": 1,
     "nbt": "{Damage:0}"
   },
-  "type": "ARMOR",
   "dimensions": [
     "blue_skies:everbright",
     "blue_skies:everdawn"
   ],
-  "min_rarity": "common",
-  "max_rarity": "rare"
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:rare"
 }

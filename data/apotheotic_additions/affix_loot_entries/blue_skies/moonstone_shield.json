@@ -8,9 +8,8 @@
 	"stack": {
 		"item": "blue_skies:moonstone_shield"
 	},
-	"type": "SHIELD",
-	"min_rarity": "common",
-	"max_rarity": "rare",
+	"min_rarity": "apotheosis:common",
+	"max_rarity": "apotheosis:rare",
 	"dimensions": [
 		"blue_skies:everbright",
 		"blue_skies:everdawn"

@@ -8,9 +8,8 @@
 	"stack": {
 		"item": "blue_skies:starlit_spear"
 	},
-	"type": "TRIDENT",
-	"min_rarity": "common",
-	"max_rarity": "epic",
+	"min_rarity": "apotheosis:common",
+	"max_rarity": "apotheosis:epic",
 	"dimensions": [
 		"blue_skies:everbright",
 		"blue_skies:everdawn"

@@ -8,9 +8,8 @@
 	"stack": {
 		"item": "blue_skies:crushing_hammer"
 	},
-	"type": "TRIDENT",
-	"min_rarity": "common",
-	"max_rarity": "epic",
+	"min_rarity": "apotheosis:epic",
+	"max_rarity": "apotheosis:mythic",
 	"dimensions": [
 		"blue_skies:everbright",
 		"blue_skies:everdawn"
