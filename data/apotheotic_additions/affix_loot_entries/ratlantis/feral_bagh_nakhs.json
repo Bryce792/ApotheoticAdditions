@@ -8,8 +8,7 @@
 	"stack": {
 		"item": "rats:feral_bagh_nakhs"
 	},
-	"type": "ARMOR",
-	"min_rarity": "rare",
-	"max_rarity": "epic",
+	"min_rarity": "apotheosis:rare",
+	"max_rarity": "apotheosis:epic",
 	"dimensions": ["rats:ratlantis"]
 }
