@@ -8,9 +8,8 @@
 	"stack": {
 		"item": "aether:zanite_axe"
 	},
-	"type": "HEAVY_WEAPON",
-	"min_rarity": "uncommon",
-	"max_rarity": "rare",
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
 	"dimensions": [
 		"aether:the_aether"
 	]

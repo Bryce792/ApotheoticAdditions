@@ -10,7 +10,6 @@
 		"count": 1,
 		"nbt": "{Damage:0}"
 	},
-	"type": "SWORD",
 	"min_rarity": "apotheotic_additions:artifact",
 	"max_rarity": "apotheotic_additions:artifact",
 	"dimensions": [

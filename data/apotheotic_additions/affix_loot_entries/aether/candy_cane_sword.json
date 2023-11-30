@@ -8,9 +8,8 @@
 	"stack": {
 		"item": "aether:candy_cane_sword"
 	},
-	"type": "SWORD",
-	"min_rarity": "uncommon",
-	"max_rarity": "rare",
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
 	"dimensions": [
 		"aether:the_aether"
 	]

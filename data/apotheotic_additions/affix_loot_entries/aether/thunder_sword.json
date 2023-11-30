@@ -2,11 +2,15 @@
 	"conditions": [{
 		"type": "forge:mod_loaded",
 		"modid": "aether"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
 	}],
 	"weight": 1,
 	"quality": 5,
 	"stack": {
-		"item": "aether:gravitite_axe",
+		"item": "botania:thunder_sword",
 		"count": 1,
 		"nbt": "{Damage:0}"
 	},

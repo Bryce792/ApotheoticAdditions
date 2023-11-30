@@ -8,9 +8,8 @@
 	"stack": {
 		"item": "aether_redux:veridium_pickaxe"
 	},
-	"type": "BREAKER",
-	"min_rarity": "uncommon",
-	"max_rarity": "rare",
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
 	"dimensions": [
 		"aether:the_aether"
 	]
