@@ -10,7 +10,6 @@
     "count": 1,
     "nbt": "{Damage:0}"
   },
-  "type": "HEAVY_WEAPON",
   "dimensions": [
     "minecraft:overworld",
     "minecraft:the_nether",

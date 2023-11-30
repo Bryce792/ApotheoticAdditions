@@ -8,9 +8,8 @@
 	"stack": {
 		"item": "divinerpg:rupee_shield"
 	},
-	"type": "SHIELD",
-	"min_rarity": "uncommon",
-	"max_rarity": "rare",
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
 	"dimensions": [
 		"minecraft:overworld"
 	]
