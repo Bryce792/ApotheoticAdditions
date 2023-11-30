@@ -10,10 +10,9 @@
     "count": 1,
     "nbt": "{Damage:0}"
   },
-  "type": "ARMOR",
   "dimensions": [
     "undergarden:undergarden"
   ],
-  "min_rarity": "common",
-  "max_rarity": "rare"
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:rare"
 }

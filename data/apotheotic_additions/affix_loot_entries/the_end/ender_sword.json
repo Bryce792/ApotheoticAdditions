@@ -3,17 +3,16 @@
 		"type": "forge:mod_loaded",
 		"modid": "divinerpg"
 	}],
-  "weight": 5,
+  "weight": 1,
   "quality": 10.0,
   "stack": {
     "item": "divinerpg:ender_sword",
     "count": 1,
     "nbt": "{Damage:0}"
   },
-  "type": "SWORD",
   "dimensions": [
     "minecraft:the_end"
   ],
-  "min_rarity": "mythic",
-  "max_rarity": "artifact"
+  "min_rarity": "apotheosis:mythic",
+  "max_rarity": "apotheotic_additions:artifact"
 }

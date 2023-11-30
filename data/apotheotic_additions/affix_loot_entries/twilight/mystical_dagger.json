@@ -14,10 +14,9 @@
     "count": 1,
     "nbt": "{Damage:0}"
   },
-  "type": "SWORD",
   "dimensions": [
     "twilightforest:twilight_forest"
   ],
-  "min_rarity": "rare",
-  "max_rarity": "epic"
+  "min_rarity": "apotheosis:rare",
+  "max_rarity": "apotheosis:epic"
 }
