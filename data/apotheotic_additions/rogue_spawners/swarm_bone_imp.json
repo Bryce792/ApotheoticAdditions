@@ -1,0 +1,41 @@
+{
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+  	{
+		"type": "forge:mod_loaded",
+		"modid": "born_in_chaos_v1"
+	}],
+	"stats": {
+		"spawn_delay": 20,
+		"min_delay": 100,
+		"max_delay": 400,
+		"spawn_count": 2,
+		"max_nearby_entities": 6,
+		"spawn_range": 7,
+		"player_activation_range": 14
+	},
+	"spawn_potentials": [{
+		"data": {
+			"entity": {
+				"id": "born_in_chaos_v1:bone_imp",
+				"ActiveEffects": [{
+					"Ambient": 0,
+					"CurativeItems": [{
+						"id": "minecraft:milk_bucket",
+						"Count": 1
+					}],
+					"ShowIcon": 1,
+					"ShowParticles": 1,
+					"Duration": 10000000,
+					"Id": 1,
+					"Amplifier": 2
+				}]
+			}
+		},
+		"weight": 1
+	}],
+	"loot_table": "apotheotic_additions:chests/born_in_chaos_spawner",
+	"weight": 1
+}

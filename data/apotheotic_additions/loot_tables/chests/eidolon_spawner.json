@@ -1,0 +1,375 @@
+{
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+  "pools": [
+    {
+      "name": "placebo_code_pool_19",
+      "rolls": {
+        "min": 5.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:gem_dust",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:vial_of_expulsion",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:vial_of_extraction",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 4,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "apotheosis:vial_of_unnaming",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 2,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "apotheosis:sigil_of_socketing",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "quality": 3,
+          "min": 1,
+          "max": 9,
+          "stack": {
+            "item": "eidolon:pewter_ingot",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "quality": 3,
+          "min": 1,
+          "max": 5,
+          "stack": {
+            "item": "eidolon:death_essence",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "quality": 3,
+          "min": 1,
+          "max": 5,
+          "stack": {
+            "item": "eidolon:fungus_sprouts",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 8,
+          "quality": 1,
+          "min": 2,
+          "max": 7,
+          "stack": {
+            "item": "eidolon:soul_shard",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 5,
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "eidolon:arcane_gold_ingot",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 20,
+          "quality": 1,
+          "min": 1,
+          "max": 7,
+          "stack": {
+            "item": "eidolon:red_candy",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 20,
+          "quality": 1,
+          "min": 1,
+          "max": 7,
+          "stack": {
+            "item": "eidolon:grape_candy",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 5,
+          "quality": 1,
+          "min": 1,
+          "max": 3,
+          "stack": {
+            "item": "eidolon:enchanted_ash",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 2,
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:bonechill_wand",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:soulfire_wand",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "quality": 1,
+          "min": 2,
+          "max": 4,
+          "stack": {
+            "item": "eidolon:tallow",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 5,
+          "min": 4,
+          "max": 16,
+          "stack": {
+            "item": "eidolon:sulfur",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 10,
+          "min": 3,
+          "max": 6,
+          "stack": {
+            "item": "eidolon:illwood_sapling",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:wooden_brewing_stand",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:research_table",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "weight": 3,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "minecraft:book",
+            "count": 1
+          }
+        }
+      ],
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 7.0
+      }
+    },
+    {
+      "name": "aa_coins",
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 2,
+          "max": 4,
+          "stack": {
+            "item": "apotheotic_additions:apotheotic_coin",
+            "count": 1
+          }
+        }
+      ],
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "eidolon_extras",
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:gravity_belt",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:prestigious_palm",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:mind_shielding_plate",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:enervating_ring",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:void_amulet",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:basic_amulet",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:basic_belt",
+            "count": 1
+          }
+        },
+        {
+          "type": "placebo:stack_entry",
+          "quality": 1,
+          "min": 1,
+          "max": 1,
+          "stack": {
+            "item": "eidolon:basic_ring",
+            "count": 1
+          }
+        }
+      ],
+      "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  ]
+}
