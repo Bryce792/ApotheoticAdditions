@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "born_in_chaos_v1"
+	}],
+  "weight": 20,
+  "quality": 0.5,
+  "stack": {
+    "item": "born_in_chaos_v1:trident_hayfork",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:uncommon"
+}
