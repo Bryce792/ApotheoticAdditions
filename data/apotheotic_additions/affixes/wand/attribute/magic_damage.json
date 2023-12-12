@@ -1,0 +1,48 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "obscure_api"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "obscure_api:magic_damage",
+  "operation": "ADDITION",
+  "values": {
+    "apotheosis:common": {
+      "min": 0.5,
+      "steps": 2,
+      "step": 0.25
+    },
+    "apotheosis:uncommon": {
+      "min": 1,
+      "steps": 3,
+      "step": 0.25
+    },
+    "apotheosis:rare": {
+      "min": 1.5,
+      "steps": 3,
+      "step": 0.5
+    },
+    "apotheosis:epic": {
+      "min": 2,
+      "steps": 4,
+      "step": 0.5
+    },
+    "apotheosis:mythic": {
+      "min": 2.5,
+      "steps": 5,
+      "step": 0.75
+    },
+    "apotheosis:ancient": {
+      "min": 3.0,
+      "steps": 5,
+      "step": 1
+    }
+  },
+  "types": [
+    "wand"
+  ]
+}

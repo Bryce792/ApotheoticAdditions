@@ -1,0 +1,44 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "irons_spellbooks:evocation_spell_power",
+  "operation": "MULTIPLY_BASE",
+  "values": {
+    "common": {
+      "min": 0.05,
+      "steps": 10,
+      "step": 0.01
+    },
+    "uncommon": {
+      "min": 0.15,
+      "steps": 12,
+      "step": 0.02
+    },
+    "rare": {
+      "min": 0.25,
+      "steps": 16,
+      "step": 0.03
+    },
+    "epic": {
+      "min": 0.25,
+      "steps": 18,
+      "step": 0.04
+    },
+    "mythic": {
+      "min": 0.25,
+      "steps": 20,
+      "step": 0.05
+    },
+    "ancient": {
+      "min": 0.25,
+      "steps": 25,
+      "step": 0.06
+    }
+  },
+  "types": [
+    "spellbook"
+  ]
+}

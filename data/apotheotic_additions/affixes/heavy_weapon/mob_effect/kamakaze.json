@@ -1,0 +1,32 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "born_in_chaos_v1"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "born_in_chaos_v1:detonation",
+	"target": "ATTACK_TARGET",
+	"values": {
+		"ancient": {
+			"duration": {
+				"min": 200,
+				"steps": 8,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 4000
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 40,
+				"steps": 5,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 3000
+		}
+	},
+	"types": [
+		"heavy_weapon"
+	]
+}

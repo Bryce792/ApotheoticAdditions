@@ -1,0 +1,63 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:resistance",
+	"target": "HURT_SELF",
+	"values": {
+		"apotheosis:uncommon": {
+			"duration": {
+				"min": 300,
+				"steps": 1,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"apotheosis:rare": {
+			"duration": {
+				"min": 400,
+				"steps": 2,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		},
+		"apotheosis:epic": {
+			"duration": {
+				"min": 500,
+				"steps": 4,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 400
+		},
+		"apotheosis:mythic": {
+			"duration": {
+				"min": 600,
+				"steps": 4,
+				"step": 50
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 8,
+				"step": 0.26
+			},
+			"cooldown": 400
+		},
+		"apotheosis:ancient": {
+			"duration": {
+				"min": 700,
+				"steps": 6,
+				"step": 60
+			},
+			"amplifier": 3,
+			"cooldown": 400
+		}
+	},
+	"types": [
+		"wand"
+	]
+}
