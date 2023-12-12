@@ -104,12 +104,83 @@
     "affix.apotheotic_additions:armor/attribute/artifact_armor.suffix": "of Time-Lost Protection",
 
     "comment_id": "/Affixes",
+    "affix.apotheotic_additions:wand/attribute/gaia": "Gaia",
+    "affix.apotheotic_additions:wand/attribute/gaia.suffix": "of Pixies",
+
+    "affix.apotheotic_additions:wand/attribute/magic_damage": "Enhanced",
+    "affix.apotheotic_additions:wand/attribute/magic_damage.suffix": "of Power",
+
+    "affix.apotheotic_additions:wand/attribute/xp": "Siphoning",
+    "affix.apotheotic_additions:wand/attribute/xp.suffix": "of Enchantment",
+
+    "affix.apotheotic_additions:wand/attribute/chanting": "Ritualistic",
+    "affix.apotheotic_additions:wand/attribute/chanting.suffix": "of Dark Rituals",
+    
+    "affix.apotheotic_additions:wand/mob_effect/menders": "Mender's",
+    "affix.apotheotic_additions:wand/mob_effect/menders.suffix": "of Blessed Life",
+
+    "affix.apotheotic_additions:wand/mob_effect/knowledge": "Darkcaster's",
+    "affix.apotheotic_additions:wand/mob_effect/knowledge.suffix": "of Forbidden Knowledge",
+
+    "affix.apotheotic_additions:wand/mob_effect/resistance": "Battlemage's",
+    "affix.apotheotic_additions:wand/mob_effect/resistance.suffix": "of Magical Shielding",
+
+    "affix.apotheotic_additions:wand/mob_effect/magnetic": "Magnetic",
+    "affix.apotheotic_additions:wand/mob_effect/magnetic.suffix": "of Magnetization",
+
+    "affix.apotheotic_additions:spellbook/attribute/power_blood": "Sanguine",
+    "affix.apotheotic_additions:spellbook/attribute/power_blood.suffix": "of The Sire",
+
+    "affix.apotheotic_additions:spellbook/attribute/power_ender": "Ender",
+    "affix.apotheotic_additions:spellbook/attribute/power_ender.suffix": "of The End",
+
+    "affix.apotheotic_additions:spellbook/attribute/power_evocation": "Exile's",
+    "affix.apotheotic_additions:spellbook/attribute/power_evocation.suffix": "of The Arch-Illager",
+
+    "affix.apotheotic_additions:spellbook/attribute/power_fire": "Nethermancer's",
+    "affix.apotheotic_additions:spellbook/attribute/power_fire.suffix": "of The Nether",
+
+    "affix.apotheotic_additions:spellbook/attribute/power_lightning": "Aethermancer's",
+    "affix.apotheotic_additions:spellbook/attribute/power_lightning.suffix": "of The Storm Eater",
+
+    "affix.apotheotic_additions:spellbook/attribute/power_nature": "Druid's",
+    "affix.apotheotic_additions:spellbook/attribute/power_nature.suffix": "of Feral Wilds",
+
+    "affix.apotheotic_additions:spellbook/attribute/summon": "Necromantic",
+    "affix.apotheotic_additions:spellbook/attribute/summon.suffix": "of The Summoner",
+
+    "affix.apotheotic_additions:spellbook/attribute/power_holy": "Holy",
+    "affix.apotheotic_additions:spellbook/attribute/power_holy.suffix": "of Radiance",
+
+    "affix.apotheotic_additions:spellbook/attribute/power_ice": "Cryomancer's",
+    "affix.apotheotic_additions:spellbook/attribute/power_ice.suffix": "of The Arctic",
+
+    "affix.apotheotic_additions:spellbook/mob_effect/menders": "Mender's",
+    "affix.apotheotic_additions:spellbook/mob_effect/menders.suffix": "of Blessed Life",
+
+    "affix.apotheotic_additions:spellbook/mob_effect/knowledge": "Darkcaster's",
+    "affix.apotheotic_additions:spellbook/mob_effect/knowledge.suffix": "of Forbidden Knowledge",
+
+    "affix.apotheotic_additions:spellbook/mob_effect/resistance": "Battlemage's",
+    "affix.apotheotic_additions:spellbook/mob_effect/resistance.suffix": "of Magical Shielding",
+
+    "affix.apotheotic_additions:spellbook/mob_effect/magnetic": "Magnetic",
+    "affix.apotheotic_additions:spellbook/mob_effect/magnetic.suffix": "of Magnetization",
 
     "affix.apotheotic_additions:heavy_weapon/mob_effect/chemical_x": "Mutated",
     "affix.apotheotic_additions:heavy_weapon/mob_effect/chemical_x.suffix": "of Sugar, Spice, and Everything Nice",
 
     "affix.apotheotic_additions:heavy_weapon/mob_effect/monstrous": "Monstrous",
     "affix.apotheotic_additions:heavy_weapon/mob_effect/monstrous.suffix": "of the Quaking Hellscape",
+
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/kamakaze": "Explosive",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/kamakaze.suffix": "of the Kamakaze",
+
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/cursed_flame": "Soul Eater's",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/cursed_flame.suffix": "of Cursed Flame",
+
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/fractured": "Fractured",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/fractured.suffix": "of Broken Bones",
 
     "affix.apotheotic_additions:ranged/attribute/crit_damage": "Shattering",
     "affix.apotheotic_additions:ranged/attribute/crit_damage.suffix": "of Overpowering",
@@ -182,7 +253,6 @@
 
     "affix.apotheotic_additions:sword/mob_effect/rage": "Barbarian's",
     "affix.apotheotic_additions:sword/mob_effect/rage.suffix": "of Rage",
-    
 
     "affix.apotheotic_additions:sword/mob_effect/black_flame": "Demons",
     "affix.apotheotic_additions:sword/mob_effect/black_flame.suffix": "of the Black Flame",
@@ -220,7 +290,10 @@
     "gem.apotheotic_additions:alchemy/horizonite.bonus.pickaxe": "Breaking Iron Ore has a %s%% chance to drop Raw Horizonite instead.",
     "gem.apotheotic_additions:alchemy/zanite.bonus.pickaxe": "Breaking Iron Ore has a %s%% chance to drop Zanite Gemstones instead.",
     "gem.apotheotic_additions:alchemy/purity.pickaxe": "Breaking Stone/Cobblestone has a %s%% chance to drop Holystone instead.",
+    "gem.apotheotic_additions:alchemy/mystic.pickaxe": "Breaking Silver Ore has a %s%% chance to drop Arcane Essence instead.",
     "gem.apotheotic_additions:alchemy/decay.pickaxe": "Breaking Stone/Cobblestone has a %s%% chance to drop Depthrock instead.",
+    "gem.apotheotic_additions:alchemy/rat_chef.pickaxe": "Breaking Lead Ore has a %s%% chance to drop Cheese instead.",
+    "gem.apotheotic_additions:alchemy/felfire.pickaxe": "Breaking Diamond Ore has a %s%% chance to drop a Piece of Dark Metal instead.",
 
     "comment_id": "/Gems",
 
@@ -234,6 +307,7 @@
     "item.apotheosis.gem.apotheotic_additions:modded/master_crafter": "Jewel of the Master Crafter",
     "item.apotheosis.gem.apotheotic_additions:modded/uranium": "Jewel of Uranium Fever",
     "item.apotheosis.gem.apotheotic_additions:modded/engineer": "Jewel of the Engineer",
+    "item.apotheosis.gem.apotheotic_additions:modded/rat_chef": "Jewel of the Rat Chef",
     "item.apotheosis.gem.apotheotic_additions:blue_skies/blue_skies": "Jewel of the Blue Skies",
     "item.apotheosis.gem.apotheotic_additions:blue_skies/horizonite_alchemist": "Jewel of the Horizonite Alchemist",
     "item.apotheosis.gem.apotheotic_additions:blue_skies/ventium_alchemist": "Jewel of the Ventium Alchemist",    
@@ -243,13 +317,36 @@
     "item.apotheosis.gem.apotheotic_additions:modded/corrupted": "Jewel of the Black Empire",
     "item.apotheosis.gem.apotheotic_additions:modded/dracula": "Jewel of the Vampire Lord",
     "item.apotheosis.gem.apotheotic_additions:modded/ars_mana": "Source Jewel",
+    "item.apotheosis.gem.apotheotic_additions:modded/felfire": "Felfire Jewel",
+    "item.apotheosis.gem.apotheotic_additions:modded/bloodcaster": "Bloodcaster's Jewel",
+    "item.apotheosis.gem.apotheotic_additions:modded/mystic": "Mystic's Jewel",
     "item.apotheosis.gem.apotheotic_additions:modded/cataclysm": "Jewel of the Cataclysm",
     "item.apotheosis.gem.apotheotic_additions:modded/safari": "Jewel of the Safari",
     "item.apotheosis.gem.apotheotic_additions:modded/armor": "Armored Jewel",
     "item.apotheosis.gem.apotheotic_additions:modded/soultwisted": "Soultwisted Jewel",
 
     "comment_id": "/Compat",
-
+    "gem_class.wand": "Wands",
+    "gem_class.spellbook": "Spellbooks",
+    "text.apotheosis.category.wand.plural": "Wands",
     "attribute.name.skilltree.armor_per_chestplate_enchantment": "Armor per Chestplate Enchantment",
-    "attribute.name.skilltree.maximum_life_per_enchantment": "Max Health per Enchantment"
+    "attribute.name.skilltree.maximum_life_per_enchantment": "Max Health per Enchantment",
+    "effect.born_in_chaos_v1.rotten_smell.desc": "Summons hostile Corpse Flies at random intervals.",
+    "effect.born_in_chaos_v1.bone_fracture.desc": "Applies Weakness and Slowness.",
+    "effect.born_in_chaos_v1.cursed_mark.desc": "Summons Scarlet Persecutors on expiration.",
+    "effect.born_in_chaos_v1.detonation.desc": "Target will explode on expiration.",
+    "effect.born_in_chaos_v1.furious_rampage.desc": "Applies Strength and Speed.",
+    "effect.born_in_chaos_v1.medium_rampage.desc": "Applies Strength and Speed.",
+    "effect.born_in_chaos_v1.strong_rampage.desc": "Applies Strength and Speed.",
+    "effect.born_in_chaos_v1.rampant_rampage.desc": "Applies Strength and Speed.",
+    "effect.born_in_chaos_v1.light_rampage.desc": "Applies Strength and Speed.",
+    "effect.born_in_chaos_v1.infernal_flame.desc": "Causes Fire damage that cannot be removed by water.",
+    "effect.born_in_chaos_v1.stun.desc": "Applies very high Weakness and Slowness.",
+    "effect.rats.plague.desc": "Spreads to hit targets, preventing health regeneration and turning rats hostile.",
+    "effect.alexscaves.irradiated.desc": "Prevents health regenration and makes you glow.",
+    "effect.aether.inebriation.desc": "Deals light damage, and causes you to randomly move.",
+    "effect.undergarden.virulence.desc": "Deals medium nonlethal damage, and turns your hearts purple.",
+    "effect.cataclysm.abyssal_curse.desc": "Deals light damage, and turns your hearts purple.",
+    "effect.cataclysm.blessing_of_amethyst.desc": "Grants immunity to Darkness, Abyssal Burn, and Abyssal Fear.",
+    "effect.immersiveengineering.flammable.desc": "Increases fire damage taken from fire damage over time."
 }
