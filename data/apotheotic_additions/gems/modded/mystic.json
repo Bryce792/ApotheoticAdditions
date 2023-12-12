@@ -1,0 +1,92 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+	"weight": 3,
+	"quality": 1.5,
+	"dimensions": [],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "wand",
+				"types": [
+					"wand"
+				]
+			},
+			"mob_effect": "eidolon:reinforced",
+			"target": "attack_self",
+			"values": {
+				"epic": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"mythic": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"ancient": {
+					"duration": 200,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 300,
+					"amplifier": 0,
+					"cooldown": 400
+				}
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "spellbook",
+				"types": [
+					"spellbook"
+				]
+			},
+			"attribute": "irons_spellbooks:max_mana",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 50,
+				"epic": 75,
+				"mythic": 100,
+				"ancient": 125,
+				"apotheotic_additions:artifact": 150
+			}
+		},
+		{
+			"type": "apotheosis:drop_transform",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"blocks": "forge:ores/silver",
+			"inputs": {
+				"tag": "forge:raw_materials/silver"
+			},
+			"output": {
+				"item": "irons_spellbooks:arcane_essence"
+			},
+			"values": {
+				"rare": 0.10,
+				"epic": 0.20,
+				"mythic": 0.30,
+				"ancient": 0.40,
+				"apotheotic_additions:artifact": 0.50
+			},
+			"desc": "gem.apotheotic_additions:alchemy/mystic.pickaxe"
+		}
+	]
+}

@@ -1,0 +1,103 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+	"weight": 3,
+	"quality": 1.5,
+	"dimensions": [],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "wand",
+				"types": [
+					"wand"
+				]
+			},
+			"mob_effect": "irons_spellbooks:vigor",
+			"target": "attack_self",
+			"values": {
+				"epic": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"mythic": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"ancient": {
+					"duration": 200,
+					"amplifier": 0,
+					"cooldown": 400
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 300,
+					"amplifier": 0,
+					"cooldown": 400
+				}
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "spellbook",
+				"types": [
+					"spellbook"
+				]
+			},
+			"attribute": "irons_spellbooks:blood_spell_power",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 0.5,
+				"epic": 1.0,
+				"mythic": 1.5,
+				"ancient": 2.0,
+				"apotheotic_additions:artifact": 2.5
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings", "boots"
+				]
+			},
+			"modifiers": [{
+					"attribute": "irons_spellbooks:blood_magic_resist",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.15,
+						"rare": 0.25,
+						"epic": 0.35,
+						"mythic": 0.45,
+						"ancient": 0.5,
+						"apotheotic_additions:artifact": 0.6
+					}
+				},
+				{
+					"attribute": "irons_spellbooks:holy_magic_resist",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.15,
+						"rare": -0.25,
+						"epic": -0.35,
+						"mythic": -0.45,
+						"ancient": -0.5,
+						"apotheotic_additions:artifact": -0.6
+					}
+				}
+			]
+		}
+	]
+}

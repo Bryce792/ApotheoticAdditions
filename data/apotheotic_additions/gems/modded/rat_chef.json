@@ -1,0 +1,274 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+	"weight": 3,
+	"quality": 1.5,
+	"dimensions": [],
+	"unique": true,
+	"min_rarity": "uncommon",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "wand",
+				"types": [
+					"wand"
+				]
+			},
+			"mob_effect": "rats:synesthesia",
+			"target": "attack_self",
+			"values": {
+				"uncommon": {
+					"duration": 30,
+					"amplifier": 0,
+					"cooldown": 3000
+				},
+				"rare": {
+					"duration": 30,
+					"amplifier": 0,
+					"cooldown": 1500
+				},
+				"epic": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"mythic": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"ancient": {
+					"duration": 140,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 180,
+					"amplifier": 1,
+					"cooldown": 1000
+				}
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "rats:plague",
+			"target": "attack_target",
+			"values": {
+				"uncommon": {
+					"duration": 300,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"rare": {
+					"duration": 1200,
+					"amplifier": 0,
+					"cooldown": 500
+				},
+				"epic": {
+					"duration": 1800,
+					"amplifier": 0,
+					"cooldown": 450
+				},
+				"mythic": {
+					"duration": 2400,
+					"amplifier": 1,
+					"cooldown": 425
+				},
+				"ancient": {
+					"duration": 3000,
+					"amplifier": 1,
+					"cooldown": 400
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 3600,
+					"amplifier": 2,
+					"cooldown": 400
+				}
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "boots",
+				"types": [
+					"boots"
+				]
+			},
+			"modifiers": [{
+					"attribute": "forge:step_height",
+					"operation": "ADDITION",
+					"values": {
+						"uncommon": 2,
+						"rare": 3,
+						"epic": 4,
+						"mythic": 5,
+						"ancient": 6,
+						"apotheotic_additions:artifact": 7
+					}
+				},
+				{
+					"attribute": "forge:block_reach",
+					"operation": "ADDITION",
+					"values": {
+						"uncommon": -0.5,
+						"rare": -1,
+						"epic": -1.5,
+						"mythic": -2,
+						"ancient": -2.5,
+						"apotheotic_additions:artifact": -3
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "eidolon:magic_power",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"uncommon": 0.15,
+				"rare": 0.25,
+				"epic": 0.5,
+				"mythic": 0.75,
+				"ancient": 1.0,
+				"apotheotic_additions:artifact": 1.5
+			}
+		},
+		{
+			"type": "apotheosis:all_stats",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"operation": "multiply_total",
+			"values": {
+				"uncommon": 0.005,
+				"rare": 0.01,
+				"epic": 0.02,
+				"mythic": 0.03,
+				"ancient": 0.04,
+				"apotheotic_additions:artifact": 0.05
+			},
+            "attributes": [
+                "minecraft:generic.max_health",
+                "minecraft:generic.knockback_resistance",
+                "minecraft:generic.movement_speed",
+                "minecraft:generic.attack_damage",
+                "minecraft:generic.attack_knockback",
+                "minecraft:generic.attack_speed",
+                "minecraft:generic.armor",
+                "minecraft:generic.armor_toughness",
+                "minecraft:generic.luck",
+                "attributeslib:armor_pierce",
+                "attributeslib:armor_shred",
+                "attributeslib:arrow_damage",
+                "attributeslib:arrow_velocity",
+                "attributeslib:cold_damage",
+                "attributeslib:crit_chance",
+                "attributeslib:crit_damage",
+                "attributeslib:current_hp_damage",
+                "attributeslib:dodge_chance",
+                "attributeslib:draw_speed",
+                "attributeslib:experience_gained",
+                "attributeslib:fire_damage",
+                "attributeslib:ghost_health",
+                "attributeslib:healing_received",
+                "attributeslib:life_steal",
+                "attributeslib:mining_speed",
+                "attributeslib:overheal",
+                "attributeslib:prot_pierce",
+                "attributeslib:prot_shred",
+                "attributeslib:elytra_flight",
+                "attributeslib:creative_flight",
+                "forge:swim_speed",
+                "forge:nametag_distance",
+                "forge:entity_gravity",
+                "forge:block_reach",
+                "forge:entity_reach",
+                "forge:step_height_addition"
+            ]
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "leggings",
+				"types": [
+					"leggings"
+				]
+			},
+			"modifiers": [{
+					"attribute": "eidolon:chanting_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.05,
+						"rare": 0.1,
+						"epic": 0.2,
+						"mythic": 0.3,
+						"ancient": 0.4,
+						"apotheotic_additions:artifact": 0.5
+					}
+				},
+				{
+					"attribute": "eidolon:magic_power",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.05,
+						"rare": 0.1,
+						"epic": 0.2,
+						"mythic": 0.3,
+						"ancient": 0.4,
+						"apotheotic_additions:artifact": 0.5
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:drop_transform",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"blocks": "forge:ores/lead",
+			"inputs": {
+				"tag": "forge:raw_materials/lead"
+			},
+			"output": {
+				"item": "rats:cheese"
+			},
+			"values": {
+				"uncommon": 0.05,
+				"rare": 0.15,
+				"epic": 0.30,
+				"mythic": 0.45,
+				"ancient": 0.60,
+				"apotheotic_additions:artifact": 0.75
+			},
+			"desc": "gem.apotheotic_additions:alchemy/rat_chef.pickaxe"
+		}
+	]
+}

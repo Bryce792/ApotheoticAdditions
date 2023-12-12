@@ -156,6 +156,24 @@
 		{
 			"type": "apotheosis:attribute",
 			"gem_class": {
+				"key": "wand",
+				"types": [
+					"wand"
+				]
+			},
+			"attribute": "eidolon:magic_power",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"rare": 0.1,
+				"epic": 0.2,
+				"mythic": 0.3,
+				"ancient": 0.4,
+				"apotheotic_additions:artifact": 0.5
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
 				"key": "helmet",
 				"types": [
 					"helmet"
