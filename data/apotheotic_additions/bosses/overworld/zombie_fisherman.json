@@ -3,8 +3,8 @@
 		"type": "forge:mod_loaded",
 		"modid": "born_in_chaos_v1"
 	}],
-	"entity": "born_in_chaos_v1:zombie_clown",
-	"weight": 90,
+	"entity": "born_in_chaos_v1:zombie_fisherman",
+	"weight": 75,
 	"quality": 0,
 	"size": {
 		"width": 1,
@@ -30,7 +30,7 @@
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 20,
+						"min": 30,
 						"steps": 20,
 						"step": 2
 					}
