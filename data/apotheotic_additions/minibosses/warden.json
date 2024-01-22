@@ -1,24 +1,19 @@
 {
-	"conditions": [{
-		"type": "forge:mod_loaded",
-		"modid": "twilightforest"
-	}],
-	"weight": 25,
+	"weight": 15,
 	"quality": 0,
-	"name": "Ancient Minotaur",
-	"chance": 0.02,
+	"name": "Darktouched Warden",
+	"chance": 0.09,
 	"entities": [
-		"twilightforest:minotaur"
+		"minecraft:warden"
 	],
 	"valid_gear_sets": [
-		"#twilight"
+		"#the_end"
 	],
 	"dimensions": [
-		"twilightforest:twilight_forest"
+		"minecraft:overworld"
 	],
 	"affixed": true,
-	"nbt": {
-	},
+	"nbt": {},
 	"stats": {
 		"enchant_chance": 0.25,
 		"enchantment_levels": [12, 8, 20, 14],
@@ -27,9 +22,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 50,
+					"min": 300,
 					"steps": 50,
-					"step": 2
+					"step": 3
 				}
 			},
 			{
@@ -60,7 +55,7 @@
 	"exclusions": [{
 			"type": "apotheosis:spawn_type",
 			"spawn_types": [
-				"spawn_egg", "mob_summoned", "conversion"
+				"spawn_egg", "spawner", "mob_summoned", "conversion"
 			]
 		}
 	]

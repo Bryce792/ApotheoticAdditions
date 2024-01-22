@@ -1,20 +1,20 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "twilightforest"
+		"modid": "undergarden"
 	}],
 	"weight": 25,
 	"quality": 0,
-	"name": "Ancient Minotaur",
+	"name": "Darktouched Nargoyle",
 	"chance": 0.02,
 	"entities": [
-		"twilightforest:minotaur"
+		"undergarden:nargoyle"
 	],
 	"valid_gear_sets": [
-		"#twilight"
+		"#undergarden"
 	],
 	"dimensions": [
-		"twilightforest:twilight_forest"
+		"undergarden:undergarden"
 	],
 	"affixed": true,
 	"nbt": {

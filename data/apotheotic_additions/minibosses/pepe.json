@@ -1,22 +1,22 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "twilightforest"
+		"modid": "alexsmobs"
 	}],
-	"weight": 25,
+	"weight": 15,
 	"quality": 0,
-	"name": "Ancient Minotaur",
-	"chance": 0.02,
+	"name": "Meep",
+	"chance": 0.05,
 	"entities": [
-		"twilightforest:minotaur"
+		"alexsmobs:warped_toad"
 	],
 	"valid_gear_sets": [
-		"#twilight"
+		"#the_nether"
 	],
 	"dimensions": [
-		"twilightforest:twilight_forest"
+		"minecraft:the_nether"
 	],
-	"affixed": true,
+	"affixed": false,
 	"nbt": {
 	},
 	"stats": {
@@ -27,8 +27,8 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 50,
-					"steps": 50,
+					"min": 10,
+					"steps": 10,
 					"step": 2
 				}
 			},
@@ -45,7 +45,7 @@
 				"attribute": "minecraft:generic.attack_damage",
 				"operation": "MULTIPLY_BASE",
 				"value": {
-					"min": 0.70,
+					"min": 0.30,
 					"steps": 4,
 					"step": 0.05
 				}
@@ -60,7 +60,7 @@
 	"exclusions": [{
 			"type": "apotheosis:spawn_type",
 			"spawn_types": [
-				"spawn_egg", "mob_summoned", "conversion"
+				"spawn_egg", "spawner", "mob_summoned", "conversion"
 			]
 		}
 	]

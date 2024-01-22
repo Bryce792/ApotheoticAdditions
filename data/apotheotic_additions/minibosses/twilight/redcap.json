@@ -5,10 +5,10 @@
 	}],
 	"weight": 25,
 	"quality": 0,
-	"name": "Ancient Minotaur",
-	"chance": 0.02,
+	"name": "Darktouched Redcap",
+	"chance": 0.06,
 	"entities": [
-		"twilightforest:minotaur"
+		"twilightforest:redcap"
 	],
 	"valid_gear_sets": [
 		"#twilight"

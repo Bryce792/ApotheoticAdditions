@@ -10,7 +10,7 @@
 	"weight": 90,
 	"quality": 0,
 	"name": "Dark Rider",
-	"chance": 0.008,
+	"chance": 0.03,
 	"entities": [
 		"undergarden:rotling",
 		"undergarden:rotwalker"

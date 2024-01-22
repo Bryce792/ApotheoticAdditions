@@ -4,11 +4,11 @@
 		"modid": "twilightforest"
 	}],
 	"weight": 25,
-	"quality": 0,
-	"name": "Ancient Minotaur",
-	"chance": 0.02,
+	"quality": 2,
+	"name": "Darktouched Snow Queen",
+	"chance": 0.1,
 	"entities": [
-		"twilightforest:minotaur"
+		"twilightforest:snow_queen"
 	],
 	"valid_gear_sets": [
 		"#twilight"
@@ -27,9 +27,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 50,
-					"steps": 50,
-					"step": 2
+					"min": 350,
+					"steps": 75,
+					"step": 4
 				}
 			},
 			{

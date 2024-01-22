@@ -6,7 +6,7 @@
 	"weight": 5,
 	"quality": 0,
 	"name": "Grand Mutant",
-	"chance": 0.1,
+	"chance": 0.05,
 	"entities": [
 		"mutantmonsters:mutant_zombie",
 		"mutantmonsters:mutant_creeper",
@@ -19,7 +19,7 @@
 	"dimensions": [
 		"minecraft:overworld"
 	],
-	"affixed": false,
+	"affixed": true,
 	"nbt": {
 	},
 	"stats": {

@@ -3,10 +3,10 @@
 		"type": "forge:mod_loaded",
 		"modid": "born_in_chaos_v1"
 	}],
-	"weight": 5,
+	"weight": 15,
 	"quality": 0,
 	"name": "Pennywise",
-	"chance": 0.01,
+	"chance": 0.09,
 	"entities": [
 		"born_in_chaos_v1:zombie_clown"
 	],
@@ -16,9 +16,8 @@
 	"dimensions": [
 		"minecraft:overworld"
 	],
-	"affixed": false,
-	"nbt": {
-	},
+	"affixed": true,
+	"nbt": {},
 	"stats": {
 		"enchant_chance": 0.25,
 		"enchantment_levels": [12, 8, 20, 14],
@@ -27,9 +26,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 10,
-					"steps": 10,
-					"step": 2
+					"min": 50,
+					"steps": 50,
+					"step": 3
 				}
 			},
 			{

@@ -1,20 +1,16 @@
 {
-	"conditions": [{
-		"type": "forge:mod_loaded",
-		"modid": "twilightforest"
-	}],
-	"weight": 25,
+	"weight": 70,
 	"quality": 0,
-	"name": "Ancient Minotaur",
-	"chance": 0.02,
+	"name": "Sunken Knight",
+	"chance": 0.008,
 	"entities": [
-		"twilightforest:minotaur"
+		"minecraft:drowned"
 	],
 	"valid_gear_sets": [
-		"#twilight"
+		"#overworld"
 	],
 	"dimensions": [
-		"twilightforest:twilight_forest"
+		"minecraft:overworld"
 	],
 	"affixed": true,
 	"nbt": {
@@ -27,8 +23,8 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 50,
-					"steps": 50,
+					"min": 20,
+					"steps": 30,
 					"step": 2
 				}
 			},
@@ -45,7 +41,7 @@
 				"attribute": "minecraft:generic.attack_damage",
 				"operation": "MULTIPLY_BASE",
 				"value": {
-					"min": 0.70,
+					"min": 0.45,
 					"steps": 4,
 					"step": 0.05
 				}
@@ -57,10 +53,26 @@
 			}
 		]
 	},
+	"mount": {
+		"entity": "minecraft:guardian",
+		"nbt": {
+			"Tame": true,
+			"Attributes": [{
+				"attribute": "minecraft:generic.max_health",
+				"operation": "ADDITION",
+				"value": {
+					"min": 20,
+					"steps": 30,
+					"step": 2
+				}
+			}
+			]
+		}
+	},
 	"exclusions": [{
 			"type": "apotheosis:spawn_type",
 			"spawn_types": [
-				"spawn_egg", "mob_summoned", "conversion"
+				"spawn_egg", "spawner", "mob_summoned", "conversion"
 			]
 		}
 	]

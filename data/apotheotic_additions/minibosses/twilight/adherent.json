@@ -5,10 +5,10 @@
 	}],
 	"weight": 25,
 	"quality": 0,
-	"name": "Ancient Minotaur",
-	"chance": 0.02,
+	"name": "Darktouched Adherent",
+	"chance": 0.06,
 	"entities": [
-		"twilightforest:minotaur"
+		"twilightforest:adherent"
 	],
 	"valid_gear_sets": [
 		"#twilight"
@@ -27,9 +27,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 50,
-					"steps": 50,
-					"step": 2
+					"min": 75,
+					"steps": 75,
+					"step": 3
 				}
 			},
 			{

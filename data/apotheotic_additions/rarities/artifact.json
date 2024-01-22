@@ -2,7 +2,7 @@
     "ordinal": 6,
     "color": "#ec996b",
     "material": "apotheotic_additions:artifact_material",
-	"weight": 50,
+	"weight": 5,
 	"quality": 15,
 	"rules": [{
 			"type": "stat",
