@@ -1,0 +1,122 @@
+{
+  "conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "silentgear"
+	}],
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "apotheosis:common_material"
+    }
+  },
+  "name": {
+    "translate": "material.apotheotic_additions.scrap_metal"
+  },
+  "stats": {
+    "main": {
+      "durability": 365.0,
+      "armor_durability": 18.0,
+      "enchantment_value": 16.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 10.0,
+      "melee_damage": 1.0,
+      "magic_damage": 4.0,
+      "attack_speed": 0.2,
+      "armor": 18.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 7.0,
+      "armor/leggings": 5.0,
+      "armor/boots": 3.0,
+      "armor_toughness": 1.0,
+      "magic_armor": 4.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": 0.2,
+      "rarity": 20.0,
+      "charging_value": 0.8
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.2
+      },
+      "ranged_damage": {
+        "mul2": 0.1
+      },
+      "rarity": 30.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:soft",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#4c4646"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#4c4646"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#4c4646"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#4c4646"
+      }
+    ]
+  }
+}

@@ -44,6 +44,11 @@
 					"duration": 300,
 					"amplifier": 3,
 					"cooldown": 400
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 400,
+					"amplifier": 3,
+					"cooldown": 400
 				}
 			}
 		},
@@ -80,6 +85,11 @@
 				},
 				"apotheotic_additions:artifact": {
 					"duration": 300,
+					"amplifier": 3,
+					"cooldown": 400
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 400,
 					"amplifier": 3,
 					"cooldown": 400
 				}
@@ -122,6 +132,11 @@
 					"duration": 750,
 					"amplifier": 3,
 					"cooldown": 40
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 1000,
+					"amplifier": 3,
+					"cooldown": 20
 				}
 			}
 		}

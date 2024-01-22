@@ -1,0 +1,145 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+	"weight": 7,
+	"quality": 1.5,
+	"dimensions": ["aether:the_aether", "twilightforest:twilight_forest"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+		"type": "apotheosis:drop_transform",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"blocks": "forge:ores/lapis",
+		"inputs": {
+			"item": "minecraft:lapis_lazuli"
+		},
+		"output": {
+			"item": "aether:ambrosium_shard"
+		},
+		"values": {
+			"rare": 0.05,
+			"epic": 0.1,
+			"mythic": 0.15,
+			"ancient": 0.20,
+			"apotheotic_additions:artifact": 0.25,
+			"apotheotic_additions:heirloom": 0.3,
+			"apotheotic_additions:esoteric": 0.35
+		},
+		"desc": "gem.apotheotic_additions:alchemy/wildheart.bonus.pickaxe"
+	},
+	{
+		"type": "apotheosis:twilight_treasure_goblin",
+		"gem_class": {
+			"key": "curios_armor",
+			"types": [
+			    "curios:body", "curios:head", "curios:back", "curios:feet", "curios:hands"
+			]
+		},
+		"values": {
+			"rare": {
+				"chance": 0.001,
+				"cooldown": 4800
+			},
+			"epic": {
+				"chance": 0.002,
+				"cooldown": 4800
+			},
+			"mythic": {
+				"chance": 0.003,
+				"cooldown": 4800
+			},
+			"ancient": {
+				"chance": 0.004,
+				"cooldown": 4800
+			},
+			"apotheotic_additions:artifact": {
+				"chance": 0.005,
+				"cooldown": 4800
+			},
+			"apotheotic_additions:heirloom": {
+				"chance": 0.006,
+				"cooldown": 4800
+			},
+			"apotheotic_additions:esoteric": {
+				"chance": 0.007,
+				"cooldown": 4800
+			}
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "curios_jewelry",
+			"types": [
+				"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt"
+			]
+		},
+		"attribute": "attributeslib:experience_gained",
+		"operation": "MULTIPLY_BASE",
+		"values": {
+			"rare": 0.01,
+			"epic": 0.02,
+			"mythic": 0.03,
+			"ancient": 0.04,
+			"apotheotic_additions:artifact": 0.05,
+			"apotheotic_additions:heirloom": 0.06,
+			"apotheotic_additions:esoteric": 0.07
+		}
+	},
+	{
+		"type": "apotheosis:twilight_fortification",
+		"gem_class": {
+			"key": "curios_aether",
+			"types": [
+				"curios:aether_gloves", "curios:aether_accessory", "curios:aether_shield", "curios:aether_cape", "curios:aether_pendant", "curios:aether_ring"
+			]
+		},
+		"values": {
+			"rare": {
+				"chance": 0.001,
+				"cooldown": 4800
+			},
+			"epic": {
+				"chance": 0.002,
+				"cooldown": 4800
+			},
+			"mythic": {
+				"chance": 0.003,
+				"cooldown": 4800
+			},
+			"ancient": {
+				"chance": 0.004,
+				"cooldown": 4800
+			},
+			"apotheotic_additions:artifact": {
+				"chance": 0.005,
+				"cooldown": 4800
+			},
+			"apotheotic_additions:heirloom": {
+				"chance": 0.006,
+				"cooldown": 4800
+			},
+			"apotheotic_additions:esoteric": {
+				"chance": 0.007,
+				"cooldown": 4800
+			}
+		}
+	}
+]
+}

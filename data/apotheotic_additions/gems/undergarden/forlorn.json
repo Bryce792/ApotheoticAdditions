@@ -1,0 +1,203 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+	"weight": 7,
+	"quality": 1.5,
+	"dimensions": ["undergarden:undergarden", "minecraft:overworld"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "alexscaves:darkness_incarnate",
+			"target": "attack_self",
+			"values": {
+				"uncommon": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"rare": {
+					"duration": 150,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"epic": {
+					"duration": 200,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"mythic": {
+					"duration": 250,
+					"amplifier": 1,
+					"cooldown": 100
+				},
+				"ancient": {
+					"duration": 300,
+					"amplifier": 1,
+					"cooldown": 100
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 400,
+					"amplifier": 2,
+					"cooldown": 100
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 500,
+					"amplifier": 2,
+					"cooldown": 100
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 1000,
+					"amplifier": 2,
+					"cooldown": 100
+				}
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "spellbook",
+				"types": [
+					"spellbook"
+				]
+			},
+			"attribute": "irons_spellbooks:nature_spell_power",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.25,
+				"rare": 0.5,
+				"epic": 1.0,
+				"mythic": 1.5,
+				"ancient": 2.0,
+				"apotheotic_additions:artifact": 2.5,
+				"apotheotic_additions:heirloom": 3,
+				"apotheotic_additions:esoteric": 3.5
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings", "boots"
+				]
+			},
+			"modifiers": [{
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.05,
+						"rare": 0.1,
+						"epic": 0.15,
+						"mythic": 0.2,
+						"ancient": 0.25,
+						"apotheotic_additions:artifact": 0.3,
+						"apotheotic_additions:heirloom": 0.35,
+						"apotheotic_additions:esoteric": 0.4
+					}
+				},
+				{
+					"attribute": "irons_spellbooks:ender_magic_resist",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.05,
+						"rare": -0.1,
+						"epic": -0.15,
+						"mythic": -0.20,
+						"ancient": -0.25,
+						"apotheotic_additions:artifact": -0.3,
+						"apotheotic_additions:heirloom": -0.35,
+						"apotheotic_additions:esoteric": -0.4
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_jewelry",
+				"types": [
+					"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt"
+				]
+			},
+			"attribute": "minecraft:generic.luck",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.01,
+				"epic": 0.02,
+				"mythic": 0.03,
+				"ancient": 0.04,
+				"apotheotic_additions:artifact": 0.05,
+				"apotheotic_additions:heirloom": 0.06,
+				"apotheotic_additions:esoteric": 0.07
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_armor",
+				"types": [
+					"curios:body", "curios:head", "curios:back", "curios:feet", "curios:hands"
+				]
+			},
+			"attribute": "minecraft:generic.attack_speed",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.01,
+				"epic": 0.02,
+				"mythic": 0.03,
+				"ancient": 0.04,
+				"apotheotic_additions:artifact": 0.05,
+				"apotheotic_additions:heirloom": 0.06,
+				"apotheotic_additions:esoteric": 0.07
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_aether",
+				"types": [
+					"curios:aether_gloves", "curios:aether_accessory", "curios:aether_shield", "curios:aether_cape", "curios:aether_pendant", "curios:aether_ring"
+				]
+			},
+			"attribute": "attributeslib:prot_pierce",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.01,
+				"epic": 0.02,
+				"mythic": 0.03,
+				"ancient": 0.04,
+				"apotheotic_additions:artifact": 0.05,
+				"apotheotic_additions:heirloom": 0.06,
+				"apotheotic_additions:esoteric": 0.07
+			}
+		}
+	]
+}

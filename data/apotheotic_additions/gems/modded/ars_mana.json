@@ -23,7 +23,8 @@
 				"epic": 100,
 				"mythic": 125,
 				"ancient": 150,
-				"apotheotic_additions:artifact": 200
+				"apotheotic_additions:artifact": 200,
+				"apotheotic_additions:heirloom": 300
 			}
 		},
 		{
@@ -43,7 +44,8 @@
 				"epic": 2.0,
 				"mythic": 2.5,
 				"ancient": 3.0,
-				"apotheotic_additions:artifact": 3.5
+				"apotheotic_additions:artifact": 3.5,
+				"apotheotic_additions:heirloom": 4
 			}
 		},
 		{
@@ -63,7 +65,8 @@
 				"epic": 0.20,
 				"mythic": 0.25,
 				"ancient": 0.30,
-				"apotheotic_additions:artifact": 0.35
+				"apotheotic_additions:artifact": 0.35,
+				"apotheotic_additions:heirloom": 0.4
 			}
 		}
 	]

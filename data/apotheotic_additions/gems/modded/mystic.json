@@ -43,6 +43,11 @@
 					"duration": 300,
 					"amplifier": 0,
 					"cooldown": 400
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 400,
+					"amplifier": 0,
+					"cooldown": 400
 				}
 			}
 		},
@@ -61,7 +66,8 @@
 				"epic": 75,
 				"mythic": 100,
 				"ancient": 125,
-				"apotheotic_additions:artifact": 150
+				"apotheotic_additions:artifact": 150,
+				"apotheotic_additions:heirloom": 200
 			}
 		},
 		{
@@ -84,7 +90,8 @@
 				"epic": 0.20,
 				"mythic": 0.30,
 				"ancient": 0.40,
-				"apotheotic_additions:artifact": 0.50
+				"apotheotic_additions:artifact": 0.50,
+				"apotheotic_additions:heirloom": 0.6
 			},
 			"desc": "gem.apotheotic_additions:alchemy/mystic.pickaxe"
 		}

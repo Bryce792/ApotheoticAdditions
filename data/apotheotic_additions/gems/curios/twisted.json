@@ -1,0 +1,94 @@
+{
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"weight": 3,
+	"quality": 1.5,
+	"dimensions": [],
+	"unique": true,
+	"min_rarity": "uncommon",
+	"bonuses": [		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "curios_armor",
+				"types": [
+					"curios:body", "curios:head", "curios:back", "curios:feet", "curios:hands"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "ADDITION",
+					"values": {
+						"uncommon": 0.5,
+						"rare": 1,
+						"epic": 1.5,
+						"mythic": 2,
+						"ancient": 2.5,
+						"apotheotic_additions:artifact": 3,
+						"apotheotic_additions:heirloom": 3.5,
+						"apotheotic_additions:esoteric": 4
+					}
+				},
+				{
+					"attribute": "minecraft:generic.armor",
+					"operation": "ADDITION",
+					"values": {
+						"uncommon": -0.5,
+						"rare": -1,
+						"epic": -1.5,
+						"mythic": -2,
+						"ancient": -2.5,
+						"apotheotic_additions:artifact": -3,
+						"apotheotic_additions:heirloom": -3.5,
+						"apotheotic_additions:esoteric": -4
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "curios_jewelry",
+				"types": [
+					"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.01,
+						"rare": 0.02,
+						"epic": 0.03,
+						"mythic": 0.04,
+						"ancient": 0.05,
+						"apotheotic_additions:artifact": 0.06,
+						"apotheotic_additions:heirloom": 0.07,
+						"apotheotic_additions:esoteric": 0.08
+					}
+				},
+				{
+					"attribute": "minecraft:generic.flying_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.01,
+						"rare": -0.02,
+						"epic": -0.03,
+						"mythic": -0.04,
+						"ancient": -0.05,
+						"apotheotic_additions:artifact": -0.06,
+						"apotheotic_additions:heirloom": -0.07,
+						"apotheotic_additions:esoteric": -0.08
+					}
+				}
+			]
+		}
+	]
+}

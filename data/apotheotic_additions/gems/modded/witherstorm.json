@@ -25,7 +25,8 @@
 				"epic": 1,
 				"mythic": 2,
 				"ancient": 3,
-				"apotheotic_additions:artifact": 4
+				"apotheotic_additions:artifact": 4,
+				"apotheotic_additions:heirloom": 4
 			}
 		},
 		{
@@ -46,7 +47,8 @@
 						"epic": 0.35,
 						"mythic": 0.45,
 						"ancient": 0.5,
-						"apotheotic_additions:artifact": 0.6
+						"apotheotic_additions:artifact": 0.6,
+						"apotheotic_additions:heirloom": 0.7
 					}
 				},
 				{
@@ -58,7 +60,8 @@
 						"epic": -0.35,
 						"mythic": -0.45,
 						"ancient": -0.5,
-						"apotheotic_additions:artifact": -0.6
+						"apotheotic_additions:artifact": -0.6,
+						"apotheotic_additions:heirloom": -0.7
 					}
 				}
 			]
@@ -81,7 +84,8 @@
 						"epic": 0.35,
 						"mythic": 0.45,
 						"ancient": 0.5,
-						"apotheotic_additions:artifact": 0.6
+						"apotheotic_additions:artifact": 0.6,
+						"apotheotic_additions:heirloom": 0.7
 					}
 				},
 				{
@@ -93,7 +97,8 @@
 						"epic": -0.35,
 						"mythic": -0.45,
 						"ancient": -0.5,
-						"apotheotic_additions:artifact": -0.6
+						"apotheotic_additions:artifact": -0.6,
+						"apotheotic_additions:heirloom": -0.7
 					}
 				}
 			]
@@ -132,6 +137,11 @@
 				},
 				"apotheotic_additions:artifact": {
 					"duration": 300,
+					"amplifier": 2,
+					"cooldown": 200
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 400,
 					"amplifier": 2,
 					"cooldown": 200
 				}

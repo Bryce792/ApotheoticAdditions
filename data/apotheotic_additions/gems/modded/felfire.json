@@ -30,7 +30,8 @@
 						"epic": 3,
 						"mythic": 4,
 						"ancient": 5,
-						"apotheotic_additions:artifact": 6
+						"apotheotic_additions:artifact": 6,
+						"apotheotic_additions:heirloom": 7
 					}
 				},
 				{
@@ -42,7 +43,8 @@
 						"epic": 3,
 						"mythic": 4,
 						"ancient": 5,
-						"apotheotic_additions:artifact": 6
+						"apotheotic_additions:artifact": 6,
+						"apotheotic_additions:heirloom": 7
 					}
 				}
 			]
@@ -68,7 +70,8 @@
 				"epic": 0.15,
 				"mythic": 0.20,
 				"ancient": 0.25,
-				"apotheotic_additions:artifact": 0.30
+				"apotheotic_additions:artifact": 0.30,
+				"apotheotic_additions:heirloom": 0.35
 			},
 			"desc": "gem.apotheotic_additions:alchemy/felfire.pickaxe"
 		},
@@ -114,6 +117,11 @@
 					"duration": 400,
 					"amplifier": 2,
 					"cooldown": 100
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 500,
+					"amplifier": 2,
+					"cooldown": 100
 				}
 			}
 		},
@@ -131,7 +139,8 @@
 				"epic": 2,
 				"mythic": 3,
 				"ancient": 4,
-				"apotheotic_additions:artifact": 5
+				"apotheotic_additions:artifact": 5,
+				"apotheotic_additions:heirloom": 5
 			}
 		},
 		{
@@ -150,7 +159,8 @@
 				"epic": 0.2,
 				"mythic": 0.3,
 				"ancient": 0.4,
-				"apotheotic_additions:artifact": 0.5
+				"apotheotic_additions:artifact": 0.5,
+				"apotheotic_additions:heirloom": 0.6
 			}
 		}
 	]

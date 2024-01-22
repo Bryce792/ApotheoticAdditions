@@ -1,0 +1,141 @@
+{
+  "conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "silentgear"
+	}],
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "apotheosis:ancient_material"
+    }
+  },
+  "name": {
+    "translate": "material.apotheotic_additions.ancient"
+  },
+  "stats": {
+    "main": {
+      "durability": 4156.0,
+      "armor_durability": 24.0,
+      "enchantment_value": 25.0,
+      "rarity": 100.0,
+      "charging_value": 1.8,
+      "harvest_level": 4.0,
+      "harvest_speed": 22.0,
+      "melee_damage": 12.0,
+      "magic_damage": 4.0,
+      "attack_speed": 0.0,
+      "ranged_damage": 5.0,
+      "ranged_speed": 0.0,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.0,
+      "armor": 36.0,
+      "armor/helmet": 6.0,
+      "armor/chestplate": 12.0,
+      "armor/leggings": 12.0,
+      "armor/boots": 6.0,
+      "magic_armor": 24.0
+    },
+    "tip": {
+      "durability": {
+        "mul2": -0.25
+      }
+    },
+    "adornment": {}
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:accelerate",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.7
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:brilliant",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.66
+          }
+        ]
+      }
+    ],
+    "adornment": [
+      {
+        "name": "silentgear:ancient",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#fadf92"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#fadf92"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#fadf92"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#fadf92"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ],
+    "adornment/all": [
+      {
+        "texture": "silentgear:adornment_generic",
+        "color": "#fadf92"
+      }
+    ],
+    "adornment/part": [
+      {
+        "texture": "silentgear:adornment",
+        "color": "#fadf92"
+      },
+      {
+        "texture": "silentgear:adornment_highlight"
+      }
+    ]
+  }
+}
