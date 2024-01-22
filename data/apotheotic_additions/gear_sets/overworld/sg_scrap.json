@@ -1,0 +1,74 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "silentgear"
+	}],
+	"weight": 75,
+	"mainhands": [{
+			"weight": 1,
+			"stack": {
+				"type": "forge:nbt",
+				"item": "silentgear:paxel",
+				"count": 1,
+				"nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:paxel_head\",Item:{Count:1b,id:\"silentgear:paxel_head\",tag:{CraftedCount:1,Damage:0,Materials:[{Count:5b,ID:\"silentgear:stone\",Item:{Count:1b,id:\"minecraft:cobblestone\"}}]}}},{ID:\"silentgear:rod\",Item:{Count:1b,id:\"silentgear:rod\",tag:{Materials:[{ID:\"silentgear:wood\",Item:{Count:1b,id:\"minecraft:mangrove_planks\"}}]}}}]},Properties:{LockStats:0b,ModVersion:\"3.5.2\",Stats:{\"silentgear:attack_reach\":3.0f,\"silentgear:attack_speed\":-3.0f,\"silentgear:charging_value\":0.5f,\"silentgear:durability\":176.85f,\"silentgear:enchantment_value\":3.5f,\"silentgear:harvest_level\":1.0f,\"silentgear:harvest_speed\":3.2f,\"silentgear:melee_damage\":4.0f,\"silentgear:rarity\":4.0f,\"silentgear:repair_efficiency\":1.2f},Traits:[{Level:1b,Name:\"silentgear:ancient\"},{Level:2b,Name:\"silentgear:flexible\"}]},Rendering:{Model:2,ModelKey:\"paxel:paxel_head{stone,stone,stone,stone,stone},rod{wood},\"}},SGear_UUID:[I;-231334919,-524401564,-1363685262,-698834756]}"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"type": "forge:nbt",
+				"item": "silentgear:paxel",
+				"count": 1,
+				"nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:paxel_head\",Item:{Count:1b,id:\"silentgear:paxel_head\",tag:{CraftedCount:1,Damage:0,Materials:[{Count:5b,ID:\"silentgear:stone\",Item:{Count:1b,id:\"minecraft:cobblestone\"}}]}}},{ID:\"silentgear:rod\",Item:{Count:1b,id:\"silentgear:rod\",tag:{Materials:[{ID:\"silentgear:wood\",Item:{Count:1b,id:\"minecraft:mangrove_planks\"}}]}}}]},Properties:{LockStats:0b,ModVersion:\"3.5.2\",Stats:{\"silentgear:attack_reach\":3.0f,\"silentgear:attack_speed\":-3.0f,\"silentgear:charging_value\":0.5f,\"silentgear:durability\":176.85f,\"silentgear:enchantment_value\":3.5f,\"silentgear:harvest_level\":1.0f,\"silentgear:harvest_speed\":3.2f,\"silentgear:melee_damage\":4.0f,\"silentgear:rarity\":4.0f,\"silentgear:repair_efficiency\":1.2f},Traits:[{Level:1b,Name:\"silentgear:ancient\"},{Level:2b,Name:\"silentgear:flexible\"}]},Rendering:{Model:2,ModelKey:\"paxel:paxel_head{stone,stone,stone,stone,stone},rod{wood},\"}},SGear_UUID:[I;-231334919,-524401564,-1363685262,-698834756]}"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 2,
+		"stack": {
+			"type": "forge:nbt",
+			"item": "silentgear:shield",
+			"count": 1,
+			"nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:shield_plate\",Item:{Count:1b,id:\"silentgear:shield_plate\",tag:{Damage:0,Materials:[{Count:2b,ID:\"silentgear:stone\",Item:{Count:1b,id:\"minecraft:cobblestone\"}}]}}},{ID:\"silentgear:rod\",Item:{Count:1b,id:\"silentgear:rod\",tag:{Materials:[{ID:\"silentgear:wood\",Item:{Count:1b,id:\"minecraft:mangrove_planks\"}}]}}}]},Properties:{LockStats:0b,ModVersion:\"3.5.2\",Stats:{\"silentgear:armor\":5.0f,\"silentgear:armor_durability\":5.0f,\"silentgear:charging_value\":0.5f,\"silentgear:durability\":130.99998f,\"silentgear:enchantment_value\":5.0f,\"silentgear:projectile_accuracy\":0.8f,\"silentgear:projectile_speed\":1.0f,\"silentgear:rarity\":4.0f,\"silentgear:repair_efficiency\":1.0f},Traits:[{Level:1b,Name:\"silentgear:ancient\"},{Level:2b,Name:\"silentgear:flexible\"}]},Rendering:{Model:2,ModelKey:\"shield:shield_plate{stone,stone},rod{wood},\"}},SGear_UUID:[I;1508770035,-675394803,-1844035149,-813716184]}"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"type": "forge:nbt",
+			"item": "silentgear:boots",
+			"count": 1,
+			"nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:boot_plates\",Item:{Count:1b,id:\"silentgear:boot_plates\",tag:{CraftedCount:1,Damage:0,Materials:[{Count:4b,ID:\"apotheotic_additions:scrap_metal\",Item:{Count:1b,id:\"apotheosis:common_material\"}}]}}},{ID:\"silentgear:lining\",Item:{Count:1b,id:\"silentgear:lining\",tag:{CraftedCount:1,Materials:[{ID:\"apotheotic_additions:timeworn\",Item:{Count:1b,id:\"apotheosis:uncommon_material\"}}]}}}],Tier:2},Properties:{LockStats:0b,ModVersion:\"3.5.3\",Stats:{\"silentgear:armor\":3.5f,\"silentgear:armor_durability\":18.0f,\"silentgear:armor_toughness\":0.25f,\"silentgear:charging_value\":0.8f,\"silentgear:durability\":365.00003f,\"silentgear:enchantment_value\":16.0f,\"silentgear:knockback_resistance\":0.0f,\"silentgear:magic_armor\":1.0f,\"silentgear:rarity\":20.0f,\"silentgear:repair_efficiency\":1.0f},Traits:[{Level:3b,Name:\"silentgear:malleable\"},{Level:1b,Name:\"silentgear:synergistic\"},{Level:1b,Name:\"silentgear:organic\"}]},Rendering:{Model:3,ModelKey:\"boots:boot_plates{apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal},lining{apotheotic_additions:timeworn},\"}},SGear_UUID:[I;-1609231434,-1196013545,-1294391438,1328927277]}"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"type": "forge:nbt",
+			"item": "silentgear:leggings",
+			"count": 1,
+			"nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:legging_plates\",Item:{Count:1b,id:\"silentgear:legging_plates\",tag:{CraftedCount:1,Damage:0,Materials:[{Count:7b,ID:\"apotheotic_additions:scrap_metal\",Item:{Count:1b,id:\"apotheosis:common_material\"}}]}}},{ID:\"silentgear:lining\",Item:{Count:1b,id:\"silentgear:lining\",tag:{CraftedCount:1,Materials:[{ID:\"apotheotic_additions:timeworn\",Item:{Count:1b,id:\"apotheosis:uncommon_material\"}}]}}}]},Properties:{LockStats:0b,ModVersion:\"3.5.3\",Stats:{\"silentgear:armor\":5.5f,\"silentgear:armor_durability\":18.0f,\"silentgear:armor_toughness\":0.25f,\"silentgear:charging_value\":0.8f,\"silentgear:durability\":365.0f,\"silentgear:enchantment_value\":16.0f,\"silentgear:knockback_resistance\":0.0f,\"silentgear:magic_armor\":1.0f,\"silentgear:rarity\":20.0f,\"silentgear:repair_efficiency\":1.0f},Traits:[{Level:3b,Name:\"silentgear:malleable\"},{Level:1b,Name:\"silentgear:synergistic\"},{Level:1b,Name:\"silentgear:organic\"}]},Rendering:{Model:3,ModelKey:\"leggings:legging_plates{apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal},lining{apotheotic_additions:timeworn},\"}},SGear_UUID:[I;-2093451458,1280593699,-1674703105,-1402764921]}"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"type": "forge:nbt",
+			"item": "silentgear:chestplate",
+			"count": 1,
+			"nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:chestplate_plates\",Item:{Count:1b,id:\"silentgear:chestplate_plates\",tag:{CraftedCount:1,Damage:0,Materials:[{Count:8b,ID:\"apotheotic_additions:scrap_metal\",Item:{Count:1b,id:\"apotheosis:common_material\"}}]}}},{ID:\"silentgear:lining\",Item:{Count:1b,id:\"silentgear:lining\",tag:{CraftedCount:1,Materials:[{ID:\"apotheotic_additions:timeworn\",Item:{Count:1b,id:\"apotheosis:uncommon_material\"}}]}}}]},Properties:{LockStats:0b,ModVersion:\"3.5.3\",Stats:{\"silentgear:armor\":7.5f,\"silentgear:armor_durability\":18.0f,\"silentgear:armor_toughness\":0.25f,\"silentgear:charging_value\":0.8f,\"silentgear:durability\":364.99997f,\"silentgear:enchantment_value\":16.0f,\"silentgear:knockback_resistance\":0.0f,\"silentgear:magic_armor\":1.0f,\"silentgear:rarity\":20.0f,\"silentgear:repair_efficiency\":1.0f},Traits:[{Level:3b,Name:\"silentgear:malleable\"},{Level:1b,Name:\"silentgear:synergistic\"},{Level:1b,Name:\"silentgear:organic\"}]},Rendering:{Model:3,ModelKey:\"chestplate:chestplate_plates{apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal},lining{apotheotic_additions:timeworn},\"}},SGear_UUID:[I;-1460320847,1927170803,-1397450346,1244022252]}"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"type": "forge:nbt",
+			"item": "silentgear:helmet",
+			"count": 1,
+			"nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:helmet_plates\",Item:{Count:1b,id:\"silentgear:helmet_plates\",tag:{CraftedCount:1,Damage:0,Materials:[{Count:5b,ID:\"apotheotic_additions:scrap_metal\",Item:{Count:1b,id:\"apotheosis:common_material\"}}]}}},{ID:\"silentgear:lining\",Item:{Count:1b,id:\"silentgear:lining\",tag:{CraftedCount:1,Materials:[{ID:\"apotheotic_additions:timeworn\",Item:{Count:1b,id:\"apotheosis:uncommon_material\"}}]}}}]},Properties:{LockStats:0b,ModVersion:\"3.5.3\",Stats:{\"silentgear:armor\":3.5f,\"silentgear:armor_durability\":18.0f,\"silentgear:armor_toughness\":0.25f,\"silentgear:charging_value\":0.8000001f,\"silentgear:durability\":365.00003f,\"silentgear:enchantment_value\":16.0f,\"silentgear:knockback_resistance\":0.0f,\"silentgear:magic_armor\":1.0f,\"silentgear:rarity\":20.0f,\"silentgear:repair_efficiency\":1.0f},Traits:[{Level:3b,Name:\"silentgear:malleable\"},{Level:1b,Name:\"silentgear:synergistic\"},{Level:1b,Name:\"silentgear:organic\"}]},Rendering:{Model:3,ModelKey:\"helmet:helmet_plates{apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal},lining{apotheotic_additions:timeworn},\"}},SGear_UUID:[I;139714160,2136886056,-2040234028,115083366]}"
+		}
+	}],
+	"tags": [
+		"overworld", "the_nether"
+	]
+}

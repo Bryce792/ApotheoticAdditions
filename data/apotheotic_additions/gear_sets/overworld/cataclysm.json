@@ -1,0 +1,108 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"weight": 85,
+	"mainhands": [{
+			"weight": 9,
+			"stack": {
+				"item": "cataclysm:khopesh"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "cataclysm:coral_spear"
+			}
+		},
+		{
+			"weight": 6,
+			"stack": {
+				"item": "cataclysm:athame"
+			}
+		},
+		{
+			"weight": 6,
+			"stack": {
+				"item": "cataclysm:coral_bardiche"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cataclysm:meat_shredder"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cataclysm:infernal_forge"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cataclysm:tidal_claws"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 10,
+		"stack": {
+			"item": "minecraft:diamond_boots"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "cataclysm:ignitium_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 10,
+		"stack": {
+			"item": "minecraft:diamond_leggings"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "cataclysm:ignitium_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 10,
+		"stack": {
+			"item": "minecraft:diamond_chestplate"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "cataclysm:ignitium_chestplate"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "cataclysm:bloom_stone_pauldrons"
+		}
+	}],
+	"helmets": [{
+		"weight": 10,
+		"stack": {
+			"item": "minecraft:diamond_helmet"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "cataclysm:ignitium_helmet"
+		}
+	}],
+	"tags": [
+		"cataclysm"
+	]
+}
