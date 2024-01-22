@@ -1,0 +1,24 @@
+{
+    "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	},
+    {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+    {
+		"type": "forge:mod_loaded",
+		"modid": "aquamirae"
+	}],
+    "type": "cataclysm:weapon_fusion",
+    "base": {
+        "item": "cataclysm:coral_bardiche"
+    },
+    "addition": {
+        "item": "aether:candy_cane"
+    },
+    "result": {
+        "item": "aquamirae:sweet_lance"
+    }
+}

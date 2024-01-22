@@ -4,7 +4,7 @@
 		"module": "adventure"
 	}],
 	"type": "apotheosis:reforging",
-	"rarity": "apotheosis:ancient",
+	"rarity": "apotheotic_additions:artifact",
     "material_cost": 2,
     "dust_cost": 5,
     "level_cost": 150
