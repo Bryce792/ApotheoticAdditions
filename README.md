@@ -3,9 +3,9 @@ Apotheosis Addon, adding content and cross mod compatibility.
 
 ## Additional Rarities
 Apotheotic Additions adds in 3 new rarities, Artifact, Heirloom, and Esoteric
-Artifact contains very strong attributes.
-Heirloom is weaker than Artifact attribute wise, but has very strong effects.
-Esoteric is generally DOUBLE both Artifact and Heirloom. This will remain unobtainable.
+- Artifact contains very strong attributes.
+- Heirloom is weaker than Artifact attribute wise, but has very strong effects.
+- Esoteric is generally DOUBLE both Artifact and Heirloom. This will remain unobtainable.
 ### __Artifact Affixes__
 - Dovah-kiin (Weapon) - 5+ Knockback.
 - Hale's Own (Weapon) - 10+ Attack Damage.
