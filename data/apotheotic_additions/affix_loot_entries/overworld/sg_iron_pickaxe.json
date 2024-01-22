@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "silentgear"
+	}],
+  "weight": 85,
+  "quality": 3.0,
+  "stack": {
+    "type": "forge:nbt",
+    "item": "silentgear:pickaxe",
+    "count": 1,
+    "nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:pickaxe_head\",Item:{Count:1b,id:\"silentgear:pickaxe_head\",tag:{CraftedCount:1,Damage:0,Materials:[{Count:3b,ID:\"silentgear:iron\",Item:{Count:1b,id:\"minecraft:iron_ingot\"}}]}}},{ID:\"silentgear:rod\",Item:{Count:1b,id:\"silentgear:rod\",tag:{Materials:[{ID:\"silentgear:blaze_rod\",Item:{Count:0b,id:\"minecraft:air\",tag:{}}}]}}}]},Properties:{LockStats:0b,ModVersion:\"3.5.2\",Stats:{\"silentgear:attack_reach\":3.0f,\"silentgear:attack_speed\":-2.8f,\"silentgear:charging_value\":0.6999999f,\"silentgear:durability\":249.99998f,\"silentgear:enchantment_value\":13.999999f,\"silentgear:harvest_level\":2.0f,\"silentgear:harvest_speed\":6.6000004f,\"silentgear:magic_damage\":1.0f,\"silentgear:melee_damage\":3.4f,\"silentgear:rarity\":20.0f,\"silentgear:repair_efficiency\":1.0f},Traits:[{Level:4b,Name:\"silentgear:malleable\"},{Level:1b,Name:\"silentgear:magnetic\"},{Level:2b,Name:\"silentgear:flexible\"},{Level:1b,Name:\"silentgear:reach\"}]},Rendering:{Model:3,ModelKey:\"pickaxe:pickaxe_head{iron,iron,iron},rod{blaze_rod},\"}},SGear_UUID:[I;24861937,-1580448576,-1946508899,890318905]}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:uncommon"
+}

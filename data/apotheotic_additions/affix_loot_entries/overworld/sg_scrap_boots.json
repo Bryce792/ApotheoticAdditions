@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "silentgear"
+	}],
+  "weight": 95,
+  "quality": 3.0,
+  "stack": {
+    "type": "forge:nbt",
+    "item": "silentgear:boots",
+    "count": 1,
+    "nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:boot_plates\",Item:{Count:1b,id:\"silentgear:boot_plates\",tag:{CraftedCount:1,Damage:0,Materials:[{Count:4b,ID:\"apotheotic_additions:scrap_metal\",Item:{Count:1b,id:\"apotheosis:common_material\"}}]}}},{ID:\"silentgear:lining\",Item:{Count:1b,id:\"silentgear:lining\",tag:{CraftedCount:1,Materials:[{ID:\"apotheotic_additions:timeworn\",Item:{Count:1b,id:\"apotheosis:uncommon_material\"}}]}}}],Tier:2},Properties:{LockStats:0b,ModVersion:\"3.5.3\",Stats:{\"silentgear:armor\":3.5f,\"silentgear:armor_durability\":18.0f,\"silentgear:armor_toughness\":0.25f,\"silentgear:charging_value\":0.8f,\"silentgear:durability\":365.00003f,\"silentgear:enchantment_value\":16.0f,\"silentgear:knockback_resistance\":0.0f,\"silentgear:magic_armor\":1.0f,\"silentgear:rarity\":20.0f,\"silentgear:repair_efficiency\":1.0f},Traits:[{Level:3b,Name:\"silentgear:malleable\"},{Level:1b,Name:\"silentgear:synergistic\"},{Level:1b,Name:\"silentgear:organic\"}]},Rendering:{Model:3,ModelKey:\"boots:boot_plates{apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal,apotheotic_additions:scrap_metal},lining{apotheotic_additions:timeworn},\"}},SGear_UUID:[I;-1609231434,-1196013545,-1294391438,1328927277]}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:uncommon"
+}
