@@ -14,6 +14,9 @@ Apotheotic Additions adds in 3 new rarities, Artifact, Heirloom, and Esoteric
 - Cleric's (Shield) - Regeneration on Block.
 - Wizard's (Armor)- Ars Nouveau Mana
 - Lottery Winning (Armor) - Luck
+## Trading
+Apotheotic Coins can be found within rogue spawners, or traded with the Wandering Trader. These can be used to purchase mod specific items. The trades can vary based on what mods are present in the modpack.
+
 ## Gems List
 ### __Aether__
 - Gem of the Aether - Elytra Flight/Creative Flight.
