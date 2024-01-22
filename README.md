@@ -6,18 +6,14 @@ Apotheotic Additions adds in 3 new rarities, Artifact, Heirloom, and Esoteric
 - Artifact contains very strong attributes.
 - Heirloom is weaker than Artifact attribute wise, but has very strong effects.
 - Esoteric is generally DOUBLE both Artifact and Heirloom. This will remain unobtainable.
-### __Artifact Affixes__
-- Dovah-kiin (Weapon) - 5+ Knockback.
-- Hale's Own (Weapon) - 10+ Attack Damage.
-- Absolute Zero (Weapon) - 10+ Cold Damage.
-- Sculk-Infested (Weapon) - 15% or higher Current HP Damage.
+### __Sample Artifact/Heirloom Affixes__
+- Dovah-kiin (Weapon) - Knockback.
+- Hale's Own (Weapon) - Attack Damage.
+- Absolute Zero (Weapon) - Cold Damage.
+- Sculk-Infested (Weapon) - Current HP Damage.
 - Cleric's (Shield) - Regeneration on Block.
-- [Majruszs Progressive Difficulty] Reinforced (Shield) - Bleeding Immunity
-- Wizard's (Armor)- 200+ Ars Nouveau Mana
-- Lottery Winning (Armor) - 2+ Luck
-- Herculean (Armor) - 10+ Armor Toughness
-- Well-Conditioned (Armor) - 10+ Max Health
-- Netherite-Reinforced (Armor) - 10+ Armor
+- Wizard's (Armor)- Ars Nouveau Mana
+- Lottery Winning (Armor) - Luck
 ## Gems List
 ### __Aether__
 - Gem of the Aether - Elytra Flight/Creative Flight.
