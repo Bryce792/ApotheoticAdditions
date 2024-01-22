@@ -1,0 +1,59 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "feathers"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "feathers:feathers.max_feathers",
+	"operation": "ADDITION",
+	"values": {
+		"apotheosis:common": {
+			"min": 0.5,
+			"steps": 1,
+			"step": 0.25
+		},
+		"apotheosis:uncommon": {
+			"min": 0.75,
+			"steps": 2,
+			"step": 0.25
+		},
+		"apotheosis:rare": {
+			"min": 0.75,
+			"steps": 3,
+			"step": 0.25
+		},
+		"apotheosis:epic": {
+			"min": 1.0,
+			"steps": 4,
+			"step": 0.5
+		},
+		"apotheosis:mythic": {
+			"min": 1.0,
+			"steps": 3,
+			"step": 0.5
+		},
+		"apotheosis:ancient": {
+			"min": 1.5,
+			"steps": 3,
+			"step": 0.75
+		},
+		"apotheotic_additions:artifact": {
+			"min": 2.0,
+			"steps": 4,
+			"step": 0.75
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 0.5,
+			"steps": 4,
+			"step": 0.75
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 4.0,
+			"steps": 5,
+			"step": 1
+		}
+	},
+	"types": [
+		"leggings", "boots"
+	]
+}

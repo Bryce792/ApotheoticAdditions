@@ -1,15 +1,15 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "farmersdelight"
+		"modid": "irons_spellbooks"
 	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "farmersdelight:comfort",
+	"mob_effect": "irons_spellbooks:ascension",
 	"target": "BREAK_SELF",
 	"values": {
 		"rare": {
 			"duration": {
-				"min": 200,
+				"min": 160,
 				"steps": 3,
 				"step": 20
 			},
@@ -18,7 +18,7 @@
 		},
 		"epic": {
 			"duration": {
-				"min": 300,
+				"min": 240,
 				"steps": 6,
 				"step": 20
 			},
@@ -27,7 +27,7 @@
 		},
 		"mythic": {
 			"duration": {
-				"min": 400,
+				"min": 320,
 				"steps": 6,
 				"step": 20
 			},
@@ -36,7 +36,7 @@
 		},
 		"ancient": {
 			"duration": {
-				"min": 500,
+				"min": 380,
 				"steps": 6,
 				"step": 20
 			},
@@ -45,7 +45,7 @@
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
-				"min": 1000,
+				"min": 4400,
 				"steps": 8,
 				"step": 30
 			},
@@ -64,11 +64,11 @@
 		"apotheotic_additions:esoteric": {
 			"duration": {
 				"min": 5000,
-				"steps": 10,
+				"steps": 20,
 				"step": 50
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 600
 		}
 	},
 	"types": [

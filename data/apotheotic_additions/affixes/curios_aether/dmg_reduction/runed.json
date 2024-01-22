@@ -1,0 +1,52 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"type": "apotheosis:damage_reduction",
+	"damage_type": "MAGIC",
+	"values": {
+		"rare": {
+			"min": 0.01,
+			"steps": 2,
+			"step": 0.01
+		},
+		"epic": {
+			"min": 0.02,
+			"steps": 3,
+			"step": 0.01
+		},
+		"mythic": {
+			"min": 0.03,
+			"steps": 3,
+			"step": 0.01
+		},
+		"ancient": {
+			"min": 0.04,
+			"steps": 3,
+			"step": 0.01
+		},
+		"apotheotic_additions:artifact": {
+			"min": 0.04,
+			"steps": 4,
+			"step": 0.03
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 0.06,
+			"steps": 6,
+			"step": 0.03
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 0.06,
+			"steps": 8,
+			"step": 0.03
+		}
+	},
+	"types": [
+		"curios:aether_gloves", "curios:aether_accessory", "curios:aether_shield", "curios:aether_cape", "curios:aether_pendant", "curios:aether_ring"
+	]
+}

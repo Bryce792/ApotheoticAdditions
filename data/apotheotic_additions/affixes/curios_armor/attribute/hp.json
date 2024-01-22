@@ -1,0 +1,64 @@
+{
+  "conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.max_health",
+  "operation": "ADDITION",
+  "values": {
+    "common": {
+      "min": 0.25,
+      "steps": 1,
+      "step": 0.05
+    },
+    "uncommon": {
+      "min": 0.35,
+      "steps": 2,
+      "step": 0.05
+    },
+    "rare": {
+      "min": 0.5,
+      "steps": 3,
+      "step": 0.10
+    },
+    "epic": {
+      "min": 0.75,
+      "steps": 4,
+      "step": 0.15
+    },
+    "mythic": {
+      "min": 1.0,
+      "steps": 4,
+      "step": 0.25
+    },
+    "ancient": {
+      "min": 1.25,
+      "steps": 5,
+      "step": 0.25
+    },
+    "apotheotic_additions:artifact": {
+      "min": 2.0,
+      "steps": 6,
+      "step": 0.75
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 1.0,
+      "steps": 5,
+      "step": 0.5
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 2.5,
+      "steps": 8,
+      "step": 1.5
+    }
+  },
+  "types": [
+    "curios:body", "curios:head", "curios:back", "curios:feet", "curios:hands"
+  ]
+}

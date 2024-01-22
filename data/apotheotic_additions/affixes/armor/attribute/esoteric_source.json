@@ -7,15 +7,10 @@
 	"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
 	"operation": "ADDITION",
 	"values": {
-		"apotheotic_additions:artifact": {
-			"min": 200,
-			"steps": 100,
-			"step": 1
-		},
-		"apotheotic_additions:heirloom": {
-			"min": 50,
-			"steps": 100,
-			"step": 0.5
+		"apotheotic_additions:esoteric": {
+			"min": 500,
+			"steps": 250,
+			"step": 5
 		}
 	},
 	"types": [

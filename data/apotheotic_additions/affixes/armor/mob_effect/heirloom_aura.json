@@ -1,0 +1,32 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "voidscape"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "voidscape:aura",
+	"target": "HURT_SELF",
+	"values": {
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 400,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 800,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}

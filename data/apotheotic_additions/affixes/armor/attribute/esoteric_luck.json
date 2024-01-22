@@ -3,15 +3,10 @@
 	"attribute": "minecraft:generic.luck",
 	"operation": "ADDITION",
 	"values": {
-		"apotheotic_additions:artifact": {
-			"min": 2,
-			"steps": 4,
-			"step": 1
-		},
-		"apotheotic_additions:heirloom": {
-			"min": 1,
-			"steps": 2,
-			"step": 0.25
+		"apotheotic_additions:esoteric": {
+			"min": 4,
+			"steps": 8,
+			"step": 2
 		}
 	},
 	"types": [

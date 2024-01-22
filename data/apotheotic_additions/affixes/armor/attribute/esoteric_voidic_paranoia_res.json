@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "voidscape"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "voidscape:voidic_paranoia_res",
+  "operation": "MULTIPLY_BASE",
+  "values": {
+    "apotheotic_additions:esoteric": {
+      "min": 0.07,
+      "steps": 8,
+      "step": 0.075
+    }
+  },
+  "types": [
+	 "chestplate", "leggings", "boots"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.attack_damage",
+  "operation": "ADDITION",
+  "values": {
+    "common": {
+      "min": 0.05,
+      "steps": 1,
+      "step": 0.05
+    },
+    "uncommon": {
+      "min": 0.05,
+      "steps": 2,
+      "step": 0.05
+    },
+    "rare": {
+      "min": 0.05,
+      "steps": 3,
+      "step": 0.05
+    },
+    "epic": {
+      "min": 0.05,
+      "steps": 4,
+      "step": 0.05
+    },
+    "mythic": {
+      "min": 0.1,
+      "steps": 4,
+      "step": 0.05
+    },
+    "ancient": {
+      "min": 0.1,
+      "steps": 5,
+      "step": 0.05
+    },
+    "apotheotic_additions:artifact": {
+      "min": 0.1,
+      "steps": 10,
+      "step": 0.05
+    },
+		"apotheotic_additions:heirloom": {
+			"min": 0.05,
+			"steps": 5,
+			"step": 0.05
+		},
+    "apotheotic_additions:esoteric": {
+      "min": 0.5,
+      "steps": 10,
+      "step": 0.25
+    }
+  },
+  "types": [
+		"curios:aether_gloves", "curios:aether_accessory", "curios:aether_shield", "curios:aether_cape", "curios:aether_pendant", "curios:aether_ring"
+  ]
+}

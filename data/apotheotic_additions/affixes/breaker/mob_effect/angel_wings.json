@@ -1,74 +1,74 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "farmersdelight"
+		"modid": "irons_spellbooks"
 	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "farmersdelight:comfort",
+	"mob_effect": "irons_spellbooks:angel_wings",
 	"target": "BREAK_SELF",
 	"values": {
 		"rare": {
 			"duration": {
-				"min": 200,
+				"min": 320,
 				"steps": 3,
 				"step": 20
 			},
 			"amplifier": 0,
-			"cooldown": 600
+			"cooldown": 2500
 		},
 		"epic": {
 			"duration": {
-				"min": 300,
+				"min": 480,
 				"steps": 6,
 				"step": 20
 			},
 			"amplifier": 0,
-			"cooldown": 600
+			"cooldown": 2250
 		},
 		"mythic": {
 			"duration": {
-				"min": 400,
+				"min": 640,
 				"steps": 6,
 				"step": 20
 			},
 			"amplifier": 0,
-			"cooldown": 600
+			"cooldown": 2000
 		},
 		"ancient": {
 			"duration": {
-				"min": 500,
+				"min": 760,
 				"steps": 6,
 				"step": 20
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 2000
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
-				"min": 1000,
+				"min": 940,
 				"steps": 8,
 				"step": 30
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 2000
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
-				"min": 2500,
+				"min": 1250,
 				"steps": 10,
 				"step": 50
 			},
 			"amplifier": 0,
-			"cooldown": 300
+			"cooldown": 1500
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
-				"min": 5000,
-				"steps": 10,
+				"min": 2500,
+				"steps": 20,
 				"step": 50
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 600
 		}
 	},
 	"types": [
