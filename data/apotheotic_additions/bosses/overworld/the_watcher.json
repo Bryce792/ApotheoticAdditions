@@ -1,0 +1,105 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"entity": "cataclysm:the_watcher",
+	"weight": 10,
+	"quality": 0,
+	"size": {
+		"width": 2,
+		"height": 2
+	},
+	"valid_gear_sets": [
+		"#cataclysm"
+	],
+	"dimensions": [
+		"minecraft:overworld"
+	],
+	"min_rarity": "rare",
+	"max_rarity": "epic",
+	"stats": {
+		"rare": {
+			"enchant_chance": 0.3,
+			"enchantment_levels": [15, 10, 23, 17],
+			"effects": [{
+				"effect": "minecraft:fire_resistance",
+				"chance": 1.0
+			}],
+			"attribute_modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "ADDITION",
+					"value": {
+						"min": 120,
+						"steps": 30,
+						"step": 2
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.10,
+						"steps": 8,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.25,
+						"steps": 25,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.4
+				}
+			]
+		},
+		"epic": {
+			"enchant_chance": 0.3,
+			"enchantment_levels": [15, 10, 23, 17],
+			"effects": [{
+				"effect": "minecraft:fire_resistance",
+				"chance": 1.0
+			}],
+			"attribute_modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "ADDITION",
+					"value": {
+						"min": 150,
+						"steps": 30,
+						"step": 2
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.15,
+						"steps": 8,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.30,
+						"steps": 25,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.4
+				}
+			]
+		}
+	}
+}

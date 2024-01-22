@@ -1,17 +1,17 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "cataclysm"
+		"modid": "iceandfire"
 	}],
-	"entity": "cataclysm:amethyst_crab",
+	"entity": "iceandfire:cyclops",
 	"weight": 1,
-	"quality": 6,
+	"quality": 2,
 	"size": {
 		"width": 4,
-		"height": 4
+		"height": 10
 	},
 	"valid_gear_sets": [
-		"#cataclysm"
+		"#overworld"
 	],
 	"dimensions": [
 		"minecraft:overworld"
@@ -23,15 +23,19 @@
 			"enchant_chance": 0.75,
 			"enchantment_levels": [25, 20, 50, 40],
 			"effects": [{
-				"effect": "minecraft:fire_resistance",
+				"effect": "minecraft:resistance",
+				"chance": 1.0
+			},
+			{
+				"effect": "minecraft:regeneration",
 				"chance": 1.0
 			}],
 			"attribute_modifiers": [{
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 400,
-						"steps": 30,
+						"min": 700,
+						"steps": 50,
 						"step": 5
 					}
 				},
