@@ -1,0 +1,63 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "irons_spellbooks:max_mana",
+	"operation": "ADDITION",
+	"values": {
+		"common": {
+			"min": 1,
+			"steps": 3,
+			"step": 1
+		},
+		"uncommon": {
+			"min": 2,
+			"steps": 7,
+			"step": 1
+		},
+		"rare": {
+			"min": 3,
+			"steps": 9,
+			"step": 1
+		},
+		"epic": {
+			"min": 4,
+			"steps": 15,
+			"step": 1
+		},
+		"mythic": {
+			"min": 5,
+			"steps":20,
+			"step": 1
+		},
+		"ancient": {
+			"min": 10,
+			"steps": 30,
+			"step": 1
+		},
+		"apotheotic_additions:artifact": {
+			"min": 15,
+			"steps": 40,
+			"step": 1
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 8,
+			"steps": 30,
+			"step": 1
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 50,
+			"steps": 125,
+			"step": 1
+		}
+	},
+	"types": [
+		"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt", "curios:spellstone", "curios:scroll", "curios:bracelet"
+	]
+}

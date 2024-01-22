@@ -1,0 +1,59 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.movement_speed",
+  "operation": "MULTIPLY_BASE",
+  "values": {
+    "common": {
+      "min": 0.01,
+      "steps": 1,
+      "step": 0.0025
+    },
+    "uncommon": {
+      "min": 0.02,
+      "steps": 1,
+      "step": 0.005
+    },
+    "rare": {
+      "min": 0.03,
+      "steps": 2,
+      "step": 0.0075
+    },
+    "epic": {
+      "min": 0.04,
+      "steps": 2,
+      "step": 0.05
+    },
+    "mythic": {
+      "min": 0.05,
+      "steps": 3,
+      "step": 0.05
+    },
+    "ancient": {
+      "min": 0.06,
+      "steps": 3,
+      "step": 0.05
+    },
+    "apotheotic_additions:artifact": {
+      "min": 0.07,
+      "steps": 4,
+      "step": 0.075
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 0.03,
+      "steps": 4,
+      "step": 0.075
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 0.15,
+      "steps": 4,
+      "step": 0.075
+    }
+  },
+  "types": [
+		"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt", "curios:spellstone", "curios:scroll", "curios:bracelet"
+  ]
+}

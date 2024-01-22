@@ -1,0 +1,50 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "destroy"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "destroy:baby_blue_high",
+	"target": "ATTACK_SELF",
+	"values": {
+		"ancient": {
+			"duration": {
+				"min": 200,
+				"steps": 8,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 4000
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 40,
+				"steps": 5,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 3000
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 320,
+				"steps": 6,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 320,
+				"steps": 6,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		}
+	},
+	"types": [
+		"heavy_weapon"
+	]
+}

@@ -50,6 +50,33 @@
 			},
 			"amplifier": 3,
 			"cooldown": 300
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 300,
+				"steps": 5,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 300
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 500,
+				"steps": 8,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 300
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 1000,
+				"steps": 8,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 300
 		}
 	},
 	"types": [

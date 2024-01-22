@@ -7,6 +7,11 @@
 			"min": 0.40,
 			"steps": 35,
 			"step": 0.01
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 0.05,
+			"steps": 10,
+			"step": 0.01
 		}
 	},
 	"types": [

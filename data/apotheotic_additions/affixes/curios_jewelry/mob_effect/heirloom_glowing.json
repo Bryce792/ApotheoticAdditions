@@ -1,0 +1,32 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:glowing",
+	"target": "HURT_SELF",
+	"values": {
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 100,
+				"steps": 10,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 300,
+				"steps": 10,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		}
+	},
+	"types": [
+		"curios:ring", "curios:necklace", "curios:charm"
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+  "type": "eidolon:hailing",
+  "values": {
+    "apotheotic_additions:artifact": {
+      "min": 6,
+      "steps": 7,
+      "step": 1
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 3,
+      "steps": 2,
+      "step": 1
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 7,
+      "steps": 9,
+      "step": 1
+    }
+  }
+}

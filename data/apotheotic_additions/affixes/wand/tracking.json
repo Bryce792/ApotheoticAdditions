@@ -1,0 +1,24 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+  "type": "eidolon:tracking",
+  "values": {
+    "apotheotic_additions:artifact": {
+      "min": 1,
+      "steps": 2,
+      "step": 1
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 1,
+      "steps": 2,
+      "step": 1
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 7,
+      "steps": 4,
+      "step": 1
+    }
+  }
+}

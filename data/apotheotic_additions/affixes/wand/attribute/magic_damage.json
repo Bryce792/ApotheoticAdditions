@@ -40,6 +40,21 @@
       "min": 3.0,
       "steps": 5,
       "step": 1
+    },
+    "apotheotic_additions:artifact": {
+      "min": 3.0,
+      "steps": 8,
+      "step": 2
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 1.5,
+      "steps": 8,
+      "step": 0.5
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 5,
+      "steps": 12,
+      "step": 4
     }
   },
   "types": [

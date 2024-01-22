@@ -11,6 +11,15 @@
 			},
 			"amplifier": 3,
 			"cooldown": 300
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 800,
+				"steps": 8,
+				"step": 40
+			},
+			"amplifier": 0,
+			"cooldown": 600
 		}
 	},
 	"types": [
