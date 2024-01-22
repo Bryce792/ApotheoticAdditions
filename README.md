@@ -1,11 +1,11 @@
 # Apotheotic Additions
 Apotheosis Addon, adding content and cross mod compatibility.
 
-## Artifacts
-Artifacts are incredibly rare drops on par with Ancient items.
-They can be found within chests, or from very difficult bosses.
-Artifacts are unique, in that they come with their own affix table.
-Apotheotic Additions gems can be upgraded past Perfect in order to get Time-Lost.
+## Additional Rarities
+Apotheotic Additions adds in 3 new rarities, Artifact, Heirloom, and Esoteric
+Artifact contains very strong attributes.
+Heirloom is weaker than Artifact attribute wise, but has very strong effects.
+Esoteric is generally DOUBLE both Artifact and Heirloom. This will remain unobtainable.
 ### __Artifact Affixes__
 - Dovah-kiin (Weapon) - 5+ Knockback.
 - Hale's Own (Weapon) - 10+ Attack Damage.
