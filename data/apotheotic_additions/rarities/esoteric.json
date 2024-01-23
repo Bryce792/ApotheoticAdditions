@@ -2,8 +2,8 @@
     "ordinal": 8,
     "color": "#551097",
     "material": "apotheotic_additions:esoteric_material",
-	"weight": 1,
-	"quality": 75,
+	"weight": 0,
+	"quality": 0,
 	"rules": [{
 			"type": "stat",
 			"chance": 1.0
