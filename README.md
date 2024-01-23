@@ -1,6 +1,12 @@
 # Apotheotic Additions
 Apotheosis Addon, adding content and cross mod compatibility.
 
+## Modpack Info
+This mod is entirely Datadriven, with the exception of a few items. to configure the mod, you can freely change or configure the data within to liking.
+
+Per default settings, mods content is only enabled if said mod is present. (EX. Ars Nouveau content existing if Ars Nouveau is present.
+
+Modpack devs will need to configure the Apotheosis Config files in order to spawn Apotheotic Bosses in various dimensions, aswell as restrict gear drops in them, as by default, Artifact and Heirloom gear will naturally drop within modded dimensions.
 ## Additional Rarities
 Apotheotic Additions adds in 3 new rarities, Artifact, Heirloom, and Esoteric
 - Artifact contains very strong attributes.
