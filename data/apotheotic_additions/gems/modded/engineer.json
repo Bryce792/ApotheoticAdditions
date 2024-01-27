@@ -4,7 +4,7 @@
 		"modid": "enderio"
 	}],
 	"weight": 5,
-	"quality": 1.5,
+	"quality": 3.5,
 	"dimensions": [],
 	"unique": true,
 	"min_rarity": "rare",
@@ -24,7 +24,8 @@
 				"mythic": 2,
 				"ancient": 3,
 				"apotheotic_additions:artifact": 3,
-				"apotheotic_additions:heirloom": 3
+				"apotheotic_additions:heirloom": 3,
+				"apotheotic_additions:esoteric": 3
 			}
 		},
 		{
@@ -39,11 +40,12 @@
 			"operation": "ADDITION",
 			"values": {
 				"rare": 1.0,
-				"epic": 2.0,
-				"mythic": 3.5,
-				"ancient": 4.0,
-				"apotheotic_additions:artifact": 4.5,
-				"apotheotic_additions:heirloom": 5
+				"epic": 1.5,
+				"mythic": 2.0,
+				"ancient": 2.5,
+				"apotheotic_additions:artifact": 3,
+				"apotheotic_additions:heirloom": 3.5,
+				"apotheotic_additions:esoteric": 4
 			}
 		},
 		{
@@ -58,11 +60,12 @@
 			"operation": "ADDITION",
 			"values": {
 				"rare": 1.0,
-				"epic": 2.0,
-				"mythic": 3.5,
-				"ancient": 4.0,
-				"apotheotic_additions:artifact": 4.5,
-				"apotheotic_additions:heirloom": 5
+				"epic": 1.5,
+				"mythic": 2.0,
+				"ancient": 2.5,
+				"apotheotic_additions:artifact": 3,
+				"apotheotic_additions:heirloom": 3.5,
+				"apotheotic_additions:esoteric": 4
 			}
 		}
 	]

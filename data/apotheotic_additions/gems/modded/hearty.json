@@ -1,7 +1,7 @@
 {
 	"variant": "hearty",
 	"weight": 5,
-	"quality": 0,
+	"quality": 2,
 	"dimensions": [
 	],
 	"bonuses": [{
@@ -25,7 +25,8 @@
 				"mythic": 5.0,
 				"ancient": 6.0,
 				"apotheotic_additions:artifact": 7,
-				"apotheotic_additions:heirloom": 8
+				"apotheotic_additions:heirloom": 8,
+				"apotheotic_additions:esoteric": 9
 			}
 		}
 	]

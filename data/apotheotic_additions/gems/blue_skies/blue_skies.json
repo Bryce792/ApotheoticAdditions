@@ -4,7 +4,7 @@
 		"modid": "blue_skies"
 	}],
 	"weight": 5,
-	"quality": 1.5,
+	"quality": 5.0,
 	"dimensions": ["blue_skies:everdawn", "blue_skies:everbright"],
 	"unique": true,
 	"min_rarity": "rare",
@@ -21,10 +21,12 @@
 			"operation": "ADDITION",
 			"values": {
 				"rare": 1.0,
-				"epic": 2.0,
-				"mythic": 3.5,
-				"ancient": 4.0,
-				"apotheotic_additions:artifact": 5
+				"epic": 1.5,
+				"mythic": 2.0,
+				"ancient": 2.5,
+				"apotheotic_additions:artifact": 3,
+				"apotheotic_additions:heirloom": 4,
+				"apotheotic_additions:esoteric": 5
 			}
 		},
 		{
@@ -42,7 +44,9 @@
 				"epic": 1.0,
 				"mythic": 1.5,
 				"ancient": 2.0,
-				"apotheotic_additions:artifact": 2.5
+				"apotheotic_additions:artifact": 2.5,
+				"apotheotic_additions:heirloom": 3,
+				"apotheotic_additions:esoteric": 3.5
 			}
 		},
 		{
@@ -60,7 +64,9 @@
 				"epic": 0.15,
 				"mythic": 0.2,
 				"ancient": 0.25,
-				"apotheotic_additions:artifact": 0.3
+				"apotheotic_additions:artifact": 0.3,
+				"apotheotic_additions:heirloom": 0.35,
+				"apotheotic_additions:esoteric": 0.4
 			}
 		}
 ]

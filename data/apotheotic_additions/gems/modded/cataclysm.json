@@ -4,8 +4,8 @@
 		"modid": "cataclysm"
 	}],
 	"weight": 3,
-	"quality": 1.5,
-	"dimensions": [],
+	"quality": 2,
+	"dimensions": ["minecraft:the_end", "minecraft:the_nether"],
 	"unique": true,
 	"min_rarity": "rare",
 	"bonuses": [
@@ -23,32 +23,37 @@
 				"rare": {
 					"duration": 80,
 					"amplifier": 0,
-					"cooldown": 500
+					"cooldown": 900
 				},
 				"epic": {
 					"duration": 100,
 					"amplifier": 0,
-					"cooldown": 450
+					"cooldown": 900
 				},
 				"mythic": {
 					"duration": 140,
-					"amplifier": 1,
-					"cooldown": 425
+					"amplifier": 0,
+					"cooldown": 900
 				},
 				"ancient": {
 					"duration": 200,
-					"amplifier": 2,
-					"cooldown": 400
+					"amplifier": 1,
+					"cooldown": 900
 				},
 				"apotheotic_additions:artifact": {
 					"duration": 300,
-					"amplifier": 3,
-					"cooldown": 400
+					"amplifier": 1,
+					"cooldown": 900
 				},
 				"apotheotic_additions:heirloom": {
 					"duration": 400,
-					"amplifier": 3,
-					"cooldown": 400
+					"amplifier": 1,
+					"cooldown": 900
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 500,
+					"amplifier": 2,
+					"cooldown": 900
 				}
 			}
 		},
@@ -66,32 +71,37 @@
 				"rare": {
 					"duration": 60,
 					"amplifier": 0,
-					"cooldown": 500
+					"cooldown": 900
 				},
 				"epic": {
-					"duration": 100,
+					"duration": 80,
 					"amplifier": 0,
-					"cooldown": 450
+					"cooldown": 900
 				},
 				"mythic": {
-					"duration": 150,
-					"amplifier": 1,
-					"cooldown": 425
+					"duration": 120,
+					"amplifier": 0,
+					"cooldown": 900
 				},
 				"ancient": {
-					"duration": 200,
-					"amplifier": 2,
-					"cooldown": 400
+					"duration": 160,
+					"amplifier": 1,
+					"cooldown": 900
 				},
 				"apotheotic_additions:artifact": {
-					"duration": 300,
-					"amplifier": 3,
-					"cooldown": 400
+					"duration": 200,
+					"amplifier": 1,
+					"cooldown": 900
 				},
 				"apotheotic_additions:heirloom": {
-					"duration": 400,
-					"amplifier": 3,
-					"cooldown": 400
+					"duration": 240,
+					"amplifier": 1,
+					"cooldown": 900
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 280,
+					"amplifier": 2,
+					"cooldown": 900
 				}
 			}
 		},
@@ -125,17 +135,22 @@
 				},
 				"ancient": {
 					"duration": 500,
-					"amplifier": 2,
+					"amplifier": 1,
 					"cooldown": 60
 				},
 				"apotheotic_additions:artifact": {
 					"duration": 750,
-					"amplifier": 3,
+					"amplifier": 1,
 					"cooldown": 40
 				},
 				"apotheotic_additions:heirloom": {
 					"duration": 1000,
-					"amplifier": 3,
+					"amplifier": 2,
+					"cooldown": 20
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 2000,
+					"amplifier": 2,
 					"cooldown": 20
 				}
 			}

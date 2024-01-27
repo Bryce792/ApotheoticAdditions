@@ -8,7 +8,7 @@
 		"modid": "irons_spellbooks"
 	}],
 	"weight": 3,
-	"quality": 1.5,
+	"quality": 5.5,
 	"dimensions": [],
 	"unique": true,
 	"min_rarity": "rare",
@@ -48,6 +48,11 @@
 					"duration": 400,
 					"amplifier": 0,
 					"cooldown": 400
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 500,
+					"amplifier": 0,
+					"cooldown": 400
 				}
 			}
 		},
@@ -67,7 +72,8 @@
 				"mythic": 100,
 				"ancient": 125,
 				"apotheotic_additions:artifact": 150,
-				"apotheotic_additions:heirloom": 200
+				"apotheotic_additions:heirloom": 200,
+				"apotheotic_additions:esoteric": 250
 			}
 		},
 		{
@@ -91,7 +97,8 @@
 				"mythic": 0.30,
 				"ancient": 0.40,
 				"apotheotic_additions:artifact": 0.50,
-				"apotheotic_additions:heirloom": 0.6
+				"apotheotic_additions:heirloom": 0.6,
+				"apotheotic_additions:esoteric": 0.7
 			},
 			"desc": "gem.apotheotic_additions:alchemy/mystic.pickaxe"
 		}

@@ -23,7 +23,8 @@
 			"mythic": 2,
 			"ancient": 3,
 			"apotheotic_additions:artifact": 4,
-			"apotheotic_additions:heirloom": 5
+			"apotheotic_additions:heirloom": 5,
+			"apotheotic_additions:esoteric": 5
 		}
 	},
 	{
@@ -38,10 +39,11 @@
 		"operation": "ADDITION",
 		"values": {
 			"epic": 2.0,
-			"mythic": 3.5,
-			"ancient": 4.0,
-			"apotheotic_additions:artifact": 4.5,
-			"apotheotic_additions:heirloom": 5
+			"mythic": 2.5,
+			"ancient": 3.0,
+			"apotheotic_additions:artifact": 3.5,
+			"apotheotic_additions:heirloom": 4,
+			"apotheotic_additions:esoteric": 5
 		}
 	},
 	{
@@ -58,25 +60,30 @@
 		"values": {
 			"epic": {
 				"duration": 1800,
-				"amplifier": 1,
+				"amplifier": 0,
 				"cooldown": 450
 			},
 			"mythic": {
 				"duration": 2400,
-				"amplifier": 2,
+				"amplifier": 1,
 				"cooldown": 425
 			},
 			"ancient": {
 				"duration": 3000,
-				"amplifier": 2,
+				"amplifier": 1,
 				"cooldown": 400
 			},
 			"apotheotic_additions:artifact": {
 				"duration": 3600,
-				"amplifier": 3,
+				"amplifier": 2,
 				"cooldown": 400
 			},
 			"apotheotic_additions:heirloom": {
+				"duration": 4000,
+				"amplifier": 2,
+				"cooldown": 400
+			},
+			"apotheotic_additions:esoteric": {
 				"duration": 4000,
 				"amplifier": 3,
 				"cooldown": 400

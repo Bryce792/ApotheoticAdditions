@@ -4,7 +4,7 @@
 		"modid": "alexscaves"
 	}],
 	"weight": 3,
-	"quality": 1.5,
+	"quality": 2.5,
 	"dimensions": [
 	],
 	"unique": true,
@@ -27,7 +27,8 @@
 				"mythic": 2,
 				"ancient": 3,
 				"apotheotic_additions:artifact": 4,
-				"apotheotic_additions:heirloom": 4
+				"apotheotic_additions:heirloom": 4,
+				"apotheotic_additions:esoteric": 5
 			}
 		},
 		{
@@ -49,7 +50,8 @@
 						"mythic": -0.45,
 						"ancient": -0.5,
 						"apotheotic_additions:artifact": -0.6,
-						"apotheotic_additions:heirloom": -0.7
+						"apotheotic_additions:heirloom": -0.7,
+						"apotheotic_additions:esoteric": -0.8
 					}
 				},
 				{
@@ -62,7 +64,8 @@
 						"mythic": 0.45,
 						"ancient": 0.5,
 						"apotheotic_additions:artifact": 0.6,
-						"apotheotic_additions:heirloom": 0.7
+						"apotheotic_additions:heirloom": 0.7,
+						"apotheotic_additions:esoteric": 0.8
 					}
 				}
 			]
@@ -86,7 +89,8 @@
 						"mythic": -0.45,
 						"ancient": -0.5,
 						"apotheotic_additions:artifact": -0.6,
-						"apotheotic_additions:heirloom": -0.7
+						"apotheotic_additions:heirloom": -0.7,
+						"apotheotic_additions:esoteric": -0.8
 					}
 				},
 				{
@@ -99,7 +103,8 @@
 						"mythic": 0.45,
 						"ancient": 0.5,
 						"apotheotic_additions:artifact": 0.6,
-						"apotheotic_additions:heirloom": 0.7
+						"apotheotic_additions:heirloom": 0.7,
+						"apotheotic_additions:esoteric": 0.8
 					}
 				}
 			]
@@ -115,36 +120,42 @@
 			},
 			"mob_effect": "alexscaves:irradiated",
 			"target": "attack_target",
+			"stack_on_reapply": true,
 			"values": {
 				"rare": {
-					"duration": 1200,
+					"duration": 200,
 					"amplifier": 0,
-					"cooldown": 500
+					"cooldown": 120
 				},
 				"epic": {
-					"duration": 1800,
+					"duration": 240,
 					"amplifier": 0,
-					"cooldown": 450
+					"cooldown": 100
 				},
 				"mythic": {
-					"duration": 2400,
+					"duration": 280,
 					"amplifier": 1,
-					"cooldown": 425
+					"cooldown": 80
 				},
 				"ancient": {
-					"duration": 3000,
-					"amplifier": 2,
-					"cooldown": 400
+					"duration": 500,
+					"amplifier": 1,
+					"cooldown": 60
 				},
 				"apotheotic_additions:artifact": {
-					"duration": 3600,
-					"amplifier": 3,
-					"cooldown": 400
+					"duration": 750,
+					"amplifier": 1,
+					"cooldown": 40
 				},
 				"apotheotic_additions:heirloom": {
-					"duration": 4200,
-					"amplifier": 3,
-					"cooldown": 400
+					"duration": 1000,
+					"amplifier": 2,
+					"cooldown": 20
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 2000,
+					"amplifier": 2,
+					"cooldown": 20
 				}
 			}
 		}

@@ -25,11 +25,13 @@
 			"item": "aether:zanite_gemstone"
 		},
 		"values": {
-			"rare": 0.20,
+			"rare": 0.15,
 			"epic": 0.30,
-			"mythic": 0.40,
-			"ancient": 0.50,
-			"apotheotic_additions:artifact": 0.80
+			"mythic": 0.45,
+			"ancient": 0.60,
+			"apotheotic_additions:artifact": 0.75,
+			"apotheotic_additions:heirloom": 0.90,
+			"apotheotic_additions:esoteric": 1
 		},
 		"desc": "gem.apotheotic_additions:alchemy/zanite.bonus.pickaxe"
 	}

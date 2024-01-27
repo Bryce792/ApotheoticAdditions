@@ -4,7 +4,7 @@
 		"modid": "alexsmobs"
 	}],
 	"weight": 7,
-	"quality": 1.5,
+	"quality": 3.5,
 	"dimensions": [],
 	"unique": true,
 	"min_rarity": "rare",
@@ -39,6 +39,11 @@
 					"duration": 400,
 					"amplifier": 0,
 					"cooldown": 40
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 500,
+					"amplifier": 0,
+					"cooldown": 40
 				}
 			}
 		},
@@ -70,6 +75,11 @@
 				},
 				"apotheotic_additions:heirloom": {
 					"duration": 400,
+					"amplifier": 0,
+					"cooldown": 40
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 500,
 					"amplifier": 0,
 					"cooldown": 40
 				}
@@ -116,6 +126,11 @@
 					"duration": 900,
 					"amplifier": 3,
 					"cooldown": 40
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 1100,
+					"amplifier": 3,
+					"cooldown": 40
 				}
 			}
 		},
@@ -136,7 +151,8 @@
 				"mythic": 0.06,
 				"ancient": 0.08,
 				"apotheotic_additions:artifact": 0.1,
-				"apotheotic_additions:heirloom": 0.2
+				"apotheotic_additions:heirloom": 0.2,
+				"apotheotic_additions:esoteric": 0.25
 			}
 		},
 		{
@@ -155,7 +171,8 @@
 				"mythic": 0.09,
 				"ancient": 0.12,
 				"apotheotic_additions:artifact": 0.15,
-				"apotheotic_additions:heirloom": 0.2
+				"apotheotic_additions:heirloom": 0.2,
+				"apotheotic_additions:esoteric": 0.25
 			}
 		}
 	]

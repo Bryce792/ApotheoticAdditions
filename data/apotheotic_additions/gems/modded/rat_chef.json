@@ -8,7 +8,7 @@
 		"modid": "rats"
 	}],
 	"weight": 3,
-	"quality": 1.5,
+	"quality": 2.5,
 	"dimensions": [],
 	"unique": true,
 	"min_rarity": "uncommon",
@@ -56,6 +56,11 @@
 				},
 				"apotheotic_additions:heirloom": {
 					"duration": 220,
+					"amplifier": 1,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 260,
 					"amplifier": 1,
 					"cooldown": 1000
 				}
@@ -107,6 +112,11 @@
 					"duration": 4200,
 					"amplifier": 2,
 					"cooldown": 400
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 5400,
+					"amplifier": 2,
+					"cooldown": 400
 				}
 			}
 		},
@@ -123,13 +133,14 @@
 					"attribute": "forge:step_height",
 					"operation": "ADDITION",
 					"values": {
-						"uncommon": 2,
-						"rare": 3,
-						"epic": 4,
-						"mythic": 5,
-						"ancient": 6,
-						"apotheotic_additions:artifact": 7,
-						"apotheotic_additions:heirloom": 7
+						"uncommon": 0.5,
+						"rare": 1,
+						"epic": 1.5,
+						"mythic": 2,
+						"ancient": 2.5,
+						"apotheotic_additions:artifact": 3,
+						"apotheotic_additions:heirloom": 3.5,
+						"apotheotic_additions:esoteric": 4
 					}
 				},
 				{
@@ -142,7 +153,8 @@
 						"mythic": -2,
 						"ancient": -2.5,
 						"apotheotic_additions:artifact": -3,
-						"apotheotic_additions:heirloom": -2.5
+						"apotheotic_additions:heirloom": -3.5,
+						"apotheotic_additions:esoteric": -4
 					}
 				}
 			]
@@ -158,13 +170,14 @@
 			"attribute": "eidolon:magic_power",
 			"operation": "MULTIPLY_TOTAL",
 			"values": {
-				"uncommon": 0.15,
-				"rare": 0.25,
-				"epic": 0.5,
-				"mythic": 0.75,
-				"ancient": 1.0,
-				"apotheotic_additions:artifact": 1.5,
-				"apotheotic_additions:heirloom": 2
+				"uncommon": 0.05,
+				"rare": 0.1,
+				"epic": 0.15,
+				"mythic": 0.2,
+				"ancient": 0.25,
+				"apotheotic_additions:artifact": 0.3,
+				"apotheotic_additions:heirloom": 0.35,
+				"apotheotic_additions:esoteric": 0.4
 			}
 		},
 		{
@@ -183,7 +196,8 @@
 				"mythic": 0.03,
 				"ancient": 0.04,
 				"apotheotic_additions:artifact": 0.05,
-				"apotheotic_additions:heirloom": 0.06
+				"apotheotic_additions:heirloom": 0.06,
+				"apotheotic_additions:esoteric": 0.07
 			},
             "attributes": [
                 "minecraft:generic.max_health",
@@ -243,7 +257,8 @@
 						"mythic": 0.3,
 						"ancient": 0.4,
 						"apotheotic_additions:artifact": 0.5,
-						"apotheotic_additions:heirloom": 0.6
+						"apotheotic_additions:heirloom": 0.6,
+						"apotheotic_additions:esoteric": 0.7
 					}
 				},
 				{
@@ -256,7 +271,8 @@
 						"mythic": 0.3,
 						"ancient": 0.4,
 						"apotheotic_additions:artifact": 0.5,
-						"apotheotic_additions:heirloom": 0.6
+						"apotheotic_additions:heirloom": 0.6,
+						"apotheotic_additions:esoteric": 0.7
 					}
 				}
 			]
@@ -283,7 +299,8 @@
 				"mythic": 0.45,
 				"ancient": 0.60,
 				"apotheotic_additions:artifact": 0.75,
-				"apotheotic_additions:heirloom": 0.9
+				"apotheotic_additions:heirloom": 0.9,
+				"apotheotic_additions:esoteric": 1
 			},
 			"desc": "gem.apotheotic_additions:alchemy/rat_chef.pickaxe"
 		}

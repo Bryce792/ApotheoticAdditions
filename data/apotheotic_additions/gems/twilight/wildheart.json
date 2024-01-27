@@ -12,7 +12,7 @@
 		"modid": "twilightforest"
 	}],
 	"weight": 7,
-	"quality": 1.5,
+	"quality": 5.5,
 	"dimensions": ["aether:the_aether", "twilightforest:twilight_forest"],
 	"unique": true,
 	"min_rarity": "rare",
