@@ -16,7 +16,7 @@
 	"dimensions": [
 		"blue_skies:everdawn"
 	],
-	"affixed": false,
+	"affixed": true,
 	"nbt": {
 	},
 	"stats": {

@@ -6,7 +6,7 @@
 	"weight": 45,
 	"quality": 0,
 	"name": "Flash-Frozen Spirit",
-	"chance": 0.008,
+	"chance": 0.08,
 	"entities": [
 		"blue_skies:armored_frost_spirit"
 	],
@@ -16,7 +16,7 @@
 	"dimensions": [
 		"blue_skies:everbright"
 	],
-	"affixed": false,
+	"affixed": true,
 	"nbt": {
 	},
 	"stats": {

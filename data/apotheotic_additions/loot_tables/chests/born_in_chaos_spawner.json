@@ -206,7 +206,7 @@
           "min": 1,
           "max": 1,
           "stack": {
-            "item": "born_in_chaos_v1:eternal_candy",
+            "item": "minecraft:golden_apple",
             "count": 1
           }
         },

@@ -6,7 +6,7 @@
 	"weight": 50,
 	"quality": 0,
 	"name": "Sickened Creature",
-	"chance": 0.04,
+	"chance": 0.08,
 	"entities": [
 		"witherstormmod:sickened_zombie",
 		"witherstormmod:sickened_creeper",
@@ -16,10 +16,8 @@
 	"valid_gear_sets": [
 		"#overworld"
 	],
-	"dimensions": [
-		"minecraft:overworld"
-	],
-	"affixed": false,
+	"dimensions": [],
+	"affixed": true,
 	"nbt": {
 	},
 	"stats": {
@@ -30,9 +28,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 10,
-					"steps": 10,
-					"step": 2
+					"min": 50,
+					"steps": 50,
+					"step": 4
 				}
 			},
 			{
@@ -63,7 +61,7 @@
 	"exclusions": [{
 			"type": "apotheosis:spawn_type",
 			"spawn_types": [
-				"spawn_egg", "spawner", "mob_summoned", "conversion"
+				"spawn_egg", "spawner"
 			]
 		}
 	]

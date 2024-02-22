@@ -1,18 +1,23 @@
 {
-	"weight": 25,
-	"quality": 0,
-	"name": "Darktouched Vindicator",
-	"chance": 0.004,
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"weight": 15,
+	"quality": 3,
+	"name": "Darktouched Prowler",
+	"chance": 0.15,
 	"entities": [
-		"minecraft:vindicator"
+		"cataclysm:the_prowler"
 	],
 	"valid_gear_sets": [
-		"#overworld"
+		"#cataclysm"
 	],
-	"dimensions": [],
+	"dimensions": [
+		"minecraft:overworld"
+	],
 	"affixed": true,
-	"nbt": {
-	},
+	"nbt": {},
 	"stats": {
 		"enchant_chance": 0.25,
 		"enchantment_levels": [12, 8, 20, 14],
@@ -21,9 +26,9 @@
 				"attribute": "minecraft:generic.max_health",
 				"operation": "ADDITION",
 				"value": {
-					"min": 50,
+					"min": 250,
 					"steps": 50,
-					"step": 3
+					"step": 5
 				}
 			},
 			{
