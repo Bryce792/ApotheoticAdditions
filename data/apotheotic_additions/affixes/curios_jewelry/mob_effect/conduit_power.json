@@ -1,15 +1,11 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
-	},
-	{
-		"type": "forge:mod_loaded",
 		"modid": "apothiccurios"
 	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "alexscaves:stunned",
-	"target": "HURT_ATTACKER",
+	"mob_effect": "minecraft:conduit_power",
+	"target": "HURT_SELF",
 	"values": {
 		"uncommon": {
 			"duration": {
@@ -18,7 +14,7 @@
 				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 600
+			"cooldown": 1200
 		},
 		"rare": {
 			"duration": {
@@ -27,7 +23,7 @@
 				"step": 15
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 1000
 		},
 		"epic": {
 			"duration": {
@@ -36,7 +32,7 @@
 				"step": 15
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 1000
 		},
 		"mythic": {
 			"duration": {
@@ -45,7 +41,7 @@
 				"step": 15
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 1000
 		},
 		"ancient": {
 			"duration": {
@@ -54,7 +50,7 @@
 				"step": 15
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 1000
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
@@ -63,7 +59,7 @@
 				"step": 15
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 1000
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
@@ -72,7 +68,7 @@
 				"step": 15
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 1000
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
@@ -81,10 +77,10 @@
 				"step": 15
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 1000
 		}
 	},
 	"types": [
-		"curios:ring", "curios:necklace", "curios:charm"
+		"curios:scroll", "curios:spellstone", "curios:an_focus"
 	]
 }

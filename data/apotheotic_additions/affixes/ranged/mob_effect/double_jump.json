@@ -1,11 +1,11 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "destroy"
+		"modid": "occultism"
 	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "destroy:chemical_poison",
-	"target": "ARROW_TARGET",
+	"mob_effect": "occultism:double_jump",
+	"target": "ARROW_SELF",
 	"values": {
 		"rare": {
 			"duration": {
@@ -22,11 +22,7 @@
 				"steps": 3,
 				"step": 20
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 4,
-				"step": 0.26
-			},
+			"amplifier": 0,
 			"cooldown": 160
 		},
 		"mythic": {
@@ -35,11 +31,7 @@
 				"steps": 3,
 				"step": 20
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 4,
-				"step": 0.26
-			},
+			"amplifier": 0,
 			"cooldown": 160
 		},
 		"ancient": {
@@ -48,7 +40,7 @@
 				"steps": 6,
 				"step": 40
 			},
-			"amplifier": 1,
+			"amplifier": 0,
 			"cooldown": 400
 		},
 		"apotheotic_additions:artifact": {
@@ -57,30 +49,31 @@
 				"steps": 8,
 				"step": 50
 			},
-			"amplifier": 2,
+			"amplifier": 0,
 			"cooldown": 400
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
-				"min": 400,
-				"steps": 8,
-				"step": 50
+				"min": 500,
+				"steps": 10,
+				"step": 30
 			},
-			"amplifier": 2,
-			"cooldown": 400
+			"amplifier": 0,
+			"cooldown": 300
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
-				"min": 600,
-				"steps": 8,
-				"step": 50
+				"min": 1000,
+				"steps": 10,
+				"step": 30
 			},
-			"amplifier": 3,
-			"cooldown": 400
+			"amplifier": 0,
+			"cooldown": 300
 		}
 	},
 	"types": [
 		"bow",
-		"crossbow"
+		"crossbow",
+		"trident"
 	]
 }

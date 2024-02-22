@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "born_in_chaos_v1"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "born_in_chaos_v1:jawattack",
+	"target": "ARROW_TARGET",
+	"values": {
+		"mythic": {
+			"duration": {
+				"min": 1,
+				"steps": 1,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"ancient": {
+			"duration": {
+				"min": 1,
+				"steps": 1,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 700
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 1,
+				"steps": 1,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 1,
+				"steps": 1,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 400
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 1,
+				"steps": 1,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 400
+		}
+	},
+	"types": [
+		"bow",
+		"crossbow"
+	]
+}

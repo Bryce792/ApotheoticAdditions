@@ -58,6 +58,6 @@
     }
   },
   "types": [
-		"curios:ring", "curios:necklace", "curios:charm", "curios:belt", "curios:spellstone", "curios:scroll", "curios:bracelet"
+		"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt", "curios:spellstone", "curios:scroll", "curios:bracelet", "curios:talisman", "curios:scroll", "curios:spellstone", "curios:bracelet"
   ]
 }

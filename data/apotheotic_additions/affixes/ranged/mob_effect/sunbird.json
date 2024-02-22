@@ -68,6 +68,15 @@
 			},
 			"amplifier": 0,
 			"cooldown": 300
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 700,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 300
 		}
 	},
 	"types": [

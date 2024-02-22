@@ -1,6 +1,6 @@
 {
 	"type": "apotheosis:attribute",
-	"attribute": "attributeslib:crit_damage",
+	"attribute": "attributeslib:crit_chance",
 	"operation": "MULTIPLY_BASE",
 	"values": {
 		"common": {

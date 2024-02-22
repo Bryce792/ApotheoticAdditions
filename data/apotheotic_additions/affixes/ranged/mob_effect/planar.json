@@ -5,7 +5,7 @@
 	}],
 	"type": "apotheosis:mob_effect",
 	"mob_effect": "irons_spellbooks:planar_sight",
-	"target": "ARROW_TARGET",
+	"target": "ARROW_SELF",
 	"values": {
 		"rare": {
 			"duration": {

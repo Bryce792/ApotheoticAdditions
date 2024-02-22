@@ -1,81 +1,73 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "destroy"
+		"modid": "alexscaves"
 	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "destroy:chemical_poison",
+	"mob_effect": "alexscaves:stunned",
 	"target": "ARROW_TARGET",
 	"values": {
 		"rare": {
 			"duration": {
-				"min": 20,
+				"min": 10,
 				"steps": 2,
-				"step": 20
+				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 100
+			"cooldown": 500
 		},
 		"epic": {
 			"duration": {
-				"min": 40,
+				"min": 20,
 				"steps": 3,
-				"step": 20
+				"step": 15
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 4,
-				"step": 0.26
-			},
-			"cooldown": 160
+			"amplifier": 0,
+			"cooldown": 500
 		},
 		"mythic": {
 			"duration": {
-				"min": 40,
+				"min": 20,
 				"steps": 3,
 				"step": 20
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 4,
-				"step": 0.26
-			},
-			"cooldown": 160
+			"amplifier": 0,
+			"cooldown": 500
 		},
 		"ancient": {
 			"duration": {
-				"min": 120,
-				"steps": 6,
-				"step": 40
+				"min": 30,
+				"steps": 3,
+				"step": 25
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 40,
+				"steps": 4,
+				"step": 30
 			},
 			"amplifier": 1,
 			"cooldown": 400
 		},
-		"apotheotic_additions:artifact": {
-			"duration": {
-				"min": 200,
-				"steps": 8,
-				"step": 50
-			},
-			"amplifier": 2,
-			"cooldown": 400
-		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
-				"min": 400,
-				"steps": 8,
-				"step": 50
+				"min": 70,
+				"steps": 5,
+				"step": 35
 			},
-			"amplifier": 2,
+			"amplifier": 1,
 			"cooldown": 400
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
-				"min": 600,
+				"min": 80,
 				"steps": 8,
-				"step": 50
+				"step": 40
 			},
-			"amplifier": 3,
+			"amplifier": 2,
 			"cooldown": 400
 		}
 	},
