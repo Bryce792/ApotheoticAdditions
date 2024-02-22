@@ -1,0 +1,16 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "deep_aether"
+	}],
+	"weight": 10,
+	"quality": 2.5,
+	"stack": {
+		"item": "deep_aether:stratus_axe"
+	},
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:epic",
+	"dimensions": [
+		"aether:the_aether"
+	]
+}

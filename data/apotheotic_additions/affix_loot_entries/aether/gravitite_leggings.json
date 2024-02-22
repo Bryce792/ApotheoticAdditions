@@ -1,0 +1,16 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"weight": 10,
+	"quality": 2.5,
+	"stack": {
+		"item": "aether:gravitite_leggings"
+	},
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:epic",
+	"dimensions": [
+		"aether:the_aether"
+	]
+}
