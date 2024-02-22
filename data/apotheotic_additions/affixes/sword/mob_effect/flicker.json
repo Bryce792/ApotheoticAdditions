@@ -1,0 +1,87 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "simplyswords"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "simplyswords:fatal_flicker",
+	"target": "ATTACK_SELF",
+	"values": {
+		"uncommon": {
+			"duration": {
+				"min": 10,
+				"steps": 1,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		},
+		"rare": {
+			"duration": {
+				"min": 10,
+				"steps": 3,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 1100
+		},
+		"epic": {
+			"duration": {
+				"min": 15,
+				"steps": 5,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"mythic": {
+			"duration": {
+				"min": 15,
+				"steps": 5,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"ancient": {
+			"duration": {
+				"min": 20,
+				"steps": 7,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 20,
+				"steps": 10,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 700
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 40,
+				"steps": 15,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 200
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 50,
+				"steps": 20,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 200
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}

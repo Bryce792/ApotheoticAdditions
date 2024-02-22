@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "attributeslib:fire_damage",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 10,
+			"steps": 10,
+			"step": 1
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 4,
+			"steps": 5,
+			"step": 0.5
+		}
+	},
+	"types": [
+		"sword",
+		"trident",
+		"heavy_weapon"
+	]
+}
