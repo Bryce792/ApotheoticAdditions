@@ -1,0 +1,54 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "monsterplus"
+	}],
+	"weight": 5,
+	"mainhands": [{
+			"weight": 15,
+			"stack": {
+				"item": "monsterplus:crystal_sword"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "monsterplus:gnawing_jaw"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "monsterplus:darkstar"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "monsterplus:crystal_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "monsterplus:crystal_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "monsterplus:crystal_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "monsterplus:crystal_helmet"
+		}
+	}],
+	"tags": [
+		"overworld", "crystal"
+	]
+}

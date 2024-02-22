@@ -1,7 +1,12 @@
 {
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "ad_astra"
+	}],
   "replace": false,
   "values": [
-    "eidolon:lead_ore",
-    "eidolon:deep_lead_ore"
+    "ad_astra:moon_deepslate",
+    "ad_astra:moon_stone",
+    "ad_astra:moon_sand"
   ]
 }

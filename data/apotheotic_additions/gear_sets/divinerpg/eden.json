@@ -1,0 +1,65 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+	"weight": 25,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "divinerpg:eden_blade"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "divinerpg:eden_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "divinerpg:eden_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "divinerpg:eden_shovel"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 2,
+		"stack": {
+			"item": "divinerpg:eden_shield"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:eden_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:eden_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:eden_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "divinerpg:eden_helmet"
+		}
+	}],
+	"tags": [
+		"divinerpg"
+	]
+}

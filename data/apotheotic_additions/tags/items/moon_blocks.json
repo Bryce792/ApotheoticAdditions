@@ -1,4 +1,8 @@
 {
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "ad_astra"
+	}],
   "replace": false,
   "values": [
     "ad_astra:moon_deepslate",

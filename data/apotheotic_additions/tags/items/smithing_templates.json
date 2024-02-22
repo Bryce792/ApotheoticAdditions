@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "apotheotic_additions:golden_upgrade_smithing_template",
+    "apotheotic_additions:iron_upgrade_smithing_template",
+    "apotheotic_additions:diamond_upgrade_smithing_template",
+    "apotheotic_additions:emerald_upgrade_smithing_template",
+    "minecraft:netherite_upgrade_smithing_template"
+  ]
+}
