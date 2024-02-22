@@ -1,0 +1,41 @@
+{
+  "parent": "apotheotic_additions:main/infused_coin",
+  "conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	}],
+  "display": {
+    "icon": {
+      "item": "apotheotic_additions:ascended_coin"
+    },
+    "title": {
+			"translate": "advancements.apotheotic_additions:ascended_coin"
+    },
+    "description": {
+			"translate": "advancements.apotheotic_additions:ascended_coin.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "apotheotic_additions:ascended_coin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

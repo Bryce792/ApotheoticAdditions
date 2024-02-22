@@ -1,0 +1,34 @@
+{
+	"parent": "apotheosis:enchanting/sculkshelf",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"display": {
+		"icon": {
+			"item": "apotheotic_additions:void_shelf"
+		},
+		"title": {
+			"translate": "advancements.apotheotic_additions:void_shelf"
+		},
+		"description": {
+			"translate": "advancements.apotheotic_additions:void_shelf.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"void_shelf_get": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["apotheotic_additions:void_shelf"]
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"void_shelf_get"
+		]
+	]
+}

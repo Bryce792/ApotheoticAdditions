@@ -1,0 +1,42 @@
+{
+  "parent": "apotheosis:affix/root",
+  "criteria": {
+    "enter_tower": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "apotheosis:tower_main"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+			"translate": "advancements.apotheotic_additions:tower.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "apotheotic_additions:scrap_brick"
+    },
+    "show_toast": true,
+    "title": {
+			"translate": "advancements.apotheotic_additions:tower"
+    }
+  },
+  "requirements": [
+    [
+      "enter_tower"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,77 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "the_bumblezone"
+	}],
+  "wants" : [
+    {
+      "id": "apotheotic_additions:apotheotic_coin",
+      "required": true
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "apotheosis:common_material",
+      "count": 2,
+      "xp_reward": 0,
+      "weight": 10,
+      "required": true
+    },
+    {
+      "id": "apotheosis:vial_of_expulsion",
+      "count": 1,
+      "xp_reward": 3,
+      "weight": 3,
+      "required": true
+    },
+    {
+      "id": "apotheosis:vial_of_extraction",
+      "count": 1,
+      "xp_reward": 3,
+      "weight": 3,
+      "required": true
+    },
+    {
+      "id": "apotheosis:vial_of_unnaming",
+      "count": 1,
+      "xp_reward": 3,
+      "weight": 3,
+      "required": true
+    },
+    {
+      "id": "apotheotic_additions:iron_upgrade_smithing_template",
+      "count": 1,
+      "xp_reward": 5,
+      "weight": 2,
+      "required": true
+    },
+    {
+      "id": "apotheotic_additions:golden_upgrade_smithing_template",
+      "count": 1,
+      "xp_reward": 5,
+      "weight": 2,
+      "required": true
+    },
+    {
+      "id": "apotheotic_additions:diamond_upgrade_smithing_template",
+      "count": 1,
+      "xp_reward": 10,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:stinger_spear",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 6,
+      "required": true
+    },
+    {
+      "id": "the_bumblezone:bee_cannon",
+      "count": 1,
+      "xp_reward": 8,
+      "weight": 6,
+      "required": true
+    }
+  ]
+}

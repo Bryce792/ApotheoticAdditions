@@ -1,0 +1,37 @@
+{
+  "parent": "apotheosis:affix/gem",
+  "display": {
+    "icon": {
+      "item": "apotheotic_additions:the_moon"
+    },
+    "title": {
+			"translate": "advancements.apotheotic_additions:moon"
+    },
+    "description": {
+			"translate": "advancements.apotheotic_additions:moon.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "apotheotic_additions:the_moon"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "inventory_changed"
+    ]
+  ]
+}

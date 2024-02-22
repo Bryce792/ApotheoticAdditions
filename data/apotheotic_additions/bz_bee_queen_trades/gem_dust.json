@@ -1,0 +1,21 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "the_bumblezone"
+	}],
+  "wants" : [
+    {
+      "id": "apotheosis:gem_dust",
+      "required": true
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "the_bumblezone:honey_crystal_shards",
+      "count": 4,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    }
+  ]
+}

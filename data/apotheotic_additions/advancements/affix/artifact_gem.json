@@ -1,29 +1,30 @@
 {
-	"parent": "apotheosis:affix/mythic",
+	"parent": "apotheosis:affix/mythic_gem",
 	"conditions": [{
 		"type": "apotheosis:module",
-		"module": "deadly"
+		"module": "adventure"
 	}],
 	"display": {
 		"icon": {
-			"item": "apotheosis:inert_trident"
+			"item": "apotheosis:gem",
+			"nbt": "{gem:\"apotheotic_additions:modded/hearty\"}"
 		},
 		"title": {
-			"translate": "advancements.apotheotic_additions:artifact"
+			"translate": "advancements.apotheotic_additions:artifact_gem"
 		},
 		"description": {
-			"translate": "advancements.apotheotic_additions:artifact.desc"
+			"translate": "advancements.apotheotic_additions:artifact_gem.desc"
 		},
-		"frame": "challenge",
-		"hidden": false,
+		"frame": "goal",
+		"hidden": true,
 		"background": "apotheosis:textures/advancements/bg/apoth.png"
 	},
 	"criteria": {
-		"sword": {
+		"gem": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"apoth": {
-					"type": "rarity",
+					"type": "gem_rarity",
 					"rarity": "apotheotic_additions:artifact"
 				}
 			}
@@ -31,7 +32,7 @@
 	},
 	"requirements": [
 		[
-			"sword"
+			"gem"
 		]
 	]
 }

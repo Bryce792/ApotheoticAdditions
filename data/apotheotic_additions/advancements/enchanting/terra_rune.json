@@ -1,0 +1,34 @@
+{
+	"parent": "apotheotic_additions:enchanting/bee_shelf",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"display": {
+		"icon": {
+			"item": "apotheotic_additions:terra_shelf"
+		},
+		"title": {
+			"translate": "advancements.apotheotic_additions:terra_shelf"
+		},
+		"description": {
+			"translate": "advancements.apotheotic_additions:terra_shelf.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"shelf_get": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["apotheotic_additions:terra_shelf"]
+				}]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"shelf_get"
+		]
+	]
+}

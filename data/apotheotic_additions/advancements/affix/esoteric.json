@@ -1,21 +1,21 @@
 {
-	"parent": "apotheosis:affix/mythic",
+	"parent": "apotheotic_additions:affix/artifact",
 	"conditions": [{
 		"type": "apotheosis:module",
 		"module": "deadly"
 	}],
 	"display": {
 		"icon": {
-			"item": "apotheosis:inert_trident"
+			"item": "apotheotic_additions:esoteric_material"
 		},
 		"title": {
-			"translate": "advancements.apotheotic_additions:artifact"
+			"translate": "advancements.apotheotic_additions:esoteric"
 		},
 		"description": {
-			"translate": "advancements.apotheotic_additions:artifact.desc"
+			"translate": "advancements.apotheotic_additions:esoteric.desc"
 		},
 		"frame": "challenge",
-		"hidden": false,
+		"hidden": true,
 		"background": "apotheosis:textures/advancements/bg/apoth.png"
 	},
 	"criteria": {
@@ -24,7 +24,7 @@
 			"conditions": {
 				"apoth": {
 					"type": "rarity",
-					"rarity": "apotheotic_additions:artifact"
+					"rarity": "apotheotic_additions:esoteric"
 				}
 			}
 		}

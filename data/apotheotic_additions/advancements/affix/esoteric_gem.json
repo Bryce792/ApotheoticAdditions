@@ -1,37 +1,37 @@
 {
-	"parent": "apotheosis:affix/mythic",
+	"parent": "apotheotic_additions:affix/heirloom_gem",
 	"conditions": [{
 		"type": "apotheosis:module",
-		"module": "deadly"
+		"module": "adventure"
 	}],
 	"display": {
 		"icon": {
-			"item": "apotheosis:inert_trident"
+			"item": "minecraft:ender_eye"
 		},
 		"title": {
-			"translate": "advancements.apotheotic_additions:artifact"
+			"translate": "advancements.apotheotic_additions:esoteric_gem"
 		},
 		"description": {
-			"translate": "advancements.apotheotic_additions:artifact.desc"
+			"translate": "advancements.apotheotic_additions:esoteric_gem.desc"
 		},
 		"frame": "challenge",
-		"hidden": false,
+		"hidden": true,
 		"background": "apotheosis:textures/advancements/bg/apoth.png"
 	},
 	"criteria": {
-		"sword": {
+		"gem": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"apoth": {
-					"type": "rarity",
-					"rarity": "apotheotic_additions:artifact"
+					"type": "gem_rarity",
+					"rarity": "apotheotic_additions:esoteric"
 				}
 			}
 		}
 	},
 	"requirements": [
 		[
-			"sword"
+			"gem"
 		]
 	]
 }

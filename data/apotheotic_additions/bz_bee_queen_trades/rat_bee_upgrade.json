@@ -1,0 +1,25 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "the_bumblezone"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+  "wants" : [
+    {
+      "id": "apotheotic_additions:apotheotic_coin",
+      "required": true
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "rats:rat_upgrade_bee",
+      "count": 1,
+      "xp_reward": 4,
+      "weight": 3,
+      "required": true
+    }
+  ]
+}

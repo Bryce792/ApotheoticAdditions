@@ -1,0 +1,53 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "the_bumblezone"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "thermal"
+	}],
+  "wants" : [
+    {
+      "id": "apotheotic_additions:apotheotic_coin",
+      "required": true
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "thermal:device_hive_extractor",
+      "count": 1,
+      "xp_reward": 12,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "thermal:beekeeper_helmet",
+      "count": 1,
+      "xp_reward": 6,
+      "weight": 2,
+      "required": true
+    },
+    {
+      "id": "thermal:beekeeper_chestplate",
+      "count": 1,
+      "xp_reward": 6,
+      "weight": 2,
+      "required": true
+    },
+    {
+      "id": "thermal:beekeeper_leggings",
+      "count": 1,
+      "xp_reward": 6,
+      "weight": 2,
+      "required": true
+    },
+    {
+      "id": "thermal:beekeeper_boots",
+      "count": 1,
+      "xp_reward": 6,
+      "weight": 2,
+      "required": true
+    }
+  ]
+}
