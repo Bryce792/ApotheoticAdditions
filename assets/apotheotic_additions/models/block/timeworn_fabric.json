@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "apotheotic_additions:block/timeworn_fabric",
+    "particle": "apotheotic_additions:block/timeworn_fabric"
+  },
+  "render_type": "solid"
+}

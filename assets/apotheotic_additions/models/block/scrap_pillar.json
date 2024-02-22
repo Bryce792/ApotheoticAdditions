@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "apotheotic_additions:block/scrap_carved",
+    "up": "apotheotic_additions:block/scrap_carved",
+    "north": "apotheotic_additions:block/scrap_pillar",
+    "east": "apotheotic_additions:block/scrap_pillar",
+    "south": "apotheotic_additions:block/scrap_pillar",
+    "west": "apotheotic_additions:block/scrap_pillar",
+    "particle": "apotheotic_additions:block/scrap_carved"
+  },
+  "render_type": "solid"
+}

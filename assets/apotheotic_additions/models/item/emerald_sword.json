@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "apotheotic_additions:item/tool_sword_emerald"
+  }
+}

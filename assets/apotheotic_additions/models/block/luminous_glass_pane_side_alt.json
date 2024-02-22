@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "apotheotic_additions:block/luminous_glass_2",
+    "pane": "apotheotic_additions:block/luminous_glass_2"
+  },
+  "render_type": "cutout"
+}

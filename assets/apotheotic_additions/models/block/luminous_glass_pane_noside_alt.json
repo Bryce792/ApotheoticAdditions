@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "apotheotic_additions:block/luminous_glass_2"
+  },
+  "render_type": "cutout"
+}

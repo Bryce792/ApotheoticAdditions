@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "apotheotic_additions:block/scrap_brick",
+    "particle": "apotheotic_additions:block/scrap_brick"
+  },
+  "render_type": "solid"
+}

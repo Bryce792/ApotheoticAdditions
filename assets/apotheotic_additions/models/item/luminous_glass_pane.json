@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "apotheotic_additions:block/luminous_glass_2"
+  },
+  "render_type": "cutout"
+}
