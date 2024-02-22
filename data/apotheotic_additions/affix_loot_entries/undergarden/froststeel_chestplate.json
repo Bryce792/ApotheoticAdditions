@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+  "weight": 25,
+  "quality": 10.0,
+  "stack": {
+    "item": "undergarden:froststeel_chestplate",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:rare"
+}

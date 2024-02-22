@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightdelight"
+	}],
+  "weight": 55,
+  "quality": 3.0,
+  "stack": {
+    "item": "twilightdelight:steeleaf_knife",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "twilightforest:twilight_forest"
+  ],
+  "min_rarity": "apotheosis:uncommon",
+  "max_rarity": "apotheosis:rare"
+}

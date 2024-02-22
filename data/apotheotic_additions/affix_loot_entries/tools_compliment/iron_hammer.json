@@ -1,0 +1,16 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "tools_complement"
+	}],
+  "weight": 20,
+  "quality": 2.0,
+  "stack": {
+    "item": "tools_complement:iron_hammer",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:rare"
+}

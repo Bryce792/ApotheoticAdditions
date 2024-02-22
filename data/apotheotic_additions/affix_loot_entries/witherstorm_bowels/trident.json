@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "witherstormmod"
+	}],
+  "weight": 55,
+  "quality": 7.0,
+  "stack": {
+    "item": "minecraft:trident",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "witherstormmod:bowels"
+  ],
+  "min_rarity": "apotheosis:rare",
+  "max_rarity": "apotheosis:mythic"
+}

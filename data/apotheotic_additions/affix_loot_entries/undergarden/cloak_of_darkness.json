@@ -1,0 +1,22 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+  "weight": 1,
+  "quality": 1.0,
+  "stack": {
+    "item": "alexscaves:cloak_of_darkness",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "undergarden:undergarden"
+  ],
+  "min_rarity": "apotheotic_additions:artifact",
+  "max_rarity": "apotheotic_additions:heirloom"
+}
