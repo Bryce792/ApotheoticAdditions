@@ -4,6 +4,12 @@
     "apotheotic_additions:sacrificial_shelf",
     "apotheotic_additions:wavebinders_shelf",
     "apotheotic_additions:void_shelf",
-    "apotheotic_additions:terra_shelf"
+    "apotheotic_additions:terra_shelf",
+    "apotheotic_additions:scrap_brick",
+    "apotheotic_additions:scrap_pillar",
+    "apotheotic_additions:scrap_rough",
+    "apotheotic_additions:scrap_carved",
+    "apotheotic_additions:scrap_brick_slab",
+    "apotheotic_additions:scrap_brick_stairs"
   ]
 }
