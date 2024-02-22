@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cfm"
+	}],
+  "weight": 1,
+  "quality": 5.0,
+  "stack": {
+    "item": "cfm:spatula",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "min_rarity": "apotheosis:ancient",
+  "max_rarity": "apotheotic_additions:artifact"
+}

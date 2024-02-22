@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "deeperdarker"
+	}],
+	"weight": 1,
+	"quality": 3,
+	"stack": {
+		"item": "deeperdarker:warden_helmet"
+	},
+	"min_rarity": "apotheosis:ancient",
+	"max_rarity": "apotheosis:ancient",
+	"dimensions": ["deeperdarker:otherside"]
+}

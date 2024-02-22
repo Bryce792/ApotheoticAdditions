@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "deeperdarker"
+	}],
+	"weight": 10,
+	"quality": 2,
+	"stack": {
+		"item": "minecraft:netherite_pickaxe"
+	},
+	"min_rarity": "apotheosis:epic",
+	"max_rarity": "apotheosis:mythic",
+	"dimensions": ["deeperdarker:otherside"]
+}

@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "deeperdarker"
+	}],
+	"weight": 1,
+	"quality": 4,
+	"stack": {
+		"item": "minecraft:netherite_sword"
+	},
+	"min_rarity": "apotheotic_additions:artifact",
+	"max_rarity": "apotheotic_additions:heirloom",
+	"dimensions": ["deeperdarker:otherside"]
+}

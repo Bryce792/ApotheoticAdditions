@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "deeperdarker"
+	}],
+	"weight": 50,
+	"quality": 2,
+	"stack": {
+		"item": "minecraft:diamond_sword"
+	},
+	"min_rarity": "apotheosis:rare",
+	"max_rarity": "apotheosis:mythic",
+	"dimensions": ["deeperdarker:otherside"]
+}
