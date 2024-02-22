@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "apotheotic_additions:apotheotic_coin",
+    "apotheotic_additions:infused_coin",
+    "apotheotic_additions:ascended_coin",
+    "apotheotic_additions:emerald_sword",
+    "apotheotic_additions:commonapple",
+    "apotheosis:common_material"
+  ]
+}
