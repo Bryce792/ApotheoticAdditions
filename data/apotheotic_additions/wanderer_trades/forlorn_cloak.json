@@ -11,8 +11,7 @@
   "rare": true,
   "input_1": {
     "item": "minecraft:netherite_ingot",
-    "count": 5,
-    "nbt": "{Damage:0}"
+    "count": 5
   },
   "input_2": {
     "item": "apotheotic_additions:infused_coin",
