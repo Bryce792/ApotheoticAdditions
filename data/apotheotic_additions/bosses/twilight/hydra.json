@@ -4,8 +4,8 @@
 		"modid": "twilightforest"
 	}],
 	"entity": "twilightforest:hydra",
-	"weight": 1,
-	"quality": 6,
+	"weight": 0,
+	"quality": 1,
 	"size": {
 		"width": 15,
 		"height": 15
