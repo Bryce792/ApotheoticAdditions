@@ -1,0 +1,133 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cofh_core"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "thermal"
+	}],
+	"weight": 2,
+	"quality": 1,
+	"dimensions": ["minecraft:the_end"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "cofh_core:supercharge",
+			"target": "attack_self",
+			"values": {
+				"rare": {
+					"duration": 10,
+					"amplifier": 0,
+					"cooldown": 1500
+				},
+				"epic": {
+					"duration": 20,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"mythic": {
+					"duration": 30,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"ancient": {
+					"duration": 40,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 50,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 60,
+					"amplifier": 1,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 70,
+					"amplifier": 1,
+					"cooldown": 1000
+				}
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"mob_effect": "cofh_core:explosion_resistance",
+			"target": "hurt_self",
+			"values": {
+				"rare": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 1500
+				},
+				"epic": {
+					"duration": 160,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"mythic": {
+					"duration": 220,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"ancient": {
+					"duration": 280,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 340,
+					"amplifier": 1,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 400,
+					"amplifier": 1,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 460,
+					"amplifier": 1,
+					"cooldown": 1000
+				}
+			}
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "flux",
+				"types": [
+					"pickaxe", "shovel", "heavy_weapon"
+				]
+			},
+			"enchantment": "cofh_core:holding",
+			"values": {
+				"rare": 1,
+				"epic": 1,
+				"mythic": 2,
+				"ancient": 2,
+				"apotheotic_additions:artifact": 3,
+				"apotheotic_additions:heirloom": 3,
+				"apotheotic_additions:esoteric": 4
+			}
+		}
+	]
+}

@@ -1,0 +1,106 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "the_bumblezone"
+	}],
+	"weight": 7,
+	"quality": 4.5,
+	"dimensions": ["the_bumblezone:the_bumblezone"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_aether",
+				"types": [
+					"curios:aether_gloves", "curios:aether_accessory", "curios:aether_shield", "curios:aether_cape", "curios:aether_pendant", "curios:aether_ring"
+				]
+			},
+			"attribute": "attributeslib:arrow_damage",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.015,
+				"epic": 0.03,
+				"mythic": 0.045,
+				"ancient": 0.06,
+				"apotheotic_additions:artifact": 0.075,
+				"apotheotic_additions:heirloom": 0.09,
+				"apotheotic_additions:esoteric": 0.105
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "spellbook",
+				"types": [
+					"spellbook"
+				]
+			},
+			"attribute": "irons_spellbooks:nature_spell_power",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.25,
+				"rare": 0.5,
+				"epic": 1.0,
+				"mythic": 1.5,
+				"ancient": 2.0,
+				"apotheotic_additions:artifact": 2.5,
+				"apotheotic_additions:heirloom": 3,
+				"apotheotic_additions:esoteric": 3.5
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_jewelry",
+				"types": [
+					"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt"
+				]
+			},
+			"attribute": "irons_spellbooks:nature_spell_power",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.01,
+				"epic": 0.02,
+				"mythic": 0.03,
+				"ancient": 0.04,
+				"apotheotic_additions:artifact": 0.05,
+				"apotheotic_additions:heirloom": 0.06,
+				"apotheotic_additions:esoteric": 0.07
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_armor",
+				"types": [
+					"curios:body", "curios:head", "curios:back", "curios:feet", "curios:hands"
+				]
+			},
+			"attribute": "irons_spellbooks:nature_magic_resist",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.01,
+				"epic": 0.02,
+				"mythic": 0.03,
+				"ancient": 0.04,
+				"apotheotic_additions:artifact": 0.05,
+				"apotheotic_additions:heirloom": 0.06,
+				"apotheotic_additions:esoteric": 0.07
+			}
+		}
+	]
+}

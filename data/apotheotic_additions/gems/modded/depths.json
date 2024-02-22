@@ -1,0 +1,116 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"weight": 1,
+	"quality": 1,
+	"dimensions": ["minecraft:overworld"],
+	"unique": true,
+	"min_rarity": "epic",
+	"bonuses": [
+		{
+			"type": "apotheosis:all_stats",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"operation": "multiply_total",
+			"values": {
+				"rare": 0.005,
+				"epic": 0.01,
+				"mythic": 0.015,
+				"ancient": 0.02,
+				"apotheotic_additions:artifact": 0.025,
+				"apotheotic_additions:heirloom": 0.03,
+				"apotheotic_additions:esoteric": 0.035
+			},
+            "attributes": [
+                "minecraft:generic.max_health",
+                "minecraft:generic.knockback_resistance",
+                "minecraft:generic.movement_speed",
+                "minecraft:generic.attack_damage",
+                "minecraft:generic.attack_knockback",
+                "minecraft:generic.attack_speed",
+                "minecraft:generic.armor",
+                "minecraft:generic.armor_toughness",
+                "minecraft:generic.luck",
+                "attributeslib:armor_pierce",
+                "attributeslib:armor_shred",
+                "attributeslib:arrow_damage",
+                "attributeslib:arrow_velocity",
+                "attributeslib:cold_damage",
+                "attributeslib:crit_chance",
+                "attributeslib:crit_damage",
+                "attributeslib:current_hp_damage",
+                "attributeslib:dodge_chance",
+                "attributeslib:draw_speed",
+                "attributeslib:experience_gained",
+                "attributeslib:fire_damage",
+                "attributeslib:ghost_health",
+                "attributeslib:healing_received",
+                "attributeslib:life_steal",
+                "attributeslib:mining_speed",
+                "attributeslib:overheal",
+                "attributeslib:prot_pierce",
+                "attributeslib:prot_shred"
+            ]
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "ortholance",
+				"types": [
+					"sword"
+				]
+			},
+			"enchantment": "alexscaves:flinging",
+			"values": {
+				"epic": 1,
+				"mythic": 1,
+				"ancient": 1,
+				"apotheotic_additions:artifact": 2,
+				"apotheotic_additions:heirloom": 2,
+				"apotheotic_additions:esoteric": 3
+			}
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "breaker",
+				"types": [
+					"shovel",
+					"pickaxe"
+				]
+			},
+			"enchantment": "apotheosis:earths_boon",
+			"values": {
+				"ancient": 1,
+				"apotheotic_additions:artifact": 1,
+				"apotheotic_additions:heirloom": 1,
+				"apotheotic_additions:esoteric": 2
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "attributeslib:cold_damage",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"epic": 0.15,
+				"mythic": 0.3,
+				"ancient": 0.45,
+				"apotheotic_additions:artifact": 0.6,
+				"apotheotic_additions:heirloom": 0.75,
+				"apotheotic_additions:esoteric": 0.9
+			}
+		}
+	]
+}

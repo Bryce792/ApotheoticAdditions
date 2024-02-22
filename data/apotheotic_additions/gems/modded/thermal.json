@@ -1,0 +1,151 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cofh_core"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "thermal"
+	}],
+	"weight": 5,
+	"quality": 3,
+	"dimensions": ["minecraft:overworld"],
+	"unique": true,
+	"min_rarity": "uncommon",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "cofh_core:magic_resistance",
+			"target": "attack_self",
+			"values": {
+				"uncommon": {
+					"duration": 30,
+					"amplifier": 0,
+					"cooldown": 3000
+				},
+				"rare": {
+					"duration": 30,
+					"amplifier": 0,
+					"cooldown": 1500
+				},
+				"epic": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"mythic": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"ancient": {
+					"duration": 140,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 180,
+					"amplifier": 1,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 220,
+					"amplifier": 1,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 300,
+					"amplifier": 1,
+					"cooldown": 1000
+				}
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"mob_effect": "cofh_core:sundered",
+			"target": "attack_target",
+			"values": {
+				"uncommon": {
+					"duration": 150,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"rare": {
+					"duration": 240,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"epic": {
+					"duration": 330,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"mythic": {
+					"duration": 420,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"ancient": {
+					"duration": 510,
+					"amplifier": 0,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 700,
+					"amplifier": 1,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 890,
+					"amplifier": 1,
+					"cooldown": 1000
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 1000,
+					"amplifier": 2,
+					"cooldown": 1000
+				}
+			}
+		},
+		{
+			"type": "apotheosis:drop_transform",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"blocks": "forge:ores/nickel",
+			"inputs": {
+				"tag": "forge:raw_materials/nickel"
+			},
+			"output": {
+				"item": "thermal:basalz_rod"
+			},
+			"values": {
+				"uncommon": 0.01,
+				"rare": 0.03,
+				"epic": 0.06,
+				"mythic": 0.09,
+				"ancient": 0.12,
+				"apotheotic_additions:artifact": 0.15,
+				"apotheotic_additions:heirloom": 0.18,
+				"apotheotic_additions:esoteric": 0.21
+			},
+			"desc": "gem.apotheotic_additions:alchemy/thermal.pickaxe"
+		}
+	]
+}

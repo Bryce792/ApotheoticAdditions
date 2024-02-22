@@ -1,0 +1,119 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"weight": 1,
+	"quality": 1,
+	"dimensions": ["minecraft:overworld"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "resistor_shield",
+				"types": [
+					"shield"
+				]
+			},
+			"enchantment": "alexscaves:heavy_slam",
+			"values": {
+				"rare": 1,
+				"epic": 1,
+				"mythic": 1,
+				"ancient": 1,
+				"apotheotic_additions:artifact": 2,
+				"apotheotic_additions:heirloom": 2,
+				"apotheotic_additions:esoteric": 3
+			}
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "prim_club",
+				"types": [
+					"sword"
+				]
+			},
+			"enchantment": "alexscaves:swiftwood",
+			"values": {
+				"rare": 1,
+				"epic": 1,
+				"mythic": 1,
+				"ancient": 1,
+				"apotheotic_additions:artifact": 2,
+				"apotheotic_additions:heirloom": 2,
+				"apotheotic_additions:esoteric": 3
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"attribute": "attributeslib:mining_speed",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"rare": 0.05,
+				"epic": 0.1,
+				"mythic": 0.2,
+				"ancient": 0.3,
+				"apotheotic_additions:artifact": 0.35,
+				"apotheotic_additions:heirloom": 0.45,
+				"apotheotic_additions:esoteric": 0.5
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"mob_effect": "alexscaves:rage",
+			"target": "hurt_self",
+			"values": {
+				"rare": {
+					"duration": 40,
+					"amplifier": 0,
+					"cooldown": 900
+				},
+				"epic": {
+					"duration": 80,
+					"amplifier": 0,
+					"cooldown": 900
+				},
+				"mythic": {
+					"duration": 160,
+					"amplifier": 0,
+					"cooldown": 900
+				},
+				"ancient": {
+					"duration": 240,
+					"amplifier": 0,
+					"cooldown": 900
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 320,
+					"amplifier": 1,
+					"cooldown": 900
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 400,
+					"amplifier": 1,
+					"cooldown": 900
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 500,
+					"amplifier": 2,
+					"cooldown": 900
+				}
+			}
+		}
+	]
+}

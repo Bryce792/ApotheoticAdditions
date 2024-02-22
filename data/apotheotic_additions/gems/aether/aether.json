@@ -3,8 +3,8 @@
 		"type": "forge:mod_loaded",
 		"modid": "aether"
 	}],
-	"weight": 5,
-	"quality": 2.5,
+	"weight": 1,
+	"quality": 1,
 	"dimensions": ["aether:the_aether"],
 	"unique": true,
 	"min_rarity": "mythic",
@@ -39,9 +39,9 @@
 			"operation": "ADDITION",
 			"values": {
 				"mythic": 0,
-				"ancient": 1,
-				"apotheotic_additions:artifact": 1,
-				"apotheotic_additions:heirloom": 1,
+				"ancient": 0,
+				"apotheotic_additions:artifact": 0,
+				"apotheotic_additions:heirloom": 0,
 				"apotheotic_additions:esoteric": 1
 			}
 		}

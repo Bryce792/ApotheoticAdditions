@@ -19,7 +19,7 @@
 		},
 		"blocks": "forge:ores/iron",
 		"inputs": {
-			"tag": "forge:raw_materials/gold"
+			"tag": "forge:raw_materials/iron"
 		},
 		"output": {
 			"item": "aether:zanite_gemstone"
@@ -34,6 +34,102 @@
 			"apotheotic_additions:esoteric": 1
 		},
 		"desc": "gem.apotheotic_additions:alchemy/zanite.bonus.pickaxe"
+	},
+	{
+		"type": "apotheosis:mob_effect",
+		"gem_class": {
+			"key": "chestplate",
+			"types": [
+				"chestplate"
+			]
+		},
+		"mob_effect": "minecraft:instant_damage",
+		"target": "hurt_attacker",
+		"values": {
+			"rare": {
+				"duration": 1,
+				"amplifier": 0,
+				"cooldown": 1500
+			},
+			"epic": {
+				"duration": 1,
+				"amplifier": 0,
+				"cooldown": 1400
+			},
+			"mythic": {
+				"duration": 1,
+				"amplifier": 0,
+				"cooldown": 1300
+			},
+			"ancient": {
+				"duration": 1,
+				"amplifier": 1,
+				"cooldown": 1200
+			},
+			"apotheotic_additions:artifact": {
+				"duration": 1,
+				"amplifier": 2,
+				"cooldown": 1100
+			},
+			"apotheotic_additions:heirloom": {
+				"duration": 1,
+				"amplifier": 2,
+				"cooldown": 1000
+			},
+			"apotheotic_additions:esoteric": {
+				"duration": 1,
+				"amplifier": 3,
+				"cooldown": 1000
+			}
+		}
+	},
+	{
+		"type": "apotheosis:mob_effect",
+		"gem_class": {
+			"key": "heavy_weapon",
+			"types": [
+				"heavy_weapon"
+			]
+		},
+		"mob_effect": "minecraft:strength",
+		"target": "attack_self",
+		"values": {
+			"rare": {
+				"duration": 100,
+				"amplifier": 0,
+				"cooldown": 1000
+			},
+			"epic": {
+				"duration": 140,
+				"amplifier": 0,
+				"cooldown": 1000
+			},
+			"mythic": {
+				"duration": 180,
+				"amplifier": 0,
+				"cooldown": 1000
+			},
+			"ancient": {
+				"duration": 220,
+				"amplifier": 1,
+				"cooldown": 1000
+			},
+			"apotheotic_additions:artifact": {
+				"duration": 260,
+				"amplifier": 2,
+				"cooldown": 1000
+			},
+			"apotheotic_additions:heirloom": {
+				"duration": 300,
+				"amplifier": 2,
+				"cooldown": 1000
+			},
+			"apotheotic_additions:esoteric": {
+				"duration": 340,
+				"amplifier": 3,
+				"cooldown": 1000
+			}
+		}
 	}
 ]
 }

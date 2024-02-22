@@ -1,0 +1,129 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "the_bumblezone"
+	}],
+	"weight": 7,
+	"quality": 5.5,
+	"dimensions": ["the_bumblezone:the_bumblezone"],
+	"unique": true,
+	"min_rarity": "uncommon",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "the_bumblezone:beenergized",
+			"target": "attack_self",
+			"stack_on_reapply": true,
+			"values": {
+				"uncommon": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"rare": {
+					"duration": 150,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"epic": {
+					"duration": 200,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"mythic": {
+					"duration": 250,
+					"amplifier": 1,
+					"cooldown": 100
+				},
+				"ancient": {
+					"duration": 300,
+					"amplifier": 1,
+					"cooldown": 100
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 400,
+					"amplifier": 2,
+					"cooldown": 100
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 500,
+					"amplifier": 2,
+					"cooldown": 100
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 1000,
+					"amplifier": 2,
+					"cooldown": 100
+				}
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "attributeslib:fire_damage",
+			"operation": "ADDITION",
+			"values": {
+				"uncommon": 0.5,
+				"rare": 1.0,
+				"epic": 1.5,
+				"mythic": 2.0,
+				"ancient": 2.5,
+				"apotheotic_additions:artifact": 3,
+				"apotheotic_additions:heirloom": 3.5,
+				"apotheotic_additions:esoteric": 4
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings", "boots"
+				]
+			},
+			"modifiers": [{
+					"attribute": "attributeslib:cold_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.03,
+						"rare": 0.06,
+						"epic": 0.09,
+						"mythic": 0.12,
+						"ancient": 0.15,
+						"apotheotic_additions:artifact": 0.18,
+						"apotheotic_additions:heirloom": 0.21,
+						"apotheotic_additions:esoteric": 0.24
+					}
+				},
+				{
+					"attribute": "attributeslib:fire_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.03,
+						"rare": -0.06,
+						"epic": -0.09,
+						"mythic": -0.12,
+						"ancient": -0.15,
+						"apotheotic_additions:artifact": -0.18,
+						"apotheotic_additions:heirloom": -0.21,
+						"apotheotic_additions:esoteric": -0.24
+					}
+				}
+			]
+		}
+	]
+}

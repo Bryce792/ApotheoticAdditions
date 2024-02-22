@@ -1,0 +1,135 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "ars_nouveau"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "midnight"
+	}],
+	"weight": 7,
+	"quality": 4.5,
+	"dimensions": ["midnight:the_midnight"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "midnight:tormented",
+			"target": "attack_self",
+			"stack_on_reapply": true,
+			"values": {
+				"rare": {
+					"duration": 150,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"epic": {
+					"duration": 200,
+					"amplifier": 0,
+					"cooldown": 100
+				},
+				"mythic": {
+					"duration": 250,
+					"amplifier": 1,
+					"cooldown": 100
+				},
+				"ancient": {
+					"duration": 300,
+					"amplifier": 1,
+					"cooldown": 100
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 400,
+					"amplifier": 2,
+					"cooldown": 100
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 500,
+					"amplifier": 2,
+					"cooldown": 100
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 1000,
+					"amplifier": 2,
+					"cooldown": 100
+				}
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_aether",
+				"types": [
+					"curios:aether_gloves", "curios:aether_accessory", "curios:aether_shield", "curios:aether_cape", "curios:aether_pendant", "curios:aether_ring"
+				]
+			},
+			"attribute": "minecraft:generic.max_health",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.015,
+				"epic": 0.03,
+				"mythic": 0.045,
+				"ancient": 0.06,
+				"apotheotic_additions:artifact": 0.075,
+				"apotheotic_additions:heirloom": 0.09,
+				"apotheotic_additions:esoteric": 0.105
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_jewelry",
+				"types": [
+					"curios:ring", "curios:an_focus", "curios:necklace", "curios:charm", "curios:belt"
+				]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.01,
+				"epic": 0.02,
+				"mythic": 0.03,
+				"ancient": 0.04,
+				"apotheotic_additions:artifact": 0.05,
+				"apotheotic_additions:heirloom": 0.06,
+				"apotheotic_additions:esoteric": 0.07
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "curios_armor",
+				"types": [
+					"curios:body", "curios:head", "curios:back", "curios:feet", "curios:hands"
+				]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"rare": 0.01,
+				"epic": 0.02,
+				"mythic": 0.03,
+				"ancient": 0.04,
+				"apotheotic_additions:artifact": 0.05,
+				"apotheotic_additions:heirloom": 0.06,
+				"apotheotic_additions:esoteric": 0.07
+			}
+		}
+	]
+}

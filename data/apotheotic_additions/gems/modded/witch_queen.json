@@ -229,7 +229,7 @@
 			},
 			"blocks": "apotheotic_additions/moon_blocks",
 			"inputs": {
-				"tag": "apotheotic_additions/moon_blocks"
+				"item": "ad_astra:moon_cobblestone"
 			},
 			"output": {
 				"item": "apotheosis:common_material"
