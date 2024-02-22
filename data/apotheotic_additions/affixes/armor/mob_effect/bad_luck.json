@@ -1,7 +1,7 @@
 {
 	"type": "apotheosis:mob_effect",
 	"mob_effect": "minecraft:unluck",
-	"target": "HURT_SELF",
+	"target": "HURT_ATTACKER",
 	"values": {
 		"common": {
 			"duration": {

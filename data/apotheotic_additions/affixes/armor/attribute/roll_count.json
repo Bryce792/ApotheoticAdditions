@@ -1,25 +1,29 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "ars_nouveau"
+		"modid": "combatroll"
 	}],
 	"type": "apotheosis:attribute",
-	"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+	"attribute": "combatroll:count",
 	"operation": "ADDITION",
 	"values": {
 		"apotheotic_additions:artifact": {
-			"min": 75,
-			"steps": 100,
+			"min": 1,
+			"steps": 1,
 			"step": 1
 		},
 		"apotheotic_additions:heirloom": {
-			"min": 50,
-			"steps": 50,
+			"min": 1,
+			"steps": 2,
+			"step": 1
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 2,
+			"steps": 1,
 			"step": 1
 		}
 	},
 	"types": [
-		"helmet", "chestplate", "leggings", "boots",
-		"shield"
+		"helmet", "chestplate", "leggings", "boots"
 	]
 }

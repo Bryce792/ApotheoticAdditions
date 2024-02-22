@@ -1,77 +1,77 @@
 {
 	"conditions": [{
-		"type": "forge:mod_loaded",
-		"modid": "irons_spellbooks"
-	}],
+	"type": "forge:mod_loaded",
+	"modid": "occultism"
+}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "irons_spellbooks:ascension",
+	"mob_effect": "occultism:beaver_harvest",
 	"target": "BREAK_SELF",
 	"values": {
 		"rare": {
 			"duration": {
-				"min": 10,
-				"steps": 3,
-				"step": 20
+				"min": 200,
+				"steps": 4,
+				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 600
+			"cooldown": 800
 		},
 		"epic": {
 			"duration": {
-				"min": 20,
-				"steps": 6,
-				"step": 20
+				"min": 240,
+				"steps": 5,
+				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 600
+			"cooldown": 800
 		},
 		"mythic": {
 			"duration": {
-				"min": 30,
+				"min": 280,
 				"steps": 6,
-				"step": 20
+				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 600
+			"cooldown": 800
 		},
 		"ancient": {
 			"duration": {
-				"min": 40,
-				"steps": 6,
-				"step": 20
+				"min": 320,
+				"steps": 4,
+				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 800
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
-				"min": 50,
-				"steps": 8,
-				"step": 30
+				"min": 360,
+				"steps": 4,
+				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 500
+			"cooldown": 800
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
-				"min": 100,
-				"steps": 10,
-				"step": 30
+				"min": 400,
+				"steps": 4,
+				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 300
+			"cooldown": 800
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
-				"min": 150,
-				"steps": 10,
-				"step": 30
+				"min": 440,
+				"steps": 4,
+				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 600
+			"cooldown": 800
 		}
 	},
 	"types": [
-		"pickaxe", "shovel"
+		"pickaxe", "shovel", "heavy_weapon"
 	]
 }

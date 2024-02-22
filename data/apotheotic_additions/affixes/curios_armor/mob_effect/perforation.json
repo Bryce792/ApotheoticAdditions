@@ -1,0 +1,64 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aquamirae"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "aquamirae:armor_decrease",
+	"stack_on_reapply": true,
+	"target": "HURT_ATTACKER",
+	"values": {
+		"mythic": {
+			"duration": {
+				"min": 200,
+				"steps": 4,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 200
+		},
+		"ancient": {
+			"duration": {
+				"min": 200,
+				"steps": 4,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 190
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 200,
+				"steps": 4,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 180
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 220,
+				"steps": 6,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 200
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 240,
+				"steps": 6,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 200
+		}
+	},
+	"types": [
+		"curios:head"
+	]
+}

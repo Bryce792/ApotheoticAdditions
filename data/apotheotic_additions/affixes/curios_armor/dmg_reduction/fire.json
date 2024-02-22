@@ -8,33 +8,33 @@
 	"values": {
 		"rare": {
 			"min": 0.01,
-			"steps": 5,
+			"steps": 1,
 			"step": 0.01
 		},
 		"epic": {
-			"min": 0.02,
-			"steps": 5,
+			"min": 0.01,
+			"steps": 2,
 			"step": 0.01
 		},
 		"mythic": {
-			"min": 0.03,
-			"steps": 6,
+			"min": 0.02,
+			"steps": 2,
 			"step": 0.01
 		},
 		"ancient": {
-			"min": 0.04,
-			"steps": 7,
+			"min": 0.03,
+			"steps": 2,
 			"step": 0.01
 		},
 		"apotheotic_additions:artifact": {
 			"min": 0.04,
-			"steps": 7,
-			"step": 0.03
+			"steps": 5,
+			"step": 0.02
 		},
 		"apotheotic_additions:heirloom": {
 			"min": 0.08,
-			"steps": 7,
-			"step": 0.03
+			"steps": 5,
+			"step": 0.02
 		},
 		"apotheotic_additions:esoteric": {
 			"min": 0.08,
@@ -43,6 +43,6 @@
 		}
 	},
 	"types": [
-		"curios:head", "curios:body", "curios:back", "curios:feet"
+		"curios:head", "curios:body", "curios:back", "curios:feet", "curios:hands"
 	]
 }

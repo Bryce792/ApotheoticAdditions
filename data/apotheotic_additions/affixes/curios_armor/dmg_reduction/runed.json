@@ -4,7 +4,7 @@
 		"modid": "apothiccurios"
 	}],
 	"type": "apotheosis:damage_reduction",
-	"damage_type": "EXPLOSION",
+	"damage_type": "MAGIC",
 	"values": {
 		"rare": {
 			"min": 0.01,
@@ -43,6 +43,6 @@
 		}
 	},
 	"types": [
-		"curios:head", "curios:body", "curios:back", "curios:feet", "curios:hands", "curios:belt", "curios:talisman", "curios:bracelet"
+		"curios:head", "curios:body", "curios:back", "curios:feet", "curios:hands"
 	]
 }

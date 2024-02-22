@@ -1,0 +1,59 @@
+{
+	"conditions": [{
+	"type": "forge:mod_loaded",
+	"modid": "the_bumblezone"
+}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "the_bumblezone:beenergized",
+	"target": "HURT_SELF",
+	"values": {
+		"mythic": {
+			"duration": {
+				"min": 300,
+				"steps": 20,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"ancient": {
+			"duration": {
+				"min": 400,
+				"steps": 20,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 500,
+				"steps": 20,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 900,
+				"steps": 20,
+				"step": 25
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 1200,
+				"steps": 40,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		}
+	},
+	"types": [
+		"boots"
+	]
+}

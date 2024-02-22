@@ -1,0 +1,73 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:dolphins_grace",
+	"target": "HURT_SELF",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 200,
+				"steps": 4,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"epic": {
+			"duration": {
+				"min": 240,
+				"steps": 5,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"mythic": {
+			"duration": {
+				"min": 280,
+				"steps": 6,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"ancient": {
+			"duration": {
+				"min": 320,
+				"steps": 4,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 360,
+				"steps": 4,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 400,
+				"steps": 4,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 440,
+				"steps": 4,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		}
+	},
+	"types": [
+		"helmet"
+	]
+}

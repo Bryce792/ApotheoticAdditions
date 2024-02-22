@@ -13,9 +13,9 @@
 			"step": 0.03
 		},
 		"apotheotic_additions:esoteric": {
-			"min": 0.6,
-			"steps": 14,
-			"step": 0.06
+			"min": 0.4,
+			"steps": 7,
+			"step": 0.04
 		}
 	},
 	"types": [
