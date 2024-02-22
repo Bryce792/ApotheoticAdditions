@@ -1,0 +1,16 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "simplyswords"
+	}],
+  "weight": 4,
+  "quality": 3.0,
+  "stack": {
+    "item": "simplyswords:runic_chakram",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [],
+  "min_rarity": "apotheosis:rare",
+  "max_rarity": "apotheosis:mythic"
+}
