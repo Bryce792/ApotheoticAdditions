@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "ad_astra"
+	}],
+	"weight": 15,
+	"quality": 2,
+	"stack": {
+		"item": "ad_astra:netherite_space_boots"
+	},
+	"min_rarity": "apotheosis:rare",
+	"max_rarity": "apotheosis:mythic",
+	"dimensions": ["ad_astra:mars", "ad_astra:mercury", "ad_astra:venus", "ad_astra:glacio"]
+}

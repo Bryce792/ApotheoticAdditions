@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "the_bumblezone"
+	}],
+	"weight": 45,
+	"quality": 3,
+	"stack": {
+		"item": "the_bumblezone:honey_crystal_shield"
+	},
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
+	"dimensions": ["the_bumblezone:the_bumblezone"]
+}

@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "the_bumblezone"
+	}],
+	"weight": 85,
+	"quality": 0,
+	"stack": {
+		"item": "the_bumblezone:carpenter_bee_boots_1"
+	},
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
+	"dimensions": ["the_bumblezone:the_bumblezone"]
+}

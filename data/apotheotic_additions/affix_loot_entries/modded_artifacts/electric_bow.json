@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "mekanism"
+	}],
+  "weight": 2,
+  "quality": 2.0,
+  "stack": {
+    "item": "mekanism:electric_bow",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ],
+  "min_rarity": "apotheotic_additions:heirloom",
+  "max_rarity": "apotheotic_additions:heirloom"
+}

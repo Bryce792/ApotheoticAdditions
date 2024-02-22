@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "ad_astra"
+	}],
+	"weight": 1,
+	"quality": 2.5,
+	"stack": {
+		"item": "minecraft:diamond_sword"
+	},
+	"min_rarity": "apotheotic_additions:artifact",
+	"max_rarity": "apotheotic_additions:heirloom",
+	"dimensions": ["ad_astra:moon", "ad_astra:mars", "ad_astra:mercury", "ad_astra:venus", "ad_astra:glacio"]
+}

@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "born_in_chaos_v1"
+	}],
+  "weight": 1,
+  "quality": 2.0,
+  "stack": {
+    "item": "born_in_chaos_v1:skullbreaker_hammer",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "apotheotic_additions:artifact",
+  "max_rarity": "apotheotic_additions:heirloom"
+}

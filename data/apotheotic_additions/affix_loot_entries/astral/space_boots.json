@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "ad_astra"
+	}],
+	"weight": 50,
+	"quality": 2.5,
+	"stack": {
+		"item": "ad_astra:space_boots"
+	},
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
+	"dimensions": ["ad_astra:moon", "ad_astra:mars", "ad_astra:mercury", "ad_astra:venus", "ad_astra:glacio"]
+}

@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "witherstormmod"
+	}],
+  "weight": 2,
+  "quality": 2.0,
+  "stack": {
+    "item": "witherstormmod:command_block_sword",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "witherstormmod:bowels",
+    "minecraft:the_end"
+  ],
+  "min_rarity": "apotheotic_additions:artifact",
+  "max_rarity": "apotheotic_additions:heirloom"
+}
