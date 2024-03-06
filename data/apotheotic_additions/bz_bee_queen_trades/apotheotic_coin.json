@@ -39,27 +39,6 @@
       "required": true
     },
     {
-      "id": "apotheotic_additions:iron_upgrade_smithing_template",
-      "count": 1,
-      "xp_reward": 5,
-      "weight": 2,
-      "required": true
-    },
-    {
-      "id": "apotheotic_additions:golden_upgrade_smithing_template",
-      "count": 1,
-      "xp_reward": 5,
-      "weight": 2,
-      "required": true
-    },
-    {
-      "id": "apotheotic_additions:diamond_upgrade_smithing_template",
-      "count": 1,
-      "xp_reward": 10,
-      "weight": 1,
-      "required": true
-    },
-    {
       "id": "the_bumblezone:stinger_spear",
       "count": 1,
       "xp_reward": 8,
