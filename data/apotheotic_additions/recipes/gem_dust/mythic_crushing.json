@@ -1,0 +1,24 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "create"
+	}],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "type": "apotheosis:gem",
+      "rarity": "apotheosis:mythic"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "count": 6,
+      "item": "apotheosis:gem_dust"
+    },
+    {
+      "chance": 0.75,
+      "item": "apotheosis:gem_dust"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "aquamirae"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "gateways"
+	}],
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "CAC",
+    "ABA",
+    "CAC"
+  ],
+  "key": {
+    "A": {
+      "item": "apotheosis:ancient_material"
+    },
+	  "B": {
+      "item": "twilightforest:lamp_of_cinders"
+    },
+    "C": {
+      "item": "aquamirae:ship_graveyard_echo"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "apotheotic_additions:time_lost_gate"
+}

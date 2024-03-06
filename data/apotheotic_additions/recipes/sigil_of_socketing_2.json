@@ -1,0 +1,35 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "ALA",
+    "AWA",
+    "AOA"
+  ],
+  "key": {
+	"W": {
+      "item": "irons_spellbooks:blank_rune"
+    },
+	"L": {
+      "tag": "blue_skies:arcs"
+    },
+  "O": {
+      "item": "blue_skies:charoite"
+    },
+	"A": {
+      "item": "apotheosis:gem_dust"
+    }
+  },
+  "result": {
+    "item": "apotheosis:sigil_of_socketing",
+    "count": 1
+  }
+}
