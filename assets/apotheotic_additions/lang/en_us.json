@@ -5,6 +5,7 @@
   "apotheotic_additions.time_lost_gate": "Time-Lost Gateway",
   "apotheotic_additions.caves_gate": "Apothic Cave Gateway",
   "apotheotic_additions.aether_gate": "Apothic Aetheric Gateway",
+  "apotheotic_additions.endless_boss": "Endless Apothic Boss Gateway",
   "apotheotic_additions.dark_garden": "Gateway of the Forlorn Garden",
 
 
@@ -77,14 +78,22 @@
 
 
   "comment_id": "/Advancements",
-  "advancements.apotheotic_additions:moon": "We Are Going To Steal THE MOON",
-  "advancements.apotheotic_additions:moon.desc": "Use the Despicable Jewel to commit the crime of the century.",
   "advancements.apotheotic_additions:tower": "Tower of Power",
   "advancements.apotheotic_additions:tower.desc": "Enter a Apotheosis Tower",
   "advancements.apotheotic_additions:beeshelf": "Do You Bee-lieve In Magic?",
   "advancements.apotheotic_additions:beeshelf.desc": "Obtain a Beeshelf",
   "advancements.apotheotic_additions:sacrificial_shelf": "Blood For The Blood God",
   "advancements.apotheotic_additions:sacrificial_shelf.desc": "Obtain a Sacrificial Rune",
+  "advancements.apotheotic_additions:salvaging_table": "Lets Break It Down",
+  "advancements.apotheotic_additions:salvaging_table.desc": "Obtain a Salvaging Table, used to break down unneeded gear",
+  "advancements.apotheotic_additions:simple_reforging_table": "Hammer Time",
+  "advancements.apotheotic_additions:simple_reforging_table.desc": "Obtain a Simple Reforging Table, capable of reforging gear up to Rare quality.",
+  "advancements.apotheotic_additions:materials": "Rarity Materials",
+  "advancements.apotheotic_additions:materials.desc": "Obtain rarity materials from Apotheosis",
+  "advancements.apotheotic_additions:materials_aa": "Rarer Rarity Materials",
+  "advancements.apotheotic_additions:materials_aa.desc": "Obtain rarity materials from Apotheotic Additions",
+  "advancements.apotheotic_additions:reforging_table": "Forge Of The Gods",
+  "advancements.apotheotic_additions:reforging_table.desc": "Obtain a Reforging Table, capable of reforging gear up to Mythic quality.",
   "advancements.apotheotic_additions:wavebinders_shelf": "Ocean Man",
   "advancements.apotheotic_additions:wavebinders_shelf.desc": "Obtain a Wavebinder's Rune",
   "advancements.apotheotic_additions:void_shelf": "It Stares Back",
@@ -247,17 +256,38 @@
   "affix.apotheotic_additions:curios_jewelry/attribute/gaia": "Gaia",
   "affix.apotheotic_additions:curios_jewelry/attribute/gaia.suffix": "of Pixies",
 
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/physical": "Exquisite",
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/physical.suffix": "of Well Manners",
+
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fire": "Hellborne",
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fire.suffix": "of Flaming Descent",
+
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/explosion": "Blasted",
+  "affix.apotheotic_additions:curios_jewelry/dmg_reduction/explosion.suffix": "of Explosive Protection",
+
   "affix.apotheotic_additions:curios_jewelry/dmg_reduction/runed": "Runed",
   "affix.apotheotic_additions:curios_jewelry/dmg_reduction/runed.suffix": "of the Spellwarden",
 
   "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fall": "Falling",
   "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fall.suffix": "of Great Heights",
 
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/despoil": "Rotting",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/despoil.suffix": "of Spoiled Flesh",
+
   "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_glowing": "Glowing",
   "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_glowing.suffix": "of Bright Lights",
 
   "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_repellent": "Bug Sprayed",
   "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_repellent.suffix": "of Bug Spray",
+
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/blazing_might": "Sintouched",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/blazing_might.suffix": "of Blazing Might",
+
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/spell_damage": "Archwood",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/spell_damage.suffix": "of the Archwood Forest",
+
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/mana_regen": "Sourcebinded",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/mana_regen.suffix": "of the Sourceberry Root",
 
   "affix.apotheotic_additions:curios_jewelry/mob_effect/reinforced": "Fortified",
   "affix.apotheotic_additions:curios_jewelry/mob_effect/reinforced.suffix": "of Fortification",
@@ -270,6 +300,9 @@
 
   "affix.apotheotic_additions:curios_jewelry/mob_effect/conduit_power": "Oceanic",
   "affix.apotheotic_additions:curios_jewelry/mob_effect/conduit_power.suffix": "of the Deep Seas",
+
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/jaw_attack": "Hungry",
+  "affix.apotheotic_additions:curios_jewelry/mob_effect/jaw_attack.suffix": "of Starving Worms",
 
   "comment_id": "/Esoteric Affixes",
   "affix.apotheotic_additions:armor/attribute/esoteric_voidic_res": "Void-touched",
@@ -375,7 +408,7 @@
   "affix.apotheotic_additions:armor/attribute/artifact_source.suffix": "of Time-Lost Magics",
 
   "affix.apotheotic_additions:armor/attribute/artifact_luck": "Lottery Winning",
-  "affix.apotheotic_additions:armor/attribute/artifact_luck.suffix": "of many Slain Time-Lost Rabbits",
+  "affix.apotheotic_additions:armor/attribute/artifact_luck.suffix": "of Many Slain Time-Lost Rabbits",
 
   "affix.apotheotic_additions:armor/attribute/artifact_toughness": "Herculean",
   "affix.apotheotic_additions:armor/attribute/artifact_toughness.suffix": "of Time-Lost Toughness",
@@ -422,6 +455,9 @@
   "affix.apotheotic_additions:wand/mob_effect/magnetic": "Magnetic",
   "affix.apotheotic_additions:wand/mob_effect/magnetic.suffix": "of Magnetization",
 
+  "affix.apotheotic_additions:spellbook/attribute/aa_mana": "Archmage's",
+  "affix.apotheotic_additions:spellbook/attribute/aa_mana.suffix": "of Enhanced Mana",
+
   "affix.apotheotic_additions:spellbook/attribute/power_blood": "Sanguine",
   "affix.apotheotic_additions:spellbook/attribute/power_blood.suffix": "of The Sire",
 
@@ -460,6 +496,12 @@
 
   "affix.apotheotic_additions:spellbook/mob_effect/magnetic": "Magnetic",
   "affix.apotheotic_additions:spellbook/mob_effect/magnetic.suffix": "of Magnetization",
+
+  "affix.apotheotic_additions:spellbook/mob_effect/charged": "Thunderstruck",
+  "affix.apotheotic_additions:spellbook/mob_effect/charged.suffix": "of The Charged Creeper",
+
+  "affix.apotheotic_additions:spellbook/mob_effect/instant_mana": "Manatide",
+  "affix.apotheotic_additions:spellbook/mob_effect/instant_mana.suffix": "of the Dead King",
 
   "affix.apotheotic_additions:heavy_weapon/mob_effect/fazbear": "Freddy's",
   "affix.apotheotic_additions:heavy_weapon/mob_effect/fazbear.suffix": "of Ar Ar Ar Ar Ar",
@@ -533,6 +575,12 @@
   "affix.apotheotic_additions:sword/attribute/spell_resist": "Antimagic",
   "affix.apotheotic_additions:sword/attribute/spell_resist.suffix": "of Nullification",
 
+  "affix.apotheotic_additions:breaker/mob_effect/node": "Dimensional",
+  "affix.apotheotic_additions:breaker/mob_effect/node.suffix": "of the Enlightened Node",
+
+  "affix.apotheotic_additions:breaker/mob_effect/emptiness": "Lonesome",
+  "affix.apotheotic_additions:breaker/mob_effect/emptiness.suffix": "of Loneliness",
+
   "affix.apotheotic_additions:breaker/mob_effect/iron_sight": "Ironic",
   "affix.apotheotic_additions:breaker/mob_effect/iron_sight.suffix": "of Ironic Vision",
 
@@ -575,8 +623,20 @@
   "affix.apotheotic_additions:breaker/attribute/bonus_loot": "Perspective",
   "affix.apotheotic_additions:breaker/attribute/bonus_loot.suffix": "of Hidden Sight",
 
+  "affix.apotheotic_additions:breaker/attribute/block_reach": "Grasping",
+  "affix.apotheotic_additions:breaker/attribute/block_reach.suffix": "of Reaching Very Far Away",
+
+  "affix.apotheotic_additions:breaker/attribute/artifact_luck": "Lottery Winning",
+  "affix.apotheotic_additions:breaker/attribute/artifact_luck.suffix": "of Many Slain Time-Lost Rabbits",
+
+  "affix.apotheotic_additions:breaker/attribute/speed": "Rogue's",
+  "affix.apotheotic_additions:breaker/attribute/speed.suffix": "of the Flowing River",
+
   "affix.apotheotic_additions:breaker/mob_effect/beaver": "Beaver's",
   "affix.apotheotic_additions:breaker/mob_effect/beaver.suffix": "of the Forester",
+
+  "affix.apotheotic_additions:armor/mob_effect/resilience": "Fortifying",
+  "affix.apotheotic_additions:armor/mob_effect/resilience.suffix": "of Stable Ground",
 
   "affix.apotheotic_additions:armor/mob_effect/bad_luck": "Unlucky",
   "affix.apotheotic_additions:armor/mob_effect/bad_luck.suffix": "of Bad Luck",
@@ -686,6 +746,9 @@
   "affix.apotheotic_additions:sword/mob_effect/stun": "Concussive",
   "affix.apotheotic_additions:sword/mob_effect/stun.suffix": "of Stunning",
 
+  "affix.apotheotic_additions:heavy_weapon/mob_effect/time_stop": "Dio's",
+  "affix.apotheotic_additions:heavy_weapon/mob_effect/time_stop.suffix": "of The World",
+
   "affix.apotheotic_additions:armor/dmg_reduction/explosion": "Obsidian-Lined",
   "affix.apotheotic_additions:armor/dmg_reduction/explosion.suffix": "of the Obsidian Legacy",
 
@@ -745,8 +808,10 @@
   "gem.apotheotic_additions:alchemy/rat_chef.pickaxe": "Breaking Lead Ore has a %s%% chance to drop Cheese instead.",
   "gem.apotheotic_additions:alchemy/witch_queen.pickaxe": "Breaking Moon Stone has a %s%% chance to drop Mysterious Scrap Metal instead.",
   "gem.apotheotic_additions:alchemy/felfire.pickaxe": "Breaking Diamond Ore has a %s%% chance to drop a Piece of Dark Metal instead.",
-  "gem.apotheotic_additions:alchemy/despicable.pickaxe": "Breaking ??? has a %s%% chance to STEAL THE MOOOOOON",
+  "gem.apotheotic_additions:alchemy/midas.axe": "Breaking Leaves to obtain Saplings has a %s%% chance to instead transform it into a Golden Apple.",
+  "gem.apotheotic_additions:alchemy/heartland.axe": "Breaking Logs has a %s%% chance to instead scrape off Tree Bark.",
   "gem.apotheotic_additions:alchemy/draconic_legacy.shovel": "Breaking Gravel has a %s%% chance to drop Dragonbones instead.",
+  "gem.apotheotic_additions:alchemy/heartland.shovel": "Breaking Dirt has a %s%% chance transform it into Rich Soil.",
 
   "comment_id": "/Gems",
 
@@ -773,6 +838,7 @@
   "item.apotheosis.gem.apotheotic_additions:modded/corrupted": "Jewel of the Black Empire",
   "item.apotheosis.gem.apotheotic_additions:modded/dracula": "Jewel of the Vampire Lord",
   "item.apotheosis.gem.apotheotic_additions:modded/ars_mana": "Source Jewel",
+  "item.apotheosis.gem.apotheotic_additions:modded/heartland": "Jewel of the Heartland",
   "item.apotheosis.gem.apotheotic_additions:modded/felfire": "Felfire Jewel",
   "item.apotheosis.gem.apotheotic_additions:modded/bloodcaster": "Bloodcaster's Jewel",
   "item.apotheosis.gem.apotheotic_additions:modded/mystic": "Mystic's Jewel",
@@ -785,7 +851,7 @@
   "item.apotheosis.gem.apotheotic_additions:modded/flesh": "Fleshbound Jewel",
   "item.apotheosis.gem.apotheotic_additions:modded/draconic_legacy": "Jewel of the Draconic Legacy",
   "item.apotheosis.gem.apotheotic_additions:modded/thermal": "Thermal Jewel",
-  "item.apotheosis.gem.apotheotic_additions:modded/despicable": "Despicable Jewel",
+  "item.apotheosis.gem.apotheotic_additions:modded/midas": "Jewel of King Midas",
   "item.apotheosis.gem.apotheotic_additions:modded/depths": "Jewel of the Depths",
   "item.apotheosis.gem.apotheotic_additions:modded/amber": "Jewel of Preserved Amber",
   "item.apotheosis.gem.apotheotic_additions:modded/flux": "Jewel of the Electric Mind",
@@ -816,8 +882,10 @@
   "gem_class.ortholance": "Ortholance",
   "gem_class.prim_club": "Primitive Club",
   "gem_class.flux": "Flux-Based Tools",
+  "gem_class.axe": "Axes",
   "gem_class.resistor_shield": "Resistor Shield",
   "gem_class.wand": "Wands",
+  "gem_class.knife": "Knives",
   "gem_class.spellbook": "Spellbooks",
   "gem_class.curios_armor": "Curios Armor",
   "gem_class.curios_jewelry": "Jewelry",
@@ -827,6 +895,7 @@
   "text.apotheosis.category.wand.plural": "Wands",
   "text.apotheosis.category.curios:an_focus.plural": "Spell Foci",
   "text.apotheosis.category.curios:back.plural": "Back",
+  "text.apotheosis.category.curios:spellbook.plural": "Spellbooks",
   "text.apotheosis.category.curios:body.plural": "Body",
   "text.apotheosis.category.curios:charm.plural": "Charms",
   "text.apotheosis.category.curios:feet.plural": "Feet Curios",
@@ -867,6 +936,8 @@
   "effect.botania.emptiness.desc": "Suppresses natural mob spawns around you.",
   "effect.botania.bloodthirst.desc": "Natural mob spawns around you ignore lighting and other conditions.",
   "effect.botania.allure.desc": "Catch fishing loot and treasure twice as fast.",
+  "effect.farmersdelight.nourishment.desc": "Prevents loss of hunger through exhausting actions",
+  "effect.farmersdelight.comfort.desc": "Allows you to maintain natural regeneration, even if hungry",
   "alexsmobs.potion.soulsteal.desc": "Heals you for an amount equal to how much damage you deal.",
   "alexsmobs.potion.mosquito_repellent.desc": "Makes Crimson Mosquitos avoid you.",
   "alexsmobs.potion.oiled.desc": "Float in water and Levitate in rain.",
