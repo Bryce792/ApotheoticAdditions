@@ -1,0 +1,18 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "ad_astra"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "create_sabers"
+	}],
+	"weight": 50,
+	"quality": 2.5,
+	"stack": {
+		"item": "create_sabers:copper_saber_red"
+	},
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
+	"dimensions": ["ad_astra:moon", "ad_astra:mars", "ad_astra:mercury", "ad_astra:venus", "ad_astra:glacio"]
+}
