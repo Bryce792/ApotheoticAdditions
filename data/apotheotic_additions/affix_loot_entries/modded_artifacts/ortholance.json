@@ -11,8 +11,8 @@
     "nbt": "{Damage:0}"
   },
   "dimensions": [
-    "minecraft:overworld",
-    "minecraft:the_end"
+    "minecraft:the_end",
+    "minecraft:the_nether"
   ],
   "min_rarity": "apotheotic_additions:artifact",
   "max_rarity": "apotheotic_additions:heirloom"

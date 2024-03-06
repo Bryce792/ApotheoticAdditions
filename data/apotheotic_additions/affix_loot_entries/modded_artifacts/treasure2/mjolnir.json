@@ -1,19 +1,19 @@
 {
   "conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "treasure2"
 	}],
   "weight": 1,
-  "quality": 2.0,
+  "quality": 1.0,
   "stack": {
-    "item": "alexscaves:hood_of_darkness",
+    "item": "treasure2:mjolnir",
     "count": 1,
     "nbt": "{Damage:0}"
   },
   "dimensions": [
-    "minecraft:the_end",
-    "minecraft:the_nether"
+    "minecraft:the_nether",
+    "minecraft:the_end"
   ],
   "min_rarity": "apotheotic_additions:artifact",
-  "max_rarity": "apotheotic_additions:heirloom"
+  "max_rarity": "apotheotic_additions:artifact"
 }
