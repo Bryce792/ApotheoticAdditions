@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "apotheotic_additions:scrap_brick",
+    "apotheotic_additions:scrap_brick_stairs",
+    "apotheotic_additions:scrap_brick_slab",
+    "apotheotic_additions:scrap_pillar",
+    "apotheotic_additions:scrap_rough",
+    "apotheotic_additions:scrap_carved"
+  ]
+}

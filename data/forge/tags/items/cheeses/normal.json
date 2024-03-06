@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "ad_astra:cheese"
+    {
+      "id": "ad_astra:cheese",
+      "required": false
+    }
   ]
 }
