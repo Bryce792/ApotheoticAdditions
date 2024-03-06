@@ -10,15 +10,11 @@
 		"mythic": {
 			"duration": {
 				"min": 20,
-				"steps": 2,
-				"step": 20
+				"steps": 1,
+				"step": 1
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 8,
-				"step": 0.26
-			},
-			"cooldown": 400
+			"amplifier": 0,
+			"cooldown": 1200
 		},
 		"ancient": {
 			"duration": {
@@ -26,12 +22,8 @@
 				"steps": 3,
 				"step": 20
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 8,
-				"step": 0.26
-			},
-			"cooldown": 400
+			"amplifier": 0,
+			"cooldown": 1200
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
@@ -39,12 +31,8 @@
 				"steps": 3,
 				"step": 20
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 8,
-				"step": 0.26
-			},
-			"cooldown": 400
+			"amplifier": 0,
+			"cooldown": 1200
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
@@ -53,7 +41,7 @@
 				"step": 30
 			},
 			"amplifier": 0,
-			"cooldown": 300
+			"cooldown": 1200
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
@@ -62,7 +50,7 @@
 				"step": 30
 			},
 			"amplifier": 0,
-			"cooldown": 300
+			"cooldown": 1200
 		}
 	},
 	"types": [

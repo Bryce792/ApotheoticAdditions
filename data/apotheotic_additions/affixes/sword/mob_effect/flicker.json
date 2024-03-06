@@ -7,77 +7,68 @@
 	"mob_effect": "simplyswords:fatal_flicker",
 	"target": "ATTACK_SELF",
 	"values": {
-		"uncommon": {
+		"rare": {
+			"duration": {
+				"min": 5,
+				"steps": 1,
+				"step": 1
+			},
+			"amplifier": 0,
+			"cooldown": 2000
+		},
+		"epic": {
 			"duration": {
 				"min": 10,
 				"steps": 1,
 				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 1200
-		},
-		"rare": {
-			"duration": {
-				"min": 10,
-				"steps": 3,
-				"step": 1
-			},
-			"amplifier": 0,
-			"cooldown": 1100
-		},
-		"epic": {
-			"duration": {
-				"min": 15,
-				"steps": 5,
-				"step": 1
-			},
-			"amplifier": 0,
-			"cooldown": 1000
+			"cooldown": 1800
 		},
 		"mythic": {
 			"duration": {
 				"min": 15,
-				"steps": 5,
+				"steps": 1,
 				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 900
+			"cooldown": 1800
 		},
 		"ancient": {
 			"duration": {
 				"min": 20,
-				"steps": 7,
+				"steps": 1,
 				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 800
+			"cooldown": 1600
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
 				"min": 20,
-				"steps": 10,
+				"steps": 1,
 				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 700
+			"cooldown": 1400
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
 				"min": 40,
-				"steps": 15,
+				"steps": 1,
 				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 200
+			"cooldown": 400
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
 				"min": 50,
-				"steps": 20,
+				"steps": 1,
 				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 200
+			"cooldown": 400
 		}
 	},
 	"types": [
