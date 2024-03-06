@@ -1,13 +1,13 @@
 {
-	"entity": "minecraft:enderman",
+	"entity": "minecraft:zombie",
 	"weight": 1,
 	"quality": 2,
 	"size": {
 		"width": 1,
-		"height": 4
+		"height": 2
 	},
 	"valid_gear_sets": [
-		"#the_end"
+		"#overworld"
 	],
 	"dimensions": [
 		"minecraft:the_end"
