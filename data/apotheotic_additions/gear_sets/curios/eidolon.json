@@ -1,0 +1,87 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"weight": 25,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "eidolon:soulfire_wand"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "eidolon:bonechill_wand"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "eidolon:basic_ring"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "eidolon:basic_amulet"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "eidolon:basic_belt"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "eidolon:void_amulet"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "eidolon:warded_mail"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:shield"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "eidolon:silver_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "eidolon:silver_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "eidolon:silver_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "eidolon:silver_helmet"
+		}
+	}],
+	"tags": [
+		"eidolon"
+	]
+}

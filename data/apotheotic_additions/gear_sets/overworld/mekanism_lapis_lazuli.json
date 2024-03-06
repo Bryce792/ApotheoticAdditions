@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "mekanismtools"
+	}],
+	"weight": 85,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "mekanismtools:lapis_lazuli_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "mekanismtools:lapis_lazuli_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mekanismtools:lapis_lazuli_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mekanismtools:lapis_lazuli_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "mekanismtools:lapis_lazuli_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "mekanismtools:lapis_lazuli_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "mekanismtools:lapis_lazuli_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "mekanismtools:lapis_lazuli_helmet"
+		}
+	}],
+	"tags": [
+		"overworld"
+	]
+}

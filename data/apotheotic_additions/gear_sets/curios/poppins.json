@@ -1,0 +1,52 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "artifacts"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+	"weight": 25,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "twilightforest:steeleaf_sword"
+			}
+		}
+	],
+	"offhands": [
+	{
+		"weight": 1,
+		"stack": {
+			"item": "artifacts:umbrella"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "twilightforest:steeleaf_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "twilightforest:steeleaf_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "twilightforest:steeleaf_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "twilightforest:steeleaf_helmet"
+		}
+	}],
+	"tags": [
+		"poppins"
+	]
+}

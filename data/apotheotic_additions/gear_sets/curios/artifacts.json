@@ -1,0 +1,105 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "artifacts"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"weight": 25,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "artifacts:plastic_drinking_hat"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "artifacts:power_glove"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "artifacts:flippers"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "artifacts:universal_attractor"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "artifacts:fire_gauntlet"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "artifacts:digging_claws"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "artifacts:feral_claws"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "artifacts:cloud_in_a_bottle"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "artifacts:lucky_scarf"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 3,
+		"stack": {
+			"item": "minecraft:shield"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "artifacts:umbrella"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:leather_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:leather_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:leather_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "minecraft:leather_helmet"
+		}
+	}],
+	"tags": [
+		"artifacts"
+	]
+}

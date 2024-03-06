@@ -1,0 +1,56 @@
+{
+    "type": "gateways:endless",
+	"size": "medium",
+	"color": "rainbow",
+	"base_wave": {
+        "entities": [{
+            "type": "apotheosis:boss"
+        }],
+        "rewards": [{
+            "type": "gateways:loot_table",
+            "loot_table": "apotheotic_additions:chests/aa_spawner",
+            "rolls": 2,
+            "desc": "rewards.apotheotic_additions.loot_table.aa_spawner"
+        }],
+        "max_wave_time": 1500,
+        "setup_time": 100
+    },
+    "modifiers": [
+        {
+            "application_mode": {
+                "type": "gateways:after_every_n_waves",
+                "waves": 5,
+                "max": 10
+            },
+			"entities": [{
+				"type": "apotheosis:boss"
+			}],
+            "rewards": [{
+                "type": "gateways:loot_table",
+                "loot_table": "apotheotic_additions:chests/aa_spawner",
+                "rolls": 2,
+                "desc": "rewards.apotheotic_additions.loot_table.aa_spawner"
+            }],
+            "max_wave_time": -20,
+            "setup_time": -10
+        },
+        {
+            "application_mode": {
+                "type": "gateways:after_every_n_waves",
+                "waves": 5,
+                "max": 10
+            },
+            "modifiers": [{
+                "attribute": "generic.max_health",
+                "operation": "multiply_total",
+                "value": 0.25
+            }]
+        }
+    ],
+    "failures": [
+    ],
+    "boss_event": {
+        "mode": "name_plate"
+    },
+    "spawn_algorithm": "gateways:inward_spiral"
+}

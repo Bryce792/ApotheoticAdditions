@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "mekanismtools"
+	}],
+	"weight": 85,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "mekanismtools:bronze_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "mekanismtools:bronze_axe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mekanismtools:bronze_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "mekanismtools:bronze_shovel"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "mekanismtools:bronze_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "mekanismtools:bronze_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "mekanismtools:bronze_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "mekanismtools:bronze_helmet"
+		}
+	}],
+	"tags": [
+		"overworld"
+	]
+}

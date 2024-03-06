@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+	"weight": 65,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "irons_spellbooks:artificer_cane"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "irons_spellbooks:graybeard_staff"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "irons_spellbooks:magehunter"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "irons_spellbooks:wandering_magician_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "irons_spellbooks:wandering_magician_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "irons_spellbooks:wandering_magician_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 4,
+		"stack": {
+			"item": "irons_spellbooks:wandering_magician_helmet"
+		}
+	},
+	{
+		"weight": 1,
+		"stack": {
+			"item": "irons_spellbooks:tarnished_helmet"
+		}
+	}],
+	"tags": [
+		"overworld"
+	]
+}

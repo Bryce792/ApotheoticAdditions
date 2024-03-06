@@ -9,7 +9,7 @@
 	},
 	{
 		"type": "forge:mod_loaded",
-		"modid": "twilightforest"
+		"modid": "cataclysm"
 	},
 	{
 		"type": "forge:mod_loaded",
@@ -24,7 +24,7 @@
 	"waves": [{
 			"entities": [{
 				"type": "apotheosis:boss",
-				"boss": "apotheotic_additions:overworld/captain_cornelia"
+				"boss": "apotheotic_additions:rats/black_death"
 			}],
 			"rewards": [{
 				"type": "gateways:stack_list",
@@ -42,6 +42,10 @@
                         "count": 8
                     }
                 ]
+			},
+			{
+				"type": "apotheosis:affix",
+				"rarity": "apotheosis:ancient"
 			}],
 			"max_wave_time": 5000,
 			"setup_time": 150
@@ -49,7 +53,7 @@
 		{
 			"entities": [{
 				"type": "apotheosis:boss",
-				"boss": "apotheotic_additions:rats/black_death"
+				"boss": "apotheotic_additions:the_end/boss_mobs/captain_cornelia"
 			}],
 			"modifiers": [{
 					"attribute": "generic.max_health",
@@ -93,6 +97,10 @@
                         "count": 12
                     }
                 ]
+			},
+			{
+				"type": "apotheosis:affix",
+				"rarity": "apotheosis:ancient"
 			}],
 			"max_wave_time": 5000,
 			"setup_time": 400
@@ -100,7 +108,7 @@
 		{
 			"entities": [{
 				"type": "apotheosis:boss",
-				"boss": "apotheotic_additions:twilight/hydra"
+				"boss": "apotheotic_additions:the_end/boss_mobs/ignis"
 			}],
 			"modifiers": [{
 					"attribute": "generic.max_health",
@@ -144,6 +152,10 @@
                         "count": 16
                     }
                 ]
+			},
+			{
+				"type": "apotheosis:affix",
+				"rarity": "apotheotic_additions:heirloom"
 			}],
 			"max_wave_time": 7500,
 			"setup_time": 400
@@ -162,7 +174,11 @@
                 "entity": "minecraft:chicken",
                 "count": 1
             }
-        }
+        },
+		{
+			"type": "apotheosis:affix",
+			"rarity": "apotheotic_additions:artifact"
+		}
     ],
     "failures": [
         {

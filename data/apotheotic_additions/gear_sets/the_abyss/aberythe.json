@@ -1,0 +1,61 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "theabyss"
+	}],
+	"weight": 50,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "theabyss:aberythe_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "theabyss:aberythe_axe"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "theabyss:aberythe_pickaxe"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		}
+	],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "theabyss:aberythe_armor_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "theabyss:aberythe_armor_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "theabyss:aberythe_armor_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "theabyss:aberythe_armor_helmet"
+		}
+	}],
+	"tags": [
+		"the_abyss"
+	]
+}

@@ -16,11 +16,11 @@
 	"waves": [{
 			"entities": [{
 				"type": "apotheosis:boss",
-				"boss": "apotheotic_additions:overworld/vallumraptor"
+				"boss": "apotheotic_additions:overworld/alexscaves/vallumraptor"
 			},
 			{
 				"type": "apotheosis:boss",
-				"boss": "apotheotic_additions:overworld/vallumraptor"
+				"boss": "apotheotic_additions:overworld/alexscaves/vallumraptor"
 			}],
 			"rewards": [{
 				"type": "gateways:stack_list",
@@ -45,11 +45,11 @@
 		{
 			"entities": [{
 				"type": "apotheosis:boss",
-				"boss": "apotheotic_additions:overworld/brainiac"
+				"boss": "apotheotic_additions:overworld/alexscaves/brainiac"
 			},
 			{
 				"type": "apotheosis:boss",
-				"boss": "apotheotic_additions:overworld/gammaroach"
+				"boss": "apotheotic_additions:overworld/alexscaves/gammaroach"
 			}],
 			"modifiers": [{
 					"attribute": "generic.max_health",
@@ -100,7 +100,7 @@
 		{
 			"entities": [{
 				"type": "apotheosis:boss",
-				"boss": "apotheotic_additions:overworld/tremorsaurus"
+				"boss": "apotheotic_additions:overworld/alexscaves/tremorsaurus"
 			}],
 			"modifiers": [{
 					"attribute": "generic.max_health",
