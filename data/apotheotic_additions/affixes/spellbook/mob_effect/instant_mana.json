@@ -1,0 +1,68 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	},
+  	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "irons_spellbooks:instant_mana",
+	"target": "HURT_SELF",
+	"values": {
+		"epic": {
+			"duration": 1,
+			"amplifier": 0,
+			"cooldown": 300
+		},
+		"mythic": {
+			"duration": 1,
+			"amplifier": {
+				"min": 0,
+				"steps": 4,
+				"step": 0.3
+			},
+			"cooldown": 240
+		},
+		"ancient": {
+			"duration": 1,
+			"amplifier": {
+				"min": 1,
+				"steps": 1,
+				"step": 1
+			},
+			"cooldown": 200
+		},
+		"apotheotic_additions:artifact": {
+			"duration": 1,
+			"amplifier": {
+				"min": 1,
+				"steps": 1,
+				"step": 1
+			},
+			"cooldown": 200
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": 1,
+			"amplifier": {
+				"min": 0,
+				"steps": 5,
+				"step": 0.25
+			},
+			"cooldown": 100
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": 1,
+			"amplifier": {
+				"min": 2,
+				"steps": 8,
+				"step": 0.25
+			},
+			"cooldown": 100
+		}
+	},
+	"types": [
+		"curios:spellbook"
+	]
+}

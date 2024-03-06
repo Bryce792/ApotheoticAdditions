@@ -2,6 +2,10 @@
 	"conditions": [{
 		"type": "forge:mod_loaded",
 		"modid": "irons_spellbooks"
+	},
+  	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
 	}],
 	"type": "apotheosis:mob_effect",
 	"mob_effect": "attributeslib:knowledge",
@@ -85,6 +89,6 @@
 		}
 	},
 	"types": [
-		"spellbook"
+		"curios:spellbook"
 	]
 }

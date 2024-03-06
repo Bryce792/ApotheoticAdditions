@@ -8,23 +8,23 @@
 		"modid": "apothiccurios"
 	}],
   "type": "apotheosis:attribute",
-  "attribute": "irons_spellbooks:holy_spell_power",
-  "operation": "MULTIPLY_BASE",
+  "attribute": "irons_spellbooks:max_mana",
+  "operation": "ADDITION",
   "values": {
     "apotheotic_additions:artifact": {
-      "min": 0.45,
-      "steps": 1,
-      "step": 0.0
+      "min": 130,
+      "steps": 3,
+      "step": 10
     },
     "apotheotic_additions:heirloom": {
-      "min": 0.2,
-      "steps": 1,
-      "step": 0.0
+      "min": 40,
+      "steps": 2,
+      "step": 10
     },
     "apotheotic_additions:esoteric": {
-      "min": 0.7,
-      "steps": 1,
-      "step": 0.0
+      "min": 150,
+      "steps": 5,
+      "step": 10
     }
   },
   "types": [

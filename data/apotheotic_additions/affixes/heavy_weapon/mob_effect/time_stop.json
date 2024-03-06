@@ -1,0 +1,50 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "theabyss"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "theabyss:time_stop_potion_irator",
+	"target": "ATTACK_TARGET",
+	"values": {
+		"ancient": {
+			"duration": {
+				"min": 20,
+				"steps": 3,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 60,
+				"steps": 5,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 120,
+				"steps": 10,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 140,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		}
+	},
+	"types": [
+		"heavy_weapon"
+	]
+}

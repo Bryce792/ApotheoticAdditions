@@ -1,81 +1,72 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "ars_nouveau"
+		"modid": "biomancy"
 	},
 	{
 		"type": "forge:mod_loaded",
 		"modid": "apothiccurios"
 	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "ars_nouveau:immolate",
+	"mob_effect": "biomancy:despoil",
 	"target": "HURT_SELF",
 	"values": {
-		"apotheosis:rare": {
-			"duration": {
-				"min": 60,
-				"steps": 5,
-				"step": 10
-			},
-			"amplifier": 0,
-			"cooldown": 1600
-		},
 		"apotheosis:epic": {
 			"duration": {
-				"min": 140,
+				"min": 80,
 				"steps": 5,
 				"step": 5
 			},
 			"amplifier": 0,
-			"cooldown": 1500
+			"cooldown": 3500
 		},
 		"apotheosis:mythic": {
 			"duration": {
-				"min": 200,
+				"min": 160,
 				"steps": 5,
 				"step": 8
 			},
 			"amplifier": 0,
-			"cooldown": 1400
+			"cooldown": 3000
 		},
 		"apotheosis:ancient": {
 			"duration": {
-				"min": 250,
+				"min": 240,
 				"steps": 8,
 				"step": 8
 			},
 			"amplifier": 0,
-			"cooldown": 1300
+			"cooldown": 2500
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
-				"min": 300,
+				"min": 320,
 				"steps": 8,
 				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 1200
+			"cooldown": 2000
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
-				"min": 1200,
+				"min": 600,
 				"steps": 10,
 				"step": 30
 			},
 			"amplifier": 1,
-			"cooldown": 1000
+			"cooldown": 1500
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
-				"min": 1200,
+				"min": 900,
 				"steps": 10,
 				"step": 30
 			},
 			"amplifier": 1,
-			"cooldown": 1000
+			"cooldown": 1500
 		}
 	},
 	"types": [
-		"curios:body", "curios:back", "curios:an_focus"
+		"curios:bracelet", "curios:talisman", "curios:charm"
 	]
 }

@@ -8,17 +8,17 @@
 		"modid": "apothiccurios"
 	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "ars_nouveau:immolate",
+	"mob_effect": "ars_nouveau:spell_damage",
 	"target": "HURT_SELF",
 	"values": {
 		"apotheosis:rare": {
 			"duration": {
-				"min": 60,
+				"min": 100,
 				"steps": 5,
-				"step": 10
+				"step": 5
 			},
 			"amplifier": 0,
-			"cooldown": 1600
+			"cooldown": 2000
 		},
 		"apotheosis:epic": {
 			"duration": {
@@ -27,7 +27,7 @@
 				"step": 5
 			},
 			"amplifier": 0,
-			"cooldown": 1500
+			"cooldown": 1800
 		},
 		"apotheosis:mythic": {
 			"duration": {
@@ -36,7 +36,7 @@
 				"step": 8
 			},
 			"amplifier": 0,
-			"cooldown": 1400
+			"cooldown": 1600
 		},
 		"apotheosis:ancient": {
 			"duration": {
@@ -45,7 +45,7 @@
 				"step": 8
 			},
 			"amplifier": 0,
-			"cooldown": 1300
+			"cooldown": 1400
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
@@ -76,6 +76,6 @@
 		}
 	},
 	"types": [
-		"curios:body", "curios:back", "curios:an_focus"
+		"curios:an_focus"
 	]
 }

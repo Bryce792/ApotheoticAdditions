@@ -72,6 +72,6 @@
 		}
 	},
 	"types": [
-		"curios:hands"
+		"curios:hands", "curios:belt"
 	]
 }

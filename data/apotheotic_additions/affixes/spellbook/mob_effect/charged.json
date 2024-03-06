@@ -3,17 +3,17 @@
 		"type": "forge:mod_loaded",
 		"modid": "irons_spellbooks"
 	},
-	{
-	  "type": "forge:mod_loaded",
-	  "modid": "apothiccurios"
- 	}],
+  	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "minecraft:absorption",
+	"mob_effect": "irons_spellbooks:charged",
 	"target": "HURT_SELF",
 	"values": {
 		"apotheosis:uncommon": {
 			"duration": {
-				"min": 200,
+				"min": 60,
 				"steps": 1,
 				"step": 10
 			},
@@ -22,7 +22,7 @@
 		},
 		"apotheosis:rare": {
 			"duration": {
-				"min": 240,
+				"min": 120,
 				"steps": 2,
 				"step": 15
 			},
@@ -31,7 +31,7 @@
 		},
 		"apotheosis:epic": {
 			"duration": {
-				"min": 280,
+				"min": 180,
 				"steps": 4,
 				"step": 20
 			},
@@ -40,29 +40,25 @@
 		},
 		"apotheosis:mythic": {
 			"duration": {
-				"min": 320,
+				"min": 240,
 				"steps": 4,
 				"step": 20
 			},
-			"amplifier": {
-				"min": 0,
-				"steps": 8,
-				"step": 0.26
-			},
+			"amplifier": 0,
 			"cooldown": 400
 		},
 		"apotheosis:ancient": {
 			"duration": {
-				"min": 400,
+				"min": 320,
 				"steps": 6,
 				"step": 20
 			},
-			"amplifier": 3,
+			"amplifier": 0,
 			"cooldown": 400
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
-				"min": 600,
+				"min": 380,
 				"steps": 6,
 				"step": 20
 			},
@@ -71,20 +67,20 @@
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
-				"min": 1500,
+				"min": 500,
 				"steps": 6,
 				"step": 20
 			},
-			"amplifier": 0,
+			"amplifier": 1,
 			"cooldown": 400
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
-				"min": 2000,
+				"min": 700,
 				"steps": 6,
 				"step": 20
 			},
-			"amplifier": 0,
+			"amplifier": 1,
 			"cooldown": 400
 		}
 	},

@@ -1,64 +1,63 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "aquamirae"
+		"modid": "born_in_chaos_v1"
 	},
 	{
 		"type": "forge:mod_loaded",
 		"modid": "apothiccurios"
 	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "aquamirae:armor_decrease",
-	"stack_on_reapply": true,
+	"mob_effect": "born_in_chaos_v1:jawattack",
 	"target": "HURT_ATTACKER",
 	"values": {
 		"mythic": {
 			"duration": {
-				"min": 200,
-				"steps": 4,
-				"step": 15
+				"min": 1,
+				"steps": 1,
+				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 200
+			"cooldown": 3000
 		},
 		"ancient": {
 			"duration": {
-				"min": 200,
-				"steps": 4,
-				"step": 15
+				"min": 1,
+				"steps": 1,
+				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 190
+			"cooldown": 2750
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
-				"min": 200,
-				"steps": 4,
-				"step": 20
+				"min": 1,
+				"steps": 1,
+				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 180
+			"cooldown": 2500
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
-				"min": 220,
-				"steps": 6,
-				"step": 20
+				"min": 1,
+				"steps": 1,
+				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 200
+			"cooldown": 2000
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
-				"min": 240,
-				"steps": 6,
-				"step": 20
+				"min": 1,
+				"steps": 1,
+				"step": 1
 			},
 			"amplifier": 0,
-			"cooldown": 200
+			"cooldown": 1000
 		}
 	},
 	"types": [
-		"curios:head", "curios:belt"
+		"curios:ring", "curios:necklace", "curios:charm", "curios:belt"
 	]
 }

@@ -6,6 +6,10 @@
 	{
 		"type": "forge:mod_loaded",
 		"modid": "alexscaves"
+	},
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "apothiccurios"
 	}],
 	"type": "apotheosis:mob_effect",
 	"mob_effect": "alexscaves:magnetizing",
@@ -85,6 +89,6 @@
 		}
 	},
 	"types": [
-		"spellbook"
+		"curios:spellbook"
 	]
 }

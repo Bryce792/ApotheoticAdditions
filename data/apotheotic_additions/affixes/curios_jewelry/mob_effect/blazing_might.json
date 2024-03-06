@@ -1,24 +1,24 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "ars_nouveau"
+		"modid": "enigmaticlegacy"
 	},
 	{
 		"type": "forge:mod_loaded",
 		"modid": "apothiccurios"
 	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "ars_nouveau:immolate",
+	"mob_effect": "enigmaticlegacy:blazing_strength",
 	"target": "HURT_SELF",
 	"values": {
 		"apotheosis:rare": {
 			"duration": {
-				"min": 60,
+				"min": 100,
 				"steps": 5,
-				"step": 10
+				"step": 5
 			},
 			"amplifier": 0,
-			"cooldown": 1600
+			"cooldown": 3000
 		},
 		"apotheosis:epic": {
 			"duration": {
@@ -27,7 +27,7 @@
 				"step": 5
 			},
 			"amplifier": 0,
-			"cooldown": 1500
+			"cooldown": 2500
 		},
 		"apotheosis:mythic": {
 			"duration": {
@@ -36,7 +36,7 @@
 				"step": 8
 			},
 			"amplifier": 0,
-			"cooldown": 1400
+			"cooldown": 2000
 		},
 		"apotheosis:ancient": {
 			"duration": {
@@ -45,7 +45,7 @@
 				"step": 8
 			},
 			"amplifier": 0,
-			"cooldown": 1300
+			"cooldown": 1750
 		},
 		"apotheotic_additions:artifact": {
 			"duration": {
@@ -54,7 +54,7 @@
 				"step": 10
 			},
 			"amplifier": 0,
-			"cooldown": 1200
+			"cooldown": 1350
 		},
 		"apotheotic_additions:heirloom": {
 			"duration": {
@@ -63,7 +63,7 @@
 				"step": 30
 			},
 			"amplifier": 1,
-			"cooldown": 1000
+			"cooldown": 1500
 		},
 		"apotheotic_additions:esoteric": {
 			"duration": {
@@ -72,10 +72,10 @@
 				"step": 30
 			},
 			"amplifier": 1,
-			"cooldown": 1000
+			"cooldown": 1500
 		}
 	},
 	"types": [
-		"curios:body", "curios:back", "curios:an_focus"
+		"curios:spellstone", "curios:scroll"
 	]
 }

@@ -2,58 +2,62 @@
   "conditions": [{
 		"type": "forge:mod_loaded",
 		"modid": "irons_spellbooks"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
 	}],
   "type": "apotheosis:attribute",
   "attribute": "irons_spellbooks:summon_damage",
   "operation": "MULTIPLY_BASE",
   "values": {
     "common": {
-      "min": 0.01,
-      "steps": 3,
-      "step": 0.01
+      "min": 0.05,
+      "steps": 1,
+      "step": 0.0
     },
     "uncommon": {
-      "min": 0.01,
-      "steps": 5,
-      "step": 0.01
+      "min": 0.10,
+      "steps": 1,
+      "step": 0.0
     },
     "rare": {
-      "min": 0.03,
-      "steps": 5,
-      "step": 0.02
+      "min": 0.15,
+      "steps": 1,
+      "step": 0.0
     },
     "epic": {
-      "min": 0.05,
-      "steps": 6,
-      "step": 0.02
+      "min": 0.20,
+      "steps": 1,
+      "step": 0.0
     },
     "mythic": {
-      "min": 0.07,
-      "steps": 8,
-      "step": 0.03
+      "min": 0.25,
+      "steps": 1,
+      "step": 0.0
     },
     "ancient": {
-      "min": 0.07,
-      "steps": 8,
-      "step": 0.04
+      "min": 0.30,
+      "steps": 1,
+      "step": 0.0
     },
     "apotheotic_additions:artifact": {
-      "min": 0.20,
-      "steps": 8,
-      "step": 0.04
+      "min": 0.45,
+      "steps": 1,
+      "step": 0.0
     },
     "apotheotic_additions:heirloom": {
-      "min": 0.04,
-      "steps": 8,
-      "step": 0.04
+      "min": 0.2,
+      "steps": 1,
+      "step": 0.0
     },
     "apotheotic_additions:esoteric": {
-      "min": 0.4,
-      "steps": 8,
-      "step": 0.04
+      "min": 0.7,
+      "steps": 1,
+      "step": 0.0
     }
   },
   "types": [
-    "spellbook"
+    "curios:spellbook"
   ]
 }
