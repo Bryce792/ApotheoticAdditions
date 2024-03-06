@@ -20,13 +20,13 @@
 			"attribute": "minecraft:generic.max_health",
 			"operation": "ADDITION",
 			"values": {
-				"rare": 4.0,
-				"epic": 6.0,
-				"mythic": 8.0,
-				"ancient": 10.0,
-				"apotheotic_additions:artifact": 12,
-				"apotheotic_additions:heirloom": 14,
-				"apotheotic_additions:esoteric": 16
+				"rare": 3.0,
+				"epic": 4.0,
+				"mythic": 5.0,
+				"ancient": 6.0,
+				"apotheotic_additions:artifact": 8,
+				"apotheotic_additions:heirloom": 10,
+				"apotheotic_additions:esoteric": 12
 			}
 		},
 		{

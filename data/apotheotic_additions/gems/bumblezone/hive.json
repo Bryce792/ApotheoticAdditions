@@ -46,7 +46,7 @@
 			"gem_class": {
 				"key": "spellbook",
 				"types": [
-					"spellbook"
+					"curios:spellbook"
 				]
 			},
 			"attribute": "irons_spellbooks:nature_spell_power",

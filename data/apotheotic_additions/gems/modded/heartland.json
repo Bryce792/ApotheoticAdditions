@@ -1,0 +1,131 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "farmersdelight"
+	}],
+	"weight": 1,
+	"quality": 1,
+	"dimensions": ["minecraft:overworld"],
+	"unique": true,
+	"min_rarity": "epic",
+	"bonuses": [
+		{
+			"type": "apotheosis:drop_transform",
+			"gem_class": {
+				"key": "axe",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"blocks": "minecraft:logs",
+			"inputs": {
+				"tag": "minecraft:logs"
+			},
+			"output": {
+				"item": "farmersdelight:tree_bark"
+			},
+			"values": {
+				"epic": 0.05,
+				"mythic": 0.1,
+				"ancient": 0.15,
+				"apotheotic_additions:artifact": 0.2,
+				"apotheotic_additions:heirloom": 0.25,
+				"apotheotic_additions:esoteric": 0.3
+			},
+			"desc": "gem.apotheotic_additions:alchemy/heartland.axe"
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "knife",
+				"types": [
+					"sword"
+				]
+			},
+			"enchantment": "farmersdelight:backstabbing",
+			"values": {
+				"epic": 1,
+				"mythic": 1,
+				"ancient": 1,
+				"apotheotic_additions:artifact": 2,
+				"apotheotic_additions:heirloom": 2,
+				"apotheotic_additions:esoteric": 3
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "ranged_weapon",
+				"types": [
+					"bow",
+					"crossbow",
+					"trident"
+				]
+			},
+			"mob_effect": "farmersdelight:comfort",
+			"target": "attack_self",
+			"values": {
+				"rare": {
+					"duration": 60,
+					"amplifier": 0,
+					"cooldown": 900
+				},
+				"epic": {
+					"duration": 80,
+					"amplifier": 0,
+					"cooldown": 900
+				},
+				"mythic": {
+					"duration": 120,
+					"amplifier": 0,
+					"cooldown": 900
+				},
+				"ancient": {
+					"duration": 160,
+					"amplifier": 1,
+					"cooldown": 900
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 200,
+					"amplifier": 1,
+					"cooldown": 900
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 240,
+					"amplifier": 1,
+					"cooldown": 900
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 280,
+					"amplifier": 2,
+					"cooldown": 900
+				}
+			}
+		},
+		{
+			"type": "apotheosis:drop_transform",
+			"gem_class": {
+				"key": "shovel",
+				"types": [
+					"shovel"
+				]
+			},
+			"blocks": "minecraft:dirt",
+			"inputs": {
+				"tag": "minecraft:dirt"
+			},
+			"output": {
+				"item": "farmersdelight:rich_soil"
+			},
+			"values": {
+				"epic": 0.02,
+				"mythic": 0.04,
+				"ancient": 0.06,
+				"apotheotic_additions:artifact": 0.08,
+				"apotheotic_additions:heirloom": 0.1,
+				"apotheotic_additions:esoteric": 0.12
+			},
+			"desc": "gem.apotheotic_additions:alchemy/heartland.shovel"
+		}
+	]
+}

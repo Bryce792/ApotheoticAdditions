@@ -81,7 +81,7 @@
 				]
 			},
 			"mob_effect": "minecraft:strength",
-			"target": "attack_target",
+			"target": "attack_self",
 			"values": {
 				"rare": {
 					"duration": 60,

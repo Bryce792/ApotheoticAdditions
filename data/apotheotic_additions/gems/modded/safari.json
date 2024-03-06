@@ -100,37 +100,37 @@
 				"rare": {
 					"duration": 140,
 					"amplifier": 0,
-					"cooldown": 120
+					"cooldown": 200
 				},
 				"epic": {
 					"duration": 180,
 					"amplifier": 0,
-					"cooldown": 100
+					"cooldown": 200
 				},
 				"mythic": {
 					"duration": 220,
-					"amplifier": 1,
-					"cooldown": 80
+					"amplifier": 0,
+					"cooldown": 200
 				},
 				"ancient": {
 					"duration": 500,
-					"amplifier": 2,
-					"cooldown": 60
+					"amplifier": 0,
+					"cooldown": 200
 				},
 				"apotheotic_additions:artifact": {
 					"duration": 750,
-					"amplifier": 3,
-					"cooldown": 40
+					"amplifier": 0,
+					"cooldown": 200
 				},
 				"apotheotic_additions:heirloom": {
 					"duration": 900,
-					"amplifier": 3,
-					"cooldown": 40
+					"amplifier": 1,
+					"cooldown": 200
 				},
 				"apotheotic_additions:esoteric": {
 					"duration": 1100,
-					"amplifier": 3,
-					"cooldown": 40
+					"amplifier": 1,
+					"cooldown": 200
 				}
 			}
 		},

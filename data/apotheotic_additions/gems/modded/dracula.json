@@ -42,28 +42,28 @@
 					"attribute": "vampirism:blood_exhaustion",
 					"operation": "ADDITION",
 					"values": {
-						"uncommon": -0.15,
-						"rare": -0.25,
-						"epic": -0.35,
-						"mythic": -0.45,
-						"ancient": -0.5,
-						"apotheotic_additions:artifact": -0.7,
-						"apotheotic_additions:heirloom": -0.8,
-						"apotheotic_additions:esoteric": -0.9
-					}
-				},
-				{
-					"attribute": "minecraft:generic.movement_speed",
-					"operation": "MULTIPLY_TOTAL",
-					"values": {
 						"uncommon": -0.05,
 						"rare": -0.1,
 						"epic": -0.15,
 						"mythic": -0.2,
 						"ancient": -0.25,
 						"apotheotic_additions:artifact": -0.3,
-						"apotheotic_additions:heirloom": -0.4,
-						"apotheotic_additions:esoteric": -0.5
+						"apotheotic_additions:heirloom": -0.35,
+						"apotheotic_additions:esoteric": -0.4
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.025,
+						"rare": -0.05,
+						"epic": -0.075,
+						"mythic": -0.1,
+						"ancient": -0.125,
+						"apotheotic_additions:artifact": -0.15,
+						"apotheotic_additions:heirloom": -0.175,
+						"apotheotic_additions:esoteric": -0.2
 					}
 				}
 			]
@@ -81,28 +81,28 @@
 					"attribute": "minecraft:generic.luck",
 					"operation": "ADDITION",
 					"values": {
-						"uncommon": 0.25,
-						"rare": 0.50,
-						"epic": 0.75,
-						"mythic": 1.0,
-						"ancient": 1.25,
-						"apotheotic_additions:artifact": 1.5,
-						"apotheotic_additions:heirloom": 2,
-						"apotheotic_additions:esoteric": 2.5
+						"uncommon": 0.20,
+						"rare": 0.40,
+						"epic": 0.60,
+						"mythic": 0.80,
+						"ancient": 1,
+						"apotheotic_additions:artifact": 1.20,
+						"apotheotic_additions:heirloom": 1.4,
+						"apotheotic_additions:esoteric": 1.6
 					}
 				},
 				{
 					"attribute": "minecraft:generic.attack_damage",
 					"operation": "MULTIPLY_TOTAL",
 					"values": {
-						"uncommon": 0.15,
-						"rare": 0.25,
-						"epic": 0.35,
-						"mythic": 0.45,
-						"ancient": 0.5,
-						"apotheotic_additions:artifact": 0.6,
-						"apotheotic_additions:heirloom": 0.7,
-						"apotheotic_additions:esoteric": 0.8
+						"uncommon": 0.05,
+						"rare": 0.1,
+						"epic": 0.15,
+						"mythic": 0.2,
+						"ancient": 0.25,
+						"apotheotic_additions:artifact": 0.3,
+						"apotheotic_additions:heirloom": 0.35,
+						"apotheotic_additions:esoteric": 0.4
 					}
 				}
 			]

@@ -6,6 +6,10 @@
 	{
 		"type": "forge:mod_loaded",
 		"modid": "irons_spellbooks"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
 	}],
 	"weight": 3,
 	"quality": 5.5,
@@ -61,7 +65,7 @@
 			"gem_class": {
 				"key": "spellbook",
 				"types": [
-					"spellbook"
+					"curios:spellbook"
 				]
 			},
 			"attribute": "irons_spellbooks:max_mana",

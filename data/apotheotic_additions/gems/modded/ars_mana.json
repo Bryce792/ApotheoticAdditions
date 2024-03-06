@@ -4,8 +4,8 @@
 		"modid": "ars_nouveau"
 	}],
 	"variant": "ars_mana",
-	"weight": 8,
-	"quality": 5,
+	"weight": 4,
+	"quality": 2,
 	"dimensions": [],
 	"bonuses": [{
 			"type": "apotheosis:attribute",
@@ -22,9 +22,9 @@
 				"epic": 100,
 				"mythic": 125,
 				"ancient": 150,
-				"apotheotic_additions:artifact": 200,
-				"apotheotic_additions:heirloom": 300,
-				"apotheotic_additions:esoteric": 400
+				"apotheotic_additions:artifact": 175,
+				"apotheotic_additions:heirloom": 200,
+				"apotheotic_additions:esoteric": 225
 			}
 		},
 		{
@@ -60,15 +60,15 @@
 			"attribute": "ars_nouveau:ars_nouveau.perk.warding",
 			"operation": "MULTIPLY_TOTAL",
 			"values": {
-				"common": 0.05,
-				"uncommon": 0.10,
-				"rare": 0.15,
-				"epic": 0.20,
-				"mythic": 0.25,
-				"ancient": 0.30,
-				"apotheotic_additions:artifact": 0.35,
-				"apotheotic_additions:heirloom": 0.4,
-				"apotheotic_additions:esoteric": 0.45
+				"common": 0.025,
+				"uncommon": 0.05,
+				"rare": 0.075,
+				"epic": 0.1,
+				"mythic": 0.125,
+				"ancient": 0.15,
+				"apotheotic_additions:artifact": 0.175,
+				"apotheotic_additions:heirloom": 0.2,
+				"apotheotic_additions:esoteric": 0.225
 			}
 		}
 	]

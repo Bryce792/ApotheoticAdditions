@@ -242,7 +242,7 @@
 				]
 			},
 			"attribute": "eidolon:chanting_speed",
-			"operation": "ADDITION",
+			"operation": "MULTIPLY_TOTAL",
 			"values": {
 				"rare": 0.1,
 				"epic": 0.2,

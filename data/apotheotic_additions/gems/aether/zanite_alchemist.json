@@ -95,39 +95,39 @@
 		"target": "attack_self",
 		"values": {
 			"rare": {
-				"duration": 100,
+				"duration": 60,
 				"amplifier": 0,
-				"cooldown": 1000
+				"cooldown": 900
 			},
 			"epic": {
-				"duration": 140,
+				"duration": 80,
 				"amplifier": 0,
-				"cooldown": 1000
+				"cooldown": 900
 			},
 			"mythic": {
-				"duration": 180,
+				"duration": 120,
 				"amplifier": 0,
-				"cooldown": 1000
+				"cooldown": 900
 			},
 			"ancient": {
-				"duration": 220,
+				"duration": 160,
 				"amplifier": 1,
-				"cooldown": 1000
+				"cooldown": 900
 			},
 			"apotheotic_additions:artifact": {
-				"duration": 260,
-				"amplifier": 2,
-				"cooldown": 1000
+				"duration": 200,
+				"amplifier": 1,
+				"cooldown": 900
 			},
 			"apotheotic_additions:heirloom": {
-				"duration": 300,
-				"amplifier": 2,
-				"cooldown": 1000
+				"duration": 240,
+				"amplifier": 1,
+				"cooldown": 900
 			},
 			"apotheotic_additions:esoteric": {
-				"duration": 340,
-				"amplifier": 3,
-				"cooldown": 1000
+				"duration": 280,
+				"amplifier": 2,
+				"cooldown": 900
 			}
 		}
 	}

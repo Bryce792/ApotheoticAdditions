@@ -18,15 +18,15 @@
 			"attribute": "minecraft:generic.armor",
 			"operation": "ADDITION",
 			"values": {
-				"common": 1.0,
-				"uncommon": 2.0,
-				"rare": 3.0,
-				"epic": 4.0,
-				"mythic": 5.0,
-				"ancient": 6.0,
-				"apotheotic_additions:artifact": 7,
-				"apotheotic_additions:heirloom": 8,
-				"apotheotic_additions:esoteric": 9
+				"common": 0.5,
+				"uncommon": 1,
+				"rare": 1.5,
+				"epic": 2,
+				"mythic": 2.5,
+				"ancient": 3,
+				"apotheotic_additions:artifact": 3.5,
+				"apotheotic_additions:heirloom": 4,
+				"apotheotic_additions:esoteric": 5
 			}
 		}
 	]
