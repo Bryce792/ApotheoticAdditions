@@ -1,10 +1,10 @@
 {
 	"conditions": [{
-	"type": "forge:mod_loaded",
-	"modid": "alexscaves"
-}],
+		"type": "forge:mod_loaded",
+		"modid": "quark"
+	}],
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "alexscaves:deepsight",
+	"mob_effect": "quark:resilience",
 	"target": "HURT_SELF",
 	"values": {
 		"rare": {
@@ -58,7 +58,7 @@
 				"steps": 20,
 				"step": 15
 			},
-			"amplifier": 0,
+			"amplifier": 1,
 			"cooldown": 1000
 		},
 		"apotheotic_additions:esoteric": {
@@ -67,11 +67,11 @@
 				"steps": 40,
 				"step": 15
 			},
-			"amplifier": 0,
+			"amplifier": 1,
 			"cooldown": 1000
 		}
 	},
 	"types": [
-		"helmet"
+		"helmet", "chestplate", "leggings", "boots"
 	]
 }

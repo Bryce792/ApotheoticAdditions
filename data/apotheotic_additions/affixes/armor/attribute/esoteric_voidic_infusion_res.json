@@ -44,6 +44,7 @@
     }
   },
   "types": [
-		"chestplate", "leggings"
+		"chestplate", "leggings",
+		"shield"
   ]
 }

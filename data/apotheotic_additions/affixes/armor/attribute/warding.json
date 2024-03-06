@@ -42,9 +42,20 @@
       "min": 0.07,
       "steps": 5,
       "step": 0.075
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 0.04,
+      "steps": 5,
+      "step": 0.05
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 0.1,
+      "steps": 5,
+      "step": 0.09
     }
   },
   "types": [
-		"helmet", "chestplate", "leggings", "boots"
+		"helmet", "chestplate", "leggings", "boots",
+		"shield"
   ]
 }

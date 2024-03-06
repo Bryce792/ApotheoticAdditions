@@ -54,6 +54,7 @@
 		}
 	},
 	"types": [
-		"leggings", "boots"
+		"leggings", "boots",
+		"shield"
 	]
 }

@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "forge:block_reach",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 4,
+			"steps": 4,
+			"step": 0.25
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 2,
+			"steps": 4,
+			"step": 0.25
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 6,
+			"steps": 8,
+			"step": 0.25
+		}
+	},
+	"types": [
+		"pickaxe", "shovel"
+	]
+}
