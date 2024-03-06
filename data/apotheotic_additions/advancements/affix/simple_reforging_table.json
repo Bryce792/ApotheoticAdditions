@@ -1,0 +1,18 @@
+{ 
+"parent": "apotheotic_additions:affix/salvaging_table",
+"criteria":{
+    "material":
+    {"conditions":
+    {"items":
+        [
+        {"items":
+        ["apotheosis:simple_reforging_table"]}
+        ]
+    },
+    "trigger":"minecraft:inventory_changed"}},
+"display":{"announce_to_chat":true,
+"description":{"translate":"advancements.apotheotic_additions:simple_reforging_table.desc"},
+"frame": "goal",
+"icon":{"item":"apotheosis:simple_reforging_table"},
+"title":{"translate":"advancements.apotheotic_additions:simple_reforging_table"}},
+"sends_telemetry_event":true}

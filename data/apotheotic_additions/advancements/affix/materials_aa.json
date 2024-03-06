@@ -1,0 +1,21 @@
+{ 
+"parent": "apotheotic_additions:affix/salvaging_table",
+"criteria":{
+    "material":
+    {"conditions":
+    {"items":
+        [
+        {"items":
+        ["apotheotic_additions:artifact_material",
+        "apotheotic_additions:heirloom_material",
+        "apotheotic_additions:esoteric_material"]}
+        ]
+    },
+    "trigger":"minecraft:inventory_changed"}},
+"display":{"announce_to_chat":true,
+"description":{"translate":"advancements.apotheotic_additions:materials_aa.desc"},
+"frame": "challenge",
+"icon":{"item":"apotheotic_additions:artifact_material"},
+"title":{"translate":"advancements.apotheotic_additions:materials_aa"}},
+"sends_telemetry_event":true
+}

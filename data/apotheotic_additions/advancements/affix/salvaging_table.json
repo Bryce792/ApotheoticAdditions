@@ -1,0 +1,18 @@
+{ 
+"parent": "apotheosis:affix/root",
+"criteria":{
+    "material":
+    {"conditions":
+    {"items":
+        [
+        {"items":
+        ["apotheosis:salvaging_table"]}
+        ]
+    },
+    "trigger":"minecraft:inventory_changed"}},
+"display":{"announce_to_chat":true,
+"description":{"translate":"advancements.apotheotic_additions:salvaging_table.desc"},
+"frame": "task",
+"icon":{"item":"apotheosis:salvaging_table"},
+"title":{"translate":"advancements.apotheotic_additions:salvaging_table"}},
+"sends_telemetry_event":true}

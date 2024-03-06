@@ -1,0 +1,24 @@
+{ 
+"parent": "apotheotic_additions:affix/salvaging_table",
+"criteria":{
+    "material":
+    {"conditions":
+    {"items":
+        [
+        {"items":
+        ["apotheosis:common_material",
+        "apotheosis:uncommon_material",
+        "apotheosis:rare_material",
+        "apotheosis:epic_material",
+        "apotheosis:mythic_material",
+        "apotheosis:ancient_material"]}
+        ]
+    },
+    "trigger":"minecraft:inventory_changed"}},
+"display":{"announce_to_chat":true,
+"description":{"translate":"advancements.apotheotic_additions:materials.desc"},
+"frame": "task",
+"icon":{"item":"apotheosis:common_material"},
+"title":{"translate":"advancements.apotheotic_additions:materials"}},
+"sends_telemetry_event":true
+}
