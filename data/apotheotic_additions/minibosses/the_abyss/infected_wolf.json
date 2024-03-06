@@ -1,0 +1,65 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "theabyss"
+	}],
+	"weight": 25,
+	"quality": 0,
+	"name": "Abyssal Infected Wolf",
+	"chance": 0.03,
+	"entities": [
+		"theabyss:infected_wolf"
+	],
+	"valid_gear_sets": [
+		"#the_abyss"
+	],
+	"dimensions": [],
+	"affixed": true,
+	"nbt": {
+	},
+	"stats": {
+		"enchant_chance": 0.25,
+		"enchantment_levels": [12, 8, 20, 14],
+		"effects": [],
+		"attribute_modifiers": [{
+				"attribute": "minecraft:generic.max_health",
+				"operation": "ADDITION",
+				"value": {
+					"min": 75,
+					"steps": 50,
+					"step": 2
+				}
+			},
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"operation": "MULTIPLY_BASE",
+				"value": {
+					"min": 0.05,
+					"steps": 5,
+					"step": 0.01
+				}
+			},
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"operation": "MULTIPLY_BASE",
+				"value": {
+					"min": 0.50,
+					"steps": 8,
+					"step": 0.05
+				}
+			},
+			{
+				"attribute": "minecraft:generic.knockback_resistance",
+				"operation": "ADDITION",
+				"value": 0.5
+			}
+		]
+	},
+	"exclusions": [{
+			"type": "apotheosis:spawn_type",
+			"spawn_types": [
+				"spawn_egg", "spawner", "mob_summoned", "conversion"
+			]
+		}
+	]
+}

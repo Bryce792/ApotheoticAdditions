@@ -3,7 +3,7 @@
     "color": "#ec996b",
     "material": "apotheotic_additions:artifact_material",
 	"weight": 5,
-	"quality": 15,
+	"quality": 8,
 	"rules": [{
 			"type": "stat",
 			"chance": 1.0
