@@ -6,7 +6,7 @@
 	{
 		"type": "forge:mod_loaded",
 		"modid": "silentgear"
-    }],
+	}],
   "type": "silentgear:standard",
   "simple": true,
   "harvest_tier": "minecraft:netherite",
