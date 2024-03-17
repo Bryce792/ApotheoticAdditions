@@ -9,7 +9,7 @@
 	}],
   "type": "silentgear:standard",
   "simple": true,
-  "harvest_tier": "minecraft:diamond",
+  "harvest_tier": "minecraft:netherite",
   "availability": {
     "tier": 4,
     "categories": [
