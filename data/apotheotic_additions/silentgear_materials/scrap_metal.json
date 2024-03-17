@@ -6,10 +6,10 @@
 	{
 		"type": "forge:mod_loaded",
 		"modid": "silentgear"
-    }],
+	}],
   "type": "silentgear:standard",
   "simple": true,
-  "harvest_tier": "minecraft:diamond",
+  "harvest_tier": "minecraft:stone",
   "availability": {
     "tier": 2,
     "categories": [
