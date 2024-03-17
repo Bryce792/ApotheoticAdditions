@@ -9,7 +9,7 @@
 	}],
   "type": "silentgear:standard",
   "simple": true,
-  "harvest_tier": "minecraft:stone",
+  "harvest_tier": "minecraft:diamond",
   "availability": {
     "tier": 2,
     "categories": [
