@@ -5,7 +5,7 @@
 		"module": "adventure"
 	}],
 	"input": {
-		"item": "minecraft:music_disc_5"
+		"tag": "minecraft:music_discs"
 	},
 	"outputs": [{
 		"min_count": 7,

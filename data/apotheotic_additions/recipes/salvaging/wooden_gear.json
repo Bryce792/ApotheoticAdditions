@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:salvaging",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "enderio"
+	}],
+	"input": {
+		"item": "enderio:wood_gear"
+	},
+	"outputs": [
+	{
+		"min_count": 2,
+		"max_count": 4,
+		"stack": {
+			"item": "minecraft:stick"
+		}
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	"type": "apotheosis:salvaging",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+	"input": {
+		"item": "blue_skies:camel_saddle"
+	},
+	"outputs": [{
+		"min_count": 1,
+		"max_count": 3,
+		"stack": {
+			"item": "minecraft:leather"
+		}
+	},
+	{
+		"min_count": 0,
+		"max_count": 2,
+		"stack": {
+			"item": "blue_skies:fox_pelt"
+		}
+	},
+	{
+		"min_count": 0,
+		"max_count": 1,
+		"stack": {
+			"item": "blue_skies:ventium_ingot"
+		}
+	}]
+}

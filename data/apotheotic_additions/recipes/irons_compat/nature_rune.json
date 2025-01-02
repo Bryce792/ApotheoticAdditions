@@ -1,0 +1,25 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "LLL",
+    "LWL",
+    "LLL"
+  ],
+  "key": {
+	"W": {
+      "item": "irons_spellbooks:blank_rune"
+    },
+	"L": {
+      "item": "mowziesmobs:naga_fang"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:nature_rune",
+    "count": 1
+  }
+}

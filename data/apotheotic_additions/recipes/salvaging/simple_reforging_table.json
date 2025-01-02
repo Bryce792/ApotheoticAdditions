@@ -1,0 +1,31 @@
+{
+	"type": "apotheosis:salvaging",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	}],
+	"input": {
+		"item": "apotheosis:simple_reforging_table"
+	},
+	"outputs": [{
+		"min_count": 1,
+		"max_count": 1,
+		"stack": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
+	{
+		"min_count": 0,
+		"max_count": 2,
+		"stack": {
+			"item": "apotheosis:gem_dust"
+		}
+	},
+	{
+		"min_count": 1,
+		"max_count": 3,
+		"stack": {
+			"item": "minecraft:smooth_stone"
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	"type": "apotheosis:salvaging",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "forbidden_arcanus"
+	}],
+	"input": {
+		"item": "forbidden_arcanus:splash_aureal_bottle"
+	},
+	"outputs": [{
+		"min_count": 1,
+		"max_count": 3,
+		"stack": {
+			"item": "forbidden_arcanus:arcane_crystal_dust"
+		}
+	},
+	{
+		"min_count": 0,
+		"max_count": 1,
+		"stack": {
+			"item": "minecraft:glass"
+		}
+	}]
+}

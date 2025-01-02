@@ -1,0 +1,40 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "artifacts"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    " M ",
+    "FBP",
+    "NCW"
+  ],
+  "key": {
+	"M": {
+      "item": "apotheosis:mythic_material"
+    },
+	"B": {
+      "item": "apotheotic_additions:artifact_material"
+    },
+  "C": {
+      "item": "minecraft:copper_block"
+    },
+  "F": {
+      "tag": "apotheotic_additions:flaming"
+    },
+  "N": {
+      "tag": "apotheotic_additions:frozen"
+    },
+  "W": {
+      "tag": "apotheotic_additions:withering"
+    },
+  "P": {
+      "tag": "apotheotic_additions:poisonous"
+    }
+  },
+  "result": {
+    "item": "artifacts:antidote_vessel",
+    "count": 1
+  }
+}

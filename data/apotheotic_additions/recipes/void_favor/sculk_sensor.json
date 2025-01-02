@@ -1,0 +1,17 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "type": "malum:favor_of_the_void",
+  "input": {
+    "item": "alexsmobs:farseer_arm"
+  },
+  "output": {
+    "item": "minecraft:sculk_sensor"
+  }
+}

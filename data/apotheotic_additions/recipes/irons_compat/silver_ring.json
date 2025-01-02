@@ -1,0 +1,25 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "WL ",
+    "L L",
+    " L "
+  ],
+  "key": {
+	"W": {
+      "item": "apotheosis:rare_material"
+    },
+	"L": {
+      "tag": "forge:ingots/silver"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:silver_ring",
+    "count": 1
+  }
+}
