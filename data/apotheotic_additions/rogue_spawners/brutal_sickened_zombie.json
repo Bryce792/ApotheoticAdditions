@@ -5,7 +5,7 @@
 	},
   	{
 		"type": "forge:mod_loaded",
-		"modid": "alexscaves"
+		"modid": "witherstormmod"
 	}],
 	"stats": {
 		"spawn_delay": 20,
@@ -19,7 +19,7 @@
 	"spawn_potentials": [{
 		"data": {
 			"entity": {
-				"Health": 45.0,
+				"Health": 50.0,
 				"Attributes": [{
 						"Base": 0.23,
 						"Modifiers": [{
@@ -66,7 +66,7 @@
 						"Name": "minecraft:generic.max_health"
 					}
 				],
-				"id": "alexscaves:vallumraptor",
+				"id": "witherstormmod:sickened_zombie",
 				"ActiveEffects": [{
 					"Ambient": 0,
 					"CurativeItems": [{
@@ -84,6 +84,6 @@
 
 		"weight": 1
 	}],
-	"loot_table": "apotheotic_additions:chests/caves_spawner",
-	"weight": 3
+	"loot_table": "apotheotic_additions:chests/witherstorm_spawner",
+	"weight": 2
 }
