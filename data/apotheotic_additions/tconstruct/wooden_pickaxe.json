@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "tconstruct"
+	}],
+  "weight": 95,
+  "quality": 3.0,
+  "stack": {
+    "type": "forge:nbt",
+    "item": "tconstruct:pickaxe",
+    "count": 1,
+    "nbt": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:whitestone\",\"tconstruct:enderslime_vine\"],tic_modifiers:[{level:1,name:\"tconstruct:stoneshield\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:enderporting\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":1.0f,\"tconstruct:attack_speed\":1.14f,\"tconstruct:durability\":57.0f,\"tconstruct:mining_speed\":2.2f},tic_volatile_data:{abilities:1,upgrades:3}}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:uncommon"
+}

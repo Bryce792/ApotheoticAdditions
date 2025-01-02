@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "tconstruct"
+	}],
+  "weight": 95,
+  "quality": 3.0,
+  "stack": {
+    "type": "forge:nbt",
+    "item": "tconstruct:war_pick",
+    "count": 1,
+    "nbt": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:vine\"],tic_modifiers:[{level:1,name:\"tconstruct:solar_powered\"},{level:2,name:\"tconstruct:cultivated\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":120.0f,\"tconstruct:mining_speed\":2.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:uncommon"
+}

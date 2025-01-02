@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "tconstruct"
+	}],
+  "weight": 95,
+  "quality": 3.0,
+  "stack": {
+    "type": "forge:nbt",
+    "item": "tconstruct:hand_axe",
+    "count": 1,
+    "nbt": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:queens_slime\",\"tconstruct:darkthread\"],tic_modifiers:[{level:1,name:\"tconstruct:overslime\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:looting\"},{level:1,name:\"tconstruct:stripping\"},{level:1,name:\"tconstruct:overlord\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":5.7f,\"tconstruct:attack_speed\":0.85499996f,\"tconstruct:durability\":68.85f,\"tconstruct:mining_speed\":1.8f,\"tconstruct:overslime\":58.1f},tic_volatile_data:{abilities:1,upgrades:3}}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:uncommon"
+}
