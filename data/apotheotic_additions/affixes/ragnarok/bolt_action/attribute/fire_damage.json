@@ -1,0 +1,29 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheosis_modern_ragnarok"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "attributeslib:fire_damage",
+  "operation": "ADDITION",
+  "values": {
+    "apotheotic_additions:artifact": {
+      "min": 60,
+      "steps": 120,
+      "step": 0.5
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 20,
+      "steps": 60,
+      "step": 0.25
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 80,
+      "steps": 150,
+      "step": 0.75
+    }
+  },
+  "types": [
+    "apotheosis_modern_ragnarok:bolt_action"
+  ]
+}

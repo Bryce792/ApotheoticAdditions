@@ -1,0 +1,29 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheosis_modern_ragnarok"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "attributeslib:fire_damage",
+  "operation": "ADDITION",
+  "values": {
+    "apotheotic_additions:artifact": {
+      "min": 0.8,
+      "steps": 20,
+      "step": 0.05
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 0.3,
+      "steps": 20,
+      "step": 0.025
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 0.9,
+      "steps": 20,
+      "step": 0.1
+    }
+  },
+  "types": [
+    "apotheosis_modern_ragnarok:shotgun"
+  ]
+}

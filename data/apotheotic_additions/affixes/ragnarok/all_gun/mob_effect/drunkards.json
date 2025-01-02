@@ -1,0 +1,57 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "apotheosis_modern_ragnarok"
+	}],
+  "type": "apotheosis_modern_ragnarok:mob_effect_ads",
+  "mob_effect": "aether:inebriation",
+  "target": "ADS_TARGET",
+  "values": {
+    "rare": {
+      "duration": {
+        "min": 40,
+        "steps": 10,
+        "step": 2
+      },
+      "amplifier": 0
+    },
+    "epic": {
+      "duration": {
+        "min": 60,
+        "steps": 20,
+        "step": 2
+      },
+      "amplifier": 0
+    },
+    "mythic": {
+      "duration": 100,
+      "amplifier": 0
+    },
+    "ancient": {
+      "duration": 140,
+      "amplifier": 0
+    },
+    "apotheotic_additions:artifact": {
+      "duration": 100,
+      "amplifier": 0
+    },
+    "apotheotic_additions:heirloom": {
+      "duration": 260,
+      "amplifier": 1
+    },
+    "apotheotic_additions:esoteric": {
+      "duration": 300,
+      "amplifier": 2
+    }
+  },
+  "types": [
+    "apotheosis_modern_ragnarok:shotgun",
+    "apotheosis_modern_ragnarok:full_auto",
+    "apotheosis_modern_ragnarok:semi_auto",
+    "apotheosis_modern_ragnarok:bolt_action"
+  ]
+}

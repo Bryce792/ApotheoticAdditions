@@ -1,0 +1,63 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "malum:soul_ward_capacity",
+  "operation": "ADDITION",
+  "values": {
+    "common": {
+      "min": 1,
+      "steps": 2,
+      "step": 1
+    },
+    "uncommon": {
+      "min": 2,
+      "steps": 3,
+      "step": 1
+    },
+    "rare": {
+      "min": 3,
+      "steps": 4,
+      "step": 1
+    },
+    "epic": {
+      "min": 4,
+      "steps": 5,
+      "step": 1
+    },
+    "mythic": {
+      "min": 5,
+      "steps": 4,
+      "step": 1.5
+    },
+    "ancient": {
+      "min": 6,
+      "steps": 4,
+      "step": 2
+    },
+    "apotheotic_additions:artifact": {
+      "min": 10,
+      "steps": 10,
+      "step": 2
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 4,
+      "steps": 8,
+      "step": 1
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 20,
+      "steps": 20,
+      "step": 2
+    }
+  },
+  "types": [
+		"curios:brooch", "curios:rune"
+  ]
+}

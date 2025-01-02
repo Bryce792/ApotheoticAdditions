@@ -1,0 +1,90 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "malum:rejected",
+	"target": "HURT_ATTACKER",
+	"values": {
+		"uncommon": {
+			"duration": {
+				"min": 20,
+				"steps": 1,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"rare": {
+			"duration": {
+				"min": 20,
+				"steps": 2,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		},
+		"epic": {
+			"duration": {
+				"min": 25,
+				"steps": 2,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		},
+		"mythic": {
+			"duration": {
+				"min": 30,
+				"steps": 3,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		},
+		"ancient": {
+			"duration": {
+				"min": 35,
+				"steps": 3,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 35,
+				"steps": 3,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 60,
+				"steps": 4,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 70,
+				"steps": 7,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 500
+		}
+	},
+	"types": [
+		"curios:rune"
+	]
+}

@@ -1,0 +1,41 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheosis_modern_ragnarok"
+	}],
+  "type": "apotheosis_modern_ragnarok:mob_effect_ads",
+  "mob_effect": "minecraft:weakness",
+  "target": "ADS_TARGET",
+  "values": {
+    "apotheotic_additions:artifact": {
+      "duration": 400,
+      "amplifier": {
+        "min": 2,
+        "steps": 3,
+        "step": 0.41
+      }
+    },
+    "apotheotic_additions:heirloom": {
+      "duration": 800,
+      "amplifier": {
+        "min": 4,
+        "steps": 5,
+        "step": 0.41
+      }
+    },
+    "apotheotic_additions:esoteric": {
+      "duration": 800,
+      "amplifier": {
+        "min": 4,
+        "steps": 7,
+        "step": 0.41
+      }
+    }
+  },
+  "types": [
+    "apotheosis_modern_ragnarok:shotgun",
+    "apotheosis_modern_ragnarok:full_auto",
+    "apotheosis_modern_ragnarok:semi_auto",
+    "apotheosis_modern_ragnarok:bolt_action"
+  ]
+}

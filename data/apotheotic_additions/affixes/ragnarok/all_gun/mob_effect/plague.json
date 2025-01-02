@@ -1,0 +1,57 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "apotheosis_modern_ragnarok"
+	}],
+  "type": "apotheosis_modern_ragnarok:mob_effect_ads",
+  "mob_effect": "rats:plague",
+  "target": "ADS_TARGET",
+  "values": {
+    "rare": {
+      "duration": {
+        "min": 10,
+        "steps": 5,
+        "step": 1
+      },
+      "amplifier": 0
+    },
+    "epic": {
+      "duration": {
+        "min": 10,
+        "steps": 10,
+        "step": 1
+      },
+      "amplifier": 0
+    },
+    "mythic": {
+      "duration": 40,
+      "amplifier": 0
+    },
+    "ancient": {
+      "duration": 60,
+      "amplifier": 0
+    },
+    "apotheotic_additions:artifact": {
+      "duration": 100,
+      "amplifier": 0
+    },
+    "apotheotic_additions:heirloom": {
+      "duration": 200,
+      "amplifier": 1
+    },
+    "apotheotic_additions:esoteric": {
+      "duration": 300,
+      "amplifier": 2
+    }
+  },
+  "types": [
+    "apotheosis_modern_ragnarok:shotgun",
+    "apotheosis_modern_ragnarok:full_auto",
+    "apotheosis_modern_ragnarok:semi_auto",
+    "apotheosis_modern_ragnarok:bolt_action"
+  ]
+}

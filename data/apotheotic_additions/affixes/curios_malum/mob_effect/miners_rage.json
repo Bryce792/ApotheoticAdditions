@@ -1,0 +1,81 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "malum:miners_rage",
+	"target": "HURT_SELF",
+	"values": {
+		"apotheosis:rare": {
+			"duration": {
+				"min": 100,
+				"steps": 5,
+				"step": 5
+			},
+			"amplifier": 0,
+			"cooldown": 3000
+		},
+		"apotheosis:epic": {
+			"duration": {
+				"min": 140,
+				"steps": 5,
+				"step": 5
+			},
+			"amplifier": 0,
+			"cooldown": 2500
+		},
+		"apotheosis:mythic": {
+			"duration": {
+				"min": 200,
+				"steps": 5,
+				"step": 8
+			},
+			"amplifier": 0,
+			"cooldown": 2000
+		},
+		"apotheosis:ancient": {
+			"duration": {
+				"min": 250,
+				"steps": 8,
+				"step": 8
+			},
+			"amplifier": 0,
+			"cooldown": 1750
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 300,
+				"steps": 8,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 1350
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 1200,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 1,
+			"cooldown": 1500
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 1200,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 1,
+			"cooldown": 1500
+		}
+	},
+	"types": [
+		"curios:rune"
+	]
+}

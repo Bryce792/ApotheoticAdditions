@@ -1,0 +1,62 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apotheosis_modern_ragnarok"
+	}],
+  "type": "apotheosis_modern_ragnarok:mob_effect_ads",
+  "mob_effect": "attributeslib:knowledge",
+  "target": "ADS_SELF",
+  "values": {
+    "epic": {
+      "duration": {
+        "min": 20,
+        "steps": 4,
+        "step": 20
+      },
+      "amplifier": 0
+    },
+    "mythic": {
+      "duration": {
+        "min": 30,
+        "steps": 4,
+        "step": 20
+      },
+      "amplifier": 0
+    },
+    "ancient": {
+      "duration": {
+        "min": 40,
+        "steps": 6,
+        "step": 20
+      },
+      "amplifier": 0
+    },
+    "apotheotic_additions:artifact": {
+      "duration": {
+        "min": 20,
+        "steps": 6,
+        "step": 20
+      },
+      "amplifier": 0
+    },
+    "apotheotic_additions:heirloom": {
+      "duration": {
+        "min": 100,
+        "steps": 6,
+        "step": 20
+      },
+      "amplifier": 1
+    },
+    "apotheotic_additions:esoteric": {
+      "duration": {
+        "min": 100,
+        "steps": 6,
+        "step": 20
+      },
+      "amplifier": 1
+    }
+  },
+  "types": [
+    "apotheosis_modern_ragnarok:shotgun"
+  ]
+}

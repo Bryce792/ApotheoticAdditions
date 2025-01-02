@@ -1,0 +1,76 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "biomancy"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "biomancy:despoil",
+	"target": "HURT_SELF",
+	"values": {
+		"apotheosis:epic": {
+			"duration": {
+				"min": 80,
+				"steps": 5,
+				"step": 5
+			},
+			"amplifier": 0,
+			"cooldown": 3500
+		},
+		"apotheosis:mythic": {
+			"duration": {
+				"min": 160,
+				"steps": 5,
+				"step": 8
+			},
+			"amplifier": 0,
+			"cooldown": 3000
+		},
+		"apotheosis:ancient": {
+			"duration": {
+				"min": 240,
+				"steps": 8,
+				"step": 8
+			},
+			"amplifier": 0,
+			"cooldown": 2500
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 320,
+				"steps": 8,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 2000
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 600,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 1,
+			"cooldown": 1500
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 900,
+				"steps": 10,
+				"step": 30
+			},
+			"amplifier": 1,
+			"cooldown": 1500
+		}
+	},
+	"types": [
+		"curios:rune"
+	]
+}
