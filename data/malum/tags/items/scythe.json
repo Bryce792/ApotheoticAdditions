@@ -1,0 +1,56 @@
+{
+  "values": [
+    {
+      "id": "born_in_chaos_v1:nightmare_scythe",
+      "required": false
+    },
+    {
+      "id": "eidolon:reaper_scythe",
+      "required": false
+    },
+    {
+      "id": "eidolon:deathbringer_scythe",
+      "required": false
+    },
+    {
+      "id": "enigmaticlegacy:etherium_scythe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_scythe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_scythe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_scythe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_scythe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_scythe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:magiscythe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:soulrender",
+      "required": false
+    },
+    {
+      "id": "rats:plague_scythe",
+      "required": false
+    },
+    {
+      "id": "tconstruct:scythe",
+      "required": false
+    }
+  ]
+}

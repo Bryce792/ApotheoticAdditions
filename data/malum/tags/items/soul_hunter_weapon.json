@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "eidolon:soulfire_wand",
+      "required": false
+    },
+    {
+      "id": "eidolon:bonechill_wand",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiritual_sword",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_sword",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:spell_bow",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:enchanters_sword",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:ghostly_pickaxe",
+      "required": false
+    }
+  ]
+}
