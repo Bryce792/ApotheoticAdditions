@@ -1,0 +1,1085 @@
+{
+    "item_group.apotheotic_additions.apotheotic_additions": "Apotheotic Additions",
+  
+    "comment_id": "/Gateways",
+    "apotheotic_additions.time_lost_gate": "Time-Lost Gateway",
+    "apotheotic_additions.caves_gate": "Apothic Cave Gateway",
+    "apotheotic_additions.aether_gate": "Apothic Aetheric Gateway",
+    "apotheotic_additions.endless_boss": "Endless Apothic Boss Gateway",
+    "apotheotic_additions.dark_garden": "Gateway of the Forlorn Garden",
+  
+  
+    "rewards.apotheotic_additions.loot_table.aa_spawner": "Apotheotic Additions Rogue Spawner Loot",
+    "rewards.apotheotic_additions.loot_table.caves_spawner": "Alex's Caves Rogue Spawner Loot",
+    "rewards.apotheotic_additions.loot_table.silver_dungeon": "Silver Dungeon Boss Loot",
+    "rewards.apotheotic_additions.loot_table.catacombs": "Undergarden Catacombs Loot",
+    "rewards.apotheotic_additions.loot_table.forlorn": "Forlorn Hollows Loot",
+    
+    "comment_id": "/Blocks",
+  
+    "block.apotheotic_additions.terra_shelf": "大地のルーン",
+    "block.apotheotic_additions.sacrificial_shelf": "生贄のルーン",
+    "block.apotheotic_additions.void_shelf": "虚無のルーン",
+    "block.apotheotic_additions.wavebinders_shelf": "海壁のルーン",
+    "block.apotheotic_additions.scrap_carved": "模様入りの屑鉄",
+    "block.apotheotic_additions.scrap_pillar": "屑鉄の柱",
+    "block.apotheotic_additions.scrap_rough": "粗い屑鉄",
+    "block.apotheotic_additions.scrap_brick_stairs": "屑鉄レンガの階段",
+    "block.apotheotic_additions.scrap_brick_slab": "屑鉄レンガのハーフブロック",
+    "block.apotheotic_additions.scrap_brick": "屑鉄レンガ",
+    "block.apotheotic_additions.timeworn_fancy": "派手な使い古された織物",
+    "block.apotheotic_additions.timeworn_fabric": "使い古された織物",
+    "block.apotheotic_additions.luminous_glass_pane": "輝くガラス板",
+    "block.apotheotic_additions.luminous_glass": "輝くガラス",
+  
+  "comment_id": "/Items",
+    "rarity.apotheotic_additions:heirloom": "伝承",
+    "item.apotheotic_additions.heirloom_material": "血脈のコア",
+    "item.apotheosis.gem.apotheosis:heirloom": "不滅の%s",
+    "item.apotheosis.gem.apotheotic_additions:heirloom": "不滅の%s",
+    "rarity.apotheotic_additions:esoteric": "異世界",
+    "item.apotheotic_additions.esoteric_material": "多元宇宙のコア",
+    "item.apotheosis.gem.apotheosis:esoteric": "異世界の%s",
+    "item.apotheosis.gem.apotheotic_additions:esoteric": "異世界の%s",
+    "rarity.apotheotic_additions:artifact": "聖遺物",  
+    "item.apotheotic_additions.artifact_material": "神力の欠片",
+    "item.apotheosis.gem.apotheotic_additions:artifact": "神々の%s",
+    "item.apotheosis.gem.apotheosis:artifact": "神々の%s",
+    "item.apotheotic_additions.emerald_sword": "エメラルドの剣",
+    "item.apotheotic_additions.mythicalband": "聖なるバンド",
+    "item.apotheotic_additions.commonapple": "売れ残りのリンゴ",
+    "item.apotheotic_additions.uncommonapple": "珍しいリンゴ",
+    "item.apotheotic_additions.rareapple": "レアなリンゴ",
+    "item.apotheotic_additions.epicapple": "最高のリンゴ",
+    "item.apotheotic_additions.mythicapple": "神のリンゴ",
+    "item.apotheotic_additions.the_moon": "月輪",
+    "item.apotheotic_additions.apotheotic_coin": "神貨",
+    "item.apotheotic_additions.apotheotic_coin.guide": "ローグスポナーから見つかる。行商人との取引に使用できる。",
+    "item.apotheotic_additions.infused_coin": "強化した神貨",
+    "item.apotheotic_additions.ascended_coin": "昇華した神貨",
+    "item.apotheotic_additions.golden_upgrade_smithing_template": "鍛冶型",
+    "item.apotheotic_additions.iron_upgrade_smithing_template": "鍛冶型",
+    "item.apotheotic_additions.diamond_upgrade_smithing_template": "鍛冶型",
+    "item.apotheotic_additions.emerald_upgrade_smithing_template": "鍛冶型",
+  
+    "comment_id": "/Wanderer Unique Trades",
+  
+    "name.apotheotic_additions.caves_dagger": "土竜王のダガー",
+    "name.apotheotic_additions.forsaken_hood": "孤独のフード",
+    "name.apotheotic_additions.forlorn_cloak": "絶望のクローク",
+    "name.apotheotic_additions.skybreaker": "スカイブレーカー",
+    "name.apotheotic_additions.skyfall": "スカイフォール",
+    "name.apotheotic_additions.davy_jones_curse": "ヨナの亡霊の呪縛",
+    "name.apotheotic_additions.hellforged_dagger": "獄鍛の匕首",
+    "name.apotheotic_additions.hyperion": "ハイペリオン",
+    "name.apotheotic_additions.divine_justice": "絶対的正義",
+    "name.apotheotic_additions.bloodletter": "ブラッドレター",
+    "name.apotheotic_additions.rotbane": "腐敗の災厄",
+  
+  
+    "comment_id": "/Advancements",
+    "advancements.apotheotic_additions:tower": "タワー オブ パワー",
+    "advancements.apotheotic_additions:tower.desc": "Apotheosisの世界の塔に入る",
+    "advancements.apotheotic_additions:beeshelf": "魔法にビーっくり・・？",
+    "advancements.apotheotic_additions:beeshelf.desc": "蜂の本棚を手に入れる",
+    "advancements.apotheotic_additions:sacrificial_shelf": "血塗られた神に捧げる血",
+    "advancements.apotheotic_additions:sacrificial_shelf.desc": "生贄のルーンを手に入れる",
+    "advancements.apotheotic_additions:salvaging_table": "分解してみよう",
+    "advancements.apotheotic_additions:salvaging_table.desc": "不用品を分解するため、解体作業台を手にれる",
+    "advancements.apotheotic_additions:simple_reforging_table": "ハンマータイム",
+    "advancements.apotheotic_additions:simple_reforging_table.desc": "レア称号までを付与できる簡易リフォージ台を手に入れる",
+    "advancements.apotheotic_additions:materials": "レアリティ素材",
+    "advancements.apotheotic_additions:materials.desc": "Apotheosisの世界のレアリティ素材を入手する",
+    "advancements.apotheotic_additions:materials_aa": "さらに貴重なレアリティ素材",
+    "advancements.apotheotic_additions:materials_aa.desc": "Apotheotic Additionsのレアリティ素材を入手する",
+    "advancements.apotheotic_additions:reforging_table": "神の成せるワザ",
+    "advancements.apotheotic_additions:reforging_table.desc": "ミシック称号までを付与できるリフォージ台を手に入れる",
+    "advancements.apotheotic_additions:wavebinders_shelf": "海の男",
+    "advancements.apotheotic_additions:wavebinders_shelf.desc": "海壁のルーンを手に入れる",
+    "advancements.apotheotic_additions:void_shelf": "深淵を覗くとき深淵もまた・・",
+    "advancements.apotheotic_additions:void_shelf.desc": "虚無のルーンを手に入れる",
+    "advancements.apotheotic_additions:terra_shelf": "ハッピーな場所",
+    "advancements.apotheotic_additions:terra_shelf.desc": "大地のルーンを手に入れる",
+    "advancements.apotheotic_additions:smithing_template": "鍛冶職人",
+    "advancements.apotheotic_additions:smithing_template.desc": "鍛冶型を見つける。",
+    "advancements.apotheotic_additions:apotheotic_coin": "どうやって去年の家賃を払うか",
+    "advancements.apotheotic_additions:apotheotic_coin.desc": "神貨を手に入れる",
+    "advancements.apotheotic_additions:infused_coin": "今年の家賃",
+    "advancements.apotheotic_additions:infused_coin.desc": "強化した神貨を手に入れる",
+    "advancements.apotheotic_additions:ascended_coin": "来年の家賃",
+    "advancements.apotheotic_additions:ascended_coin.desc": "昇華した神貨を手に入れる",
+    "advancements.apotheotic_additions:esoteric": "驚異的な宇宙の力",
+    "advancements.apotheotic_additions:esoteric.desc": "異世界級の称号付きアイテムを手に入れる",
+    "advancements.apotheotic_additions:artifact": "創造の夜明け",
+    "advancements.apotheotic_additions:artifact.desc": "聖遺物級の称号付きアイテムを手に入れる",
+    "advancements.apotheotic_additions:heirloom": "失われた祖先",
+    "advancements.apotheotic_additions:heirloom.desc": "伝承級の称号付きアイテムを手に入れる",
+    "advancements.apotheotic_additions:heirloom_gem": "いずれ神となる",
+    "advancements.apotheotic_additions:heirloom_gem.desc": "不滅のジェムを手に入れる。(Apotheotic Additionsのジェム限定)",
+    "advancements.apotheotic_additions:artifact_gem": "神になったもの",
+    "advancements.apotheotic_additions:artifact_gem.desc": "神々のジェムを手に入れる。(Apotheotic Additionsのジェム限定)",
+    "advancements.apotheotic_additions:esoteric_gem": "神格化に手が届く",
+    "advancements.apotheotic_additions:esoteric_gem.desc": "異世界のジェムを手に入れる。(Apotheotic Additionsのジェム限定)",
+  
+    "comment_id": "/Effects",
+  
+    "effect.apotheotic_additions.bad_voodoo": "呪詛",
+  
+    "comment_id": "/Ragnarok Compat",
+    "affix.apotheotic_additions:ragnarok/all_gun/attribute/bullet_res": "弾道を読む",
+    "affix.apotheotic_additions:ragnarok/all_gun/attribute/bullet_res.suffix": "弾避けの",
+  
+    "affix.apotheotic_additions:ragnarok/all_gun/attribute/lightweight": "軽量な",
+    "affix.apotheotic_additions:ragnarok/all_gun/attribute/lightweight.suffix": "進軍の",
+  
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/drunkards": "酒に酔った",
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/drunkards.suffix": "千鳥足の",
+  
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/plague": "疫病を振りまく",
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/plague.suffix": "14世紀の",
+  
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/infernal_flame": "焼き尽くす",
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/infernal_flame.suffix": "地獄火の",
+  
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/nuclear": "被爆する",
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/nuclear.suffix": "核汚染の",
+  
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/eldritch": "麻痺させる",
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/eldritch.suffix": "エルドリッチの",
+  
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/studious": "戦いながら強くなる",
+    "affix.apotheotic_additions:ragnarok/all_gun/mob_effect/studious.suffix": "成長の",
+  
+    "affix.apotheotic_additions:ragnarok/shotgun/attribute/cold_damage": "弾丸も凍る",
+    "affix.apotheotic_additions:ragnarok/shotgun/attribute/cold_damage.suffix": "極北の",
+  
+    "affix.apotheotic_additions:ragnarok/shotgun/attribute/fire_damage": "汚物消毒する",
+    "affix.apotheotic_additions:ragnarok/shotgun/attribute/fire_damage.suffix": "焼夷弾の",
+  
+    "affix.apotheotic_additions:ragnarok/shotgun/attribute/void_damage": "虚無に誘う",
+    "affix.apotheotic_additions:ragnarok/shotgun/attribute/void_damage.suffix": "深淵の",
+  
+    "affix.apotheotic_additions:ragnarok/shotgun/effect/rage": "原始の力を帯びた",
+    "affix.apotheotic_additions:ragnarok/shotgun/effect/rage.suffix": "トレモサウルスの",
+  
+    "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/cold_damage": "弾丸も凍る",
+    "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/cold_damage.suffix": "極北の",
+  
+    "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/fire_damage": "汚物消毒する",
+    "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/fire_damage.suffix": "焼夷弾の",
+  
+    "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/void_damage": "虚無に誘う",
+    "affix.apotheotic_additions:ragnarok/rapid_fire/attribute/void_damage.suffix": "深淵の",
+  
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/cold_damage": "弾丸も凍る",
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/cold_damage.suffix": "極北の",
+  
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/fire_damage": "汚物消毒する",
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/fire_damage.suffix": "焼夷弾の",
+  
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/life_steal": "血をすする",
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/life_steal.suffix": "吸血の",
+  
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/crit_chance": "最適化された",
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/crit_chance.suffix": "フルチューンの",
+  
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/crit_damage": "命にかかわる",
+    "affix.apotheotic_additions:ragnarok/bolt_action/attribute/crit_damage.suffix": "致命傷の",
+  
+    "comment_id": "/Curios Aether",
+    "affix.apotheotic_additions:curios_aether/attribute/resilience": "立ち直る",
+    "affix.apotheotic_additions:curios_aether/attribute/resilience.suffix": "天空の",
+  
+    "affix.apotheotic_additions:curios_aether/attribute/luck": "運を天に任せる",
+    "affix.apotheotic_additions:curios_aether/attribute/luck.suffix": "天運の",
+  
+    "affix.apotheotic_additions:curios_aether/attribute/xp": "天界を知る",
+    "affix.apotheotic_additions:curios_aether/attribute/xp.suffix": "経験者の",
+  
+    "affix.apotheotic_additions:curios_aether/attribute/mining_speed": "天界を掘り進む",
+    "affix.apotheotic_additions:curios_aether/attribute/mining_speed.suffix": "天鉱夫の",
+  
+    "affix.apotheotic_additions:curios_aether/attribute/chanting": "呪いを唱える",
+    "affix.apotheotic_additions:curios_aether/attribute/chanting.suffix": "暗黒儀式の",
+  
+    "affix.apotheotic_additions:curios_aether/attribute/damage": "横に滑る",
+    "affix.apotheotic_additions:curios_aether/attribute/damage.suffix": "セントリーの",
+  
+    "affix.apotheotic_additions:curios_aether/attribute/hp": "天界に縛られた",
+    "affix.apotheotic_additions:curios_aether/attribute/hp.suffix": "ガーディアンの",
+  
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/physical": "空を泳ぐ",
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/physical.suffix": "天界鯨の",
+  
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/runed": "永遠に輝く",
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/runed.suffix": "太陽の精霊の",
+  
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/fall": "空に君臨する",
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/fall.suffix": "ヴァルキリーの",
+  
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/explosion": "爆発を防ぐ",
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/explosion.suffix": "グリーファーの",
+  
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/fire": "地獄で生き抜く",
+    "affix.apotheotic_additions:curios_aether/dmg_reduction/fire.suffix": "獄炎の",
+  
+    "comment_id": "/Curios Malum",
+    "affix.apotheotic_additions:curios_malum/attribute/spirit_spoils": "魂を堕とす",
+    "affix.apotheotic_additions:curios_malum/attribute/spirit_spoils.suffix": "黄泉の",
+  
+    "affix.apotheotic_additions:curios_malum/attribute/arcane": "マナの力を持つ",
+    "affix.apotheotic_additions:curios_malum/attribute/arcane.suffix": "秘術の",
+  
+    "affix.apotheotic_additions:curios_malum/attribute/soul_ward": "魂を刻んだ",
+    "affix.apotheotic_additions:curios_malum/attribute/soul_ward.suffix": "入魂の",
+  
+    "affix.apotheotic_additions:curios_malum/attribute/integrity": "虚無を退ける",
+    "affix.apotheotic_additions:curios_malum/attribute/integrity.suffix": "清き魂の",
+  
+    "affix.apotheotic_additions:curios_malum/attribute/recovery": "魂を癒す",
+    "affix.apotheotic_additions:curios_malum/attribute/recovery.suffix": "パワースポットの",
+  
+    "affix.apotheotic_additions:curios_malum/attribute/scythe": "魂を刈り取る",
+    "affix.apotheotic_additions:curios_malum/attribute/scythe.suffix": "腕利き死神の",
+    
+    "affix.apotheotic_additions:curios_malum/mob_effect/ascended": "天に上る",
+    "affix.apotheotic_additions:curios_malum/mob_effect/ascended.suffix": "昇天の",
+  
+    "affix.apotheotic_additions:curios_malum/mob_effect/cancerous_growth": "病魔を呼び込む",
+    "affix.apotheotic_additions:curios_malum/mob_effect/cancerous_growth.suffix": "病巣の",
+  
+    "affix.apotheotic_additions:curios_malum/mob_effect/despoil": "腐らせる",
+    "affix.apotheotic_additions:curios_malum/mob_effect/despoil.suffix": "腐肉の",
+  
+    "affix.apotheotic_additions:curios_malum/mob_effect/miners_rage": "終わりが見えない",
+    "affix.apotheotic_additions:curios_malum/mob_effect/miners_rage.suffix": "堕ちた炭鉱夫の",
+  
+    "affix.apotheotic_additions:curios_malum/mob_effect/silence": "音が消えた",
+    "affix.apotheotic_additions:curios_malum/mob_effect/silence.suffix": "静寂の",
+  
+    "affix.apotheotic_additions:curios_malum/mob_effect/rejected": "独りになりたい",
+    "affix.apotheotic_additions:curios_malum/mob_effect/rejected.suffix": "泣く泉の",
+  
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/physical": "魂を刻んだ",
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/physical.suffix": "物理防護の",
+  
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/fire": "炎を刻み込んだ",
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/fire.suffix": "獄炎防護の",
+  
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/explosion": "音に敏感な",
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/explosion.suffix": "爆発防護の",
+  
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/runed": "虚無を退ける",
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/runed.suffix": "魔法防護の",
+  
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/fall": "優雅な",
+    "affix.apotheotic_additions:curios_malum/dmg_reduction/fall.suffix": "自由落下の",
+  
+    "comment_id": "/Curios Armor",
+    "affix.apotheotic_additions:curios_armor/attribute/spirit_spoils": "魂を堕とす",
+    "affix.apotheotic_additions:curios_armor/attribute/spirit_spoils.suffix": "黄泉の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/forged": "鍛えられた",
+    "affix.apotheotic_additions:curios_armor/attribute/forged.suffix": "鉄壁の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/healing_power": "元気が出る",
+    "affix.apotheotic_additions:curios_armor/attribute/healing_power.suffix": "生命力の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/spell_resist": "魔法を刻んだ",
+    "affix.apotheotic_additions:curios_armor/attribute/spell_resist.suffix": "ルーン文字の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/hp": "大地に守られた",
+    "affix.apotheotic_additions:curios_armor/attribute/hp.suffix": "精力の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/luck": "ラッキーな",
+    "affix.apotheotic_additions:curios_armor/attribute/luck.suffix": "開運の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/warding": "加護を受けた",
+    "affix.apotheotic_additions:curios_armor/attribute/warding.suffix": "魔法防護の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/dodge": "朧げな",
+    "affix.apotheotic_additions:curios_armor/attribute/dodge.suffix": "みかわしの",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/tailored": "よくできた",
+    "affix.apotheotic_additions:curios_armor/attribute/tailored.suffix": "特注品の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/voidic_res": "虚無に冒された",
+    "affix.apotheotic_additions:curios_armor/attribute/voidic_res.suffix": "無間地獄の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/voidic_infusion_res": "虚無に満ちた",
+    "affix.apotheotic_additions:curios_armor/attribute/voidic_infusion_res.suffix": "心神喪失の",
+  
+    "affix.apotheotic_additions:curios_armor/attribute/voidic_paranoia_res": "存在しない",
+    "affix.apotheotic_additions:curios_armor/attribute/voidic_paranoia_res.suffix": "妄想の",
+  
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/physical": "絶妙な",
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/physical.suffix": "極上品の",
+  
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/fire": "地獄を生き抜く",
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/fire.suffix": "獄炎の",
+  
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/explosion": "カチカチの",
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/explosion.suffix": "爆発防護の",
+  
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/runed": "ルーンを刻んだ",
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/runed.suffix": "魔法防護の",
+  
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/fall": "重力を操る",
+    "affix.apotheotic_additions:curios_armor/dmg_reduction/fall.suffix": "自由落下の",
+  
+    "affix.apotheotic_additions:curios_armor/mob_effect/immolate": "炎を操る",
+    "affix.apotheotic_additions:curios_armor/mob_effect/immolate.suffix": "焼身の",
+  
+    "affix.apotheotic_additions:curios_armor/mob_effect/bubbled": "溺れそうな",
+    "affix.apotheotic_additions:curios_armor/mob_effect/bubbled.suffix": "息継ぎの",
+  
+    "affix.apotheotic_additions:curios_armor/mob_effect/fleet_footed": "止まらない",
+    "affix.apotheotic_additions:curios_armor/mob_effect/fleet_footed.suffix": "俊足の",
+  
+    "affix.apotheotic_additions:curios_armor/mob_effect/perforation": "突き破る",
+    "affix.apotheotic_additions:curios_armor/mob_effect/perforation.suffix": "穿孔の",
+  
+    "affix.apotheotic_additions:curios_armor/mob_effect/chilly": "吹雪に包まれる",
+    "affix.apotheotic_additions:curios_armor/mob_effect/chilly.suffix": "瞬間冷凍の",
+  
+    "affix.apotheotic_additions:curios_armor/mob_effect/instant_damage": "借りを返す",
+    "affix.apotheotic_additions:curios_armor/mob_effect/instant_damage.suffix": "報復の",
+
+    "comment_id": "/Curios Jewelry",
+    "affix.apotheotic_additions:curios_jewelry/attribute/flight": "空から襲う",
+    "affix.apotheotic_additions:curios_jewelry/attribute/flight.suffix": "ファントムの",
+  
+    "affix.apotheotic_additions:curios_jewelry/attribute/source_regen": "力が湧き出る",
+    "affix.apotheotic_additions:curios_jewelry/attribute/source_regen.suffix": "回復オーラの",
+  
+    "affix.apotheotic_additions:curios_jewelry/attribute/sourcetouched": "魔力みなぎる",
+    "affix.apotheotic_additions:curios_jewelry/attribute/sourcetouched.suffix": "魔術の",
+  
+    "affix.apotheotic_additions:curios_jewelry/attribute/arcane": "マナを秘めた",
+    "affix.apotheotic_additions:curios_jewelry/attribute/arcane.suffix": "秘術の",
+  
+    "affix.apotheotic_additions:curios_jewelry/attribute/mana_regen": "マナが湧き出す",
+    "affix.apotheotic_additions:curios_jewelry/attribute/mana_regen.suffix": "マナ回復の",
+  
+    "affix.apotheotic_additions:curios_jewelry/attribute/chanting": "呪いを唱える",
+    "affix.apotheotic_additions:curios_jewelry/attribute/chanting.suffix": "暗黒儀式の",
+  
+    "affix.apotheotic_additions:curios_jewelry/attribute/resilience": "持ちこたえる",
+    "affix.apotheotic_additions:curios_jewelry/attribute/resilience.suffix": "耐性の",
+  
+    "affix.apotheotic_additions:curios_jewelry/attribute/speed": "とても素早い",
+    "affix.apotheotic_additions:curios_jewelry/attribute/speed.suffix": "ウサギの",
+  
+    "affix.apotheotic_additions:curios_jewelry/attribute/gaia": "大地神に護られた",
+    "affix.apotheotic_additions:curios_jewelry/attribute/gaia.suffix": "妖精たちの",
+  
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/physical": "絶妙な",
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/physical.suffix": "極上品の",
+  
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fire": "地獄を生き抜く",
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fire.suffix": "獄炎の",
+  
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/explosion": "カチカチの",
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/explosion.suffix": "爆発防護の",
+  
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/runed": "ルーンを刻んだ",
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/runed.suffix": "魔法防護の",
+  
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fall": "重力を操る",
+    "affix.apotheotic_additions:curios_jewelry/dmg_reduction/fall.suffix": "自由落下の",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/despoil": "腐らせる",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/despoil.suffix": "腐肉の",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_glowing": "静かに光る",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_glowing.suffix": "明光の",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_repellent": "虫が付かない",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/heirloom_repellent.suffix": "虫よけの",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/blazing_might": "炎に包まれた",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/blazing_might.suffix": "ブレイズの",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/spell_damage": "アークウッドで作った",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/spell_damage.suffix": "魔法強化の",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/mana_regen": "ソースベリーを混ぜた",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/mana_regen.suffix": "マナ回復の",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/reinforced": "身を守る",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/reinforced.suffix": "堅牢の",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/stun": "動きを封じる",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/stun.suffix": "気絶攻撃の",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/rage": "原始の力を帯びた",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/rage.suffix": "トレモサウルスの",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/conduit_power": "水を得た",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/conduit_power.suffix": "深海の",
+  
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/jaw_attack": "お腹を空かせた",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/jaw_attack.suffix": "飢えた虫の",
+  
+    "comment_id": "/Esoteric Affixes",
+    "affix.apotheotic_additions:armor/attribute/esoteric_voidic_res": "虚無に冒された",
+    "affix.apotheotic_additions:armor/attribute/esoteric_voidic_res.suffix": "無間地獄の",
+  
+    "affix.apotheotic_additions:armor/attribute/esoteric_voidic_infusion_res": "虚無に満ちた",
+    "affix.apotheotic_additions:armor/attribute/esoteric_voidic_infusion_res.suffix": "心神喪失の",
+  
+    "affix.apotheotic_additions:armor/attribute/esoteric_voidic_paranoia_res": "存在しない",
+    "affix.apotheotic_additions:armor/attribute/esoteric_voidic_paranoia_res.suffix": "妄想の",
+  
+    "affix.apotheotic_additions:armor/attribute/warding": "加護を受けた",
+    "affix.apotheotic_additions:armor/attribute/warding.suffix": "魔法防護の",
+  
+    "affix.apotheotic_additions:armor/attribute/esoteric_source": "星の加護を受けた",
+    "affix.apotheotic_additions:armor/attribute/esoteric_source.suffix": "星影の",
+  
+    "affix.apotheotic_additions:armor/attribute/esoteric_luck": "風水を操る",
+    "affix.apotheotic_additions:armor/attribute/esoteric_luck.suffix": "ネコマタの",
+  
+    "affix.apotheotic_additions:armor/attribute/esoteric_toughness": "恐ろしく硬い",
+    "affix.apotheotic_additions:armor/attribute/esoteric_toughness.suffix": "超次元素材の",
+  
+    "affix.apotheotic_additions:armor/attribute/esoteric_hp": "異神の加護を受けた",
+    "affix.apotheotic_additions:armor/attribute/esoteric_hp.suffix": "オーパーツの",
+  
+    "affix.apotheotic_additions:armor/attribute/esoteric_armor": "鍛えに鍛えた",
+    "affix.apotheotic_additions:armor/attribute/esoteric_armor.suffix": "究極強化の",
+  
+    "affix.apotheotic_additions:ranged/attribute/esoteric_damage": "全てを喰らい尽くす",
+    "affix.apotheotic_additions:ranged/attribute/esoteric_damage.suffix": "貪欲王の",
+  
+    "affix.apotheotic_additions:ranged/attribute/esoteric_velocity": "残像が残る",
+    "affix.apotheotic_additions:ranged/attribute/esoteric_velocity.suffix": "光速の",
+  
+    "affix.apotheotic_additions:sword/attribute/esoteric_knockback": "かっ飛ばす",
+    "affix.apotheotic_additions:sword/attribute/esoteric_knockback.suffix": "怪力巨人の",
+  
+    "affix.apotheotic_additions:sword/attribute/esoteric_damage": "全てを喰らい尽くす",
+    "affix.apotheotic_additions:sword/attribute/esoteric_damage.suffix": "星喰いの",
+  
+    "affix.apotheotic_additions:sword/attribute/esoteric_cold": "熱を消し去る",
+    "affix.apotheotic_additions:sword/attribute/esoteric_cold.suffix": "絶対零度の",
+  
+    "affix.apotheotic_additions:sword/attribute/esoteric_fire": "白熱に光る",
+    "affix.apotheotic_additions:sword/attribute/esoteric_fire.suffix": "灼熱惑星の",
+  
+    "affix.apotheotic_additions:sword/attribute/esoteric_hp_damage": "奇妙な",
+    "affix.apotheotic_additions:sword/attribute/esoteric_hp_damage.suffix": "正体不明の",
+  
+    "comment_id": "/Heirloom Affixes",
+    "affix.apotheotic_additions:armor/mob_effect/heirloom_aura": "虚空から現れる",
+    "affix.apotheotic_additions:armor/mob_effect/heirloom_aura.suffix": "奈落の",
+  
+    "affix.apotheotic_additions:armor/mob_effect/heirloom_repellent": "虫が付かない",
+    "affix.apotheotic_additions:armor/mob_effect/heirloom_repellent.suffix": "虫よけの",
+  
+    "affix.apotheotic_additions:armor/mob_effect/heirloom_resistance": "覚悟を決めた",
+    "affix.apotheotic_additions:armor/mob_effect/heirloom_resistance.suffix": "決死の",
+  
+    "affix.apotheotic_additions:armor/mob_effect/heirloom_vision": "闇を見通す",
+    "affix.apotheotic_additions:armor/mob_effect/heirloom_vision.suffix": "強化暗視の",
+  
+    "comment_id": "/Artifact Affixes",
+      "affix.apotheotic_additions:breaker/special/enlightened": "煌々とした",
+    "affix.apotheotic_additions:breaker/special/enlightened.suffix": "不夜城の",
+    "affix.apotheotic_additions:breaker/special/enlightened.desc": "耐久値%sを使って松明を設置できる",
+    
+    "affix.apotheotic_additions:breaker/attribute/artifact_speed": "全てを破壊する",
+    "affix.apotheotic_additions:breaker/attribute/artifact_speed.suffix": "乱戦の",
+  
+    "affix.apotheotic_additions:breaker/attribute/artifact_xp": "禁じられた",
+    "affix.apotheotic_additions:breaker/attribute/artifact_xp.suffix": "全知全能の",
+  
+    "affix.apotheotic_additions:ranged/attribute/artifact_damage": "世界を制する",
+    "affix.apotheotic_additions:ranged/attribute/artifact_damage.suffix": "剛毅果断の",
+  
+    "affix.apotheotic_additions:ranged/attribute/artifact_velocity": "風を切り裂く",
+    "affix.apotheotic_additions:ranged/attribute/artifact_velocity.suffix": "電光石火の",
+  
+    "affix.apotheotic_additions:sword/attribute/artifact_knockback": "竜の血を引く",
+    "affix.apotheotic_additions:sword/attribute/artifact_knockback.suffix": "揺ぎなき力の",
+  
+    "affix.apotheotic_additions:sword/attribute/artifact_damage": "世界を制する",
+    "affix.apotheotic_additions:sword/attribute/artifact_damage.suffix": "剛毅果断の",
+  
+    "affix.apotheotic_additions:sword/attribute/artifact_cold": "息も凍る",
+    "affix.apotheotic_additions:sword/attribute/artifact_cold.suffix": "永久凍土の",
+  
+    "affix.apotheotic_additions:sword/attribute/artifact_fire": "無残に燃やす",
+    "affix.apotheotic_additions:sword/attribute/artifact_fire.suffix": "八熱地獄の",
+  
+    "affix.apotheotic_additions:sword/attribute/artifact_hp_damage": "スカルクに冒された",
+    "affix.apotheotic_additions:sword/attribute/artifact_hp_damage.suffix": "モノリスの",
+  
+    "affix.apotheotic_additions:shield/mob_effect/artifact_regen": "癒し続ける",
+    "affix.apotheotic_additions:shield/mob_effect/artifact_regen.suffix": "聖職者の",
+  
+    "affix.apotheotic_additions:shield/mob_effect/artifact_bleed_immune": "傷をふさぐ",
+    "affix.apotheotic_additions:shield/mob_effect/artifact_bleed_immune.suffix": "応急措置の",
+  
+    "affix.apotheotic_additions:armor/attribute/artifact_source": "魔力が渦巻く",
+    "affix.apotheotic_additions:armor/attribute/artifact_source.suffix": "大魔法使いの",
+  
+    "affix.apotheotic_additions:armor/attribute/artifact_luck": "偶然を装う",
+    "affix.apotheotic_additions:armor/attribute/artifact_luck.suffix": "青い鳥の",
+  
+    "affix.apotheotic_additions:armor/attribute/artifact_toughness": "タフな",
+    "affix.apotheotic_additions:armor/attribute/artifact_toughness.suffix": "ヘラクレスの",
+  
+    "affix.apotheotic_additions:armor/attribute/artifact_hp": "よく手入れされた",
+    "affix.apotheotic_additions:armor/attribute/artifact_hp.suffix": "堅甲利兵の",
+  
+    "affix.apotheotic_additions:armor/attribute/artifact_armor": "古代鉄で仕上げた",
+    "affix.apotheotic_additions:armor/attribute/artifact_armor.suffix": "金城鉄壁の",
+  
+    "comment_id": "/Affixes",
+    "affix.apotheotic_additions:wand/attribute/gaia": "大地神に護られた",
+    "affix.apotheotic_additions:wand/attribute/gaia.suffix": "妖精たちの",
+  
+    "affix.apotheotic_additions:wand/attribute/magic_damage": "魔力を帯びた",
+    "affix.apotheotic_additions:wand/attribute/magic_damage.suffix": "魔法使いの",
+  
+    "affix.apotheotic_additions:wand/attribute/xp": "欲張りな",
+    "affix.apotheotic_additions:wand/attribute/xp.suffix": "知恵者の",
+  
+    "affix.apotheotic_additions:wand/attribute/chanting": "呪いを唱える",
+    "affix.apotheotic_additions:wand/attribute/chanting.suffix": "暗黒儀式の",
+  
+    "affix.apotheotic_additions:wand/attribute/spirit_spoils": "魂を堕とす",
+    "affix.apotheotic_additions:wand/attribute/spirit_spoils.suffix": "黄泉の",
+    
+    "affix.apotheotic_additions:wand/mob_effect/menders": "祝福された",
+    "affix.apotheotic_additions:wand/mob_effect/menders.suffix": "修繕者の",
+  
+    "affix.apotheotic_additions:wand/attribute/magic_power": "魂を込めた",
+    "affix.apotheotic_additions:wand/attribute/magic_power.suffix": "魔法核の",
+  
+    "affix.apotheotic_additions:wand/hailing": "撃ち放つ",
+    "affix.apotheotic_additions:wand/hailing.suffix": "天変地異の",
+    "affix.apotheotic_additions:wand/hailing.desc": "追加で{0}発の飛翔物を打つ",
+  
+    "affix.apotheotic_additions:wand/tracking": "追い詰める",
+    "affix.apotheotic_additions:wand/tracking.suffix": "魔弾の",
+    "affix.apotheotic_additions:wand/tracking.desc": "{0}発までの飛翔物が最も近い敵を追尾する",
+  
+    "affix.apotheotic_additions:wand/mob_effect/knowledge": "禁呪を秘めた",
+    "affix.apotheotic_additions:wand/mob_effect/knowledge.suffix": "黒魔術の",
+  
+    "affix.apotheotic_additions:wand/mob_effect/resistance": "魔法を防ぐ",
+    "affix.apotheotic_additions:wand/mob_effect/resistance.suffix": "魔法シールドの",
+  
+    "affix.apotheotic_additions:wand/mob_effect/magnetic": "磁力を帯びた",
+    "affix.apotheotic_additions:wand/mob_effect/magnetic.suffix": "魔法磁石の",
+  
+    "affix.apotheotic_additions:spellbook/attribute/aa_mana": "マナがみなぎる",
+    "affix.apotheotic_additions:spellbook/attribute/aa_mana.suffix": "大魔道の",
+  
+    "affix.apotheotic_additions:spellbook/attribute/power_blood": "血なまぐさい",
+    "affix.apotheotic_additions:spellbook/attribute/power_blood.suffix": "血空の",
+  
+    "affix.apotheotic_additions:spellbook/attribute/power_ender": "別次元から来た",
+    "affix.apotheotic_additions:spellbook/attribute/power_ender.suffix": "エンドの",
+  
+    "affix.apotheotic_additions:spellbook/attribute/power_evocation": "追放された",
+    "affix.apotheotic_additions:spellbook/attribute/power_evocation.suffix": "放浪者の",
+  
+    "affix.apotheotic_additions:spellbook/attribute/power_fire": "炎を操る",
+    "affix.apotheotic_additions:spellbook/attribute/power_fire.suffix": "獄炎術士",
+  
+    "affix.apotheotic_additions:spellbook/attribute/power_lightning": "雷を操る",
+    "affix.apotheotic_additions:spellbook/attribute/power_lightning.suffix": "雷光の",
+  
+    "affix.apotheotic_additions:spellbook/attribute/power_nature": "野生化した",
+    "affix.apotheotic_additions:spellbook/attribute/power_nature.suffix": "ドルイドの",
+  
+    "affix.apotheotic_additions:spellbook/attribute/summon": "死を弄ぶ",
+    "affix.apotheotic_additions:spellbook/attribute/summon.suffix": "ネクロマンサーの",
+  
+    "affix.apotheotic_additions:spellbook/attribute/power_holy": "聖なる",
+    "affix.apotheotic_additions:spellbook/attribute/power_holy.suffix": "光輪の",
+  
+    "affix.apotheotic_additions:spellbook/attribute/power_ice": "氷を操る",
+    "affix.apotheotic_additions:spellbook/attribute/power_ice.suffix": "極寒の",
+  
+    "affix.apotheotic_additions:spellbook/mob_effect/menders": "祝福された",
+    "affix.apotheotic_additions:spellbook/mob_effect/menders.suffix": "修繕者の",
+  
+    "affix.apotheotic_additions:spellbook/mob_effect/knowledge": "禁じられた",
+    "affix.apotheotic_additions:spellbook/mob_effect/knowledge.suffix": "黒魔術の",
+  
+    "affix.apotheotic_additions:spellbook/mob_effect/resistance": "戦いなれた",
+    "affix.apotheotic_additions:spellbook/mob_effect/resistance.suffix": "魔法障壁の",
+  
+    "affix.apotheotic_additions:spellbook/mob_effect/magnetic": "引き寄せる",
+    "affix.apotheotic_additions:spellbook/mob_effect/magnetic.suffix": "磁力の",
+  
+    "affix.apotheotic_additions:spellbook/mob_effect/charged": "帯電した",
+    "affix.apotheotic_additions:spellbook/mob_effect/charged.suffix": "落雷の",
+  
+    "affix.apotheotic_additions:spellbook/mob_effect/instant_mana": "マナに満ちた",
+    "affix.apotheotic_additions:spellbook/mob_effect/instant_mana.suffix": "不死王の",
+  
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/fazbear": "泣き叫ぶ",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/fazbear.suffix": "殺人鬼の",
+  
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/chemical_x": "暴走する",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/chemical_x.suffix": "突然変異の",
+  
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/monstrous": "グロテスクな",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/monstrous.suffix": "驚天動地の",
+  
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/kamakaze": "突撃する",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/kamakaze.suffix": "神風の",
+  
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/baby_blue": "破滅的な",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/baby_blue.suffix": "外道の",
+  
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/cursed_flame": "魂を喰らう",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/cursed_flame.suffix": "呪炎の",
+  
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/fractured": "鈍器のような",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/fractured.suffix": "骨折の",
+  
+    "affix.apotheotic_additions:ranged/attribute/voidic_arrow": "虚空を裂く",
+    "affix.apotheotic_additions:ranged/attribute/voidic_arrow.suffix": "空虚の",
+  
+    "affix.apotheotic_additions:ranged/attribute/crit_damage": "粉砕する",
+    "affix.apotheotic_additions:ranged/attribute/crit_damage.suffix": "射撃強化の",
+  
+    "affix.apotheotic_additions:ranged/attribute/crit_chance": "急所を狙う",
+    "affix.apotheotic_additions:ranged/attribute/crit_chance.suffix": "暗殺用の",
+  
+    "affix.apotheotic_additions:ranged/attribute/shred": "よく当たる",
+    "affix.apotheotic_additions:ranged/attribute/shred.suffix": "狙撃手の",
+  
+    "affix.apotheotic_additions:ranged/mob_effect/despoil": "ミンチにする",
+    "affix.apotheotic_additions:ranged/mob_effect/despoil.suffix": "精肉機械の",
+  
+    "affix.apotheotic_additions:ranged/mob_effect/acidic": "何でも溶かす",
+    "affix.apotheotic_additions:ranged/mob_effect/acidic.suffix": "刺激臭の",
+  
+    "affix.apotheotic_additions:ranged/mob_effect/jaw_attack": "飢えすぎた",
+    "affix.apotheotic_additions:ranged/mob_effect/jaw_attack.suffix": "人喰い虫の",
+  
+    "affix.apotheotic_additions:ranged/mob_effect/double_jump": "跳ね回る",
+    "affix.apotheotic_additions:ranged/mob_effect/double_jump.suffix": "２段跳びの",
+  
+    "affix.apotheotic_additions:ranged/mob_effect/inebriation": "酔うほど強い",
+    "affix.apotheotic_additions:ranged/mob_effect/inebriation.suffix": "千鳥足の",
+  
+    "affix.apotheotic_additions:ranged/mob_effect/chemical": "ピリピリする",
+    "affix.apotheotic_additions:ranged/mob_effect/chemical.suffix": "化学反応の",
+  
+    "affix.apotheotic_additions:ranged/mob_effect/sunbird": "朝日を浴びた",
+    "affix.apotheotic_additions:ranged/mob_effect/sunbird.suffix": "黒き太陽の",
+  
+    "affix.apotheotic_additions:ranged/mob_effect/planar": "時空を超える",
+    "affix.apotheotic_additions:ranged/mob_effect/planar.suffix": "超次元の",
+  
+    "affix.apotheotic_additions:ranged/mob_effect/stun": "原始の力を秘めた",
+    "affix.apotheotic_additions:ranged/mob_effect/stun.suffix": "トレモサウルスの",
+  
+    "affix.apotheotic_additions:sword/attribute/void_damage": "虚無に誘う",
+    "affix.apotheotic_additions:sword/attribute/void_damage.suffix": "深淵の",
+  
+    "affix.apotheotic_additions:sword/attribute/pixie": "大地神に護られた",
+    "affix.apotheotic_additions:sword/attribute/pixie.suffix": "妖精たちの",
+  
+    "affix.apotheotic_additions:sword/attribute/spell_power": "詠唱する",
+    "affix.apotheotic_additions:sword/attribute/spell_power.suffix": "現役魔導士の",
+  
+    "affix.apotheotic_additions:sword/attribute/spell_resist": "魔法を封じる",
+    "affix.apotheotic_additions:sword/attribute/spell_resist.suffix": "結界の",
+  
+    "affix.apotheotic_additions:sword/attribute/reapers": "魂を狩る",
+    "affix.apotheotic_additions:sword/attribute/reapers.suffix": "切り裂き魔の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/node": "啓発された",
+    "affix.apotheotic_additions:breaker/mob_effect/node.suffix": "三次元の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/emptiness": "寂しげな",
+    "affix.apotheotic_additions:breaker/mob_effect/emptiness.suffix": "孤独の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/iron_sight": "鉄を探す",
+    "affix.apotheotic_additions:breaker/mob_effect/iron_sight.suffix": "鉄探知の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/gold_sight": "金を探す",
+    "affix.apotheotic_additions:breaker/mob_effect/gold_sight.suffix": "ミダス王の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/coal_sight": "石炭を探す",
+    "affix.apotheotic_additions:breaker/mob_effect/coal_sight.suffix": "炭探知の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/copper_sight": "銅を探す",
+    "affix.apotheotic_additions:breaker/mob_effect/copper_sight.suffix": "銅探知の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/lapis_sight": "ラピスを探す",
+    "affix.apotheotic_additions:breaker/mob_effect/lapis_sight.suffix": "ラピス探知の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/redstone_sight": "赤石を探す",
+    "affix.apotheotic_additions:breaker/mob_effect/redstone_sight.suffix": "赤石探知の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/osmium_sight": "オスミウムを探す",
+    "affix.apotheotic_additions:breaker/mob_effect/osmium_sight.suffix": "オスミウム探知の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/aurora": "彩り豊かな",
+    "affix.apotheotic_additions:breaker/mob_effect/aurora.suffix": "光る虹の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/nourishment": "美味しそうな",
+    "affix.apotheotic_additions:breaker/mob_effect/nourishment.suffix": "料理上手の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/comfort": "まったりする",
+    "affix.apotheotic_additions:breaker/mob_effect/comfort.suffix": "実家の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/angel_wings": "空を舞う",
+    "affix.apotheotic_additions:breaker/mob_effect/angel_wings.suffix": "天使の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/ascension": "上昇する",
+    "affix.apotheotic_additions:breaker/mob_effect/ascension.suffix": "反重力の",
+  
+    "affix.apotheotic_additions:breaker/attribute/sliding": "刻み込む",
+    "affix.apotheotic_additions:breaker/attribute/sliding.suffix": "地滑りの",
+  
+    "affix.apotheotic_additions:breaker/attribute/bonus_loot": "目ざとい",
+    "affix.apotheotic_additions:breaker/attribute/bonus_loot.suffix": "鷹の目の",
+  
+    "affix.apotheotic_additions:breaker/attribute/block_reach": "柄が伸びる",
+    "affix.apotheotic_additions:breaker/attribute/block_reach.suffix": "遠隔作業の",
+  
+    "affix.apotheotic_additions:breaker/attribute/artifact_luck": "全てがうまくいく",
+    "affix.apotheotic_additions:breaker/attribute/artifact_luck.suffix": "天佑神助の",
+  
+    "affix.apotheotic_additions:breaker/attribute/speed": "よく切れる",
+    "affix.apotheotic_additions:breaker/attribute/speed.suffix": "熟練作業の",
+  
+    "affix.apotheotic_additions:breaker/mob_effect/beaver": "森を守る",
+    "affix.apotheotic_additions:breaker/mob_effect/beaver.suffix": "ビーバーの",
+  
+    "affix.apotheotic_additions:armor/mob_effect/resilience": "地に足ついた",
+    "affix.apotheotic_additions:armor/mob_effect/resilience.suffix": "耐性強化の",
+  
+    "affix.apotheotic_additions:armor/mob_effect/bad_luck": "貧乏神の",
+    "affix.apotheotic_additions:armor/mob_effect/bad_luck.suffix": "悪運の",
+  
+    "affix.apotheotic_additions:armor/mob_effect/deepsight": "闇から覗く",
+    "affix.apotheotic_additions:armor/mob_effect/deepsight.suffix": "深きものどもの",
+  
+    "affix.apotheotic_additions:armor/mob_effect/soulsteal": "吸収する",
+    "affix.apotheotic_additions:armor/mob_effect/soulsteal.suffix": "魂喰いの",
+  
+    "affix.apotheotic_additions:armor/mob_effect/roundabout": "循環する",
+    "affix.apotheotic_additions:armor/mob_effect/roundabout.suffix": "逆転の",
+  
+    "affix.apotheotic_additions:armor/mob_effect/mana_irons": "マナに満ちた",
+    "affix.apotheotic_additions:armor/mob_effect/mana_irons.suffix": "不死王の",
+  
+    "affix.apotheotic_additions:armor/mob_effect/darkness": "闇に潜む",
+    "affix.apotheotic_additions:armor/mob_effect/darkness.suffix": "ウォーデンの",
+  
+    "affix.apotheotic_additions:armor/mob_effect/beenergized": "甘く香る",
+    "affix.apotheotic_additions:armor/mob_effect/beenergized.suffix": "女王蜂の",
+  
+    "affix.apotheotic_additions:armor/mob_effect/dolphin": "海に躍る",
+    "affix.apotheotic_additions:armor/mob_effect/dolphin.suffix": "イルカの",
+  
+    "affix.apotheotic_additions:shield/mob_effect/strong_armor": "障壁を張る",
+    "affix.apotheotic_additions:shield/mob_effect/strong_armor.suffix": "徹底抗戦の",
+  
+    "affix.apotheotic_additions:shield/mob_effect/corruption": "呪印の付いた",
+    "affix.apotheotic_additions:shield/mob_effect/corruption.suffix": "ルルイエの",
+  
+    "affix.apotheotic_additions:shield/mob_effect/witherstorm": "死に取り憑かれた",
+    "affix.apotheotic_additions:shield/mob_effect/witherstorm.suffix": "ウィザーストームの",
+  
+    "affix.apotheotic_additions:shield/mob_effect/tears": "泣き叫ぶ",
+    "affix.apotheotic_additions:shield/mob_effect/tears.suffix": "ウルガストの",
+  
+    "affix.apotheotic_additions:shield/mob_effect/forsaken": "見捨てられた",
+    "affix.apotheotic_additions:shield/mob_effect/forsaken.suffix": "地底狂信者の",
+  
+    "affix.apotheotic_additions:shield/mob_effect/irradiated_shield": "汚染された",
+    "affix.apotheotic_additions:shield/mob_effect/irradiated_shield.suffix": "ブレイニアックの",
+  
+    "affix.apotheotic_additions:shield/mob_effect/omen": "落ち着かない",
+    "affix.apotheotic_additions:shield/mob_effect/omen.suffix": "凶兆の",
+  
+    "affix.apotheotic_additions:shield/mob_effect/venomous": "毒にまみれた",
+    "affix.apotheotic_additions:shield/mob_effect/venomous.suffix": "アラクナークの",
+  
+    "affix.apotheotic_additions:sword/mob_effect/haste_break": "逃げ出したい",
+    "affix.apotheotic_additions:sword/mob_effect/haste_break.suffix": "大脱走の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/flicker": "トドメを刺す",
+    "affix.apotheotic_additions:sword/mob_effect/flicker.suffix": "疾風の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/bone_shield": "骨っぽい",
+    "affix.apotheotic_additions:sword/mob_effect/bone_shield.suffix": "骨嵐の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/corruption": "堕落した",
+    "affix.apotheotic_additions:sword/mob_effect/corruption.suffix": "暗黒帝国の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/irradiated": "体を蝕む",
+    "affix.apotheotic_additions:sword/mob_effect/irradiated.suffix": "ガンマローチの",
+  
+    "affix.apotheotic_additions:sword/mob_effect/voodoo": "祟りにあう",
+    "affix.apotheotic_additions:sword/mob_effect/voodoo.suffix": "呪術の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/shock": "放電する",
+    "affix.apotheotic_additions:sword/mob_effect/shock.suffix": "電気ショックの",
+  
+    "affix.apotheotic_additions:sword/mob_effect/frosted": "氷柱がついた",
+    "affix.apotheotic_additions:sword/mob_effect/frosted.suffix": "氷河の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/blazing_brand": "焦げ臭い",
+    "affix.apotheotic_additions:sword/mob_effect/blazing_brand.suffix": "焦熱の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/abyssal_curse": "仄暗い",
+    "affix.apotheotic_additions:sword/mob_effect/abyssal_curse.suffix": "深海魚の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/inebriation": "酒くさい",
+    "affix.apotheotic_additions:sword/mob_effect/inebriation.suffix": "千鳥足の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/rage": "暴れ回る",
+    "affix.apotheotic_additions:sword/mob_effect/rage.suffix": "原始人の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/black_flame": "悪魔がくれた",
+    "affix.apotheotic_additions:sword/mob_effect/black_flame.suffix": "黒き炎の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/shred": "機械化した",
+    "affix.apotheotic_additions:sword/mob_effect/shred.suffix": "破壊獣の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/flight": "空を駆ける",
+    "affix.apotheotic_additions:sword/mob_effect/flight.suffix": "竜翼の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/tiger": "獲物を仕留める",
+    "affix.apotheotic_additions:sword/mob_effect/tiger.suffix": "猛虎の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/corrosive": "腐り落ちた",
+    "affix.apotheotic_additions:sword/mob_effect/corrosive.suffix": "腐敗臭の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/black_death": "伝染する",
+    "affix.apotheotic_additions:sword/mob_effect/black_death.suffix": "黒死病の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/rat_chef": "ネズミが磨いた",
+    "affix.apotheotic_additions:sword/mob_effect/rat_chef.suffix": "ネズミ印の",
+  
+    "affix.apotheotic_additions:sword/mob_effect/stun": "動きを封じる",
+    "affix.apotheotic_additions:sword/mob_effect/stun.suffix": "脳震とうの",
+  
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/time_stop": "時を止める",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/time_stop.suffix": "ディオの",
+  
+    "affix.apotheotic_additions:armor/dmg_reduction/explosion": "砕けない",
+    "affix.apotheotic_additions:armor/dmg_reduction/explosion.suffix": "黒曜石入りの",
+  
+    "affix.apotheotic_additions:armor/dmg_reduction/fall": "クッション入り",
+    "affix.apotheotic_additions:armor/dmg_reduction/fall.suffix": "落下耐性の",
+  
+    "affix.apotheotic_additions:armor/dmg_reduction/fire": "燃えにくい",
+    "affix.apotheotic_additions:armor/dmg_reduction/fire.suffix": "地下世界の",
+  
+    "affix.apotheotic_additions:armor/dmg_reduction/physical": "ガッチリした",
+    "affix.apotheotic_additions:armor/dmg_reduction/physical.suffix": "我慢比べの",
+  
+    "affix.apotheotic_additions:armor/dmg_reduction/runed": "マナに包まれた",
+    "affix.apotheotic_additions:armor/dmg_reduction/runed.suffix": "大賢者の",
+  
+    "affix.apotheotic_additions:armor/attribute/roll_count": "身軽な",
+    "affix.apotheotic_additions:armor/attribute/roll_count.suffix": "緊急退避の",
+  
+    "affix.apotheotic_additions:armor/attribute/roll_distance": "間合いを測る",
+    "affix.apotheotic_additions:armor/attribute/roll_distance.suffix": "危険察知の",
+  
+    "affix.apotheotic_additions:armor/attribute/roll_recharge": "タフな",
+    "affix.apotheotic_additions:armor/attribute/roll_recharge.suffix": "持久力の",
+  
+    "affix.apotheotic_additions:armor/attribute/reapers": "魂を取る",
+    "affix.apotheotic_additions:armor/attribute/reapers.suffix": "死神の",
+  
+    "affix.apotheotic_additions:armor/attribute/sourcetouched": "マナの尽きない",
+    "affix.apotheotic_additions:armor/attribute/sourcetouched.suffix": "魔法好きの",
+  
+    "affix.apotheotic_additions:armor/attribute/feathers": "羽が生えた",
+    "affix.apotheotic_additions:armor/attribute/feathers.suffix": "持久力の",
+  
+    "affix.apotheotic_additions:armor/attribute/lava_speed": "マグマを進む",
+    "affix.apotheotic_additions:armor/attribute/lava_speed.suffix": "マグマ泳法の",
+  
+    "affix.apotheotic_additions:armor/attribute/voidic_res": "虚無に冒された",
+    "affix.apotheotic_additions:armor/attribute/voidic_res.suffix": "無間地獄の",
+  
+    "affix.apotheotic_additions:armor/attribute/voidic_infusion_res": "虚無に満ちた",
+    "affix.apotheotic_additions:armor/attribute/voidic_infusion_res.suffix": "心神喪失の",
+  
+    "affix.apotheotic_additions:armor/attribute/voidic_paranoia_res": "存在しない",
+    "affix.apotheotic_additions:armor/attribute/voidic_paranoia_res.suffix": "妄想の",
+  
+    "comment_id": "/Gem Desc",
+    "gem.apotheotic_additions:alchemy/wildheart.bonus.pickaxe": "ラピスラズリ鉱石を壊したとき%s%%の確率でアンブロシウムの欠片を得る",
+    "gem.apotheotic_additions:alchemy/umbral_matrimony.bonus.pickaxe": "ゼイナイト鉱石を壊したとき%s%%の確率で生きている根を得る",
+    "gem.apotheotic_additions:alchemy/ventium.bonus.pickaxe": "鉄鉱石を壊したとき%s%%の確率でベンティウムの原石を得る",
+    "gem.apotheotic_additions:alchemy/horizonite.bonus.pickaxe": "鉄鉱石を壊したとき%s%%の確率でホリゾナイトの原石を得る",
+    "gem.apotheotic_additions:alchemy/zanite.bonus.pickaxe": "鉄鉱石を壊したとき%s%%の確率でゼイナイトジェムを得る",
+    "gem.apotheotic_additions:alchemy/sculk.bonus.pickaxe": "グラビタイト鉱石を壊したとき%s%%の確率でウォーデンの殻を得る",
+    "gem.apotheotic_additions:alchemy/purity.pickaxe": "石か丸石を壊したとき%s%%の確率でホーリーストーンを得る",
+    "gem.apotheotic_additions:alchemy/mystic.pickaxe": "銀鉱石を壊したとき%s%%の確率で秘術のエッセンスを得る",
+    "gem.apotheotic_additions:alchemy/thermal.pickaxe": "ニッケル鉱石を壊したとき%s%%の確率でバサルツパウダーを得る",
+    "gem.apotheotic_additions:alchemy/decay.pickaxe": "石か丸石を壊したとき%s%%の確率で深奥石を得る",
+    "gem.apotheotic_additions:alchemy/rat_chef.pickaxe": "鉛鉱石を壊したとき%s%%の確率でチーズを得る",
+    "gem.apotheotic_additions:alchemy/witch_queen.pickaxe": "ムーンストーンを壊したとき%s%%の確率で神秘的な金属片を得る",
+    "gem.apotheotic_additions:alchemy/felfire.pickaxe": "ダイヤモンド鉱石を壊したとき%s%%の確率でダークメタルの欠片を得る",
+    "gem.apotheotic_additions:alchemy/midas.axe": "葉ブロックを壊して苗木を得るとき%s%%の確率で金リンゴに変化する",
+    "gem.apotheotic_additions:alchemy/heartland.axe": "原木ブロックを壊したとき%s%%の確率で幹の皮をはがす",
+    "gem.apotheotic_additions:alchemy/draconic_legacy.shovel": "砂利を掘ったとき%s%%の確率でドラゴンの骨を得る",
+    "gem.apotheotic_additions:alchemy/heartland.shovel": "土を掘ったとき%s%%の確率で肥沃な土に変化する",
+  
+    "comment_id": "/Gems",
+  
+    "item.apotheosis.gem.apotheotic_additions:modded/weeping_well": "泣く泉のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/sus": "疑惑のジェム",
+    "item.apotheosis.gem.apotheotic_additions:aether/zanite_alchemist": "ゼイナイトのジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/archmage": "大魔道のジェム",
+    "item.apotheosis.gem.apotheotic_additions:aether/aether": "エーテルのジェム",
+    "item.apotheosis.gem.apotheotic_additions:aether/purity": "純粋のジェム",
+    "item.apotheosis.gem.apotheotic_additions:undergarden/decay": "腐敗のジェム",
+    "item.apotheosis.gem.apotheotic_additions:undergarden/forlorn": "寂しい嘘のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/enchanter": "祈祷師のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/master_crafter": "熟練職人のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/uranium": "ウラン熱のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/engineer": "技術者のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/rat_chef": "鼠シェフのジェム",
+    "item.apotheosis.gem.apotheotic_additions:blue_skies/blue_skies": "ブルースカイのジェム",
+    "item.apotheosis.gem.apotheotic_additions:blue_skies/twin_magi": "双子術士のジェム",
+    "item.apotheosis.gem.apotheotic_additions:blue_skies/arachnarch": "アラクナークのジェム",
+    "item.apotheosis.gem.apotheotic_additions:blue_skies/horizonite_alchemist": "ホリゾナイト術士のジェム",
+    "item.apotheosis.gem.apotheotic_additions:blue_skies/ventium_alchemist": "ベンティウム術士のジェム",
+    "item.apotheosis.gem.apotheotic_additions:undergarden/undergarden": "アンダーガーデンのジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/witherstorm": "ウィザーストームのジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/hearty": "心のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/corrupted": "堕落のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/dracula": "吸血公のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/ars_mana": "魔核のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/heartland": "中核のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/felfire": "フェルファイアのジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/bloodcaster": "ブラッドキャスターのジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/mystic": "神秘のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/cataclysm": "破滅のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/safari": "狩猟のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/armor": "装甲のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/witch_queen": "大魔女のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/soultwisted": "ソウルツイストのジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/marrow": "骨髄のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/flesh": "肉体のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/draconic_legacy": "伝説竜のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/thermal": "温熱のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/midas": "ミダス王のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/depths": "深奥のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/amber": "琥珀石のジェム",
+    "item.apotheosis.gem.apotheotic_additions:modded/flux": "電心のジェム",
+    "item.apotheosis.gem.apotheotic_additions:curios/twisted": "捻じれたジェム",
+    "item.apotheosis.gem.apotheotic_additions:curios/reinforced": "強化のジェム",
+    "item.apotheosis.gem.apotheotic_additions:curios/vitalic": "生命力のジェム",
+    "item.apotheosis.gem.apotheotic_additions:twilight/umbral_matrimony": "本影錐のジェム",
+    "item.apotheosis.gem.apotheotic_additions:twilight/wildheart": "野心のジェム",
+    "item.apotheosis.gem.apotheotic_additions:otherside/sculk": "スカルクのジェム",
+    "item.apotheosis.gem.apotheotic_additions:bumblezone/hive": "蜂房のジェム",
+    "item.apotheosis.gem.apotheotic_additions:bumblezone/bee_queen": "女王蜂のジェム",
+    "item.apotheosis.gem.apotheotic_additions:midnight/midnight": "真夜中のジェム",
+    "item.apotheosis.gem.apotheotic_additions:midnight/darkheart": "暗心のジェム",
+  
+    "comment_id": "/Compat",
+    "misc.apotheosis.allthemodium": "オルザモディウム",
+    "misc.apotheosis.vibranium": "ビブラニウム",
+    "misc.apotheosis.unobtainium": "アンオブタニウム",
+    "material.apotheotic_additions.scrap_metal": "屑鉄の",
+    "material.apotheotic_additions.timeworn": "使い古された",
+    "material.apotheotic_additions.luminous": "輝く",
+    "material.apotheotic_additions.arcane": "不可思議な",
+    "material.apotheotic_additions.godforged": "神造の",
+    "material.apotheotic_additions.ancient": "無限の",
+    "material.apotheotic_additions.artifact": "不滅の",
+    "material.apotheotic_additions.ancestral": "神々の",
+    "gem_class.shovel": "シャベル",
+    "gem_class.ortholance": "螺旋の槍",
+    "gem_class.prim_club": "原始のこん棒",
+    "gem_class.flux": "フラックスツール",
+    "gem_class.axe": "斧",
+    "gem_class.resistor_shield": "抵抗の盾",
+    "gem_class.wand": "ワンド",
+    "gem_class.knife": "ナイフ",
+    "gem_class.spellbook": "魔法書",
+    "gem_class.scythe": "大鎌",
+    "gem_class.curios_armor": "キュリオス防具",
+    "gem_class.curios_jewelry": "宝石類",
+    "gem_class.curios_aether": "エーテル装備",
+    "gem_class.curios": "キュリオス防具と宝石類",
+    "curios.modifiers.an_focus": "スペルフォーカスとして装備",
+    "text.apotheosis.category.wand.plural": "ワンド",
+    "text.apotheosis.category.curios:an_focus.plural": "スペルフォーカス",
+    "text.apotheosis.category.curios:back.plural": "背面",
+    "text.apotheosis.category.curios:spellbook.plural": "魔法書",
+    "text.apotheosis.category.curios:body.plural": "胴体",
+    "text.apotheosis.category.curios:charm.plural": "チャーム",
+    "text.apotheosis.category.scythe.plural": "大鎌",
+    "text.apotheosis.category.curios:feet.plural": "キュオス脚装備",
+    "text.apotheosis.category.curios:hands.plural": "手",
+    "text.apotheosis.category.curios:head.plural": "キュリオス頭装備",
+    "text.apotheosis.category.curios:necklace.plural": "ネックレス",
+    "text.apotheosis.category.curios:scroll.plural": "巻物",
+    "text.apotheosis.category.curios:bracelet.plural": "腕輪",
+    "text.apotheosis.category.curios:spellstone.plural": "呪文石",
+    "text.apotheosis.category.curios:ring.plural": "指輪",
+    "text.apotheosis.category.curios:belt.plural": "ベルト",
+    "text.apotheosis.category.curios:aether_gloves.plural": "グローブ",
+    "text.apotheosis.category.curios:aether_accessory.plural": "エーテル装飾品",
+    "text.apotheosis.category.curios:aether_shield.plural": "エーテル盾",
+    "text.apotheosis.category.curios:aether_cape.plural": "マント",
+    "text.apotheosis.category.curios:aether_pendant.plural": "ペンダント",
+    "text.apotheosis.category.curios:aether_ring.plural": "エーテルリング",
+    "attribute.name.skilltree.armor_per_chestplate_enchantment": "チェストプレートエンチャントあたりの防御力",
+    "attribute.name.skilltree.maximum_life_per_enchantment": "エンチャントあたりの最大ライフ",
+    "effect.born_in_chaos_v1.rotten_smell.desc": "敵対的な死体蠅をランダムなタイミングで召喚する",
+    "effect.born_in_chaos_v1.bone_fracture.desc": "弱体化と移動速度低下を与える",
+    "effect.born_in_chaos_v1.cursed_mark.desc": "効果が切れたとき深紅の迫害者を召喚する",
+    "effect.born_in_chaos_v1.detonation.desc": "効果が切れたとき対象は爆発する",
+    "effect.born_in_chaos_v1.furious_rampage.desc": "攻撃力上昇と移動速度上昇を与える",
+    "effect.born_in_chaos_v1.medium_rampage.desc": "攻撃力上昇と移動速度上昇を与える",
+    "effect.born_in_chaos_v1.strong_rampage.desc": "攻撃力上昇と移動速度上昇を与える",
+    "effect.born_in_chaos_v1.rampant_rampage.desc": "攻撃力上昇と移動速度上昇を与える",
+    "effect.born_in_chaos_v1.light_rampage.desc": "攻撃力上昇と移動速度上昇を与える",
+    "effect.born_in_chaos_v1.infernal_flame.desc": "水で消せない炎ダメージをもたらす",
+    "effect.born_in_chaos_v1.stun.desc": "とても強い弱体化と移動速度低下を与える",
+    "effect.rats.plague.desc": "攻撃対象に広がり、回復を阻止してネズミたちを敵対させる",
+    "effect.voidscape.aura.desc": "近接する生物にダメージを与える虚無のオーラに包まれる",
+    "effect.alexscaves.irradiated.desc": "回復しなくなり自分自身がうっすら光る",
+    "effect.alexscaves.rage.desc": "hpが減っているほど与えるダメージが大きくなる",
+    "effect.alexscaves.bubbled.desc": "水の外でも酸素が少なく、溺れるようになる",
+    "effect.occultism.beaver_harvest.desc": "木を伐採するスピードが速くなる",
+    "effect.botania.soul_cross.desc": "何かを殺すとhpが回復する",
+    "effect.botania.emptiness.desc": "自分の周辺でmobが自然にスポーンしなくなる",
+    "effect.botania.bloodthirst.desc": "自分の周辺でmobが自然にスポーンするとき、明るさ等の条件を無視するようになる",
+    "effect.botania.allure.desc": "釣り上げるまでの速度が2倍になる",
+    "effect.farmersdelight.nourishment.desc": "消耗する動きをしても満腹度が減らなくなる",
+    "effect.farmersdelight.comfort.desc": "空腹時でも自然回復するようになる",
+    "alexsmobs.potion.soulsteal.desc": "対象に与えたダメージと同量だけ回復する",
+    "alexsmobs.potion.mosquito_repellent.desc": "クリムゾンモスキートが近寄ってこなくなる",
+    "alexsmobs.potion.oiled.desc": "水に浮かび、雨の時は宙に浮くようになる",
+    "effect.feathers:endurance.desc": "追加の羽効果を得る",
+    "effect.feathers:energized.desc": "羽効果が回復するようになる",
+    "effect.simplyswords.fatal_flicker": "前方にダッシュし、フェイタルフリッカー",
+    "effect.aether.inebriation.desc": "軽微なダメージを受け、ランダムな方向に動いてしまう",
+    "effect.undergarden.virulence.desc": "命に関わらない中程度のダメージを受け、ハートが紫色になってしまう",
+    "effect.cataclysm.abyssal_curse.desc": "軽微なダメージを受け、ハートが紫色になってしまう",
+    "effect.cataclysm.blessing_of_amethyst.desc": "深淵の炎焼、深淵の恐怖、暗闇に対する耐性を得る",
+    "effect.immersiveengineering.flammable.desc": "時間経過とともに炎によるダメージが増加する",
+    "effect.born_in_chaos_v1.jawattack": "ジョーアタック",
+  
+    "attribute.name.ars_nouveau.mana_regen": "マナ回復",
+    "attribute.name.ars_nouveau.max_mana": "最大マナ",
+    "attribute.name.tacz.bullet_resistance": "弾丸耐性",
+    "ars_nouveau.perk.max_mana": "最大マナ",
+    "ars_nouveau.perk.mana_regen": "マナ回復"
+  }
