@@ -14,7 +14,7 @@
 		"#rats"
 	],
 	"dimensions": [
-		"minecraft:overworld", "rats:ratlantis"
+		"rats:ratlantis"
 	],
 	"min_rarity": "uncommon",
 	"max_rarity": "rare",
