@@ -3,7 +3,7 @@
 		"type": "forge:mod_loaded",
 		"modid": "alexsmobs"
 	}],
-	"entity": "alexsmobs:warped_mosco",
+	"entity": "alexsmobs:gorilla",
 	"weight": 1,
 	"quality": 2,
 	"size": {
@@ -14,12 +14,12 @@
 		"#overworld"
 	],
 	"dimensions": [
-		"minecraft:the_nether"
+		"minecraft:overworld"
 	],
-	"min_rarity": "mythic",
-	"max_rarity": "mythic",
+	"min_rarity": "rare",
+	"max_rarity": "rare",
 	"stats": {
-		"mythic": {
+		"rare": {
 			"enchant_chance": 0.75,
 			"enchantment_levels": [25, 20, 50, 40],
 			"effects": [{
@@ -30,9 +30,9 @@
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 200,
-						"steps": 20,
-						"step": 3
+						"min": 30,
+						"steps": 10,
+						"step": 2
 					}
 				},
 				{

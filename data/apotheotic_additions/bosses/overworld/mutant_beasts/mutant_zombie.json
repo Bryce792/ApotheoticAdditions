@@ -5,7 +5,7 @@
 	}],
 	"entity": "mutantmonsters:mutant_zombie",
 	"weight": 1,
-	"quality": 6,
+	"quality": 1,
 	"size": {
 		"width": 4,
 		"height": 4

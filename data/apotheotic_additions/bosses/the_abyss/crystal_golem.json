@@ -1,25 +1,25 @@
 {
 	"conditions": [{
 		"type": "forge:mod_loaded",
-		"modid": "alexsmobs"
+		"modid": "theabyss"
 	}],
-	"entity": "alexsmobs:warped_mosco",
+	"entity": "theabyss:crystal_golem",
 	"weight": 1,
 	"quality": 2,
 	"size": {
-		"width": 1.4,
-		"height": 1.4
+		"width": 2,
+		"height": 3
 	},
 	"valid_gear_sets": [
-		"#overworld"
+		"#the_abyss"
 	],
 	"dimensions": [
-		"minecraft:the_nether"
+		"theabyss:the_abyss"
 	],
-	"min_rarity": "mythic",
-	"max_rarity": "mythic",
+	"min_rarity": "ancient",
+	"max_rarity": "ancient",
 	"stats": {
-		"mythic": {
+		"ancient": {
 			"enchant_chance": 0.75,
 			"enchantment_levels": [25, 20, 50, 40],
 			"effects": [{
@@ -30,9 +30,9 @@
 					"attribute": "minecraft:generic.max_health",
 					"operation": "ADDITION",
 					"value": {
-						"min": 200,
-						"steps": 20,
-						"step": 3
+						"min": 400,
+						"steps": 30,
+						"step": 5
 					}
 				},
 				{
@@ -55,11 +55,11 @@
 				},
 				{
 					"attribute": "minecraft:generic.attack_damage",
-					"operation": "MULTIPLY_BASE",
+					"operation": "ADDITION",
 					"value": {
-						"min": 0.30,
-						"steps": 25,
-						"step": 0.01
+						"min": 10,
+						"steps": 20,
+						"step": 1
 					}
 				},
 				{
