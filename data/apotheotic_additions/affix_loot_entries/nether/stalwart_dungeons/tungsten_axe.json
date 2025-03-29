@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "stalwart_dungeons"
+	}],
+  "weight": 15,
+  "quality": 1.5,
+  "stack": {
+    "item": "stalwart_dungeons:tungsten_axe",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "apotheosis:uncommon",
+  "max_rarity": "apotheosis:epic"
+}

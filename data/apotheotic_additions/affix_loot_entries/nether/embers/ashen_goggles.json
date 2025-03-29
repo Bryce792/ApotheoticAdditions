@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "embers"
+	}],
+  "weight": 15,
+  "quality": 4.0,
+  "stack": {
+    "item": "embers:ashen_goggles",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "apotheosis:uncommon",
+  "max_rarity": "apotheosis:epic"
+}
