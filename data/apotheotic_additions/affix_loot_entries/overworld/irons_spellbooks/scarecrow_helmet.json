@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+  "weight": 5,
+  "quality": 2,
+  "stack": {
+    "item": "irons_spellbooks:pumpkin_helmet",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:overworld",
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "apotheosis:uncommon",
+  "max_rarity": "apotheosis:rare"
+}

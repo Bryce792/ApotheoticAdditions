@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "majruszsdifficulty"
+	}],
+  "weight": 85,
+  "quality": 1.0,
+  "stack": {
+    "item": "majruszsdifficulty:tattered_boots",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:uncommon"
+}

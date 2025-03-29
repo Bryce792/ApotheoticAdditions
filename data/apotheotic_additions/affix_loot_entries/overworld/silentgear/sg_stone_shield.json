@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "silentgear"
+	}],
+  "weight": 95,
+  "quality": 3.0,
+  "stack": {
+    "type": "forge:nbt",
+    "item": "silentgear:shield",
+    "count": 1,
+    "nbt": "{Damage:0,SGear_Data:{Construction:{Parts:[{ID:\"silentgear:shield_plate\",Item:{Count:1b,id:\"silentgear:shield_plate\",tag:{Damage:0,Materials:[{Count:2b,ID:\"silentgear:stone\",Item:{Count:1b,id:\"minecraft:cobblestone\"}}]}}},{ID:\"silentgear:rod\",Item:{Count:1b,id:\"silentgear:rod\",tag:{Materials:[{ID:\"silentgear:wood\",Item:{Count:1b,id:\"minecraft:mangrove_planks\"}}]}}}]},Properties:{LockStats:0b,ModVersion:\"3.5.2\",Stats:{\"silentgear:armor\":5.0f,\"silentgear:armor_durability\":5.0f,\"silentgear:charging_value\":0.5f,\"silentgear:durability\":130.99998f,\"silentgear:enchantment_value\":5.0f,\"silentgear:projectile_accuracy\":0.8f,\"silentgear:projectile_speed\":1.0f,\"silentgear:rarity\":4.0f,\"silentgear:repair_efficiency\":1.0f},Traits:[{Level:1b,Name:\"silentgear:ancient\"},{Level:2b,Name:\"silentgear:flexible\"}]},Rendering:{Model:2,ModelKey:\"shield:shield_plate{stone,stone},rod{wood},\"}},SGear_UUID:[I;1508770035,-675394803,-1844035149,-813716184]}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:uncommon"
+}
