@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+	"block": "eidolon:candlestick",
+	"stats": {
+		"maxEterna": 0,
+		"eterna": 0,
+		"quanta": 0,
+		"arcana": 1.25,
+		"clues": 0
+	}
+}

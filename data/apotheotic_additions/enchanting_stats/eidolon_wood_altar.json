@@ -1,0 +1,15 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+	"block": "eidolon:wooden_altar",
+	"stats": {
+		"maxEterna": 5,
+		"eterna": 3,
+		"quanta": 0,
+		"arcana": 0,
+		"rectification": 0,
+		"clues": 0
+	}
+}

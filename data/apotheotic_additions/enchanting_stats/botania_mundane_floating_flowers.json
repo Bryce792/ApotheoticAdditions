@@ -1,0 +1,15 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "botania"
+	}],
+	"tag": "botania:mundane_floating_flowers",
+	"stats": {
+		"maxEterna": 10,
+		"eterna": 1,
+		"quanta": 0,
+		"arcana": 0.5,
+		"rectification": 0,
+		"clues": 0
+	}
+}

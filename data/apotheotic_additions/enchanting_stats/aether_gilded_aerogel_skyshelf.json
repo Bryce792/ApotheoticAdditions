@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"block": "apotheotic_additions:gilded_aerogel_skyshelf",
+	"stats": {
+		"maxEterna": 37.5,
+		"eterna": 5,
+		"quanta": 0,
+		"arcana": 3.5,
+		"clues": 0
+	}
+}

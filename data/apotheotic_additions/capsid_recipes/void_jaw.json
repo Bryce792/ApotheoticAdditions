@@ -1,0 +1,16 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "ingredients": [
+    {
+      "tag": "apotheotic_additions:teeth"
+    }
+  ],
+  "result": {
+    "item": "cataclysm:void_jaw",
+    "count": 1
+  },
+  "time": 120
+}

@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+	"block": "eidolon:magic_candle",
+	"stats": {
+		"maxEterna": 20,
+		"eterna": 2,
+		"quanta": 0,
+		"arcana": 2,
+		"clues": 0
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	}],
+	"block": "eidolon:research_table",
+	"stats": {
+		"maxEterna": 12.5,
+		"eterna": 2.5,
+		"quanta": 0,
+		"arcana": 0,
+		"rectification": 2.5,
+		"clues": 0
+	}
+}

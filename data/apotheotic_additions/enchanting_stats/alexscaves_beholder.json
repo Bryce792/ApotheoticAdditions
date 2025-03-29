@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"block": "alexscaves:beholder",
+	"stats": {
+		"maxEterna": 0,
+		"eterna": 0,
+		"quanta": 15,
+		"arcana": 0,
+		"clues": 0
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"block": "apotheotic_additions:thornshelf",
+	"stats": {
+		"maxEterna": 17.5,
+		"eterna": 2,
+		"quanta": 1,
+		"arcana": 0,
+		"clues": 0
+	}
+}

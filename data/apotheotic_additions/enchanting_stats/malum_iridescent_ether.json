@@ -1,0 +1,14 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	}],
+	"block": "malum:iridescent_ether",
+	"stats": {
+		"maxEterna": 0,
+		"eterna": 0,
+		"quanta": 0,
+		"arcana": 2.25,
+		"clues": 0
+	}
+}

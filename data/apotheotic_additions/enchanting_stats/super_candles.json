@@ -1,0 +1,15 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "the_bumblezone"
+	}],
+	"tag": "the_bumblezone:super_candle_bases",
+	"stats": {
+		"maxEterna": 0,
+		"eterna": 0,
+		"quanta": 0,
+		"arcana": 2,
+		"rectification": 0,
+		"clues": 0
+	}
+}

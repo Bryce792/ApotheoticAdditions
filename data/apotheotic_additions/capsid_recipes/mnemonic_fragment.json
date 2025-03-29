@@ -1,0 +1,20 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "ingredients": [
+    {
+      "item": "malum:chunk_of_brilliance"
+    }
+  ],
+  "result": {
+    "item": "malum:mnemonic_fragment",
+    "count": 1
+  },
+  "time": 180
+}
