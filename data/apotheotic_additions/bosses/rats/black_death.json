@@ -14,7 +14,7 @@
 		"#rats"
 	],
 	"dimensions": [
-		"minecraft:overworld", "rats:ratlantis"
+		"minecraft:the_end", "rats:ratlantis"
 	],
 	"min_rarity": "ancient",
 	"max_rarity": "ancient",
@@ -57,8 +57,8 @@
 					"attribute": "minecraft:generic.attack_damage",
 					"operation": "ADDITION",
 					"value": {
-						"min": 40,
-						"steps": 40,
+						"min": 10,
+						"steps": 20,
 						"step": 1
 					}
 				},
