@@ -1,0 +1,45 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	}],
+	"type": "apotheosis:attribute",
+	"attribute": "malum:scythe_proficiency",
+	"operation": "ADDITION",
+	"values": {
+		"epic": {
+			"min": 0.5,
+			"steps": 2,
+			"step": 0.25
+		},
+		"mythic": {
+			"min": 0.75,
+			"steps": 3,
+			"step": 0.25
+		},
+		"ancient": {
+			"min": 1,
+			"steps": 4,
+			"step": 0.25
+		},
+		"apotheotic_additions:artifact": {
+			"min": 3,
+			"steps": 6,
+			"step": 0.5
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 0.5,
+			"steps": 4,
+			"step": 0.5
+		},
+		"apotheotic_additions:esoteric": {
+			"min": 5,
+			"steps": 5,
+			"step": 1
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}

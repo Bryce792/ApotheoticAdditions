@@ -4,8 +4,8 @@
 	"operation": "ADDITION",
 	"values": {
 		"apotheotic_additions:artifact": {
-			"min": 10,
-			"steps": 10,
+			"min": 5,
+			"steps": 15,
 			"step": 1
 		},
 		"apotheotic_additions:heirloom": {
