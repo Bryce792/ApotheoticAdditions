@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:blaze_rod",
+    {
+      "id": "malum:blazing_quartz",
+      "required": false
+    },
+    {
+      "id": "cataclysm:dying_ember",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:fire_dust",
+      "required": false
+    },
+    {
+      "id": "reliquary:molten_core",
+      "required": false
+    }
+  ]
+}

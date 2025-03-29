@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:spider_eye",
+    "minecraft:poisonous_potato",
+    {
+      "id": "alexsmobs:centipede_leg",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:rattlesnake_rattle",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:naga_fang",
+      "required": false
+    },
+    {
+      "id": "blue_skies:bug_guts",
+      "required": false
+    },
+    {
+      "id": "iceandfire:hydra_fang",
+      "required": false
+    },
+    {
+      "id": "reliquary:chelicerae",
+      "required": false
+    }
+  ]
+}

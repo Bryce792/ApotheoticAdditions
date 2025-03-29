@@ -1,0 +1,67 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:rotten_flesh",
+    "minecraft:bone",
+    {
+      "id": "born_in_chaos_v1:ethereal_spirit",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:lifestealer_bone",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:fused_bone",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:shattered_skull",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:monster_flesh",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:rotten_fish",
+      "required": false
+    },
+    {
+      "id": "witherstormmod:withered_flesh",
+      "required": false
+    },
+    {
+      "id": "witherstormmod:withered_bone",
+      "required": false
+    },
+    {
+      "id": "eidolon:zombie_heart",
+      "required": false
+    },
+    {
+      "id": "eidolon:wraith_heart",
+      "required": false
+    },
+    {
+      "id": "iceandfire:ectoplasm",
+      "required": false
+    },
+    {
+      "id": "iceandfire:witherbone",
+      "required": false
+    },
+    {
+      "id": "reliquary:rib_bone",
+      "required": false
+    },
+    {
+      "id": "reliquary:withered_rib",
+      "required": false
+    },
+    {
+      "id": "reliquary:zombie_heart",
+      "required": false
+    }
+  ]
+}

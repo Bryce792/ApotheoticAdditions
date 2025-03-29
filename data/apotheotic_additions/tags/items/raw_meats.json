@@ -1,0 +1,54 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beef",
+    "minecraft:porkchop",
+    "minecraft:mutton",
+    "minecraft:chicken",
+    "minecraft:rabbit",
+    {
+      "id": "twilightforest:raw_venison",
+      "required": false
+    },
+    {
+      "id": "twilightforest:raw_meef",
+      "required": false
+    },
+    {
+      "id": "undergarden:raw_dweller_meat",
+      "required": false
+    },
+    {
+      "id": "undergarden:raw_gloomper_leg",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:moose_ribs",
+      "required": false
+    },
+    {
+      "id": "rats:raw_rat",
+      "required": false
+    },
+    {
+      "id": "alexscaves:dinosaur_chop",
+      "required": false
+    },
+    {
+      "id": "theabyss:deer_beef",
+      "required": false
+    },
+    {
+      "id": "blue_skies:carabeef",
+      "required": false
+    },
+    {
+      "id": "blue_skies:venison",
+      "required": false
+    },
+    {
+      "id": "blue_skies:monitor_tail",
+      "required": false
+    }
+  ]
+}

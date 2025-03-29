@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexsmobs:moose_antler",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:centipede_leg",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:rattlesnake_rattle",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:naga_fang",
+      "required": false
+    },
+    {
+      "id": "blue_skies:bug_guts",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:bear_fur",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:raccoon_tail",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cockroach_wing",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:emu_feather",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "undergarden:depthrock",
+      "required": false
+    },
+    {
+      "id": "undergarden:shiverstone",
+      "required": false
+    }
+  ]
+}

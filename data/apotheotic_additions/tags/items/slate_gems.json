@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:amethyst_shard",
+    {
+      "id": "alexscaves:occult_gem",
+      "required": false
+    },
+    {
+      "id": "blue_skies:charoite",
+      "required": false
+    },
+    {
+      "id": "iceandfire:sapphire_gem",
+      "required": false
+    },
+    {
+      "id": "thermal:sapphire",
+      "required": false
+    },
+    {
+      "id": "undergarden:regalium_crystal",
+      "required": false
+    }
+  ]
+}

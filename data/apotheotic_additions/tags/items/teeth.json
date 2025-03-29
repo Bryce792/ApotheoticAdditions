@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexsmobs:shark_tooth",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:bone_serpent_tooth",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cachalot_whale_tooth",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:serrated_shark_tooth",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sweet_tooth",
+      "required": false
+    },
+    {
+      "id": "alexscaves:corrodent_teeth",
+      "required": false
+    }
+  ]
+}

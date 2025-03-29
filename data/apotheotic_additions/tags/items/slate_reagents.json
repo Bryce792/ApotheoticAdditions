@@ -1,0 +1,61 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "apotheosis:warden_tendril",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:warped_muscle",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:lifestealer_bone",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:fangofthe_hound_leader",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_claw",
+      "required": false
+    },
+    {
+      "id": "alexscaves:pure_darkness",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sweet_tooth",
+      "required": false
+    },
+    {
+      "id": "undergarden:forgotten_ingot",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_ingot",
+      "required": false
+    },
+    {
+      "id": "aquamirae:ship_graveyard_echo",
+      "required": false
+    },
+    {
+      "id": "botania:life_essence",
+      "required": false
+    },
+    {
+      "id": "iceandfire:fire_dragon_blood",
+      "required": false
+    },
+    {
+      "id": "iceandfire:ice_dragon_blood",
+      "required": false
+    },
+    {
+      "id": "iceandfire:lightning_dragon_blood",
+      "required": false
+    }
+  ]
+}

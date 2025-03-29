@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:feather",
+    {
+      "id": "alexsmobs:emu_feather",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:roadrunner_feather",
+      "required": false
+    },
+    {
+      "id": "twilightforest:raven_feather",
+      "required": false
+    },
+    {
+      "id": "eidolon:raven_feather",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:golden_feather",
+      "required": false
+    }
+  ]
+}

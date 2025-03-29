@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:packed_ice",
+    {
+      "id": "blue_skies:snowbloom",
+      "required": false
+    },
+    {
+      "id": "thermal:blizz_rod",
+      "required": false
+    },
+    {
+      "id": "twilightforest:arctic_fur",
+      "required": false
+    },
+    {
+      "id": "reliquary:frozen_core",
+      "required": false
+    }
+  ]
+}

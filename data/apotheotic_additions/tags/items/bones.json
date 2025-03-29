@@ -1,0 +1,71 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bone",
+    "minecraft:nautilus_shell",
+    {
+      "id": "alexscaves:heavy_bone",
+      "required": false
+    },
+    {
+      "id": "undergarden:brute_tusk",
+      "required": false
+    },
+    {
+      "id": "cataclysm:koboleton_bone",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:lifestealer_bone",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:fused_bone",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:shattered_skull",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:fish_bones",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:bone_serpent_tooth",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:moose_antler",
+      "required": false
+    },
+    {
+      "id": "witherstormmod:withered_bone",
+      "required": false
+    },
+    {
+      "id": "deep_dark_regrowth:sculk_bone",
+      "required": false
+    },
+    {
+      "id": "tconstruct:necrotic_bone",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone",
+      "required": false
+    },
+    {
+      "id": "iceandfire:witherbone",
+      "required": false
+    },
+    {
+      "id": "reliquary:rib_bone",
+      "required": false
+    },
+    {
+      "id": "reliquary:withered_rib",
+      "required": false
+    }
+  ]
+}

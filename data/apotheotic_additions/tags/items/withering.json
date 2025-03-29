@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wither_rose",
+    "minecraft:wither_skeleton_skull",
+    {
+      "id": "tconstruct:necrotic_bone",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_rod",
+      "required": false
+    },
+    {
+      "id": "witherstormmod:withered_flesh",
+      "required": false
+    },
+    {
+      "id": "witherstormmod:withered_bone",
+      "required": false
+    },
+    {
+      "id": "witherstormmod:withered_spider_eye",
+      "required": false
+    }
+  ]
+}

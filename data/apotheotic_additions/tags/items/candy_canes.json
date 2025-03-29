@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexscaves:candy_cane",
+      "required": false
+    },
+    {
+      "id": "aether:candy_cane",
+      "required": false
+    }
+  ]
+}
