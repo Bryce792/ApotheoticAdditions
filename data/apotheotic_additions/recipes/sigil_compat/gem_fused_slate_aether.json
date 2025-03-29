@@ -1,0 +1,26 @@
+{
+  "conditions": [
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "HHH",
+    "HWH",
+    "HHH"
+  ],
+  "key": {
+    "W": {
+      "item": "apotheosis:gem_dust"
+    },
+	"H": {
+      "item": "aether:holystone"
+    }
+  },
+  "result": {
+    "item": "apotheosis:gem_fused_slate",
+    "count": 12
+  }
+}

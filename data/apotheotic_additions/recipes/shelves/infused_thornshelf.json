@@ -1,0 +1,29 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+	{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "apotheotic_additions:thornshelf"
+	},
+	"requirements": {
+		"eterna": 17.5,
+		"quanta": 10,
+		"arcana": 0
+	},
+	"max_requirements": {
+		"eterna": -1,
+		"quanta": -1,
+		"arcana": -1
+	},
+	"display_level": 1,
+	"result": {
+		"item": "apotheotic_additions:infused_thornshelf",
+		"count": 1
+	}
+}

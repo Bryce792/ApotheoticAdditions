@@ -1,0 +1,25 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    " L ",
+    "LWL",
+    " L "
+  ],
+  "key": {
+	"W": {
+      "item": "apotheotic_additions:heirloom_material"
+    },
+	"L": {
+      "item": "irons_spellbooks:arcane_salvage"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:concentration_amulet",
+    "count": 1
+  }
+}

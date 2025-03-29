@@ -1,0 +1,21 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "born_in_chaos_v1"
+	}],
+  "type": "malum:favor_of_the_void",
+  "input": {
+    "item": "born_in_chaos_v1:ethereal_spirit"
+  },
+  "output": {
+    "item": "eidolon:soul_shard"
+  }
+}

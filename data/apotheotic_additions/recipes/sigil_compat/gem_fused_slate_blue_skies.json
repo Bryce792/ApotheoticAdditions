@@ -1,0 +1,26 @@
+{
+  "conditions": [
+  {
+		"type": "forge:mod_loaded",
+		"modid": "blue_skies"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "HHH",
+    "HWH",
+    "HHH"
+  ],
+  "key": {
+    "W": {
+      "item": "apotheosis:gem_dust"
+    },
+	"H": {
+      "tag": "blue_skies:stone"
+    }
+  },
+  "result": {
+    "item": "apotheosis:gem_fused_slate",
+    "count": 12
+  }
+}

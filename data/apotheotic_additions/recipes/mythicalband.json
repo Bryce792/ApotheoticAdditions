@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "WL ",
+    "L L",
+    " L "
+  ],
+  "key": {
+	"W": {
+      "item": "apotheosis:rare_material"
+    },
+	"L": {
+      "item": "apotheosis:common_material"
+    }
+  },
+  "result": {
+    "item": "apotheotic_additions:mythicalband",
+    "count": 1
+  }
+}

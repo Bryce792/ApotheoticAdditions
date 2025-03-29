@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+  {
+	"type": "apotheosis:module",
+    "module": "enchantment"
+  }],
+  "pattern": [
+    "RDR",
+    "ATA",
+    "RDR"
+  ],
+  "key": {
+    "A": {
+      "item": "aether:aerogel"
+    },
+	  "R": {
+      "item": "aether:golden_amber"
+    },
+    "D": {
+      "item": "aether:enchanted_gravitite"
+    },
+	  "T": {
+      "item": "apotheotic_additions:infused_skyshelf"
+    }
+  },
+  "result": {
+    "item": "apotheotic_additions:gilded_aerogel_skyshelf",
+    "count": 1
+  }
+}

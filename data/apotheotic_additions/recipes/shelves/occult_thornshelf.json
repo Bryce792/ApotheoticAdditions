@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+	"type": "apotheosis:module",
+    "module": "enchantment"
+  }],
+  "pattern": [
+    "ADA",
+    "RTS",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "alexscaves:thornwood_planks"
+    },
+	  "R": {
+      "item": "alexscaves:beholder"
+    },
+    "S": {
+      "item": "alexscaves:shadow_silk"
+    },
+    "D": {
+      "item": "alexscaves:tectonic_shard"
+    },
+	  "T": {
+      "item": "apotheotic_additions:infused_thornshelf"
+    }
+  },
+  "result": {
+    "item": "apotheotic_additions:occult_thornshelf",
+    "count": 1
+  }
+}

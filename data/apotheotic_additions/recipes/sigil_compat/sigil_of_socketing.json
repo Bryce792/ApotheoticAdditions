@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "ALA",
+    "WWW",
+    "AOA"
+  ],
+  "key": {
+    "W": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+	"L": {
+      "tag": "apotheotic_additions:slate_reagents"
+    },
+  "O": {
+      "tag": "apotheotic_additions:slate_gems"
+    },
+	"A": {
+      "item": "apotheosis:gem_dust"
+    }
+  },
+  "result": {
+    "item": "apotheosis:sigil_of_socketing",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+	"type": "apotheosis:module",
+    "module": "enchantment"
+  }],
+  "pattern": [
+    "AAA",
+    "RTR",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "alexscaves:scrap_metal"
+    },
+	  "R": {
+      "item": "minecraft:book"
+    },
+	  "T": {
+      "tag": "forge:barrels/wooden"
+    }
+  },
+  "result": {
+    "item": "apotheotic_additions:hollowed_barrel_shelf",
+    "count": 1
+  }
+}

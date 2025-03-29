@@ -1,0 +1,29 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+	{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "aether:skyroot_bookshelf"
+	},
+	"requirements": {
+		"eterna": 17.5,
+		"quanta": 0,
+		"arcana": 10
+	},
+	"max_requirements": {
+		"eterna": -1,
+		"quanta": -1,
+		"arcana": -1
+	},
+	"display_level": 1,
+	"result": {
+		"item": "apotheotic_additions:infused_skyshelf",
+		"count": 1
+	}
+}

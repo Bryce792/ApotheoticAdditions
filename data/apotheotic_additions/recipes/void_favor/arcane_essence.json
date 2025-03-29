@@ -1,0 +1,17 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+  "type": "malum:favor_of_the_void",
+  "input": {
+    "item": "irons_spellbooks:cinder_essence"
+  },
+  "output": {
+    "item": "irons_spellbooks:arcane_essence"
+  }
+}

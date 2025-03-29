@@ -1,0 +1,21 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+  "type": "malum:favor_of_the_void",
+  "input": {
+    "item": "cataclysm:void_jaw"
+  },
+  "output": {
+    "item": "eidolon:ender_calx"
+  }
+}

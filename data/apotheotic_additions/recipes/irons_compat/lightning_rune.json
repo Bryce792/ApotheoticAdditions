@@ -1,0 +1,29 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "iceandfire"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "LLL",
+    "LWL",
+    "LLL"
+  ],
+  "key": {
+	"W": {
+      "item": "irons_spellbooks:blank_rune"
+    },
+	"L": {
+      "tag": "iceandfire:scales/dragon/lightning"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:lightning_rune",
+    "count": 1
+  }
+}

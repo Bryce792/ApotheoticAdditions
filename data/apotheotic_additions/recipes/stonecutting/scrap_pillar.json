@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "apotheosis:common_material"
+  },
+  "result": "apotheotic_additions:scrap_pillar"
+}

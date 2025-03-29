@@ -1,0 +1,32 @@
+{
+  "conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "gateways"
+	}],
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "AAA",
+    "CBC",
+    "AAA"
+  ],
+  "key": {
+    "C": {
+      "item": "apotheotic_additions:heirloom_material"
+    },
+	  "B": {
+      "item": "minecraft:ender_eye"
+    },
+    "A": {
+      "item": "apotheotic_additions:artifact_material"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "apotheotic_additions:endless_boss"
+}

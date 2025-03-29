@@ -1,0 +1,31 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "RLL",
+    "WBW",
+    "RLL"
+  ],
+  "key": {
+	"W": {
+      "item": "apotheosis:mythic_material"
+    },
+	"B": {
+      "item": "irons_spellbooks:ruined_book"
+    },
+  "R": {
+      "item": "irons_spellbooks:evocation_rune"
+    },
+  "L": {
+      "item": "irons_spellbooks:cinder_essence"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:evoker_spell_book",
+    "count": 1
+  }
+}
