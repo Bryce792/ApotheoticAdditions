@@ -1,0 +1,29 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "simpleores"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "delightful"
+	},
+  {
+    "type": "forge:not",
+    "value": {
+      "type": "forge:tag_empty",
+      "tag": "forge:ingots/adamantium"
+    }
+  }],
+  "weight": 10,
+  "quality": 1.0,
+  "stack": {
+    "item": "delightful:adamantium_knife",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:uncommon",
+  "max_rarity": "apotheosis:rare"
+}

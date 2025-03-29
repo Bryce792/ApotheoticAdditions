@@ -1,0 +1,18 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "divinerpg"
+	}],
+  "weight": 3,
+  "quality": 4.0,
+  "stack": {
+    "item": "divinerpg:bedrock_leggings",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "min_rarity": "apotheosis:uncommon",
+  "max_rarity": "apotheosis:rare"
+}
