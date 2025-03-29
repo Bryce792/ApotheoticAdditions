@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+  "weight": 1,
+  "quality": 2.0,
+  "stack": {
+    "item": "alexscaves:hood_of_darkness",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:the_end",
+    "minecraft:the_nether"
+  ],
+  "min_rarity": "apotheotic_additions:artifact",
+  "max_rarity": "apotheotic_additions:heirloom"
+}

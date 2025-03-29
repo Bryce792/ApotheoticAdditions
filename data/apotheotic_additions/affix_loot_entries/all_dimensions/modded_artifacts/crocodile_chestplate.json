@@ -1,0 +1,19 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "weight": 2,
+  "quality": 2.0,
+  "stack": {
+    "item": "alexsmobs:crocodile_chestplate",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "minecraft:the_nether",
+    "minecraft:the_end"
+  ],
+  "min_rarity": "apotheotic_additions:artifact",
+  "max_rarity": "apotheotic_additions:heirloom"
+}

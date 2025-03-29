@@ -1,0 +1,16 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "tools_complement"
+	}],
+  "weight": 30,
+  "quality": 1.0,
+  "stack": {
+    "item": "tools_complement:gold_hammer",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": ["minecraft:overworld"],
+  "min_rarity": "apotheosis:common",
+  "max_rarity": "apotheosis:uncommon"
+}
