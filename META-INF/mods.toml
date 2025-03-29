@@ -4,7 +4,7 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="apotheotic_additions"
-version="2.1"
+version="2.2"
 displayName="Apotheotic Additions"
 credits="Apotheosis Addon"
 displayURL="https://mcreator.net"
@@ -23,6 +23,8 @@ authors="Bryce792, MCreator"
     versionRange="[7.4.3,]"
     ordering="NONE"
     side="BOTH"
+
+
 
 
 
