@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"ingredients": [{
+			"item": "cataclysm:void_jaw"
+		},
+		{
+			"item": "minecraft:spectral_arrow"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "cataclysm:void_scatter_arrow",
+		"count": 4
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"ingredients": [{
+			"item": "alexscaves:corrodent_teeth"
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"item": "alexscaves:dark_tatters"
+		}
+	],
+	"result": {
+		"item": "alexscaves:burrowing_arrow",
+		"count": 6
+	}
+}

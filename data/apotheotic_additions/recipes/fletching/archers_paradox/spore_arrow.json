@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "archers_paradox"
+	}],
+	"ingredients": [{
+			"item": "minecraft:mycelium"
+		},
+		{
+			"item": "minecraft:arrow"
+		},
+		{
+			"tag": "forge:mushrooms"
+		}
+	],
+	"result": {
+		"item": "archers_paradox:spore_arrow",
+		"count": 3
+	}
+}

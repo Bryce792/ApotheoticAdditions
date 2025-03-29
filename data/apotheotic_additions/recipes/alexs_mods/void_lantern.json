@@ -1,0 +1,29 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    " L ",
+    "LWL",
+    " L "
+  ],
+  "key": {
+	"W": {
+      "item": "alexsmobs:mimicream"
+    },
+	"L": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "result": {
+    "item": "cataclysm:void_lantern_block",
+    "count": 4
+  }
+}

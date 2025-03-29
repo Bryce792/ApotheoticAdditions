@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "iceandfire"
+	}],
+	"ingredients": [{
+			"item": "iceandfire:sea_serpent_fang"
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"tag": "iceandfire:scales/sea_serpent"
+		}
+	],
+	"result": {
+		"item": "iceandfire:sea_serpent_arrow",
+		"count": 6
+	}
+}

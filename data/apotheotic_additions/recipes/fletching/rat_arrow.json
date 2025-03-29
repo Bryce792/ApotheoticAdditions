@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "rats"
+	}],
+	"ingredients": [{
+			"item": "rats:rat_pelt"
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "rats:rat_arrow",
+		"count": 1
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "iceandfire"
+	}],
+	"ingredients": [{
+			"item": "iceandfire:wither_shard"
+		},
+		{
+			"item": "iceandfire:dragonbone"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "iceandfire:dragonbone_arrow",
+		"count": 8
+	}
+}

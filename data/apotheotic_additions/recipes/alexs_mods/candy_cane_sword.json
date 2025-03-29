@@ -1,0 +1,29 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    " L ",
+    " L ",
+    " W "
+  ],
+  "key": {
+	"W": {
+      "item": "alexscaves:candy_cane_pole"
+    },
+	"L": {
+      "tag": "apotheotic_additions:candy_canes"
+    }
+  },
+  "result": {
+    "item": "aether:candy_cane_sword",
+    "count": 1
+  }
+}

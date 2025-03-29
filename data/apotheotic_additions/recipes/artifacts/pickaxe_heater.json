@@ -1,0 +1,23 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "artifacts"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "apotheotic_additions:flaming"
+  },
+  "base": {
+    "tag": "aether:accessories_gloves"
+  },
+  "result": {
+    "item": "artifacts:pickaxe_heater"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

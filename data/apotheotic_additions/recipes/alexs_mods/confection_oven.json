@@ -1,0 +1,38 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "GRG",
+    "LOL",
+    "GSG"
+  ],
+  "key": {
+	"R": {
+      "item": "alexscaves:radiant_essence"
+    },
+	"L": {
+      "item": "aether:candy_cane"
+    },
+  "O": {
+      "item": "minecraft:smoker"
+    },
+  "S": {
+      "item": "minecraft:redstone"
+    },
+  "G": {
+      "item": "alexscaves:gingerbread_crumbs"
+      }
+  },
+  "result": {
+    "item": "alexscaves:confection_oven",
+    "count": 1
+  }
+}

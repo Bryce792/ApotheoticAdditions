@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"ingredients": [{
+			"item": "aether:golden_amber"
+		},
+		{
+			"item": "aether:skyroot_stick"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "aether:golden_dart",
+		"count": 6
+	}
+}

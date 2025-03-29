@@ -1,0 +1,29 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    " W ",
+    "WLW",
+    " L "
+  ],
+  "key": {
+	"W": {
+      "item": "alexscaves:frostmint"
+    },
+	"L": {
+      "item": "aether:candy_cane"
+    }
+  },
+  "result": {
+    "item": "alexscaves:frostmint_spear",
+    "count": 4
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "GCO",
+    "VIR",
+    " B "
+  ],
+  "key": {
+	"C": {
+      "item": "alexscaves:caramel"
+    },
+	"G": {
+      "item": "aether:candy_cane"
+    },
+  "O": {
+      "tag": "alexscaves:sweet_berries"
+    },
+  "V": {
+      "item": "alexscaves:vanilla_ice_cream_scoop"
+    },
+  "I": {
+      "item": "alexscaves:chocolate_ice_cream_scoop"
+    },
+  "R": {
+      "item": "alexscaves:sweetberry_ice_cream_scoop"
+    },
+  "B": {
+      "item": "minecraft:bowl"
+      }
+  },
+  "result": {
+    "item": "alexscaves:sundae",
+    "count": 1
+  }
+}

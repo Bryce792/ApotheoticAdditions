@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "caverns_and_chasms"
+	}],
+	"ingredients": [{
+			"tag": "forge:ingots/silver"
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "caverns_and_chasms:large_arrow",
+		"count": 6
+	}
+}

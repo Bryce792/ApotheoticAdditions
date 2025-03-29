@@ -1,0 +1,39 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "create"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "alexsmobs:rocky_shell"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:stone"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:stone"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:scute"
+    },
+    {
+      "chance": 0.01,
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.001,
+      "item": "minecraft:raw_iron"
+    }
+  ]
+}

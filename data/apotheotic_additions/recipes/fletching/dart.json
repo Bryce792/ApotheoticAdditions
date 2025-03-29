@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "mowziesmobs"
+	}],
+	"ingredients": [{
+			"item": "mowziesmobs:naga_fang"
+		},
+		{
+			"item": "minecraft:bamboo"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "mowziesmobs:dart",
+		"count": 10
+	}
+}

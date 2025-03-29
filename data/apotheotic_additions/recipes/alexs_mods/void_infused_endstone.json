@@ -1,0 +1,29 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "LLL",
+    "LWL",
+    "LLL"
+  ],
+  "key": {
+	"W": {
+      "item": "alexsmobs:mimicream"
+    },
+	"L": {
+      "item": "minecraft:end_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "cataclysm:void_infused_end_stone_bricks",
+    "count": 8
+  }
+}

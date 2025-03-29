@@ -1,0 +1,32 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "RWR",
+    "RWR",
+    " L "
+  ],
+  "key": {
+	"W": {
+      "item": "alexscaves:radiant_essence"
+    },
+	"L": {
+      "item": "aether:candy_cane"
+    },
+  "R": {
+      "tag": "alexscaves:rock_candies"
+    }
+  },
+  "result": {
+    "item": "alexscaves:biome_treat",
+    "count": 1
+  }
+}

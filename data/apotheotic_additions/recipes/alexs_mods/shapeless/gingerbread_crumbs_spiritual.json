@@ -1,0 +1,22 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "born_in_chaos_v1"
+	}],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "something",
+  "ingredients": [
+    {
+      "item": "born_in_chaos_v1:spiritual_gingerbread"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "alexscaves:gingerbread_crumbs"
+  }
+}

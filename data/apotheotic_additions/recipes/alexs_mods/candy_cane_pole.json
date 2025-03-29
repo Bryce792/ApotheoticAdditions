@@ -1,0 +1,26 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    " L ",
+    " L ",
+    " L "
+  ],
+  "key": {
+	"L": {
+      "item": "aether:candy_cane"
+    }
+  },
+  "result": {
+    "item": "alexscaves:candy_cane_pole",
+    "count": 1
+  }
+}

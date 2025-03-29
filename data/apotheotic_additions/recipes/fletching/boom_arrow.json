@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "forbidden_arcanus"
+	}],
+	"ingredients": [{
+			"item": "minecraft:tnt" 
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "forbidden_arcanus:boom_arrow",
+		"count": 6
+	}
+}

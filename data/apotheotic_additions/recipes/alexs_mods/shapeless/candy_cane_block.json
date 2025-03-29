@@ -1,0 +1,31 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "something",
+  "ingredients": [
+    {
+      "item": "aether:candy_cane"
+    },
+    {
+      "item": "aether:candy_cane"
+    },
+    {
+      "item": "aether:candy_cane"
+    },
+    {
+      "item": "aether:candy_cane"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "alexscaves:candy_cane_block"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "neapolitan"
+	}],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "something",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "alexscaves:chocolate_ice_cream_scoop"
+    },
+    {
+      "item": "alexscaves:chocolate_ice_cream_scoop"
+    },
+    {
+      "item": "alexscaves:chocolate_ice_cream_scoop"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "neapolitan:chocolate_ice_cream"
+  }
+}

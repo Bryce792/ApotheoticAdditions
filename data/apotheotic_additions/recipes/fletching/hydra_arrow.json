@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "iceandfire"
+	}],
+	"ingredients": [{
+			"item": "iceandfire:hydra_fang"
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"item": "minecraft:lily_pad"
+		}
+	],
+	"result": {
+		"item": "iceandfire:hydra_arrow",
+		"count": 6
+	}
+}

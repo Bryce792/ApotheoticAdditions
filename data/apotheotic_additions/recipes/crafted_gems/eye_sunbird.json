@@ -1,0 +1,32 @@
+{
+  "conditions": [{
+    "type": "forge:mod_loaded",
+    "modid": "aether"
+  }],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "ADA",
+    "CBC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "apotheotic_additions:artifact_material"
+    },
+    "B": {
+      "item": "mowziesmobs:sol_visage"
+    },
+    "C": {
+      "tag": "apotheotic_additions:flaming"
+    },
+    "D": {
+      "item": "apotheotic_additions:gemboundsigil"
+    }
+  },
+  "result": {
+      "item": "apotheosis:gem",
+      "count": 1,
+      "nbt": "{affix_data:{rarity:\"apotheotic_additions:artifact\"},gem:\"apotheotic_additions:crafted/sunbird\"}"
+  }
+}

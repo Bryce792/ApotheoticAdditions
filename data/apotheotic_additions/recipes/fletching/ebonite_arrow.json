@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "midnight"
+	}],
+	"ingredients": [{
+			"item": "midnight:ebonite"
+		},
+		{
+			"item": "midnight:dark_stick"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "midnight:ebonite_arrow",
+		"count": 6
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "something",
+  "ingredients": [
+    {
+      "item": "aether:gingerbread_man"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "alexscaves:gingerbread_crumbs"
+  }
+}

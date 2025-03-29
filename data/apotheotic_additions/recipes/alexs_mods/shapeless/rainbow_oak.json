@@ -1,0 +1,25 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "something",
+  "ingredients": [
+    {
+      "item": "alexsmobs:rainbow_jelly"
+    },
+    {
+      "item": "twilightforest:twilight_oak_sapling"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "twilightforest:rainbow_oak_sapling"
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "archers_paradox"
+	}],
+	"ingredients": [{
+			"item": "minecraft:end_stone"
+		},
+		{
+			"item": "minecraft:arrow"
+		},
+		{
+			"item": "minecraft:popped_chorus_fruit"
+		}
+	],
+	"result": {
+		"item": "archers_paradox:shulker_arrow",
+		"count": 3
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "savage_and_ravage"
+	}],
+	"ingredients": [{
+			"item": "savage_and_ravage:creeper_spores"
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "savage_and_ravage:mischief_arrow",
+		"count": 6
+	}
+}

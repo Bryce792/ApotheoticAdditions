@@ -1,0 +1,32 @@
+{
+  "conditions": [{
+  "type": "forge:mod_loaded",
+  "modid": "aquamirae"
+}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "ADA",
+    "CBC",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "apotheotic_additions:artifact_material"
+    },
+    "B": {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    "C": {
+      "item": "aquamirae:anglers_fang"
+    },
+    "D": {
+      "item": "apotheotic_additions:gemboundsigil"
+    }
+  },
+  "result": {
+      "item": "apotheosis:gem",
+      "count": 1,
+      "nbt": "{affix_data:{rarity:\"apotheotic_additions:artifact\"},gem:\"apotheotic_additions:crafted/cornelia\"}"
+  }
+}

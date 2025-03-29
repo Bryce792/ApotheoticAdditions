@@ -1,0 +1,21 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "artifacts"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "something",
+  "ingredients": [
+    {
+    "item": "alexsmobs:novelty_hat"
+    }
+  ],
+  "result": {
+    "item": "artifacts:novelty_drinking_hat"
+  }
+}

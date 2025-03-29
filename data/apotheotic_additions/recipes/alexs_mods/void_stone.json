@@ -1,0 +1,29 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}],
+  "type": "minecraft:crafting_shaped",
+  "group": "something",
+  "pattern": [
+    "LLL",
+    "LWL",
+    "LLL"
+  ],
+  "key": {
+	"W": {
+      "item": "alexsmobs:mimicream"
+    },
+	"L": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "result": {
+    "item": "cataclysm:void_stone",
+    "count": 1
+  }
+}

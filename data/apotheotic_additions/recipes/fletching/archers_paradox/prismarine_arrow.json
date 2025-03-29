@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "archers_paradox"
+	}],
+	"ingredients": [{
+			"item": "minecraft:prismarine_shard" 
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "archers_paradox:prismarine_arrow",
+		"count": 6
+	}
+}

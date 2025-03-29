@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "monsterplus"
+	}],
+	"ingredients": [{
+			"item": "monsterplus:crystal_shard"
+		},
+		{
+			"tag": "apotheotic_additions:bones"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "monsterplus:crystal_arrow",
+		"count": 6
+	}
+}

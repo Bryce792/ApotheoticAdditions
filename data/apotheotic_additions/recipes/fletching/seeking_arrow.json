@@ -1,0 +1,25 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"ingredients": [{
+			"item": "alexscaves:scarlet_neodymium_ingot"
+		},
+		{
+			"item": "minecraft:arrow"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "alexscaves:seeking_arrow",
+		"count": 10
+	}
+}
