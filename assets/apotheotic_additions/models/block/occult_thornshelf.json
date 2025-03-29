@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "apotheotic_additions:block/thornwood_planks",
+    "up": "apotheotic_additions:block/thornwood_planks",
+    "north": "apotheotic_additions:block/occult_thornshelf",
+    "east": "apotheotic_additions:block/occult_thornshelf",
+    "south": "apotheotic_additions:block/occult_thornshelf",
+    "west": "apotheotic_additions:block/occult_thornshelf",
+    "particle": "apotheotic_additions:block/thornwood_planks"
+  },
+  "render_type": "solid"
+}

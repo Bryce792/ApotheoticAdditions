@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "apotheotic_additions:block/metal_barrel_bottom",
+    "up": "apotheotic_additions:block/metal_barrel_top",
+    "north": "apotheotic_additions:block/nuclear_barrel_shelf",
+    "east": "apotheotic_additions:block/metal_barrel",
+    "south": "apotheotic_additions:block/metal_barrel",
+    "west": "apotheotic_additions:block/metal_barrel",
+    "particle": "apotheotic_additions:block/metal_barrel_bottom"
+  },
+  "render_type": "solid"
+}

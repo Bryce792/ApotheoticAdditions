@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "apotheotic_additions:block/hollowed_barrel_shelf"
+    },
+    "facing=east": {
+      "model": "apotheotic_additions:block/hollowed_barrel_shelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "apotheotic_additions:block/hollowed_barrel_shelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "apotheotic_additions:block/hollowed_barrel_shelf",
+      "y": 270
+    }
+  }
+}

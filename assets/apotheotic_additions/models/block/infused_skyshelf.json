@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "apotheotic_additions:block/skyroot_planks",
+    "up": "apotheotic_additions:block/skyroot_planks",
+    "north": "apotheotic_additions:block/infused_skyshelf",
+    "east": "apotheotic_additions:block/infused_skyshelf",
+    "south": "apotheotic_additions:block/infused_skyshelf",
+    "west": "apotheotic_additions:block/infused_skyshelf",
+    "particle": "apotheotic_additions:block/skyroot_planks"
+  },
+  "render_type": "solid"
+}
