@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "minecraft:iron_pickaxe"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "apotheosis:iron_mining_arrow",
+		"count": 12
+	}
+}

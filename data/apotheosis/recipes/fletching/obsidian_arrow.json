@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "minecraft:obsidian"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "apotheosis:obsidian_arrow",
+		"count": 6
+	}
+}

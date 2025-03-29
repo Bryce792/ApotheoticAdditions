@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "minecraft:flint"
+		},
+		{
+			"item": "minecraft:stick"
+		},
+		{
+			"tag": "apotheotic_additions:feathers"
+		}
+	],
+	"result": {
+		"item": "minecraft:arrow",
+		"count": 6
+	}
+}
