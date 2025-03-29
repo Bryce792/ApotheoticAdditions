@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "apotheosis:rare_material"
-  },
-  "result": "apotheotic_additions:luminous_glass"
-}

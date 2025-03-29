@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "apotheosis:uncommon_material"
-  },
-  "result": "apotheotic_additions:timeworn_fabric"
-}
