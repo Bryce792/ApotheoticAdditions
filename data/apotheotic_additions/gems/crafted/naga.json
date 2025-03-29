@@ -1,0 +1,37 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [
+        {
+            "type": "apotheosis:drop_transform",
+            "gem_class": {
+                "key": "axe",
+                "types": [
+                    "heavy_weapon"
+                ]
+            },
+            "blocks": "minecraft:logs",
+            "inputs": {
+                "tag": "minecraft:logs"
+            },
+            "output": {
+                "item": "twilightforest:liveroot"
+            },
+            "values": {
+                "apotheotic_additions:artifact": 0.75,
+                "apotheotic_additions:heirloom": 0.90,
+                "apotheotic_additions:esoteric": 1
+            },
+            "desc": "gem.apotheotic_additions:alchemy/naga.axe"
+        }
+	]
+}

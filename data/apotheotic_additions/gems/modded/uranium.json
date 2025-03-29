@@ -22,13 +22,11 @@
 			"_comment": "The enchantment field is unused when global=true, but still must be a valid name",
 			"global": true,
 			"values": {
-				"rare": 1,
-				"epic": 1,
-				"mythic": 2,
-				"ancient": 3,
-				"apotheotic_additions:artifact": 4,
-				"apotheotic_additions:heirloom": 4,
-				"apotheotic_additions:esoteric": 5
+				"mythic": 1,
+				"ancient": 1,
+				"apotheotic_additions:artifact": 1,
+				"apotheotic_additions:heirloom": 2,
+				"apotheotic_additions:esoteric": 2
 			}
 		},
 		{

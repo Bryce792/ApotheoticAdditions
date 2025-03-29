@@ -1,0 +1,43 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings", "boots"
+				]
+			},
+			"mob_effect": "cataclysm:stun",
+			"target": "hurt_attacker",
+			"values": {
+				"apotheotic_additions:artifact": {
+					"duration": 100,
+					"amplifier": 0,
+					"cooldown": 6000
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 150,
+					"amplifier": 0,
+					"cooldown": 5000
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 200,
+					"amplifier": 0,
+					"cooldown": 4000
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "anything",
+				"types": [
+					"bow", "crossbow", "pickaxe", "shovel",
+					"heavy_weapon", "helmet", "chestplate",
+					"leggings", "boots", "shield",
+					"trident", "sword"
+				]
+			},
+			"enchantment": "sharpness",
+			"_comment": "The enchantment field is unused when global=true, but still must be a valid name",
+			"global": true,
+			"values": {
+				"apotheotic_additions:artifact": 2,
+				"apotheotic_additions:heirloom": 3,
+				"apotheotic_additions:esoteric": 4
+			}
+		}
+	]
+}

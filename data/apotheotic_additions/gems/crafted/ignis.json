@@ -1,0 +1,31 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"variant": "ignis",
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "light_weapon",
+			"types": [
+				"sword", "trident"
+			]
+		},
+		"attribute": "attributeslib:fire_damage",
+		"operation": "ADDITION",
+		"values": {
+			"apotheotic_additions:artifact": 9,
+			"apotheotic_additions:heirloom": 10,
+			"apotheotic_additions:esoteric": 11
+		}
+	}
+	]
+}

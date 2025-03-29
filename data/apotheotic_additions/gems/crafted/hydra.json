@@ -1,0 +1,31 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+	"variant": "hydra",
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "light_weapon",
+			"types": [
+				"sword", "trident"
+			]
+		},
+		"attribute": "minecraft:generic.luck",
+		"operation": "MULTIPLY_TOTAL",
+		"values": {
+			"apotheotic_additions:artifact": 0.25,
+			"apotheotic_additions:heirloom": 0.50,
+			"apotheotic_additions:esoteric": 0.75
+		}
+	}
+	]
+}

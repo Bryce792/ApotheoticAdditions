@@ -1,0 +1,69 @@
+{
+	"variant": "wither",
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [{
+		"type": "apotheosis:multi_attribute",
+		"desc": "bonus.apotheosis:multi_attr.desc.and",
+		"gem_class": {
+			"key": "light_weapon",
+			"types": [
+				"sword", "trident"
+			]
+		},
+		"modifiers": [{
+				"attribute": "attributeslib:fire_damage",
+				"operation": "ADDITION",
+				"values": {
+					"apotheotic_additions:artifact": 5.5,
+					"apotheotic_additions:heirloom": 6,
+					"apotheotic_additions:esoteric": 6.5
+				}
+			},
+			{
+				"attribute": "attributeslib:cold_damage",
+				"operation": "ADDITION",
+				"values": {
+					"apotheotic_additions:artifact": 5.5,
+					"apotheotic_additions:heirloom": 6,
+					"apotheotic_additions:esoteric": 6.5
+				}
+			}
+		]
+	},
+	{
+		"type": "apotheosis:multi_attribute",
+		"desc": "bonus.apotheosis:multi_attr.desc.and",
+		"gem_class": {
+			"key": "heavy_weapon",
+			"types": [
+				"heavy_weapon"
+			]
+		},
+		"modifiers": [{
+				"attribute": "attributeslib:fire_damage",
+				"operation": "ADDITION",
+				"values": {
+					"apotheotic_additions:artifact": 7,
+					"apotheotic_additions:heirloom": 8,
+					"apotheotic_additions:esoteric": 9
+				}
+			},
+			{
+				"attribute": "attributeslib:cold_damage",
+				"operation": "ADDITION",
+				"values": {
+					"apotheotic_additions:artifact": 7,
+					"apotheotic_additions:heirloom": 8,
+					"apotheotic_additions:esoteric": 9
+				}
+			}
+		]
+	}
+	]
+}

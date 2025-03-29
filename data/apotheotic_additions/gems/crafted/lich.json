@@ -1,0 +1,35 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "eidolon"
+	  },
+	  {
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	  }],
+	"variant": "lich",
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "wand",
+			"types": [
+				"wand"
+			]
+		},
+		"attribute": "eidolon:magic_power",
+		"operation": "MULTIPLY_TOTAL",
+		"values": {
+			"apotheotic_additions:artifact": 1,
+			"apotheotic_additions:heirloom": 1.5,
+			"apotheotic_additions:esoteric": 2
+		}
+	}
+	]
+}

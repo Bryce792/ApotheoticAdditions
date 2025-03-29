@@ -1,0 +1,60 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:all_stats",
+			"gem_class": {
+				"key": "boots",
+				"types": [
+					"boots"
+				]
+			},
+			"operation": "multiply_total",
+			"values": {
+				"apotheotic_additions:artifact": 0.05,
+				"apotheotic_additions:heirloom": 0.075,
+				"apotheotic_additions:esoteric": 0.1
+			},
+            "attributes": [
+                "minecraft:generic.max_health",
+                "minecraft:generic.knockback_resistance",
+                "minecraft:generic.movement_speed",
+                "minecraft:generic.attack_damage",
+                "minecraft:generic.attack_knockback",
+                "minecraft:generic.attack_speed",
+                "minecraft:generic.armor",
+                "minecraft:generic.armor_toughness",
+                "minecraft:generic.luck",
+                "attributeslib:armor_pierce",
+                "attributeslib:armor_shred",
+                "attributeslib:arrow_damage",
+                "attributeslib:arrow_velocity",
+                "attributeslib:cold_damage",
+                "attributeslib:crit_chance",
+                "attributeslib:crit_damage",
+                "attributeslib:current_hp_damage",
+                "attributeslib:dodge_chance",
+                "attributeslib:draw_speed",
+                "attributeslib:experience_gained",
+                "attributeslib:fire_damage",
+                "attributeslib:ghost_health",
+                "attributeslib:healing_received",
+                "attributeslib:life_steal",
+                "attributeslib:mining_speed",
+                "attributeslib:overheal",
+                "attributeslib:prot_pierce",
+                "attributeslib:prot_shred"
+            ]
+		}
+	]
+}

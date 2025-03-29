@@ -1,0 +1,30 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"attribute": "attributeslib:mining_speed",
+        "operation": "multiply_total",
+		"values": {
+			"apotheotic_additions:artifact": 0.75,
+			"apotheotic_additions:heirloom": 1,
+			"apotheotic_additions:esoteric": 1.25
+		}
+	}
+	]
+}

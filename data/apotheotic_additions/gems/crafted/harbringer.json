@@ -1,0 +1,43 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "cataclysm"
+	}],
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"mob_effect": "cataclysm:monstrous",
+			"target": "hurt_self",
+			"values": {
+				"apotheotic_additions:artifact": {
+					"duration": 1000,
+					"amplifier": 0,
+					"cooldown": 6000
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 1500,
+					"amplifier": 0,
+					"cooldown": 5000
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 2000,
+					"amplifier": 0,
+					"cooldown": 4000
+				}
+			}
+		}
+	]
+}

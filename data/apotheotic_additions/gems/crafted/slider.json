@@ -1,0 +1,31 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	  }],
+	"variant": "slider",
+	"weight": 0,
+	"quality": 0,
+	"unique": true,
+	"min_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"minecraft:null"
+	],
+	"bonuses": [{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"attribute": "minecraft:generic.attack_damage",
+		"operation": "ADDITION",
+		"values": {
+			"apotheotic_additions:artifact": 3,
+			"apotheotic_additions:heirloom": 3.5,
+			"apotheotic_additions:esoteric": 4
+		}
+	}
+	]
+}

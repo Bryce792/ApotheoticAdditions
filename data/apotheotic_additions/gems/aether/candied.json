@@ -1,0 +1,118 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"weight": 5,
+	"quality": 2.5,
+	"dimensions": ["aether:the_aether"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+		"type": "apotheosis:drop_transform",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"blocks": "aether:holystone",
+		"inputs": {
+			"tag": "aether:holystone"
+		},
+		"output": {
+			"item": "alexscaves:block_of_chocolate"
+		},
+		"values": {
+			"rare": 0.10,
+			"epic": 0.20,
+			"mythic": 0.30,
+			"ancient": 0.40,
+			"apotheotic_additions:artifact": 0.50,
+			"apotheotic_additions:heirloom": 0.75,
+			"apotheotic_additions:esoteric": 1
+		},
+		"desc": "gem.apotheotic_additions:alchemy/candied.pickaxe"
+	},
+	{
+		"type": "apotheosis:drop_transform",
+		"gem_class": {
+			"key": "axe",
+			"types": [
+				"heavy_weapon"
+			]
+		},
+		"blocks": "aether:skyroot_logs",
+		"inputs": {
+			"tag": "aether:skyroot_logs"
+		},
+		"output": {
+			"item": "alexscaves:candy_cane"
+		},
+		"values": {
+			"rare": 0.10,
+			"epic": 0.20,
+			"mythic": 0.30,
+			"ancient": 0.40,
+			"apotheotic_additions:artifact": 0.50,
+			"apotheotic_additions:heirloom": 0.75,
+			"apotheotic_additions:esoteric": 1
+		},
+		"desc": "gem.apotheotic_additions:alchemy/candied.axe"
+	},
+	{
+		"type": "apotheosis:mob_effect",
+		"gem_class": {
+			"key": "light_weapon",
+			"types": [
+				"sword",
+				"trident"
+			]
+		},
+		"mob_effect": "alexscaves:sugar_rush",
+		"target": "attack_self",
+		"values": {
+			"rare": {
+				"duration": 60,
+				"amplifier": 0,
+				"cooldown": 900
+			},
+			"epic": {
+				"duration": 80,
+				"amplifier": 0,
+				"cooldown": 900
+			},
+			"mythic": {
+				"duration": 120,
+				"amplifier": 0,
+				"cooldown": 900
+			},
+			"ancient": {
+				"duration": 160,
+				"amplifier": 0,
+				"cooldown": 900
+			},
+			"apotheotic_additions:artifact": {
+				"duration": 200,
+				"amplifier": 0,
+				"cooldown": 900
+			},
+			"apotheotic_additions:heirloom": {
+				"duration": 240,
+				"amplifier": 0,
+				"cooldown": 900
+			},
+			"apotheotic_additions:esoteric": {
+				"duration": 280,
+				"amplifier": 0,
+				"cooldown": 900
+			}
+		}
+	}
+]
+}
