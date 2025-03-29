@@ -1,0 +1,41 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "malum:rejected",
+	"target": "HURT_ATTACKER",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 100,
+				"steps": 10,
+				"step": 5
+			},
+			"amplifier": 0,
+			"cooldown": 800
+		},
+		"epic": {
+			"duration": {
+				"min": 150,
+				"steps": 10,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 700
+		},
+		"mythic": {
+			"duration": {
+				"min": 200,
+				"steps": 20,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}

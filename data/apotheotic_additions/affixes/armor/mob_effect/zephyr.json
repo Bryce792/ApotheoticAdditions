@@ -1,0 +1,68 @@
+{
+	"conditions": [{
+	"type": "forge:mod_loaded",
+	"modid": "malum"
+}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "malum:zephyrs_courage",
+	"target": "HURT_SELF",
+	"values": {
+		"epic": {
+			"duration": {
+				"min": 100,
+				"steps": 20,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"mythic": {
+			"duration": {
+				"min": 150,
+				"steps": 20,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"ancient": {
+			"duration": {
+				"min": 200,
+				"steps": 20,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 300,
+				"steps": 20,
+				"step": 20
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 500,
+				"steps": 20,
+				"step": 25
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 1200,
+				"steps": 40,
+				"step": 30
+			},
+			"amplifier": 0,
+			"cooldown": 900
+		}
+	},
+	"types": [
+		"boots"
+	]
+}

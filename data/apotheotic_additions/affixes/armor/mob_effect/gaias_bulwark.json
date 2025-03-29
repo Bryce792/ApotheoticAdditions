@@ -1,0 +1,77 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "malum"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "malum:gaias_bulwark",
+	"target": "HURT_SELF",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 100,
+				"steps": 20,
+				"step": 5
+			},
+			"amplifier": 0,
+			"cooldown": 2000
+		},
+		"epic": {
+			"duration": {
+				"min": 250,
+				"steps": 20,
+				"step": 5
+			},
+			"amplifier": 0,
+			"cooldown": 1800
+		},
+		"mythic": {
+			"duration": {
+				"min": 300,
+				"steps": 20,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 1600
+		},
+		"ancient": {
+			"duration": {
+				"min": 350,
+				"steps": 20,
+				"step": 10
+			},
+			"amplifier": 1,
+			"cooldown": 1400
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 400,
+				"steps": 20,
+				"step": 15
+			},
+			"amplifier": 1,
+			"cooldown": 1200
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 800,
+				"steps": 20,
+				"step": 15
+			},
+			"amplifier": 2,
+			"cooldown": 1000
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 1800,
+				"steps": 40,
+				"step": 15
+			},
+			"amplifier": 3,
+			"cooldown": 1000
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}
