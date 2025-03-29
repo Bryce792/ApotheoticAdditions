@@ -1,0 +1,22 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "delightful"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "weight":50,
+  "quality": 1.0,
+  "stack": {
+    "item": "delightful:zanite_knife",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "aether:the_aether"
+  ],
+  "min_rarity": "apotheosis:uncommon",
+  "max_rarity": "apotheosis:epic"
+}

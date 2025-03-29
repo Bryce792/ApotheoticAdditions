@@ -1,0 +1,16 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether_redux"
+	}],
+	"weight": 50,
+	"quality": 2.5,
+	"stack": {
+		"item": "aether_redux:veridium_sword"
+	},
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
+	"dimensions": [
+		"aether:the_aether"
+	]
+}

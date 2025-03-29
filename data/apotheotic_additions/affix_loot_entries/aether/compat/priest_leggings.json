@@ -1,0 +1,22 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+  "weight": 5,
+  "quality": 1.5,
+  "stack": {
+    "item": "irons_spellbooks:priest_leggings",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "dimensions": [
+    "aether:the_aether"
+  ],
+  "min_rarity": "apotheosis:uncommon",
+  "max_rarity": "apotheosis:epic"
+}

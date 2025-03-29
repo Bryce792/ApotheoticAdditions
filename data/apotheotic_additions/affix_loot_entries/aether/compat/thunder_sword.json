@@ -1,0 +1,22 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "botania"
+	}],
+	"weight": 1,
+	"quality": 2,
+	"stack": {
+		"item": "botania:thunder_sword",
+		"count": 1,
+		"nbt": "{Damage:0}"
+	},
+	"min_rarity": "apotheotic_additions:artifact",
+	"max_rarity": "apotheotic_additions:artifact",
+	"dimensions": [
+		"aether:the_aether"
+	]
+}
