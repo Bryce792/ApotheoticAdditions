@@ -1,0 +1,31 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "create"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "deeperdarker"
+	}],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "apotheosis:warden_tendril"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "count": 2,
+      "item": "deeperdarker:soul_dust"
+    },
+    {
+      "chance": 0.5,
+      "item": "deeperdarker:soul_dust"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:sculk"
+    }
+  ]
+}

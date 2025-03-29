@@ -1,0 +1,27 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "create"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "deeperdarker"
+	}],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "deeperdarker:sculk_bone"
+    }
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "count": 3,
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "chance": 0.05,
+      "item": "deeperdarker:soul_dust"
+    }
+  ]
+}

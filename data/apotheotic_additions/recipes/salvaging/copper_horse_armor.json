@@ -1,0 +1,28 @@
+{
+	"type": "apotheosis:salvaging",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "everythingcopper"
+	}],
+	"input": {
+		"item": "everythingcopper:copper_horse_armor"
+	},
+	"outputs": [{
+		"min_count": 1,
+		"max_count": 2,
+		"stack": {
+			"item": "minecraft:leather"
+		}
+	},
+	{
+		"min_count": 2,
+		"max_count": 4,
+		"stack": {
+			"item": "minecraft:copper_ingot"
+		}
+	}]
+}

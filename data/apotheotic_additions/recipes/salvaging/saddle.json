@@ -1,0 +1,24 @@
+{
+	"type": "apotheosis:salvaging",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	}],
+	"input": {
+		"item": "minecraft:saddle"
+	},
+	"outputs": [{
+		"min_count": 1,
+		"max_count": 3,
+		"stack": {
+			"item": "minecraft:leather"
+		}
+	},
+	{
+		"min_count": 0,
+		"max_count": 1,
+		"stack": {
+			"item": "minecraft:iron_ingot"
+		}
+	}]
+}
