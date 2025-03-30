@@ -1,43 +1,50 @@
 {
-    "item_group.apotheotic_additions.apotheotic_additions": "Apotheotic Additions",
-  
-    "comment_id": "/Gateways",
-    "apotheotic_additions.time_lost_gate": "Time-Lost Gateway",
-    "apotheotic_additions.caves_gate": "Apothic Cave Gateway",
-    "apotheotic_additions.aether_gate": "Apothic Aetheric Gateway",
-    "apotheotic_additions.endless_boss": "Endless Apothic Boss Gateway",
-    "apotheotic_additions.dark_garden": "Gateway of the Forlorn Garden",
-  
-  
-    "rewards.apotheotic_additions.loot_table.aa_spawner": "Apotheotic Additions Rogue Spawner Loot",
-    "rewards.apotheotic_additions.loot_table.caves_spawner": "Alex's Caves Rogue Spawner Loot",
-    "rewards.apotheotic_additions.loot_table.silver_dungeon": "Silver Dungeon Boss Loot",
-    "rewards.apotheotic_additions.loot_table.catacombs": "Undergarden Catacombs Loot",
-    "rewards.apotheotic_additions.loot_table.forlorn": "Forlorn Hollows Loot",
-    
-    "comment_id": "/Blocks",
-  
-    "block.apotheotic_additions.terra_shelf": "大地のルーン",
-    "block.apotheotic_additions.sacrificial_shelf": "生贄のルーン",
-    "block.apotheotic_additions.void_shelf": "虚無のルーン",
-    "block.apotheotic_additions.wavebinders_shelf": "海壁のルーン",
-    "block.apotheotic_additions.scrap_carved": "模様入りの屑鉄",
-    "block.apotheotic_additions.scrap_pillar": "屑鉄の柱",
-    "block.apotheotic_additions.scrap_rough": "粗い屑鉄",
-    "block.apotheotic_additions.scrap_brick_stairs": "屑鉄レンガの階段",
-    "block.apotheotic_additions.scrap_brick_slab": "屑鉄レンガのハーフブロック",
-    "block.apotheotic_additions.scrap_brick": "屑鉄レンガ",
-    "block.apotheotic_additions.timeworn_fancy": "派手な使い古された織物",
-    "block.apotheotic_additions.timeworn_fabric": "使い古された織物",
-    "block.apotheotic_additions.luminous_glass_pane": "輝くガラス板",
-    "block.apotheotic_additions.luminous_glass": "輝くガラス",
-  
+  "item_group.apotheotic_additions.apotheotic_additions": "Apotheotic Additions",
+
+  "comment_id": "/Gateways",
+  "apotheotic_additions.time_lost_gate": "Time-Lost Gateway",
+  "apotheotic_additions.caves_gate": "Apothic Cave Gateway",
+  "apotheotic_additions.aether_gate": "Apothic Aetheric Gateway",
+  "apotheotic_additions.endless_boss": "Endless Apothic Boss Gateway",
+  "apotheotic_additions.dark_garden": "Gateway of the Forlorn Garden",
+
+
+  "rewards.apotheotic_additions.loot_table.aa_spawner": "Apotheotic Additions Rogue Spawner Loot",
+  "rewards.apotheotic_additions.loot_table.caves_spawner": "Alex's Caves Rogue Spawner Loot",
+  "rewards.apotheotic_additions.loot_table.silver_dungeon": "Silver Dungeon Boss Loot",
+  "rewards.apotheotic_additions.loot_table.catacombs": "Undergarden Catacombs Loot",
+  "rewards.apotheotic_additions.loot_table.forlorn": "Forlorn Hollows Loot",
+
+  "comment_id": "/Blocks",
+
+  "block.apotheotic_additions.terra_shelf": "大地のルーン",
+  "block.apotheotic_additions.sacrificial_shelf": "生贄のルーン",
+  "block.apotheotic_additions.void_shelf": "虚無のルーン",
+  "block.apotheotic_additions.wavebinders_shelf": "海壁のルーン",
+  "block.apotheotic_additions.scrap_carved": "模様入りの屑鉄",
+  "block.apotheotic_additions.scrap_pillar": "屑鉄の柱",
+  "block.apotheotic_additions.scrap_rough": "粗い屑鉄",
+  "block.apotheotic_additions.scrap_brick_stairs": "屑鉄レンガの階段",
+  "block.apotheotic_additions.scrap_brick_slab": "屑鉄レンガのハーフブロック",
+  "block.apotheotic_additions.scrap_brick": "屑鉄レンガ",
+  "block.apotheotic_additions.timeworn_fancy": "派手な使い古された織物",
+  "block.apotheotic_additions.timeworn_fabric": "使い古された織物",
+  "block.apotheotic_additions.luminous_glass_pane": "輝くガラス板",
+  "block.apotheotic_additions.luminous_glass": "輝くガラス",
+  "block.apotheotic_additions.hollowed_barrel_shelf": "空虚な樽の本棚",
+  "block.apotheotic_additions.nuclear_barrel_shelf": "原子核の樽の本棚",
+  "block.apotheotic_additions.thornshelf": "棘の本棚",
+  "block.apotheotic_additions.infused_thornshelf": "注入された棘の本棚",
+  "block.apotheotic_additions.occult_thornshelf": "オカルトな棘の本棚",
+  "block.apotheotic_additions.infused_skyshelf": "注入された天空の本棚",
+  "block.apotheotic_additions.gilded_aerogel_skyshelf": "金ぴかのエアロゲル本棚",
+
   "comment_id": "/Items",
-    "rarity.apotheotic_additions:heirloom": "伝承",
+    "rarity.apotheotic_additions:esoteric": "異世界",
     "item.apotheotic_additions.heirloom_material": "血脈のコア",
+    "rarity.apotheotic_additions:heirloom": "伝承",
     "item.apotheosis.gem.apotheosis:heirloom": "不滅の%s",
     "item.apotheosis.gem.apotheotic_additions:heirloom": "不滅の%s",
-    "rarity.apotheotic_additions:esoteric": "異世界",
     "item.apotheotic_additions.esoteric_material": "多元宇宙のコア",
     "item.apotheosis.gem.apotheosis:esoteric": "異世界の%s",
     "item.apotheosis.gem.apotheotic_additions:esoteric": "異世界の%s",
@@ -48,7 +55,7 @@
     "item.apotheotic_additions.emerald_sword": "エメラルドの剣",
     "item.apotheotic_additions.mythicalband": "聖なるバンド",
     "item.apotheotic_additions.commonapple": "売れ残りのリンゴ",
-    "item.apotheotic_additions.uncommonapple": "珍しいリンゴ",
+    "item.apotheotic_additions.uncommonapple": "良いリンゴ",
     "item.apotheotic_additions.rareapple": "レアなリンゴ",
     "item.apotheotic_additions.epicapple": "最高のリンゴ",
     "item.apotheotic_additions.mythicapple": "神のリンゴ",
@@ -57,6 +64,7 @@
     "item.apotheotic_additions.apotheotic_coin.guide": "ローグスポナーから見つかる。行商人との取引に使用できる。",
     "item.apotheotic_additions.infused_coin": "強化した神貨",
     "item.apotheotic_additions.ascended_coin": "昇華した神貨",
+    "item.apotheotic_additions.gemboundsigil": "覚醒の紋章",
     "item.apotheotic_additions.golden_upgrade_smithing_template": "鍛冶型",
     "item.apotheotic_additions.iron_upgrade_smithing_template": "鍛冶型",
     "item.apotheotic_additions.diamond_upgrade_smithing_template": "鍛冶型",
@@ -72,9 +80,9 @@
     "name.apotheotic_additions.davy_jones_curse": "ヨナの亡霊の呪縛",
     "name.apotheotic_additions.hellforged_dagger": "獄鍛の匕首",
     "name.apotheotic_additions.hyperion": "ハイペリオン",
-    "name.apotheotic_additions.divine_justice": "絶対的正義",
+    "name.apotheotic_additions.divine_justice": "絶対正義",
     "name.apotheotic_additions.bloodletter": "ブラッドレター",
-    "name.apotheotic_additions.rotbane": "腐敗の災厄",
+    "name.apotheotic_additions.rotbane": "ロットベイン",
   
   
     "comment_id": "/Advancements",
@@ -257,8 +265,8 @@
     "affix.apotheotic_additions:curios_malum/mob_effect/silence": "音が消えた",
     "affix.apotheotic_additions:curios_malum/mob_effect/silence.suffix": "静寂の",
   
-    "affix.apotheotic_additions:curios_malum/mob_effect/rejected": "独りになりたい",
-    "affix.apotheotic_additions:curios_malum/mob_effect/rejected.suffix": "泣く泉の",
+    "affix.apotheotic_additions:curios_malum/mob_effect/rejected": "人を寄せつけない",
+    "affix.apotheotic_additions:curios_malum/mob_effect/rejected.suffix": "慟哭の",
   
     "affix.apotheotic_additions:curios_malum/dmg_reduction/physical": "魂を刻んだ",
     "affix.apotheotic_additions:curios_malum/dmg_reduction/physical.suffix": "物理防護の",
@@ -290,9 +298,12 @@
   
     "affix.apotheotic_additions:curios_armor/attribute/hp": "大地に守られた",
     "affix.apotheotic_additions:curios_armor/attribute/hp.suffix": "精力の",
-  
+
     "affix.apotheotic_additions:curios_armor/attribute/luck": "ラッキーな",
     "affix.apotheotic_additions:curios_armor/attribute/luck.suffix": "開運の",
+
+    "affix.apotheotic_additions:curios_armor/attribute/weakness_aura": "弱らせる",
+    "affix.apotheotic_additions:curios_armor/attribute/weakness_aura.suffix": "弱体化の",
   
     "affix.apotheotic_additions:curios_armor/attribute/warding": "加護を受けた",
     "affix.apotheotic_additions:curios_armor/attribute/warding.suffix": "魔法防護の",
@@ -411,7 +422,10 @@
   
     "affix.apotheotic_additions:curios_jewelry/mob_effect/stun": "動きを封じる",
     "affix.apotheotic_additions:curios_jewelry/mob_effect/stun.suffix": "気絶攻撃の",
-  
+
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/flesh_infested": "病に侵された",
+    "affix.apotheotic_additions:curios_jewelry/mob_effect/flesh_infested.suffix": "肉腫の",
+
     "affix.apotheotic_additions:curios_jewelry/mob_effect/rage": "原始の力を帯びた",
     "affix.apotheotic_additions:curios_jewelry/mob_effect/rage.suffix": "トレモサウルスの",
   
@@ -757,6 +771,18 @@
   
     "affix.apotheotic_additions:breaker/mob_effect/beaver": "森を守る",
     "affix.apotheotic_additions:breaker/mob_effect/beaver.suffix": "ビーバーの",
+
+    "affix.apotheotic_additions:armor/mob_effect/sweet_tooth": "お菓子でできた",
+    "affix.apotheotic_additions:armor/mob_effect/sweet_tooth.suffix": "甘党の",
+
+    "affix.apotheotic_additions:armor/mob_effect/gaias_bulwark": "地母神に護られた",
+    "affix.apotheotic_additions:armor/mob_effect/gaias_bulwark.suffix": "大地の護りの",
+
+    "affix.apotheotic_additions:armor/mob_effect/zephyr": "そよ風が吹く",
+    "affix.apotheotic_additions:armor/mob_effect/zephyr.suffix": "西風神の",
+
+    "affix.apotheotic_additions:armor/mob_effect/rejection": "独りになりたい",
+    "affix.apotheotic_additions:armor/mob_effect/rejection.suffix": "泣く泉の",
   
     "affix.apotheotic_additions:armor/mob_effect/resilience": "地に足ついた",
     "affix.apotheotic_additions:armor/mob_effect/resilience.suffix": "耐性強化の",
@@ -868,9 +894,12 @@
   
     "affix.apotheotic_additions:sword/mob_effect/stun": "動きを封じる",
     "affix.apotheotic_additions:sword/mob_effect/stun.suffix": "脳震とうの",
-  
+
+    "affix.apotheotic_additions:sword/mob_effect/flesh_infested": "病に侵された",
+    "affix.apotheotic_additions:sword/mob_effect/flesh_infested.suffix": "肉腫の",
+
     "affix.apotheotic_additions:heavy_weapon/mob_effect/time_stop": "時を止める",
-    "affix.apotheotic_additions:heavy_weapon/mob_effect/time_stop.suffix": "ディオの",
+    "affix.apotheotic_additions:heavy_weapon/mob_effect/time_stop.suffix": "世界の",
   
     "affix.apotheotic_additions:armor/dmg_reduction/explosion": "砕けない",
     "affix.apotheotic_additions:armor/dmg_reduction/explosion.suffix": "黒曜石入りの",
@@ -916,7 +945,10 @@
   
     "affix.apotheotic_additions:armor/attribute/voidic_paranoia_res": "存在しない",
     "affix.apotheotic_additions:armor/attribute/voidic_paranoia_res.suffix": "妄想の",
-  
+
+    "affix.apotheotic_additions:armor/attribute/spirit_spoils": "精神を蝕む",
+    "affix.apotheotic_additions:armor/attribute/spirit_spoils.suffix": "精神疲労の",
+
     "comment_id": "/Gem Desc",
     "gem.apotheotic_additions:alchemy/wildheart.bonus.pickaxe": "ラピスラズリ鉱石を壊したとき%s%%の確率でアンブロシウムの欠片を得る",
     "gem.apotheotic_additions:alchemy/umbral_matrimony.bonus.pickaxe": "ゼイナイト鉱石を壊したとき%s%%の確率で生きている根を得る",
@@ -935,7 +967,10 @@
     "gem.apotheotic_additions:alchemy/heartland.axe": "原木ブロックを壊したとき%s%%の確率で幹の皮をはがす",
     "gem.apotheotic_additions:alchemy/draconic_legacy.shovel": "砂利を掘ったとき%s%%の確率でドラゴンの骨を得る",
     "gem.apotheotic_additions:alchemy/heartland.shovel": "土を掘ったとき%s%%の確率で肥沃な土に変化する",
-  
+    "gem.apotheotic_additions:alchemy/candied.pickaxe": "ホーリーストーンを掘ったとき%s%%の確率でチョコレートブロックに変化する",
+    "gem.apotheotic_additions:alchemy/candied.axe": "スカイルートの原木を掘ったとき%s%%の確率でキャンディーケインを得る",
+    "gem.apotheotic_additions:alchemy/naga.axe": "原木を掘ったとき%s%%の確率でライブルートを得る",
+
     "comment_id": "/Gems",
   
     "item.apotheosis.gem.apotheotic_additions:modded/weeping_well": "泣く泉のジェム",
@@ -944,6 +979,7 @@
     "item.apotheosis.gem.apotheotic_additions:modded/archmage": "大魔道のジェム",
     "item.apotheosis.gem.apotheotic_additions:aether/aether": "エーテルのジェム",
     "item.apotheosis.gem.apotheotic_additions:aether/purity": "純粋のジェム",
+    "item.apotheosis.gem.apotheotic_additions:aether/candied": "Candied Jewel",
     "item.apotheosis.gem.apotheotic_additions:undergarden/decay": "腐敗のジェム",
     "item.apotheosis.gem.apotheotic_additions:undergarden/forlorn": "寂しい嘘のジェム",
     "item.apotheosis.gem.apotheotic_additions:modded/enchanter": "祈祷師のジェム",
@@ -989,6 +1025,25 @@
     "item.apotheosis.gem.apotheotic_additions:bumblezone/bee_queen": "女王蜂のジェム",
     "item.apotheosis.gem.apotheotic_additions:midnight/midnight": "真夜中のジェム",
     "item.apotheosis.gem.apotheotic_additions:midnight/darkheart": "暗心のジェム",
+    "item.apotheosis.gem.apotheotic_additions:crafted/warden": "ウォーデンの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/naga": "黄昏蛇の瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/snow_queen": "雪の女王の瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/hydra": "ヒドラの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/ur-ghast": "ウルガストの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/lich": "リッチの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/ender_dragon": "エンダードラゴンの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/sunbird": "サンバードの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/slider": "スライダーの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/wither": "ウィザーの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/cornelia": "コーネリアの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/ignis": "白熱した守護者の瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/monstrosity": "怪物の瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/leviathan": "リヴァイアサンの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/maledictus": "悪意の瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/harbringer": "凶兆の瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/wroughtnaut": "ロートノートの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/frostmaw": "フロストモーの瞳",
+    "item.apotheosis.gem.apotheotic_additions:crafted/remnant": "レムナントの瞳",
   
     "comment_id": "/Compat",
     "misc.apotheosis.allthemodium": "オルザモディウム",
@@ -1071,10 +1126,14 @@
     "effect.feathers:energized.desc": "羽効果が回復するようになる",
     "effect.simplyswords.fatal_flicker": "前方にダッシュし、フェイタルフリッカー",
     "effect.aether.inebriation.desc": "軽微なダメージを受け、ランダムな方向に動いてしまう",
+    "effect.aether.remedy.desc": "Aetherのモブから受ける酩酊状態を治す",
+    "effect.cataclysm.curse_of_desert.desc": "プレイヤーの動きを逆にする",
     "effect.undergarden.virulence.desc": "命に関わらない中程度のダメージを受け、ハートが紫色になってしまう",
     "effect.cataclysm.abyssal_curse.desc": "軽微なダメージを受け、ハートが紫色になってしまう",
     "effect.cataclysm.blessing_of_amethyst.desc": "深淵の炎焼、深淵の恐怖、暗闇に対する耐性を得る",
     "effect.immersiveengineering.flammable.desc": "時間経過とともに炎によるダメージが増加する",
+    "effect.biomancy.despoil.desc": "Biomancyの素材を取得できるようになる",
+    "effect.biomancy.primordial_infestation.desc": "倒されたときに近接するブロックに肉塊を拡散する",
     "effect.born_in_chaos_v1.jawattack": "ジョーアタック",
   
     "attribute.name.ars_nouveau.mana_regen": "マナ回復",
@@ -1082,4 +1141,4 @@
     "attribute.name.tacz.bullet_resistance": "弾丸耐性",
     "ars_nouveau.perk.max_mana": "最大マナ",
     "ars_nouveau.perk.mana_regen": "マナ回復"
-  }
+}
