@@ -1,8 +1,4 @@
 {
-  "conditions": [{
-  "type": "forge:mod_loaded",
-  "modid": "aquamirae"
-}],
   "type": "minecraft:crafting_shaped",
   "group": "something",
   "pattern": [
