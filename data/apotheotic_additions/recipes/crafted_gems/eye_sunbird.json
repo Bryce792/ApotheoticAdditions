@@ -1,7 +1,7 @@
 {
   "conditions": [{
     "type": "forge:mod_loaded",
-    "modid": "aether"
+    "modid": "mowziesmobs"
   }],
   "type": "minecraft:crafting_shaped",
   "group": "something",
